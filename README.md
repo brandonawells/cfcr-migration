@@ -26,6 +26,7 @@ Start VM with Linux with big disk (at least 200G , depending on your image sizes
 * install docker https://docs.docker.com/install/linux/docker-ce/ubuntu/ 
 * docker login for cfcr - https://codefresh.io/docs/docs/docker-registries/codefresh-registry/#generate-cfcr-login-token 
 * docker login to your destination repo
+* install codefresh-cli - https://codefresh-io.github.io/cli/installation/
 * clone this repo: `git clone git@github.com:codefresh-io/cfcr-migration.git`
 
 
