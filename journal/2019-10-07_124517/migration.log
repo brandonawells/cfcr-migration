@@ -1,0 +1,687 @@
+Entering ./migrate-from-cfcr.sh - Mon Oct  7 12:45:24 UTC 2019
+JOURNAL_DIR = ./journal/2019-10-07_124517
+DONE_DIR = ./done
+IMAGES_LIST=./journal/2019-10-07_124517/images-list
+
+Starting at Mon Oct  7 12:45:26 UTC 2019
+Processing ./journal/2019-10-07_124517/images-list
+NAME                      TAG              PULL - SKIP
+./journal/2019-10-07_124517/codefresh__cf-configurator.tags
+codefresh/cf-configurator <none> - SKIP
+codefresh/cf-configurator <none> - SKIP
+codefresh/cf-configurator <none> - SKIP
+codefresh/cf-configurator <none> - SKIP
+./journal/2019-10-07_124517/codefresh__cf-configurator.tags
+./journal/2019-10-07_124517/codefresh__cf-configurator.tags
+codefresh/cf-configurator <none> - SKIP
+codefresh/cf-configurator <none> - SKIP
+codefresh/cf-configurator <none> - SKIP
+codefresh/cf-configurator <none> - SKIP
+codefresh/cf-configurator <none> - SKIP
+codefresh/cf-configurator <none> - SKIP
+codefresh/cf-configurator <none> - SKIP
+codefresh/cf-configurator <none> - SKIP
+codefresh/cf-configurator <none> - SKIP
+codefresh/cf-configurator <none> - SKIP
+codefresh/cf-configurator <none> - SKIP
+codefresh/cf-configurator <none> - SKIP
+./journal/2019-10-07_124517/codefresh__cf-configurator.tags
+codefresh/cf-configurator <none> - SKIP
+codefresh/cf-configurator <none> - SKIP
+codefresh/cf-configurator <none> - SKIP
+codefresh/cf-configurator <none> - SKIP
+./journal/2019-10-07_124517/codefresh__cf-configurator.tags
+
+--- Mon Oct  7 12:45:26 UTC 2019
+Processing tag files
+
+  ****************
+  Mon Oct  7 12:45:26 UTC 2019 - ./journal/2019-10-07_124517/codefresh__cf-configurator.tags
+grep: ./done/codefresh__cf-configurator.tags: No such file or directory
+---------- Migrate r.cfcr.io/codefresh-inc/codefresh/cf-configurator:develop to gcr.io/codefresh-inc/codefresh/cf-configurator:develop
+develop: Pulling from codefresh-inc/codefresh/cf-configurator
+d660b1f15b9b: Pulling fs layer
+46dde23c37b3: Pulling fs layer
+6ebaeb074589: Pulling fs layer
+e7428f935583: Pulling fs layer
+0c3de61682aa: Pulling fs layer
+56f10ddf1173: Pulling fs layer
+4473537c621d: Pulling fs layer
+3106f7df3d1c: Pulling fs layer
+3de1c6ceef68: Pulling fs layer
+bd9ab304d0fc: Pulling fs layer
+d062651e55ee: Pulling fs layer
+014b63fa7723: Pulling fs layer
+5b34673cffd9: Pulling fs layer
+f2d7800e011a: Pulling fs layer
+3106f7df3d1c: Waiting
+3de1c6ceef68: Waiting
+bd9ab304d0fc: Waiting
+d062651e55ee: Waiting
+014b63fa7723: Waiting
+e7428f935583: Waiting
+5b34673cffd9: Waiting
+f2d7800e011a: Waiting
+0c3de61682aa: Waiting
+56f10ddf1173: Waiting
+4473537c621d: Waiting
+46dde23c37b3: Verifying Checksum
+46dde23c37b3: Download complete
+6ebaeb074589: Verifying Checksum
+6ebaeb074589: Download complete
+0c3de61682aa: Verifying Checksum
+0c3de61682aa: Download complete
+d660b1f15b9b: Verifying Checksum
+d660b1f15b9b: Download complete
+56f10ddf1173: Verifying Checksum
+56f10ddf1173: Download complete
+4473537c621d: Verifying Checksum
+4473537c621d: Download complete
+3106f7df3d1c: Verifying Checksum
+3106f7df3d1c: Download complete
+e7428f935583: Verifying Checksum
+e7428f935583: Download complete
+3de1c6ceef68: Verifying Checksum
+3de1c6ceef68: Download complete
+bd9ab304d0fc: Verifying Checksum
+bd9ab304d0fc: Download complete
+014b63fa7723: Verifying Checksum
+014b63fa7723: Download complete
+f2d7800e011a: Verifying Checksum
+f2d7800e011a: Download complete
+5b34673cffd9: Verifying Checksum
+5b34673cffd9: Download complete
+d062651e55ee: Verifying Checksum
+d062651e55ee: Download complete
+d660b1f15b9b: Pull complete
+46dde23c37b3: Pull complete
+6ebaeb074589: Pull complete
+e7428f935583: Pull complete
+0c3de61682aa: Pull complete
+56f10ddf1173: Pull complete
+4473537c621d: Pull complete
+3106f7df3d1c: Pull complete
+3de1c6ceef68: Pull complete
+bd9ab304d0fc: Pull complete
+d062651e55ee: Pull complete
+014b63fa7723: Pull complete
+5b34673cffd9: Pull complete
+f2d7800e011a: Pull complete
+Digest: sha256:b06d6d98fe7a6a7eb7a1f1693f68eda4fe48357b5440b1b17e38628e3f88cf15
+Status: Downloaded newer image for r.cfcr.io/codefresh-inc/codefresh/cf-configurator:develop
+r.cfcr.io/codefresh-inc/codefresh/cf-configurator:develop
+Pull r.cfcr.io/codefresh-inc/codefresh/cf-configurator:develop completed - Mon Oct  7 12:45:45 UTC 2019 !!!
+
+Tag gcr.io/codefresh-inc/codefresh/cf-configurator:develop completed - Mon Oct  7 12:45:45 UTC 2019 !!!
+
+The push refers to repository [gcr.io/codefresh-inc/codefresh/cf-configurator]
+1c5fba5610b3: Preparing
+d5efbbc497e1: Preparing
+6cdde0dc1dc6: Preparing
+293de437f95a: Preparing
+bda53dafd826: Preparing
+3e397f5b8357: Preparing
+e257add70b4b: Preparing
+ce7e990ce056: Preparing
+633d23790c1d: Preparing
+d071a18d9802: Preparing
+8451f9fe0016: Preparing
+858cd8541f7e: Preparing
+a42d312a03bb: Preparing
+dd1eb1fd7e08: Preparing
+633d23790c1d: Waiting
+3e397f5b8357: Waiting
+e257add70b4b: Waiting
+d071a18d9802: Waiting
+8451f9fe0016: Waiting
+ce7e990ce056: Waiting
+858cd8541f7e: Waiting
+a42d312a03bb: Waiting
+dd1eb1fd7e08: Waiting
+d5efbbc497e1: Retrying in 5 seconds
+6cdde0dc1dc6: Retrying in 5 seconds
+d5efbbc497e1: Retrying in 4 seconds
+6cdde0dc1dc6: Retrying in 4 seconds
+1c5fba5610b3: Pushed
+bda53dafd826: Pushed
+6cdde0dc1dc6: Retrying in 3 seconds
+d5efbbc497e1: Retrying in 3 seconds
+6cdde0dc1dc6: Retrying in 2 seconds
+d5efbbc497e1: Retrying in 2 seconds
+3e397f5b8357: Pushed
+6cdde0dc1dc6: Retrying in 1 second
+d5efbbc497e1: Retrying in 1 second
+e257add70b4b: Pushed
+d5efbbc497e1: Retrying in 10 seconds
+6cdde0dc1dc6: Retrying in 10 seconds
+ce7e990ce056: Pushed
+6cdde0dc1dc6: Retrying in 9 seconds
+d5efbbc497e1: Retrying in 9 seconds
+d5efbbc497e1: Retrying in 8 seconds
+6cdde0dc1dc6: Retrying in 8 seconds
+293de437f95a: Pushed
+8451f9fe0016: Layer already exists
+858cd8541f7e: Layer already exists
+a42d312a03bb: Layer already exists
+d5efbbc497e1: Retrying in 7 seconds
+6cdde0dc1dc6: Retrying in 7 seconds
+dd1eb1fd7e08: Layer already exists
+d071a18d9802: Pushed
+633d23790c1d: Pushed
+d5efbbc497e1: Retrying in 6 seconds
+6cdde0dc1dc6: Retrying in 6 seconds
+d5efbbc497e1: Retrying in 5 seconds
+6cdde0dc1dc6: Retrying in 5 seconds
+d5efbbc497e1: Retrying in 4 seconds
+6cdde0dc1dc6: Retrying in 4 seconds
+d5efbbc497e1: Retrying in 3 seconds
+6cdde0dc1dc6: Retrying in 3 seconds
+d5efbbc497e1: Retrying in 2 seconds
+6cdde0dc1dc6: Retrying in 2 seconds
+d5efbbc497e1: Retrying in 1 second
+6cdde0dc1dc6: Retrying in 1 second
+d5efbbc497e1: Pushed
+6cdde0dc1dc6: Pushed
+develop: digest: sha256:5de48a57a7aabb70a5f9be4e098beca6e773f63ba52ce5a9a821d043c65cc538 size: 3269
+Push gcr.io/codefresh-inc/codefresh/cf-configurator:develop completed - Mon Oct  7 12:46:06 UTC 2019 !!!
+
+---------- Migrate r.cfcr.io/codefresh-inc/codefresh/cf-configurator:staging to gcr.io/codefresh-inc/codefresh/cf-configurator:staging
+staging: Pulling from codefresh-inc/codefresh/cf-configurator
+3d77ce4481b1: Pulling fs layer
+7d2f32934963: Pulling fs layer
+0c5cf711b890: Pulling fs layer
+9593dc852d6b: Pulling fs layer
+3e91bf320c1d: Pulling fs layer
+eb8a8e8aa76e: Pulling fs layer
+0a01197b99bb: Pulling fs layer
+81ee5add9a9e: Pulling fs layer
+9e5558f60101: Pulling fs layer
+ab3ce6106cbc: Pulling fs layer
+779e35ad7506: Pulling fs layer
+c31f52f9ca4a: Pulling fs layer
+f0cf0838e246: Pulling fs layer
+99f9b9615793: Pulling fs layer
+9593dc852d6b: Waiting
+3e91bf320c1d: Waiting
+eb8a8e8aa76e: Waiting
+0a01197b99bb: Waiting
+81ee5add9a9e: Waiting
+9e5558f60101: Waiting
+ab3ce6106cbc: Waiting
+779e35ad7506: Waiting
+c31f52f9ca4a: Waiting
+f0cf0838e246: Waiting
+99f9b9615793: Waiting
+7d2f32934963: Verifying Checksum
+7d2f32934963: Download complete
+0c5cf711b890: Verifying Checksum
+0c5cf711b890: Download complete
+3d77ce4481b1: Verifying Checksum
+3d77ce4481b1: Download complete
+3e91bf320c1d: Verifying Checksum
+3e91bf320c1d: Download complete
+0a01197b99bb: Verifying Checksum
+0a01197b99bb: Download complete
+eb8a8e8aa76e: Verifying Checksum
+eb8a8e8aa76e: Download complete
+81ee5add9a9e: Verifying Checksum
+81ee5add9a9e: Download complete
+9e5558f60101: Verifying Checksum
+9e5558f60101: Download complete
+ab3ce6106cbc: Verifying Checksum
+ab3ce6106cbc: Download complete
+9593dc852d6b: Verifying Checksum
+9593dc852d6b: Download complete
+c31f52f9ca4a: Verifying Checksum
+c31f52f9ca4a: Download complete
+f0cf0838e246: Verifying Checksum
+f0cf0838e246: Download complete
+779e35ad7506: Verifying Checksum
+779e35ad7506: Download complete
+99f9b9615793: Verifying Checksum
+99f9b9615793: Download complete
+3d77ce4481b1: Pull complete
+7d2f32934963: Pull complete
+0c5cf711b890: Pull complete
+9593dc852d6b: Pull complete
+3e91bf320c1d: Pull complete
+eb8a8e8aa76e: Pull complete
+0a01197b99bb: Pull complete
+81ee5add9a9e: Pull complete
+9e5558f60101: Pull complete
+ab3ce6106cbc: Pull complete
+779e35ad7506: Pull complete
+c31f52f9ca4a: Pull complete
+f0cf0838e246: Pull complete
+99f9b9615793: Pull complete
+Digest: sha256:536d12b15e4cc1ac6904fad5580db36ecd284329be49d21e47801a50292f2677
+Status: Downloaded newer image for r.cfcr.io/codefresh-inc/codefresh/cf-configurator:staging
+r.cfcr.io/codefresh-inc/codefresh/cf-configurator:staging
+Pull r.cfcr.io/codefresh-inc/codefresh/cf-configurator:staging completed - Mon Oct  7 12:46:27 UTC 2019 !!!
+
+Tag gcr.io/codefresh-inc/codefresh/cf-configurator:staging completed - Mon Oct  7 12:46:27 UTC 2019 !!!
+
+The push refers to repository [gcr.io/codefresh-inc/codefresh/cf-configurator]
+7342a8974db9: Preparing
+af9e46103875: Preparing
+ce398aa11130: Preparing
+8904d51e6d20: Preparing
+5efceef5f064: Preparing
+abffd6b424c8: Preparing
+0c2df566451c: Preparing
+660bc29326a5: Preparing
+80ebe89bdd78: Preparing
+90ea98ff28b9: Preparing
+f3693db46abb: Preparing
+bb6d734b467e: Preparing
+5f349fdc9028: Preparing
+2c833f307fd8: Preparing
+80ebe89bdd78: Waiting
+5efceef5f064: Waiting
+abffd6b424c8: Waiting
+0c2df566451c: Waiting
+660bc29326a5: Waiting
+90ea98ff28b9: Waiting
+f3693db46abb: Waiting
+2c833f307fd8: Waiting
+bb6d734b467e: Waiting
+5f349fdc9028: Waiting
+ce398aa11130: Retrying in 5 seconds
+af9e46103875: Retrying in 5 seconds
+ce398aa11130: Retrying in 4 seconds
+af9e46103875: Retrying in 4 seconds
+ce398aa11130: Retrying in 3 seconds
+7342a8974db9: Pushed
+5efceef5f064: Retrying in 5 seconds
+af9e46103875: Retrying in 3 seconds
+ce398aa11130: Retrying in 2 seconds
+abffd6b424c8: Pushed
+5efceef5f064: Retrying in 4 seconds
+af9e46103875: Retrying in 2 seconds
+ce398aa11130: Retrying in 1 second
+5efceef5f064: Retrying in 3 seconds
+af9e46103875: Retrying in 1 second
+8904d51e6d20: Pushed
+0c2df566451c: Pushed
+5efceef5f064: Retrying in 2 seconds
+af9e46103875: Retrying in 10 seconds
+ce398aa11130: Pushed
+5efceef5f064: Retrying in 1 second
+af9e46103875: Retrying in 9 seconds
+660bc29326a5: Pushed
+5efceef5f064: Retrying in 10 seconds
+af9e46103875: Retrying in 8 seconds
+5efceef5f064: Retrying in 9 seconds
+af9e46103875: Retrying in 7 seconds
+90ea98ff28b9: Pushed
+5efceef5f064: Retrying in 8 seconds
+af9e46103875: Retrying in 6 seconds
+5efceef5f064: Retrying in 7 seconds
+af9e46103875: Retrying in 5 seconds
+5efceef5f064: Retrying in 6 seconds
+af9e46103875: Retrying in 4 seconds
+80ebe89bdd78: Pushed
+5efceef5f064: Retrying in 5 seconds
+af9e46103875: Retrying in 3 seconds
+5efceef5f064: Retrying in 4 seconds
+af9e46103875: Retrying in 2 seconds
+5efceef5f064: Retrying in 3 seconds
+af9e46103875: Retrying in 1 second
+5efceef5f064: Retrying in 2 seconds
+5efceef5f064: Retrying in 1 second
+af9e46103875: Retrying in 15 seconds
+af9e46103875: Retrying in 14 seconds
+5efceef5f064: Retrying in 15 seconds
+af9e46103875: Retrying in 13 seconds
+5efceef5f064: Retrying in 14 seconds
+af9e46103875: Retrying in 12 seconds
+5efceef5f064: Retrying in 13 seconds
+af9e46103875: Retrying in 11 seconds
+5efceef5f064: Retrying in 12 seconds
+af9e46103875: Retrying in 10 seconds
+5efceef5f064: Retrying in 11 seconds
+af9e46103875: Retrying in 9 seconds
+bb6d734b467e: Pushed
+5f349fdc9028: Pushed
+2c833f307fd8: Layer already exists
+5efceef5f064: Retrying in 10 seconds
+af9e46103875: Retrying in 8 seconds
+5efceef5f064: Retrying in 9 seconds
+af9e46103875: Retrying in 7 seconds
+5efceef5f064: Retrying in 8 seconds
+af9e46103875: Retrying in 6 seconds
+5efceef5f064: Retrying in 7 seconds
+af9e46103875: Retrying in 5 seconds
+5efceef5f064: Retrying in 6 seconds
+af9e46103875: Retrying in 4 seconds
+5efceef5f064: Retrying in 5 seconds
+af9e46103875: Retrying in 3 seconds
+5efceef5f064: Retrying in 4 seconds
+af9e46103875: Retrying in 2 seconds
+5efceef5f064: Retrying in 3 seconds
+af9e46103875: Retrying in 1 second
+5efceef5f064: Retrying in 2 seconds
+af9e46103875: Retrying in 20 seconds
+5efceef5f064: Retrying in 1 second
+af9e46103875: Retrying in 19 seconds
+5efceef5f064: Retrying in 20 seconds
+af9e46103875: Retrying in 18 seconds
+5efceef5f064: Retrying in 19 seconds
+af9e46103875: Retrying in 17 seconds
+5efceef5f064: Retrying in 18 seconds
+af9e46103875: Retrying in 16 seconds
+5efceef5f064: Retrying in 17 seconds
+af9e46103875: Retrying in 15 seconds
+5efceef5f064: Retrying in 16 seconds
+f3693db46abb: Pushed
+af9e46103875: Retrying in 14 seconds
+5efceef5f064: Retrying in 15 seconds
+af9e46103875: Retrying in 13 seconds
+5efceef5f064: Retrying in 14 seconds
+af9e46103875: Retrying in 12 seconds
+5efceef5f064: Retrying in 13 seconds
+af9e46103875: Retrying in 11 seconds
+5efceef5f064: Retrying in 12 seconds
+af9e46103875: Retrying in 10 seconds
+5efceef5f064: Retrying in 11 seconds
+af9e46103875: Retrying in 9 seconds
+5efceef5f064: Retrying in 10 seconds
+af9e46103875: Retrying in 8 seconds
+5efceef5f064: Retrying in 9 seconds
+af9e46103875: Retrying in 7 seconds
+5efceef5f064: Retrying in 8 seconds
+af9e46103875: Retrying in 6 seconds
+5efceef5f064: Retrying in 7 seconds
+af9e46103875: Retrying in 5 seconds
+5efceef5f064: Retrying in 6 seconds
+af9e46103875: Retrying in 4 seconds
+5efceef5f064: Retrying in 5 seconds
+af9e46103875: Retrying in 3 seconds
+5efceef5f064: Retrying in 4 seconds
+af9e46103875: Retrying in 2 seconds
+5efceef5f064: Retrying in 3 seconds
+af9e46103875: Retrying in 1 second
+5efceef5f064: Retrying in 2 seconds
+5efceef5f064: Retrying in 1 second
+af9e46103875: Pushed
+5efceef5f064: Pushed
+staging: digest: sha256:536d12b15e4cc1ac6904fad5580db36ecd284329be49d21e47801a50292f2677 size: 3269
+Push gcr.io/codefresh-inc/codefresh/cf-configurator:staging completed - Mon Oct  7 12:47:25 UTC 2019 !!!
+
+---------- Migrate r.cfcr.io/codefresh-inc/codefresh/cf-configurator:load to gcr.io/codefresh-inc/codefresh/cf-configurator:load
+load: Pulling from codefresh-inc/codefresh/cf-configurator
+Digest: sha256:536d12b15e4cc1ac6904fad5580db36ecd284329be49d21e47801a50292f2677
+Status: Downloaded newer image for r.cfcr.io/codefresh-inc/codefresh/cf-configurator:load
+r.cfcr.io/codefresh-inc/codefresh/cf-configurator:load
+Pull r.cfcr.io/codefresh-inc/codefresh/cf-configurator:load completed - Mon Oct  7 12:47:26 UTC 2019 !!!
+
+Tag gcr.io/codefresh-inc/codefresh/cf-configurator:load completed - Mon Oct  7 12:47:26 UTC 2019 !!!
+
+The push refers to repository [gcr.io/codefresh-inc/codefresh/cf-configurator]
+7342a8974db9: Preparing
+af9e46103875: Preparing
+ce398aa11130: Preparing
+8904d51e6d20: Preparing
+5efceef5f064: Preparing
+abffd6b424c8: Preparing
+0c2df566451c: Preparing
+660bc29326a5: Preparing
+80ebe89bdd78: Preparing
+90ea98ff28b9: Preparing
+f3693db46abb: Preparing
+bb6d734b467e: Preparing
+5f349fdc9028: Preparing
+2c833f307fd8: Preparing
+5efceef5f064: Waiting
+abffd6b424c8: Waiting
+0c2df566451c: Waiting
+660bc29326a5: Waiting
+80ebe89bdd78: Waiting
+90ea98ff28b9: Waiting
+f3693db46abb: Waiting
+bb6d734b467e: Waiting
+5f349fdc9028: Waiting
+2c833f307fd8: Waiting
+7342a8974db9: Layer already exists
+8904d51e6d20: Layer already exists
+ce398aa11130: Layer already exists
+af9e46103875: Layer already exists
+abffd6b424c8: Layer already exists
+5efceef5f064: Layer already exists
+0c2df566451c: Layer already exists
+660bc29326a5: Layer already exists
+f3693db46abb: Layer already exists
+90ea98ff28b9: Layer already exists
+bb6d734b467e: Layer already exists
+80ebe89bdd78: Layer already exists
+2c833f307fd8: Layer already exists
+5f349fdc9028: Layer already exists
+load: digest: sha256:536d12b15e4cc1ac6904fad5580db36ecd284329be49d21e47801a50292f2677 size: 3269
+Push gcr.io/codefresh-inc/codefresh/cf-configurator:load completed - Mon Oct  7 12:47:26 UTC 2019 !!!
+
+---------- Migrate r.cfcr.io/codefresh-inc/codefresh/cf-configurator:consul_inventory to gcr.io/codefresh-inc/codefresh/cf-configurator:consul_inventory
+consul_inventory: Pulling from codefresh-inc/codefresh/cf-configurator
+f49cf87b52c1: Pulling fs layer
+7b491c575b06: Pulling fs layer
+b313b08bab3b: Pulling fs layer
+51d6678c3f0e: Pulling fs layer
+09f35bd58db2: Pulling fs layer
+f7e0c30e74c6: Pulling fs layer
+c308c099d654: Pulling fs layer
+339478b61728: Pulling fs layer
+5eaf3794531a: Pulling fs layer
+55ea3ac535fa: Pulling fs layer
+0d9236ff2613: Pulling fs layer
+16ac9c18191d: Pulling fs layer
+f8d6311de39a: Pulling fs layer
+c1e470e1aef9: Pulling fs layer
+5eaf3794531a: Waiting
+55ea3ac535fa: Waiting
+0d9236ff2613: Waiting
+16ac9c18191d: Waiting
+51d6678c3f0e: Waiting
+f8d6311de39a: Waiting
+c1e470e1aef9: Waiting
+c308c099d654: Waiting
+09f35bd58db2: Waiting
+339478b61728: Waiting
+f7e0c30e74c6: Waiting
+f49cf87b52c1: Verifying Checksum
+f49cf87b52c1: Download complete
+b313b08bab3b: Verifying Checksum
+b313b08bab3b: Download complete
+7b491c575b06: Verifying Checksum
+7b491c575b06: Download complete
+09f35bd58db2: Verifying Checksum
+09f35bd58db2: Download complete
+c308c099d654: Verifying Checksum
+c308c099d654: Download complete
+f7e0c30e74c6: Verifying Checksum
+f7e0c30e74c6: Download complete
+339478b61728: Verifying Checksum
+339478b61728: Download complete
+5eaf3794531a: Verifying Checksum
+5eaf3794531a: Download complete
+55ea3ac535fa: Verifying Checksum
+55ea3ac535fa: Download complete
+16ac9c18191d: Verifying Checksum
+16ac9c18191d: Download complete
+51d6678c3f0e: Verifying Checksum
+51d6678c3f0e: Download complete
+c1e470e1aef9: Verifying Checksum
+c1e470e1aef9: Download complete
+f8d6311de39a: Verifying Checksum
+f8d6311de39a: Download complete
+0d9236ff2613: Verifying Checksum
+0d9236ff2613: Download complete
+f49cf87b52c1: Pull complete
+7b491c575b06: Pull complete
+b313b08bab3b: Pull complete
+51d6678c3f0e: Pull complete
+09f35bd58db2: Pull complete
+f7e0c30e74c6: Pull complete
+c308c099d654: Pull complete
+339478b61728: Pull complete
+5eaf3794531a: Pull complete
+55ea3ac535fa: Pull complete
+0d9236ff2613: Pull complete
+16ac9c18191d: Pull complete
+f8d6311de39a: Pull complete
+c1e470e1aef9: Pull complete
+Digest: sha256:158d81aedcd2fc9af850b3884a891e29a2720d8acdb1ac6e19d01f02da0960a5
+Status: Downloaded newer image for r.cfcr.io/codefresh-inc/codefresh/cf-configurator:consul_inventory
+r.cfcr.io/codefresh-inc/codefresh/cf-configurator:consul_inventory
+Pull r.cfcr.io/codefresh-inc/codefresh/cf-configurator:consul_inventory completed - Mon Oct  7 12:47:51 UTC 2019 !!!
+
+Tag gcr.io/codefresh-inc/codefresh/cf-configurator:consul_inventory completed - Mon Oct  7 12:47:51 UTC 2019 !!!
+
+The push refers to repository [gcr.io/codefresh-inc/codefresh/cf-configurator]
+cb113d4384d9: Preparing
+3ce886f32b1b: Preparing
+5cb898b70fc4: Preparing
+58a354e8d499: Preparing
+c668335a8722: Preparing
+662b447add51: Preparing
+7e0b25402264: Preparing
+a8a27ee42e4c: Preparing
+df009e061492: Preparing
+0870b36b7599: Preparing
+8fe6d5dcea45: Preparing
+06b8d020c11b: Preparing
+b9914afd042f: Preparing
+4bcdffd70da2: Preparing
+cb113d4384d9: Waiting
+3ce886f32b1b: Waiting
+5cb898b70fc4: Waiting
+58a354e8d499: Waiting
+c668335a8722: Waiting
+8fe6d5dcea45: Waiting
+06b8d020c11b: Waiting
+b9914afd042f: Waiting
+4bcdffd70da2: Waiting
+7e0b25402264: Waiting
+662b447add51: Waiting
+a8a27ee42e4c: Waiting
+df009e061492: Waiting
+0870b36b7599: Waiting
+cb113d4384d9: Pushed
+3ce886f32b1b: Pushed
+5cb898b70fc4: Pushed
+c668335a8722: Pushed
+662b447add51: Pushed
+58a354e8d499: Pushed
+7e0b25402264: Pushed
+a8a27ee42e4c: Pushed
+8fe6d5dcea45: Retrying in 5 seconds
+8fe6d5dcea45: Retrying in 4 seconds
+0870b36b7599: Pushed
+8fe6d5dcea45: Retrying in 3 seconds
+df009e061492: Pushed
+8fe6d5dcea45: Retrying in 2 seconds
+8fe6d5dcea45: Retrying in 1 second
+8fe6d5dcea45: Retrying in 10 seconds
+8fe6d5dcea45: Retrying in 9 seconds
+8fe6d5dcea45: Retrying in 8 seconds
+8fe6d5dcea45: Retrying in 7 seconds
+8fe6d5dcea45: Retrying in 6 seconds
+8fe6d5dcea45: Retrying in 5 seconds
+b9914afd042f: Pushed
+8fe6d5dcea45: Retrying in 4 seconds
+8fe6d5dcea45: Retrying in 3 seconds
+8fe6d5dcea45: Retrying in 2 seconds
+8fe6d5dcea45: Retrying in 1 second
+4bcdffd70da2: Pushed
+06b8d020c11b: Pushed
+8fe6d5dcea45: Pushed
+consul_inventory: digest: sha256:aefdaad115a38f343c71b64cd9c41e2007c4251f6cc0968ca252950cb6362fd0 size: 3269
+Push gcr.io/codefresh-inc/codefresh/cf-configurator:consul_inventory completed - Mon Oct  7 12:48:47 UTC 2019 !!!
+
+---------- Migrate r.cfcr.io/codefresh-inc/codefresh/cf-configurator:falco to gcr.io/codefresh-inc/codefresh/cf-configurator:falco
+falco: Pulling from codefresh-inc/codefresh/cf-configurator
+f49cf87b52c1: Already exists
+7b491c575b06: Already exists
+b313b08bab3b: Already exists
+51d6678c3f0e: Already exists
+09f35bd58db2: Already exists
+f7e0c30e74c6: Already exists
+c308c099d654: Already exists
+339478b61728: Already exists
+5eaf3794531a: Already exists
+105546da07b5: Pulling fs layer
+9d7bc6473532: Pulling fs layer
+4eef91f3b238: Pulling fs layer
+20209a8d74f9: Pulling fs layer
+20209a8d74f9: Waiting
+4eef91f3b238: Verifying Checksum
+4eef91f3b238: Download complete
+105546da07b5: Verifying Checksum
+105546da07b5: Download complete
+20209a8d74f9: Verifying Checksum
+20209a8d74f9: Download complete
+105546da07b5: Pull complete
+9d7bc6473532: Download complete
+9d7bc6473532: Pull complete
+4eef91f3b238: Pull complete
+20209a8d74f9: Pull complete
+Digest: sha256:f8bd6c3608fa2e19199807be061c1ba7f3948b5efec440bc8b397b6bb479a4fd
+Status: Downloaded newer image for r.cfcr.io/codefresh-inc/codefresh/cf-configurator:falco
+r.cfcr.io/codefresh-inc/codefresh/cf-configurator:falco
+Pull r.cfcr.io/codefresh-inc/codefresh/cf-configurator:falco completed - Mon Oct  7 12:48:51 UTC 2019 !!!
+
+Tag gcr.io/codefresh-inc/codefresh/cf-configurator:falco completed - Mon Oct  7 12:48:51 UTC 2019 !!!
+
+The push refers to repository [gcr.io/codefresh-inc/codefresh/cf-configurator]
+7bb6c3a30a62: Preparing
+5b9c3cfb8ff2: Preparing
+9f21c692816c: Preparing
+f054a02ec756: Preparing
+662b447add51: Preparing
+7e0b25402264: Preparing
+a8a27ee42e4c: Preparing
+df009e061492: Preparing
+0870b36b7599: Preparing
+8fe6d5dcea45: Preparing
+06b8d020c11b: Preparing
+b9914afd042f: Preparing
+4bcdffd70da2: Preparing
+f054a02ec756: Waiting
+662b447add51: Waiting
+7e0b25402264: Waiting
+a8a27ee42e4c: Waiting
+df009e061492: Waiting
+0870b36b7599: Waiting
+8fe6d5dcea45: Waiting
+06b8d020c11b: Waiting
+b9914afd042f: Waiting
+4bcdffd70da2: Waiting
+7bb6c3a30a62: Retrying in 5 seconds
+5b9c3cfb8ff2: Retrying in 5 seconds
+9f21c692816c: Retrying in 5 seconds
+7bb6c3a30a62: Retrying in 4 seconds
+5b9c3cfb8ff2: Retrying in 4 seconds
+9f21c692816c: Retrying in 4 seconds
+f054a02ec756: Pushed
+662b447add51: Layer already exists
+7e0b25402264: Layer already exists
+a8a27ee42e4c: Layer already exists
+df009e061492: Layer already exists
+0870b36b7599: Layer already exists
+8fe6d5dcea45: Layer already exists
+06b8d020c11b: Layer already exists
+b9914afd042f: Layer already exists
+4bcdffd70da2: Layer already exists
+7bb6c3a30a62: Retrying in 3 seconds
+5b9c3cfb8ff2: Retrying in 3 seconds
+9f21c692816c: Retrying in 3 seconds
+7bb6c3a30a62: Retrying in 2 seconds
+5b9c3cfb8ff2: Retrying in 2 seconds
+9f21c692816c: Retrying in 2 seconds
+7bb6c3a30a62: Retrying in 1 second
+5b9c3cfb8ff2: Retrying in 1 second
+9f21c692816c: Retrying in 1 second
+7bb6c3a30a62: Pushed
+5b9c3cfb8ff2: Pushed
+9f21c692816c: Pushed
+falco: digest: sha256:bd1c7e69196232215b523d3d21c8a44a051af869a223a138701f06cea994f403 size: 3058
+Push gcr.io/codefresh-inc/codefresh/cf-configurator:falco completed - Mon Oct  7 12:49:03 UTC 2019 !!!
+

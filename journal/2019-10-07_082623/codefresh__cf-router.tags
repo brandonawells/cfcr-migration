@@ -1,0 +1,4 @@
+r.cfcr.io/codefresh-inc/codefresh/cf-router:master gcr.io/codefresh-inc/codefresh/cf-router:master
+r.cfcr.io/codefresh-inc/codefresh/cf-router:stable-latest-optimisation gcr.io/codefresh-inc/codefresh/cf-router:stable-latest-optimisation
+r.cfcr.io/codefresh-inc/codefresh/cf-router:add-download-log-endpoint gcr.io/codefresh-inc/codefresh/cf-router:add-download-log-endpoint
+r.cfcr.io/codefresh-inc/codefresh/cf-router:stable-latest gcr.io/codefresh-inc/codefresh/cf-router:stable-latest

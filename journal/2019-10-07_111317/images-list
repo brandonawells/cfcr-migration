@@ -1,0 +1,278 @@
+NAME                      TAG                                             PULL                                                                                             
+codefresh/context-manager master                                          r.cfcr.io/codefresh-inc/codefresh/context-manager:master                                         
+codefresh/context-manager 1.3.4                                           r.cfcr.io/codefresh-inc/codefresh/context-manager:1.3.4                                          
+codefresh/context-manager 86adaa7656418759e280de04b66016a9ecb5e998        r.cfcr.io/codefresh-inc/codefresh/context-manager:86adaa7656418759e280de04b66016a9ecb5e998       
+codefresh/context-manager saas-3640_delete_account_context                r.cfcr.io/codefresh-inc/codefresh/context-manager:saas-3640_delete_account_context               
+codefresh/context-manager SAAS-3640_delete_account_context                r.cfcr.io/codefresh-inc/codefresh/context-manager:SAAS-3640_delete_account_context               
+codefresh/context-manager 8b3052a9b393f62c8c71bf55f7acd9e7244b10bb        r.cfcr.io/codefresh-inc/codefresh/context-manager:8b3052a9b393f62c8c71bf55f7acd9e7244b10bb       
+codefresh/context-manager 1.3.4-saas-3640-delete-account-context          r.cfcr.io/codefresh-inc/codefresh/context-manager:1.3.4-saas-3640-delete-account-context         
+codefresh/context-manager dcc5036734e7a0a1cd682735d2171e752eb1b51c        r.cfcr.io/codefresh-inc/codefresh/context-manager:dcc5036734e7a0a1cd682735d2171e752eb1b51c       
+codefresh/context-manager 1.3.3-saas-3640-delete-account-context          r.cfcr.io/codefresh-inc/codefresh/context-manager:1.3.3-saas-3640-delete-account-context         
+codefresh/context-manager 1.3.3                                           r.cfcr.io/codefresh-inc/codefresh/context-manager:1.3.3                                          
+codefresh/context-manager bdf33f96252b36d137477225f9321c5a4e7ca92d        r.cfcr.io/codefresh-inc/codefresh/context-manager:bdf33f96252b36d137477225f9321c5a4e7ca92d       
+codefresh/context-manager preemptible-saas-3841                           r.cfcr.io/codefresh-inc/codefresh/context-manager:preemptible-saas-3841                          
+codefresh/context-manager preemptible-SAAS-3841                           r.cfcr.io/codefresh-inc/codefresh/context-manager:preemptible-SAAS-3841                          
+codefresh/context-manager 96f3b5cfe1fa390e7f02d34e6d9bcea162976287        r.cfcr.io/codefresh-inc/codefresh/context-manager:96f3b5cfe1fa390e7f02d34e6d9bcea162976287       
+codefresh/context-manager 1.3.3-preemptible-saas-3841                     r.cfcr.io/codefresh-inc/codefresh/context-manager:1.3.3-preemptible-saas-3841                    
+codefresh/context-manager 8962e995af435a3e057ed2f5839305839e75ee73        r.cfcr.io/codefresh-inc/codefresh/context-manager:8962e995af435a3e057ed2f5839305839e75ee73       
+codefresh/context-manager 1.3.2-preemptible-saas-3841                     r.cfcr.io/codefresh-inc/codefresh/context-manager:1.3.2-preemptible-saas-3841                    
+codefresh/context-manager 474a79728b2c543d22bc344ebb16e8a29e32ae62        r.cfcr.io/codefresh-inc/codefresh/context-manager:474a79728b2c543d22bc344ebb16e8a29e32ae62       
+codefresh/context-manager 24dadbd7e7bd4f1ea0e35d094544cbd1c5e46748        r.cfcr.io/codefresh-inc/codefresh/context-manager:24dadbd7e7bd4f1ea0e35d094544cbd1c5e46748       
+codefresh/context-manager e65ab36c6e6308415d0e28115f210c23e0136bac        r.cfcr.io/codefresh-inc/codefresh/context-manager:e65ab36c6e6308415d0e28115f210c23e0136bac       
+codefresh/context-manager 1.3.2                                           r.cfcr.io/codefresh-inc/codefresh/context-manager:1.3.2                                          
+codefresh/context-manager cff8581d1b8542f2a9e55d0d33ee73cdb52a1e76        r.cfcr.io/codefresh-inc/codefresh/context-manager:cff8581d1b8542f2a9e55d0d33ee73cdb52a1e76       
+codefresh/context-manager test_composition                                r.cfcr.io/codefresh-inc/codefresh/context-manager:test_composition                               
+codefresh/context-manager 61b32f30483dea32db086f24cf593cb9b318e976        r.cfcr.io/codefresh-inc/codefresh/context-manager:61b32f30483dea32db086f24cf593cb9b318e976       
+codefresh/context-manager 1.3.2-test-composition                          r.cfcr.io/codefresh-inc/codefresh/context-manager:1.3.2-test-composition                         
+codefresh/context-manager 11d192b043d8b1aa324b167d1a3d24ca684c2f27        r.cfcr.io/codefresh-inc/codefresh/context-manager:11d192b043d8b1aa324b167d1a3d24ca684c2f27       
+codefresh/context-manager 1.3.1-test-composition                          r.cfcr.io/codefresh-inc/codefresh/context-manager:1.3.1-test-composition                         
+codefresh/context-manager 7d1bd2d3a1e38e8f4e6a8c9e331f9fd10f7663e6        r.cfcr.io/codefresh-inc/codefresh/context-manager:7d1bd2d3a1e38e8f4e6a8c9e331f9fd10f7663e6       
+codefresh/context-manager 1.3.2-saas-3640-delete-account-context          r.cfcr.io/codefresh-inc/codefresh/context-manager:1.3.2-saas-3640-delete-account-context         
+codefresh/context-manager cf5e660d852c7a4fb7d8e799fb2a2d4aa51452b4        r.cfcr.io/codefresh-inc/codefresh/context-manager:cf5e660d852c7a4fb7d8e799fb2a2d4aa51452b4       
+codefresh/context-manager 1.3.1-saas-3640-delete-account-context          r.cfcr.io/codefresh-inc/codefresh/context-manager:1.3.1-saas-3640-delete-account-context         
+codefresh/context-manager oren-codefresh-patch-1                          r.cfcr.io/codefresh-inc/codefresh/context-manager:oren-codefresh-patch-1                         
+codefresh/context-manager 7f61dc051fc548f1446525c2d4d417435dfcfded        r.cfcr.io/codefresh-inc/codefresh/context-manager:7f61dc051fc548f1446525c2d4d417435dfcfded       
+codefresh/context-manager 1.3.1-oren-codefresh-patch-1                    r.cfcr.io/codefresh-inc/codefresh/context-manager:1.3.1-oren-codefresh-patch-1                   
+codefresh/context-manager 628240a5e15d458558b7ea84d2309e32501fb624        r.cfcr.io/codefresh-inc/codefresh/context-manager:628240a5e15d458558b7ea84d2309e32501fb624       
+codefresh/context-manager 4dc1f23e7080834562215e23464db014c0af72c1        r.cfcr.io/codefresh-inc/codefresh/context-manager:4dc1f23e7080834562215e23464db014c0af72c1       
+codefresh/context-manager 1.3.1-preemptible-saas-3841                     r.cfcr.io/codefresh-inc/codefresh/context-manager:1.3.1-preemptible-saas-3841                    
+codefresh/context-manager f6263aab637f3c8bfeadb5f917239e1a699e6e0d        r.cfcr.io/codefresh-inc/codefresh/context-manager:f6263aab637f3c8bfeadb5f917239e1a699e6e0d       
+codefresh/context-manager cf-onprem-v1.0.82                               r.cfcr.io/codefresh-inc/codefresh/context-manager:cf-onprem-v1.0.82                              
+codefresh/context-manager 1.3.1-cf-onprem-v1.0.82                         r.cfcr.io/codefresh-inc/codefresh/context-manager:1.3.1-cf-onprem-v1.0.82                        
+codefresh/context-manager cf-onprem-v1.0.81                               r.cfcr.io/codefresh-inc/codefresh/context-manager:cf-onprem-v1.0.81                              
+codefresh/context-manager 1.3.1-cf-onprem-v1.0.81                         r.cfcr.io/codefresh-inc/codefresh/context-manager:1.3.1-cf-onprem-v1.0.81                        
+codefresh/context-manager cf-onprem-v1.0.80                               r.cfcr.io/codefresh-inc/codefresh/context-manager:cf-onprem-v1.0.80                              
+codefresh/context-manager 1.3.1-cf-onprem-v1.0.80                         r.cfcr.io/codefresh-inc/codefresh/context-manager:1.3.1-cf-onprem-v1.0.80                        
+codefresh/context-manager 1.3.1                                           r.cfcr.io/codefresh-inc/codefresh/context-manager:1.3.1                                          
+codefresh/context-manager rabbit_reconnect                                r.cfcr.io/codefresh-inc/codefresh/context-manager:rabbit_reconnect                               
+codefresh/context-manager 09257b50d6998f2afa5c1b91e95e2f6d12daaa4c        r.cfcr.io/codefresh-inc/codefresh/context-manager:09257b50d6998f2afa5c1b91e95e2f6d12daaa4c       
+codefresh/context-manager 1.3.1-rabbit-reconnect                          r.cfcr.io/codefresh-inc/codefresh/context-manager:1.3.1-rabbit-reconnect                         
+codefresh/context-manager a1be0458ab2a4f882c276995be3c2568c5116ea5        r.cfcr.io/codefresh-inc/codefresh/context-manager:a1be0458ab2a4f882c276995be3c2568c5116ea5       
+codefresh/context-manager 1.3.0-cf-onprem-v1.0.80                         r.cfcr.io/codefresh-inc/codefresh/context-manager:1.3.0-cf-onprem-v1.0.80                        
+codefresh/context-manager saas-3414-source-ip-config                      r.cfcr.io/codefresh-inc/codefresh/context-manager:saas-3414-source-ip-config                     
+codefresh/context-manager SAAS-3414-source-ip-config                      r.cfcr.io/codefresh-inc/codefresh/context-manager:SAAS-3414-source-ip-config                     
+codefresh/context-manager b27d79b5ea0118363ffbfd0c0c604bb864b31662        r.cfcr.io/codefresh-inc/codefresh/context-manager:b27d79b5ea0118363ffbfd0c0c604bb864b31662       
+codefresh/context-manager 1.3.1-saas-3414-source-ip-config                r.cfcr.io/codefresh-inc/codefresh/context-manager:1.3.1-saas-3414-source-ip-config               
+codefresh/context-manager saas-3414-source-ip                             r.cfcr.io/codefresh-inc/codefresh/context-manager:saas-3414-source-ip                            
+codefresh/context-manager SAAS-3414-source-ip                             r.cfcr.io/codefresh-inc/codefresh/context-manager:SAAS-3414-source-ip                            
+codefresh/context-manager 0ad7081cf997884bfe7b4038db3a4aa78513d32e        r.cfcr.io/codefresh-inc/codefresh/context-manager:0ad7081cf997884bfe7b4038db3a4aa78513d32e       
+codefresh/context-manager 1.2.2-saas-3414-source-ip                       r.cfcr.io/codefresh-inc/codefresh/context-manager:1.2.2-saas-3414-source-ip                      
+codefresh/context-manager 39efe52b1995cef9adf395f60e65376761b61167        r.cfcr.io/codefresh-inc/codefresh/context-manager:39efe52b1995cef9adf395f60e65376761b61167       
+codefresh/context-manager 1.2.1-saas-3414-source-ip                       r.cfcr.io/codefresh-inc/codefresh/context-manager:1.2.1-saas-3414-source-ip                      
+codefresh/context-manager 1.3.0                                           r.cfcr.io/codefresh-inc/codefresh/context-manager:1.3.0                                          
+codefresh/context-manager istio-poc                                       r.cfcr.io/codefresh-inc/codefresh/context-manager:istio-poc                                      
+codefresh/context-manager 52a916ac9de1b56c01729ce918655596dbf0d2eb        r.cfcr.io/codefresh-inc/codefresh/context-manager:52a916ac9de1b56c01729ce918655596dbf0d2eb       
+codefresh/context-manager 1.3.0-istio-poc                                 r.cfcr.io/codefresh-inc/codefresh/context-manager:1.3.0-istio-poc                                
+codefresh/context-manager 1.2.3                                           r.cfcr.io/codefresh-inc/codefresh/context-manager:1.2.3                                          
+codefresh/context-manager f582e3eb5a33b5dcb0aa099627bc6c2e0129e1e0        r.cfcr.io/codefresh-inc/codefresh/context-manager:f582e3eb5a33b5dcb0aa099627bc6c2e0129e1e0       
+codefresh/context-manager saas-3171_rename-account                        r.cfcr.io/codefresh-inc/codefresh/context-manager:saas-3171_rename-account                       
+codefresh/context-manager SAAS-3171_rename-account                        r.cfcr.io/codefresh-inc/codefresh/context-manager:SAAS-3171_rename-account                       
+codefresh/context-manager 08f8efc00ff6dadd68df532e2e44b09cbf303309        r.cfcr.io/codefresh-inc/codefresh/context-manager:08f8efc00ff6dadd68df532e2e44b09cbf303309       
+codefresh/context-manager 1.2.3-saas-3171-rename-account                  r.cfcr.io/codefresh-inc/codefresh/context-manager:1.2.3-saas-3171-rename-account                 
+codefresh/context-manager c8ed1dd5e2cf14922ed1faa47011db715bb88287        r.cfcr.io/codefresh-inc/codefresh/context-manager:c8ed1dd5e2cf14922ed1faa47011db715bb88287       
+codefresh/context-manager 92997aa0415e8051044a62b44f4a401d3a97fdc6        r.cfcr.io/codefresh-inc/codefresh/context-manager:92997aa0415e8051044a62b44f4a401d3a97fdc6       
+codefresh/context-manager d49cbaef827b458322a0ff3d4f471cfb90bf30b3        r.cfcr.io/codefresh-inc/codefresh/context-manager:d49cbaef827b458322a0ff3d4f471cfb90bf30b3       
+codefresh/context-manager 123a941aa514ced9891713c49a74c89cb0a13bd7        r.cfcr.io/codefresh-inc/codefresh/context-manager:123a941aa514ced9891713c49a74c89cb0a13bd7       
+codefresh/context-manager abc70db74d89a33e9b1f27de020601f5de049aa8        r.cfcr.io/codefresh-inc/codefresh/context-manager:abc70db74d89a33e9b1f27de020601f5de049aa8       
+codefresh/context-manager 5fdb089194a5b89ebfad2fd031eb91b215ff2a1e        r.cfcr.io/codefresh-inc/codefresh/context-manager:5fdb089194a5b89ebfad2fd031eb91b215ff2a1e       
+codefresh/context-manager 1.2.2-saas-3171-rename-account                  r.cfcr.io/codefresh-inc/codefresh/context-manager:1.2.2-saas-3171-rename-account                 
+codefresh/context-manager 1e9e8c662bcaa9bb57a1512c7be5d0f2f692c8b5        r.cfcr.io/codefresh-inc/codefresh/context-manager:1e9e8c662bcaa9bb57a1512c7be5d0f2f692c8b5       
+codefresh/context-manager cf-onprem-v1.0.79                               r.cfcr.io/codefresh-inc/codefresh/context-manager:cf-onprem-v1.0.79                              
+codefresh/context-manager 4770f1993a585accad3e64c1e6e1df8579f0eb0e        r.cfcr.io/codefresh-inc/codefresh/context-manager:4770f1993a585accad3e64c1e6e1df8579f0eb0e       
+codefresh/context-manager 1.2.2-cf-onprem-v1.0.79                         r.cfcr.io/codefresh-inc/codefresh/context-manager:1.2.2-cf-onprem-v1.0.79                        
+codefresh/context-manager 541460a509ed1b829cf873ad8d16f1fd21e980a6        r.cfcr.io/codefresh-inc/codefresh/context-manager:541460a509ed1b829cf873ad8d16f1fd21e980a6       
+codefresh/context-manager 1.2.2-istio-poc                                 r.cfcr.io/codefresh-inc/codefresh/context-manager:1.2.2-istio-poc                                
+codefresh/context-manager 69968f389d36d272710c360a09ba8c473f1b61d4        r.cfcr.io/codefresh-inc/codefresh/context-manager:69968f389d36d272710c360a09ba8c473f1b61d4       
+codefresh/context-manager 952295d9fce889130ea8363c6f8aa312f6e398e2        r.cfcr.io/codefresh-inc/codefresh/context-manager:952295d9fce889130ea8363c6f8aa312f6e398e2       
+codefresh/context-manager 1.2.2                                           r.cfcr.io/codefresh-inc/codefresh/context-manager:1.2.2                                          
+codefresh/context-manager reject-shared-context-deletion                  r.cfcr.io/codefresh-inc/codefresh/context-manager:reject-shared-context-deletion                 
+codefresh/context-manager aa5e71cbd24627e665bcdb1c5676e2170df75a5e        r.cfcr.io/codefresh-inc/codefresh/context-manager:aa5e71cbd24627e665bcdb1c5676e2170df75a5e       
+codefresh/context-manager 1.2.2-reject-shared-context-deletion            r.cfcr.io/codefresh-inc/codefresh/context-manager:1.2.2-reject-shared-context-deletion           
+codefresh/context-manager c378b5de267c465d357e0a969d6ddacc5c26372d        r.cfcr.io/codefresh-inc/codefresh/context-manager:c378b5de267c465d357e0a969d6ddacc5c26372d       
+codefresh/context-manager 2c3d4c8f716b62f1633b789a4beb6ffe2e8e445f        r.cfcr.io/codefresh-inc/codefresh/context-manager:2c3d4c8f716b62f1633b789a4beb6ffe2e8e445f       
+codefresh/context-manager 9a90ce78745e7703a5dd3ab4f6ab963839fceebe        r.cfcr.io/codefresh-inc/codefresh/context-manager:9a90ce78745e7703a5dd3ab4f6ab963839fceebe       
+codefresh/context-manager 998183252c640d05ab5a00dd60a400f338a357c0        r.cfcr.io/codefresh-inc/codefresh/context-manager:998183252c640d05ab5a00dd60a400f338a357c0       
+codefresh/context-manager cf-onprem-v1.0.78                               r.cfcr.io/codefresh-inc/codefresh/context-manager:cf-onprem-v1.0.78                              
+codefresh/context-manager 0d064d732af1934901351dd8fcc32fdf6ce6ad87        r.cfcr.io/codefresh-inc/codefresh/context-manager:0d064d732af1934901351dd8fcc32fdf6ce6ad87       
+codefresh/context-manager 1.2.1-cf-onprem-v1.0.78                         r.cfcr.io/codefresh-inc/codefresh/context-manager:1.2.1-cf-onprem-v1.0.78                        
+codefresh/context-manager cf-onprem-v1.0.77                               r.cfcr.io/codefresh-inc/codefresh/context-manager:cf-onprem-v1.0.77                              
+codefresh/context-manager 1.2.1-cf-onprem-v1.0.77                         r.cfcr.io/codefresh-inc/codefresh/context-manager:1.2.1-cf-onprem-v1.0.77                        
+codefresh/context-manager 1.2.1                                           r.cfcr.io/codefresh-inc/codefresh/context-manager:1.2.1                                          
+codefresh/context-manager saas-2190-save-keys-with-dot                    r.cfcr.io/codefresh-inc/codefresh/context-manager:saas-2190-save-keys-with-dot                   
+codefresh/context-manager SAAS-2190-save-keys-with-dot                    r.cfcr.io/codefresh-inc/codefresh/context-manager:SAAS-2190-save-keys-with-dot                   
+codefresh/context-manager d620a4b8d6d7e43ebbb6138cc83a3c60c6667659        r.cfcr.io/codefresh-inc/codefresh/context-manager:d620a4b8d6d7e43ebbb6138cc83a3c60c6667659       
+codefresh/context-manager 1.2.1-saas-2190-save-keys-with-dot              r.cfcr.io/codefresh-inc/codefresh/context-manager:1.2.1-saas-2190-save-keys-with-dot             
+codefresh/context-manager b8fd8cf04b0c8ec57310e849f65bfdd9057e1a16        r.cfcr.io/codefresh-inc/codefresh/context-manager:b8fd8cf04b0c8ec57310e849f65bfdd9057e1a16       
+codefresh/context-manager 1.2.0-cf-onprem-v1.0.77                         r.cfcr.io/codefresh-inc/codefresh/context-manager:1.2.0-cf-onprem-v1.0.77                        
+codefresh/context-manager 687d6f4e822a9ee0618655ece0e8551c0b1d4156        r.cfcr.io/codefresh-inc/codefresh/context-manager:687d6f4e822a9ee0618655ece0e8551c0b1d4156       
+codefresh/context-manager 1.2.0-saas-2190-save-keys-with-dot              r.cfcr.io/codefresh-inc/codefresh/context-manager:1.2.0-saas-2190-save-keys-with-dot             
+codefresh/context-manager 3219c2b8caf2503dab4093d75ad2b72c2d3a2c4e        r.cfcr.io/codefresh-inc/codefresh/context-manager:3219c2b8caf2503dab4093d75ad2b72c2d3a2c4e       
+codefresh/context-manager cf-onprem-v1.0.76                               r.cfcr.io/codefresh-inc/codefresh/context-manager:cf-onprem-v1.0.76                              
+codefresh/context-manager 1.2.0-cf-onprem-v1.0.76                         r.cfcr.io/codefresh-inc/codefresh/context-manager:1.2.0-cf-onprem-v1.0.76                        
+codefresh/context-manager cf-onprem-v1.0.75                               r.cfcr.io/codefresh-inc/codefresh/context-manager:cf-onprem-v1.0.75                              
+codefresh/context-manager 1.2.0-cf-onprem-v1.0.75                         r.cfcr.io/codefresh-inc/codefresh/context-manager:1.2.0-cf-onprem-v1.0.75                        
+codefresh/context-manager cf-onprem-v1.0.74                               r.cfcr.io/codefresh-inc/codefresh/context-manager:cf-onprem-v1.0.74                              
+codefresh/context-manager 1.2.0-cf-onprem-v1.0.74                         r.cfcr.io/codefresh-inc/codefresh/context-manager:1.2.0-cf-onprem-v1.0.74                        
+codefresh/context-manager 1.2.0                                           r.cfcr.io/codefresh-inc/codefresh/context-manager:1.2.0                                          
+codefresh/context-manager re-revert                                       r.cfcr.io/codefresh-inc/codefresh/context-manager:re-revert                                      
+codefresh/context-manager bba64e1bf1337574f688e84ab7a3398f077d233d        r.cfcr.io/codefresh-inc/codefresh/context-manager:bba64e1bf1337574f688e84ab7a3398f077d233d       
+codefresh/context-manager 1.2.0-re-revert                                 r.cfcr.io/codefresh-inc/codefresh/context-manager:1.2.0-re-revert                                
+codefresh/context-manager <none>                                                                                                                                           
+codefresh/context-manager 1.1.0                                           r.cfcr.io/codefresh-inc/codefresh/context-manager:1.1.0                                          
+codefresh/context-manager cfdd8a36e4285742311ea260be61a004c0c8a88f        r.cfcr.io/codefresh-inc/codefresh/context-manager:cfdd8a36e4285742311ea260be61a004c0c8a88f       
+codefresh/context-manager saas-remove-decrypt                             r.cfcr.io/codefresh-inc/codefresh/context-manager:saas-remove-decrypt                            
+codefresh/context-manager SAAS-remove-decrypt                             r.cfcr.io/codefresh-inc/codefresh/context-manager:SAAS-remove-decrypt                            
+codefresh/context-manager 753491fd3fc22d9d87b8a6a5670a043606d55cd4        r.cfcr.io/codefresh-inc/codefresh/context-manager:753491fd3fc22d9d87b8a6a5670a043606d55cd4       
+codefresh/context-manager 1.1.0-saas-remove-decrypt                       r.cfcr.io/codefresh-inc/codefresh/context-manager:1.1.0-saas-remove-decrypt                      
+codefresh/context-manager f696b53689631e437cf5a3db5ec4aaa5c488746e        r.cfcr.io/codefresh-inc/codefresh/context-manager:f696b53689631e437cf5a3db5ec4aaa5c488746e       
+codefresh/context-manager ba78da6f01efd0c6fbaa3fc1b271ba3c15d09ef3        r.cfcr.io/codefresh-inc/codefresh/context-manager:ba78da6f01efd0c6fbaa3fc1b271ba3c15d09ef3       
+codefresh/context-manager 1.0.27-saas-remove-decrypt                      r.cfcr.io/codefresh-inc/codefresh/context-manager:1.0.27-saas-remove-decrypt                     
+codefresh/context-manager b0161ec878d22fa60f97b6f15a818d477c1fdfb6        r.cfcr.io/codefresh-inc/codefresh/context-manager:b0161ec878d22fa60f97b6f15a818d477c1fdfb6       
+codefresh/context-manager 1.0.27-cf-onprem-v1.0.74                        r.cfcr.io/codefresh-inc/codefresh/context-manager:1.0.27-cf-onprem-v1.0.74                       
+codefresh/context-manager cf-onprem-v1.0.73                               r.cfcr.io/codefresh-inc/codefresh/context-manager:cf-onprem-v1.0.73                              
+codefresh/context-manager 1.0.27-cf-onprem-v1.0.73                        r.cfcr.io/codefresh-inc/codefresh/context-manager:1.0.27-cf-onprem-v1.0.73                       
+codefresh/context-manager cf-onprem-v1.0.72                               r.cfcr.io/codefresh-inc/codefresh/context-manager:cf-onprem-v1.0.72                              
+codefresh/context-manager 1.0.27-cf-onprem-v1.0.72                        r.cfcr.io/codefresh-inc/codefresh/context-manager:1.0.27-cf-onprem-v1.0.72                       
+codefresh/context-manager cf-onprem-v1.0.71                               r.cfcr.io/codefresh-inc/codefresh/context-manager:cf-onprem-v1.0.71                              
+codefresh/context-manager 1.0.27-cf-onprem-v1.0.71                        r.cfcr.io/codefresh-inc/codefresh/context-manager:1.0.27-cf-onprem-v1.0.71                       
+codefresh/context-manager cf-onprem-v1.0.70                               r.cfcr.io/codefresh-inc/codefresh/context-manager:cf-onprem-v1.0.70                              
+codefresh/context-manager 1.0.27-cf-onprem-v1.0.70                        r.cfcr.io/codefresh-inc/codefresh/context-manager:1.0.27-cf-onprem-v1.0.70                       
+codefresh/context-manager cf-onprem-v1.0.69                               r.cfcr.io/codefresh-inc/codefresh/context-manager:cf-onprem-v1.0.69                              
+codefresh/context-manager 1.0.27-cf-onprem-v1.0.69                        r.cfcr.io/codefresh-inc/codefresh/context-manager:1.0.27-cf-onprem-v1.0.69                       
+codefresh/context-manager test-1                                          r.cfcr.io/codefresh-inc/codefresh/context-manager:test-1                                         
+codefresh/context-manager c97f1b3f7503ffc1d20b93ae5583a5603a18f66a        r.cfcr.io/codefresh-inc/codefresh/context-manager:c97f1b3f7503ffc1d20b93ae5583a5603a18f66a       
+codefresh/context-manager 1.0.27-test-1                                   r.cfcr.io/codefresh-inc/codefresh/context-manager:1.0.27-test-1                                  
+codefresh/context-manager cf-onprem-v1.0.67                               r.cfcr.io/codefresh-inc/codefresh/context-manager:cf-onprem-v1.0.67                              
+codefresh/context-manager 1.0.27-cf-onprem-v1.0.67                        r.cfcr.io/codefresh-inc/codefresh/context-manager:1.0.27-cf-onprem-v1.0.67                       
+codefresh/context-manager 1.0.27                                          r.cfcr.io/codefresh-inc/codefresh/context-manager:1.0.27                                         
+codefresh/context-manager custom-registry                                 r.cfcr.io/codefresh-inc/codefresh/context-manager:custom-registry                                
+codefresh/context-manager ba60a592ad8255df8fc490eca830498a6ba96f65        r.cfcr.io/codefresh-inc/codefresh/context-manager:ba60a592ad8255df8fc490eca830498a6ba96f65       
+codefresh/context-manager 1.0.27-custom-registry                          r.cfcr.io/codefresh-inc/codefresh/context-manager:1.0.27-custom-registry                         
+codefresh/context-manager 6d78bf6a93941cfb618cbcb51e9e25963d606c26        r.cfcr.io/codefresh-inc/codefresh/context-manager:6d78bf6a93941cfb618cbcb51e9e25963d606c26       
+codefresh/context-manager 1.0.26-custom-registry                          r.cfcr.io/codefresh-inc/codefresh/context-manager:1.0.26-custom-registry                         
+codefresh/context-manager eea639e6c343a9e158dfff6053677385cbb79b75        r.cfcr.io/codefresh-inc/codefresh/context-manager:eea639e6c343a9e158dfff6053677385cbb79b75       
+codefresh/context-manager ef59b39c12557923718e71b717c2cd045097e114        r.cfcr.io/codefresh-inc/codefresh/context-manager:ef59b39c12557923718e71b717c2cd045097e114       
+codefresh/context-manager 760c15da09e9316e12531931d2727901630e7932        r.cfcr.io/codefresh-inc/codefresh/context-manager:760c15da09e9316e12531931d2727901630e7932       
+codefresh/context-manager 5fbdcba14651cf27834d9147a5d1b81469e08b6b        r.cfcr.io/codefresh-inc/codefresh/context-manager:5fbdcba14651cf27834d9147a5d1b81469e08b6b       
+codefresh/context-manager 1.0.26                                          r.cfcr.io/codefresh-inc/codefresh/context-manager:1.0.26                                         
+codefresh/context-manager add_chart                                       r.cfcr.io/codefresh-inc/codefresh/context-manager:add_chart                                      
+codefresh/context-manager 97fe8d3364d4eb971cc742fd7a4f91be3e6d79ee        r.cfcr.io/codefresh-inc/codefresh/context-manager:97fe8d3364d4eb971cc742fd7a4f91be3e6d79ee       
+codefresh/context-manager d69aea30440130dfd968ccca30a20e064d083450        r.cfcr.io/codefresh-inc/codefresh/context-manager:d69aea30440130dfd968ccca30a20e064d083450       
+codefresh/context-manager 508d7cb0446aae69580da7b4cb296736e80b3987        r.cfcr.io/codefresh-inc/codefresh/context-manager:508d7cb0446aae69580da7b4cb296736e80b3987       
+codefresh/context-manager 6db93d759acbd85f93ceaabdd63eea1ffe747044        r.cfcr.io/codefresh-inc/codefresh/context-manager:6db93d759acbd85f93ceaabdd63eea1ffe747044       
+codefresh/context-manager 1.0.24                                          r.cfcr.io/codefresh-inc/codefresh/context-manager:1.0.24                                         
+codefresh/context-manager e3d3bc6f7ca45e873a4ece460a418c415cb8c85d        r.cfcr.io/codefresh-inc/codefresh/context-manager:e3d3bc6f7ca45e873a4ece460a418c415cb8c85d       
+codefresh/context-manager 97eacab4561315f3a56565b947ec4598d58b5e22        r.cfcr.io/codefresh-inc/codefresh/context-manager:97eacab4561315f3a56565b947ec4598d58b5e22       
+codefresh/context-manager afa3c1081da13d310fab426a5bf8f052b64b6faf        r.cfcr.io/codefresh-inc/codefresh/context-manager:afa3c1081da13d310fab426a5bf8f052b64b6faf       
+codefresh/context-manager v61                                             r.cfcr.io/codefresh-inc/codefresh/context-manager:v61                                            
+codefresh/context-manager secimprovements                                 r.cfcr.io/codefresh-inc/codefresh/context-manager:secimprovements                                
+codefresh/context-manager <none>                                                                                                                                           
+codefresh/context-manager <none>                                                                                                                                           
+codefresh/context-manager cf-onprem-v1.0.65                               r.cfcr.io/codefresh-inc/codefresh/context-manager:cf-onprem-v1.0.65                              
+codefresh/context-manager <none>                                                                                                                                           
+codefresh/context-manager sec2                                            r.cfcr.io/codefresh-inc/codefresh/context-manager:sec2                                           
+codefresh/context-manager sec1                                            r.cfcr.io/codefresh-inc/codefresh/context-manager:sec1                                           
+codefresh/context-manager cf-onprem-v1.0.64                               r.cfcr.io/codefresh-inc/codefresh/context-manager:cf-onprem-v1.0.64                              
+codefresh/context-manager <none>                                                                                                                                           
+codefresh/context-manager cf-onprem-v1.0.62                               r.cfcr.io/codefresh-inc/codefresh/context-manager:cf-onprem-v1.0.62                              
+codefresh/context-manager cf-onprem-v1.0.61                               r.cfcr.io/codefresh-inc/codefresh/context-manager:cf-onprem-v1.0.61                              
+codefresh/context-manager <none>                                                                                                                                           
+codefresh/context-manager <none>                                                                                                                                           
+codefresh/context-manager cf-onprem-v1.0.60                               r.cfcr.io/codefresh-inc/codefresh/context-manager:cf-onprem-v1.0.60                              
+codefresh/context-manager <none>                                                                                                                                           
+codefresh/context-manager cf-onprem-v1.0.59                               r.cfcr.io/codefresh-inc/codefresh/context-manager:cf-onprem-v1.0.59                              
+codefresh/context-manager cf-onprem-v1.0.58                               r.cfcr.io/codefresh-inc/codefresh/context-manager:cf-onprem-v1.0.58                              
+codefresh/context-manager cf-onprem-v1.0.57                               r.cfcr.io/codefresh-inc/codefresh/context-manager:cf-onprem-v1.0.57                              
+codefresh/context-manager cf-onprem-v1.0.56                               r.cfcr.io/codefresh-inc/codefresh/context-manager:cf-onprem-v1.0.56                              
+codefresh/context-manager v60                                             r.cfcr.io/codefresh-inc/codefresh/context-manager:v60                                            
+codefresh/context-manager saas-2043                                       r.cfcr.io/codefresh-inc/codefresh/context-manager:saas-2043                                      
+codefresh/context-manager v59                                             r.cfcr.io/codefresh-inc/codefresh/context-manager:v59                                            
+codefresh/context-manager cf-onprem-v1.0.54                               r.cfcr.io/codefresh-inc/codefresh/context-manager:cf-onprem-v1.0.54                              
+codefresh/context-manager saas-1850                                       r.cfcr.io/codefresh-inc/codefresh/context-manager:saas-1850                                      
+codefresh/context-manager load                                            r.cfcr.io/codefresh-inc/codefresh/context-manager:load                                           
+codefresh/context-manager <none>                                                                                                                                           
+codefresh/context-manager <none>                                                                                                                                           
+codefresh/context-manager cf-onprem-v1.0.55                               r.cfcr.io/codefresh-inc/codefresh/context-manager:cf-onprem-v1.0.55                              
+codefresh/context-manager <none>                                                                                                                                           
+codefresh/context-manager <none>                                                                                                                                           
+codefresh/context-manager <none>                                                                                                                                           
+codefresh/context-manager cf-onprem-v1.0.53                               r.cfcr.io/codefresh-inc/codefresh/context-manager:cf-onprem-v1.0.53                              
+codefresh/context-manager cf-onprem-v0.2.1                                r.cfcr.io/codefresh-inc/codefresh/context-manager:cf-onprem-v0.2.1                               
+codefresh/context-manager cf-onprem-v0.2.0                                r.cfcr.io/codefresh-inc/codefresh/context-manager:cf-onprem-v0.2.0                               
+codefresh/context-manager cf-onprem-v1.0.52                               r.cfcr.io/codefresh-inc/codefresh/context-manager:cf-onprem-v1.0.52                              
+codefresh/context-manager cf-onprem-v0.1.6                                r.cfcr.io/codefresh-inc/codefresh/context-manager:cf-onprem-v0.1.6                               
+codefresh/context-manager cf-onprem-v0.1.5                                r.cfcr.io/codefresh-inc/codefresh/context-manager:cf-onprem-v0.1.5                               
+codefresh/context-manager cf-onprem-v0.1.4                                r.cfcr.io/codefresh-inc/codefresh/context-manager:cf-onprem-v0.1.4                               
+codefresh/context-manager cf-onprem-v0.1.3                                r.cfcr.io/codefresh-inc/codefresh/context-manager:cf-onprem-v0.1.3                               
+codefresh/context-manager cf-onprem-v0.1.2                                r.cfcr.io/codefresh-inc/codefresh/context-manager:cf-onprem-v0.1.2                               
+codefresh/context-manager cf-onprem-v0.1.1                                r.cfcr.io/codefresh-inc/codefresh/context-manager:cf-onprem-v0.1.1                               
+codefresh/context-manager cf-onprem-v0.1.0                                r.cfcr.io/codefresh-inc/codefresh/context-manager:cf-onprem-v0.1.0                               
+codefresh/context-manager cf-onprem-v0.0.9                                r.cfcr.io/codefresh-inc/codefresh/context-manager:cf-onprem-v0.0.9                               
+codefresh/context-manager cf-onprem-v0.0.8                                r.cfcr.io/codefresh-inc/codefresh/context-manager:cf-onprem-v0.0.8                               
+codefresh/context-manager cf-onprem-v0.0.7                                r.cfcr.io/codefresh-inc/codefresh/context-manager:cf-onprem-v0.0.7                               
+codefresh/context-manager cf-onprem-v0.0.6                                r.cfcr.io/codefresh-inc/codefresh/context-manager:cf-onprem-v0.0.6                               
+codefresh/context-manager cf-onprem-v0.0.5                                r.cfcr.io/codefresh-inc/codefresh/context-manager:cf-onprem-v0.0.5                               
+codefresh/context-manager cf-onprem-v0.0.4                                r.cfcr.io/codefresh-inc/codefresh/context-manager:cf-onprem-v0.0.4                               
+codefresh/context-manager cf-onprem-v0.0.3                                r.cfcr.io/codefresh-inc/codefresh/context-manager:cf-onprem-v0.0.3                               
+codefresh/context-manager cf-onprem-v0.0.2                                r.cfcr.io/codefresh-inc/codefresh/context-manager:cf-onprem-v0.0.2                               
+codefresh/context-manager v58                                             r.cfcr.io/codefresh-inc/codefresh/context-manager:v58                                            
+codefresh/context-manager saas-1815_azure-devops-as-git-provider-no-oauth r.cfcr.io/codefresh-inc/codefresh/context-manager:saas-1815_azure-devops-as-git-provider-no-oauth
+codefresh/context-manager sec                                             r.cfcr.io/codefresh-inc/codefresh/context-manager:sec                                            
+codefresh/context-manager <none>                                                                                                                                           
+codefresh/context-manager saas-1690_azure-devops-as-git-provider          r.cfcr.io/codefresh-inc/codefresh/context-manager:saas-1690_azure-devops-as-git-provider         
+codefresh/context-manager v57                                             r.cfcr.io/codefresh-inc/codefresh/context-manager:v57                                            
+codefresh/context-manager update_service_base_2                           r.cfcr.io/codefresh-inc/codefresh/context-manager:update_service_base_2                          
+codefresh/context-manager v56                                             r.cfcr.io/codefresh-inc/codefresh/context-manager:v56                                            
+codefresh/context-manager fix-update                                      r.cfcr.io/codefresh-inc/codefresh/context-manager:fix-update                                     
+codefresh/context-manager <none>                                                                                                                                           
+codefresh/context-manager v55                                             r.cfcr.io/codefresh-inc/codefresh/context-manager:v55                                            
+codefresh/context-manager fix_engine_entity_validation                    r.cfcr.io/codefresh-inc/codefresh/context-manager:fix_engine_entity_validation                   
+codefresh/context-manager <none>                                                                                                                                           
+codefresh/context-manager v54                                             r.cfcr.io/codefresh-inc/codefresh/context-manager:v54                                            
+codefresh/context-manager saas-1265                                       r.cfcr.io/codefresh-inc/codefresh/context-manager:saas-1265                                      
+codefresh/context-manager <none>                                                                                                                                           
+codefresh/context-manager <none>                                                                                                                                           
+codefresh/context-manager v53                                             r.cfcr.io/codefresh-inc/codefresh/context-manager:v53                                            
+codefresh/context-manager saas-1520                                       r.cfcr.io/codefresh-inc/codefresh/context-manager:saas-1520                                      
+codefresh/context-manager <none>                                                                                                                                           
+codefresh/context-manager <none>                                                                                                                                           
+codefresh/context-manager v52                                             r.cfcr.io/codefresh-inc/codefresh/context-manager:v52                                            
+codefresh/context-manager saas-1446                                       r.cfcr.io/codefresh-inc/codefresh/context-manager:saas-1446                                      
+codefresh/context-manager <none>                                                                                                                                           
+codefresh/context-manager v51                                             r.cfcr.io/codefresh-inc/codefresh/context-manager:v51                                            
+codefresh/context-manager saas-533_slashes-in-context-mw                  r.cfcr.io/codefresh-inc/codefresh/context-manager:saas-533_slashes-in-context-mw                 
+codefresh/context-manager <none>                                                                                                                                           
+codefresh/context-manager v50                                             r.cfcr.io/codefresh-inc/codefresh/context-manager:v50                                            
+codefresh/context-manager <none>                                                                                                                                           
+codefresh/context-manager <none>                                                                                                                                           
+codefresh/context-manager saas-533_slashes-in-context                     r.cfcr.io/codefresh-inc/codefresh/context-manager:saas-533_slashes-in-context                    
+codefresh/context-manager saas-761_s3_integration                         r.cfcr.io/codefresh-inc/codefresh/context-manager:saas-761_s3_integration                        
+codefresh/context-manager <none>                                                                                                                                           
+codefresh/context-manager v49                                             r.cfcr.io/codefresh-inc/codefresh/context-manager:v49                                            
+codefresh/context-manager saas-616_gcs_integration                        r.cfcr.io/codefresh-inc/codefresh/context-manager:saas-616_gcs_integration                       
+codefresh/context-manager <none>                                                                                                                                           
+codefresh/context-manager <none>                                                                                                                                           
+codefresh/context-manager <none>                                                                                                                                           
+codefresh/context-manager <none>                                                                                                                                           
+codefresh/context-manager v48                                             r.cfcr.io/codefresh-inc/codefresh/context-manager:v48                                            
+codefresh/context-manager add_bitbucket_server_fix_tests                  r.cfcr.io/codefresh-inc/codefresh/context-manager:add_bitbucket_server_fix_tests                 
+codefresh/context-manager <none>                                                                                                                                           
+codefresh/context-manager <none>                                                                                                                                           
+codefresh/context-manager <none>                                                                                                                                           
+codefresh/context-manager <none>                                                                                                                                           
+codefresh/context-manager v47                                             r.cfcr.io/codefresh-inc/codefresh/context-manager:v47                                            
+codefresh/context-manager azure-helm-repos                                r.cfcr.io/codefresh-inc/codefresh/context-manager:azure-helm-repos                               
+codefresh/context-manager v46                                             r.cfcr.io/codefresh-inc/codefresh/context-manager:v46                                            
+codefresh/context-manager trellogit49                                     r.cfcr.io/codefresh-inc/codefresh/context-manager:trellogit49                                    
+codefresh/context-manager staging                                         r.cfcr.io/codefresh-inc/codefresh/context-manager:staging                                        
+codefresh/context-manager v45                                             r.cfcr.io/codefresh-inc/codefresh/context-manager:v45                                            
+codefresh/context-manager trellogit152                                    r.cfcr.io/codefresh-inc/codefresh/context-manager:trellogit152                                   
+codefresh/context-manager contexts                                        r.cfcr.io/codefresh-inc/codefresh/context-manager:contexts                                       
+codefresh/context-manager <none>                                                                                                                                           
+codefresh/context-manager <none>                                                                                                                                           
+codefresh/context-manager <none>                                                                                                                                           
+codefresh/context-manager v44                                             r.cfcr.io/codefresh-inc/codefresh/context-manager:v44                                            
+codefresh/context-manager v43                                             r.cfcr.io/codefresh-inc/codefresh/context-manager:v43                                            
+codefresh/context-manager v42                                             r.cfcr.io/codefresh-inc/codefresh/context-manager:v42                                            
+codefresh/context-manager pre-update-hook                                 r.cfcr.io/codefresh-inc/codefresh/context-manager:pre-update-hook                                
+codefresh/context-manager <none>                                                                                                                                           

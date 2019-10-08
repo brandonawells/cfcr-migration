@@ -1,0 +1,2587 @@
+Entering ./migrate-from-cfcr.sh - Mon Oct  7 11:54:53 UTC 2019
+JOURNAL_DIR = ./journal/2019-10-07_115449
+DONE_DIR = ./done
+IMAGES_LIST=./journal/2019-10-07_115449/images-list
+
+Starting at Mon Oct  7 11:54:55 UTC 2019
+Processing ./journal/2019-10-07_115449/images-list
+NAME                     TAG                                      PULL - SKIP
+./journal/2019-10-07_115449/codefresh__charts-manager.tags
+codefresh/charts-manager 67302c191e0934586a7a003902843859ec38b7b5 r.cfcr.io/codefresh-inc/codefresh/charts-manager:67302c191e0934586a7a003902843859ec38b7b5 - SKIP
+./journal/2019-10-07_115449/codefresh__charts-manager.tags
+./journal/2019-10-07_115449/codefresh__charts-manager.tags
+./journal/2019-10-07_115449/codefresh__charts-manager.tags
+codefresh/charts-manager ad47219680982fb525b34e8dd9a1f041b0dfd3a9 r.cfcr.io/codefresh-inc/codefresh/charts-manager:ad47219680982fb525b34e8dd9a1f041b0dfd3a9 - SKIP
+./journal/2019-10-07_115449/codefresh__charts-manager.tags
+codefresh/charts-manager <none> - SKIP
+./journal/2019-10-07_115449/codefresh__charts-manager.tags
+./journal/2019-10-07_115449/codefresh__charts-manager.tags
+./journal/2019-10-07_115449/codefresh__charts-manager.tags
+./journal/2019-10-07_115449/codefresh__charts-manager.tags
+./journal/2019-10-07_115449/codefresh__charts-manager.tags
+./journal/2019-10-07_115449/codefresh__charts-manager.tags
+./journal/2019-10-07_115449/codefresh__charts-manager.tags
+codefresh/charts-manager 0314d312e49f49f088d464b1d1e008b5ecc46ebd r.cfcr.io/codefresh-inc/codefresh/charts-manager:0314d312e49f49f088d464b1d1e008b5ecc46ebd - SKIP
+./journal/2019-10-07_115449/codefresh__charts-manager.tags
+./journal/2019-10-07_115449/codefresh__charts-manager.tags
+codefresh/charts-manager 852c3bf25614ea36c62f6ad5871ed61674feec06 r.cfcr.io/codefresh-inc/codefresh/charts-manager:852c3bf25614ea36c62f6ad5871ed61674feec06 - SKIP
+./journal/2019-10-07_115449/codefresh__charts-manager.tags
+./journal/2019-10-07_115449/codefresh__charts-manager.tags
+codefresh/charts-manager 4a1aca339268bd499d9b297f5efc39622d357fb1 r.cfcr.io/codefresh-inc/codefresh/charts-manager:4a1aca339268bd499d9b297f5efc39622d357fb1 - SKIP
+codefresh/charts-manager 96d24d79e1239897fc61711bb4f857939bcbd171 r.cfcr.io/codefresh-inc/codefresh/charts-manager:96d24d79e1239897fc61711bb4f857939bcbd171 - SKIP
+./journal/2019-10-07_115449/codefresh__charts-manager.tags
+./journal/2019-10-07_115449/codefresh__charts-manager.tags
+codefresh/charts-manager 49573e186fe83fb42f4c49ec7dcdba5a2e655474 r.cfcr.io/codefresh-inc/codefresh/charts-manager:49573e186fe83fb42f4c49ec7dcdba5a2e655474 - SKIP
+./journal/2019-10-07_115449/codefresh__charts-manager.tags
+codefresh/charts-manager cf26a0557c20775b5e58af06c9ec63820c52c5aa r.cfcr.io/codefresh-inc/codefresh/charts-manager:cf26a0557c20775b5e58af06c9ec63820c52c5aa - SKIP
+./journal/2019-10-07_115449/codefresh__charts-manager.tags
+codefresh/charts-manager e3b68bcf4d06327342d5a93fc48f4afb83c25bdf r.cfcr.io/codefresh-inc/codefresh/charts-manager:e3b68bcf4d06327342d5a93fc48f4afb83c25bdf - SKIP
+./journal/2019-10-07_115449/codefresh__charts-manager.tags
+./journal/2019-10-07_115449/codefresh__charts-manager.tags
+./journal/2019-10-07_115449/codefresh__charts-manager.tags
+./journal/2019-10-07_115449/codefresh__charts-manager.tags
+./journal/2019-10-07_115449/codefresh__charts-manager.tags
+./journal/2019-10-07_115449/codefresh__charts-manager.tags
+./journal/2019-10-07_115449/codefresh__charts-manager.tags
+./journal/2019-10-07_115449/codefresh__charts-manager.tags
+./journal/2019-10-07_115449/codefresh__charts-manager.tags
+./journal/2019-10-07_115449/codefresh__charts-manager.tags
+./journal/2019-10-07_115449/codefresh__charts-manager.tags
+./journal/2019-10-07_115449/codefresh__charts-manager.tags
+./journal/2019-10-07_115449/codefresh__charts-manager.tags
+./journal/2019-10-07_115449/codefresh__charts-manager.tags
+./journal/2019-10-07_115449/codefresh__charts-manager.tags
+./journal/2019-10-07_115449/codefresh__charts-manager.tags
+./journal/2019-10-07_115449/codefresh__charts-manager.tags
+./journal/2019-10-07_115449/codefresh__charts-manager.tags
+./journal/2019-10-07_115449/codefresh__charts-manager.tags
+./journal/2019-10-07_115449/codefresh__charts-manager.tags
+codefresh/charts-manager 4e8b7b18ed01dea699f024966e7f62fe51ab8f09 r.cfcr.io/codefresh-inc/codefresh/charts-manager:4e8b7b18ed01dea699f024966e7f62fe51ab8f09 - SKIP
+./journal/2019-10-07_115449/codefresh__charts-manager.tags
+codefresh/charts-manager b2e8dafdd7aed62db18f8fb68b8f0fef9643627d r.cfcr.io/codefresh-inc/codefresh/charts-manager:b2e8dafdd7aed62db18f8fb68b8f0fef9643627d - SKIP
+codefresh/charts-manager babcced52c3d3d117d151264c6694c25eb514a64 r.cfcr.io/codefresh-inc/codefresh/charts-manager:babcced52c3d3d117d151264c6694c25eb514a64 - SKIP
+./journal/2019-10-07_115449/codefresh__charts-manager.tags
+codefresh/charts-manager d5151e2fb784a500e2510f992db0b5a0d61dc26c r.cfcr.io/codefresh-inc/codefresh/charts-manager:d5151e2fb784a500e2510f992db0b5a0d61dc26c - SKIP
+codefresh/charts-manager e742b34378b7f04e4814e37047a26d5de32c08bb r.cfcr.io/codefresh-inc/codefresh/charts-manager:e742b34378b7f04e4814e37047a26d5de32c08bb - SKIP
+./journal/2019-10-07_115449/codefresh__charts-manager.tags
+./journal/2019-10-07_115449/codefresh__charts-manager.tags
+codefresh/charts-manager 4b8d943ae812b13c218738fb7d8dd572793d6499 r.cfcr.io/codefresh-inc/codefresh/charts-manager:4b8d943ae812b13c218738fb7d8dd572793d6499 - SKIP
+./journal/2019-10-07_115449/codefresh__charts-manager.tags
+./journal/2019-10-07_115449/codefresh__charts-manager.tags
+codefresh/charts-manager e25e4769e7728574a8461173c7b28c2712fd969d r.cfcr.io/codefresh-inc/codefresh/charts-manager:e25e4769e7728574a8461173c7b28c2712fd969d - SKIP
+codefresh/charts-manager 427f9dc9f9594dc89aeb7fb7010ac3da4eb4a7fa r.cfcr.io/codefresh-inc/codefresh/charts-manager:427f9dc9f9594dc89aeb7fb7010ac3da4eb4a7fa - SKIP
+./journal/2019-10-07_115449/codefresh__charts-manager.tags
+./journal/2019-10-07_115449/codefresh__charts-manager.tags
+./journal/2019-10-07_115449/codefresh__charts-manager.tags
+codefresh/charts-manager eafc22d3716e6c2df6a822794892cc5e0f647a3f r.cfcr.io/codefresh-inc/codefresh/charts-manager:eafc22d3716e6c2df6a822794892cc5e0f647a3f - SKIP
+./journal/2019-10-07_115449/codefresh__charts-manager.tags
+./journal/2019-10-07_115449/codefresh__charts-manager.tags
+codefresh/charts-manager f9cb4eb0572e9ad60be5f6ce211834dc2538ae9f r.cfcr.io/codefresh-inc/codefresh/charts-manager:f9cb4eb0572e9ad60be5f6ce211834dc2538ae9f - SKIP
+./journal/2019-10-07_115449/codefresh__charts-manager.tags
+codefresh/charts-manager 6968b74d792c9ba3d02196286fafb8d3696a1e85 r.cfcr.io/codefresh-inc/codefresh/charts-manager:6968b74d792c9ba3d02196286fafb8d3696a1e85 - SKIP
+./journal/2019-10-07_115449/codefresh__charts-manager.tags
+./journal/2019-10-07_115449/codefresh__charts-manager.tags
+./journal/2019-10-07_115449/codefresh__charts-manager.tags
+./journal/2019-10-07_115449/codefresh__charts-manager.tags
+codefresh/charts-manager 8c1fee4aa5ec2ba69c7214aadcd1b42082aa9595 r.cfcr.io/codefresh-inc/codefresh/charts-manager:8c1fee4aa5ec2ba69c7214aadcd1b42082aa9595 - SKIP
+./journal/2019-10-07_115449/codefresh__charts-manager.tags
+./journal/2019-10-07_115449/codefresh__charts-manager.tags
+./journal/2019-10-07_115449/codefresh__charts-manager.tags
+codefresh/charts-manager fa60230c3299569a14821ff29ea488a953444ebf r.cfcr.io/codefresh-inc/codefresh/charts-manager:fa60230c3299569a14821ff29ea488a953444ebf - SKIP
+./journal/2019-10-07_115449/codefresh__charts-manager.tags
+codefresh/charts-manager 3b926fae75f09b44e703d8d515667f06fc93ba18 r.cfcr.io/codefresh-inc/codefresh/charts-manager:3b926fae75f09b44e703d8d515667f06fc93ba18 - SKIP
+./journal/2019-10-07_115449/codefresh__charts-manager.tags
+codefresh/charts-manager 330f8286a8a3a721c35917ed9f0c45b0f52066c3 r.cfcr.io/codefresh-inc/codefresh/charts-manager:330f8286a8a3a721c35917ed9f0c45b0f52066c3 - SKIP
+
+--- Mon Oct  7 11:54:56 UTC 2019
+Processing tag files
+
+  ****************
+  Mon Oct  7 11:54:56 UTC 2019 - ./journal/2019-10-07_115449/codefresh__charts-manager.tags
+grep: ./done/codefresh__charts-manager.tags: No such file or directory
+---------- Migrate r.cfcr.io/codefresh-inc/codefresh/charts-manager:cf-onprem-v1.0.82 to gcr.io/codefresh-inc/codefresh/charts-manager:cf-onprem-v1.0.82
+cf-onprem-v1.0.82: Pulling from codefresh-inc/codefresh/charts-manager
+e7c96db7181b: Already exists
+df9eac31dfef: Already exists
+0a20433d95a4: Already exists
+55cfbee7e705: Pulling fs layer
+e0b6eaa35ba3: Pulling fs layer
+8ec77ed8340f: Pulling fs layer
+84d836a9a742: Pulling fs layer
+8b13494ef7a5: Pulling fs layer
+84d836a9a742: Waiting
+8b13494ef7a5: Waiting
+8ec77ed8340f: Verifying Checksum
+8ec77ed8340f: Download complete
+55cfbee7e705: Verifying Checksum
+55cfbee7e705: Download complete
+e0b6eaa35ba3: Verifying Checksum
+e0b6eaa35ba3: Download complete
+55cfbee7e705: Pull complete
+8b13494ef7a5: Verifying Checksum
+8b13494ef7a5: Download complete
+e0b6eaa35ba3: Pull complete
+8ec77ed8340f: Pull complete
+84d836a9a742: Verifying Checksum
+84d836a9a742: Download complete
+84d836a9a742: Pull complete
+8b13494ef7a5: Pull complete
+Digest: sha256:465fc4f8a53d87473b83b9fd1181b4356ba084888c8f65d13bb50e2d424178bb
+Status: Downloaded newer image for r.cfcr.io/codefresh-inc/codefresh/charts-manager:cf-onprem-v1.0.82
+r.cfcr.io/codefresh-inc/codefresh/charts-manager:cf-onprem-v1.0.82
+Pull r.cfcr.io/codefresh-inc/codefresh/charts-manager:cf-onprem-v1.0.82 completed - Mon Oct  7 11:55:17 UTC 2019 !!!
+
+Tag gcr.io/codefresh-inc/codefresh/charts-manager:cf-onprem-v1.0.82 completed - Mon Oct  7 11:55:17 UTC 2019 !!!
+
+The push refers to repository [gcr.io/codefresh-inc/codefresh/charts-manager]
+ff2a728fbf35: Preparing
+67a34967985f: Preparing
+b718b5deb761: Preparing
+aeaf845540d4: Preparing
+f97941469767: Preparing
+28bf756b6f8e: Preparing
+4c299e1e70d5: Preparing
+f1b5933fe4b5: Preparing
+f97941469767: Waiting
+28bf756b6f8e: Waiting
+4c299e1e70d5: Waiting
+f1b5933fe4b5: Waiting
+ff2a728fbf35: Retrying in 5 seconds
+67a34967985f: Retrying in 5 seconds
+b718b5deb761: Retrying in 5 seconds
+b718b5deb761: Retrying in 4 seconds
+ff2a728fbf35: Retrying in 4 seconds
+67a34967985f: Retrying in 4 seconds
+67a34967985f: Retrying in 3 seconds
+ff2a728fbf35: Retrying in 3 seconds
+b718b5deb761: Retrying in 3 seconds
+aeaf845540d4: Pushed
+67a34967985f: Retrying in 2 seconds
+ff2a728fbf35: Retrying in 2 seconds
+b718b5deb761: Retrying in 2 seconds
+67a34967985f: Retrying in 1 second
+ff2a728fbf35: Retrying in 1 second
+b718b5deb761: Retrying in 1 second
+f97941469767: Pushed
+28bf756b6f8e: Layer already exists
+4c299e1e70d5: Layer already exists
+f1b5933fe4b5: Layer already exists
+ff2a728fbf35: Retrying in 10 seconds
+ff2a728fbf35: Retrying in 9 seconds
+b718b5deb761: Pushed
+ff2a728fbf35: Retrying in 8 seconds
+ff2a728fbf35: Retrying in 7 seconds
+ff2a728fbf35: Retrying in 6 seconds
+ff2a728fbf35: Retrying in 5 seconds
+ff2a728fbf35: Retrying in 4 seconds
+ff2a728fbf35: Retrying in 3 seconds
+ff2a728fbf35: Retrying in 2 seconds
+ff2a728fbf35: Retrying in 1 second
+ff2a728fbf35: Retrying in 15 seconds
+ff2a728fbf35: Retrying in 14 seconds
+ff2a728fbf35: Retrying in 13 seconds
+ff2a728fbf35: Retrying in 12 seconds
+ff2a728fbf35: Retrying in 11 seconds
+ff2a728fbf35: Retrying in 10 seconds
+ff2a728fbf35: Retrying in 9 seconds
+ff2a728fbf35: Retrying in 8 seconds
+ff2a728fbf35: Retrying in 7 seconds
+ff2a728fbf35: Retrying in 6 seconds
+67a34967985f: Pushed
+ff2a728fbf35: Retrying in 5 seconds
+ff2a728fbf35: Retrying in 4 seconds
+ff2a728fbf35: Retrying in 3 seconds
+ff2a728fbf35: Retrying in 2 seconds
+ff2a728fbf35: Retrying in 1 second
+ff2a728fbf35: Pushed
+cf-onprem-v1.0.82: digest: sha256:465fc4f8a53d87473b83b9fd1181b4356ba084888c8f65d13bb50e2d424178bb size: 1996
+Push gcr.io/codefresh-inc/codefresh/charts-manager:cf-onprem-v1.0.82 completed - Mon Oct  7 11:55:51 UTC 2019 !!!
+
+---------- Migrate r.cfcr.io/codefresh-inc/codefresh/charts-manager:1.1.2-cf-onprem-v1.0.82 to gcr.io/codefresh-inc/codefresh/charts-manager:1.1.2-cf-onprem-v1.0.82
+1.1.2-cf-onprem-v1.0.82: Pulling from codefresh-inc/codefresh/charts-manager
+Digest: sha256:465fc4f8a53d87473b83b9fd1181b4356ba084888c8f65d13bb50e2d424178bb
+Status: Downloaded newer image for r.cfcr.io/codefresh-inc/codefresh/charts-manager:1.1.2-cf-onprem-v1.0.82
+r.cfcr.io/codefresh-inc/codefresh/charts-manager:1.1.2-cf-onprem-v1.0.82
+Pull r.cfcr.io/codefresh-inc/codefresh/charts-manager:1.1.2-cf-onprem-v1.0.82 completed - Mon Oct  7 11:55:52 UTC 2019 !!!
+
+Tag gcr.io/codefresh-inc/codefresh/charts-manager:1.1.2-cf-onprem-v1.0.82 completed - Mon Oct  7 11:55:52 UTC 2019 !!!
+
+The push refers to repository [gcr.io/codefresh-inc/codefresh/charts-manager]
+ff2a728fbf35: Preparing
+67a34967985f: Preparing
+b718b5deb761: Preparing
+aeaf845540d4: Preparing
+f97941469767: Preparing
+28bf756b6f8e: Preparing
+4c299e1e70d5: Preparing
+f1b5933fe4b5: Preparing
+aeaf845540d4: Waiting
+f97941469767: Waiting
+28bf756b6f8e: Waiting
+4c299e1e70d5: Waiting
+f1b5933fe4b5: Waiting
+b718b5deb761: Layer already exists
+67a34967985f: Layer already exists
+ff2a728fbf35: Layer already exists
+f97941469767: Layer already exists
+aeaf845540d4: Layer already exists
+28bf756b6f8e: Layer already exists
+f1b5933fe4b5: Layer already exists
+4c299e1e70d5: Layer already exists
+1.1.2-cf-onprem-v1.0.82: digest: sha256:465fc4f8a53d87473b83b9fd1181b4356ba084888c8f65d13bb50e2d424178bb size: 1996
+Push gcr.io/codefresh-inc/codefresh/charts-manager:1.1.2-cf-onprem-v1.0.82 completed - Mon Oct  7 11:55:53 UTC 2019 !!!
+
+---------- Migrate r.cfcr.io/codefresh-inc/codefresh/charts-manager:hotfix-testhotfix to gcr.io/codefresh-inc/codefresh/charts-manager:hotfix-testhotfix
+hotfix-testhotfix: Pulling from codefresh-inc/codefresh/charts-manager
+e7c96db7181b: Already exists
+df9eac31dfef: Already exists
+0a20433d95a4: Already exists
+55cfbee7e705: Already exists
+e0b6eaa35ba3: Already exists
+8ec77ed8340f: Already exists
+84d836a9a742: Already exists
+b01f90536ab1: Pulling fs layer
+b01f90536ab1: Verifying Checksum
+b01f90536ab1: Download complete
+b01f90536ab1: Pull complete
+Digest: sha256:cc3bf94e6e3c20f0e7105ba82767d630c8797b85a729cfedd7c17c5b0410dc07
+Status: Downloaded newer image for r.cfcr.io/codefresh-inc/codefresh/charts-manager:hotfix-testhotfix
+r.cfcr.io/codefresh-inc/codefresh/charts-manager:hotfix-testhotfix
+Pull r.cfcr.io/codefresh-inc/codefresh/charts-manager:hotfix-testhotfix completed - Mon Oct  7 11:55:54 UTC 2019 !!!
+
+Tag gcr.io/codefresh-inc/codefresh/charts-manager:hotfix-testhotfix completed - Mon Oct  7 11:55:54 UTC 2019 !!!
+
+The push refers to repository [gcr.io/codefresh-inc/codefresh/charts-manager]
+f3f351bc157d: Preparing
+67a34967985f: Preparing
+b718b5deb761: Preparing
+aeaf845540d4: Preparing
+f97941469767: Preparing
+28bf756b6f8e: Preparing
+4c299e1e70d5: Preparing
+f1b5933fe4b5: Preparing
+aeaf845540d4: Waiting
+f97941469767: Waiting
+28bf756b6f8e: Waiting
+4c299e1e70d5: Waiting
+f1b5933fe4b5: Waiting
+b718b5deb761: Layer already exists
+67a34967985f: Layer already exists
+aeaf845540d4: Layer already exists
+f97941469767: Layer already exists
+28bf756b6f8e: Layer already exists
+4c299e1e70d5: Layer already exists
+f1b5933fe4b5: Layer already exists
+f3f351bc157d: Pushed
+hotfix-testhotfix: digest: sha256:172b14f15721100d405e714eb7d6092a3ee35c7bdc26090e02ea17631dfa0d02 size: 1996
+Push gcr.io/codefresh-inc/codefresh/charts-manager:hotfix-testhotfix completed - Mon Oct  7 11:55:59 UTC 2019 !!!
+
+---------- Migrate r.cfcr.io/codefresh-inc/codefresh/charts-manager:HOTFIX-testhotfix to gcr.io/codefresh-inc/codefresh/charts-manager:HOTFIX-testhotfix
+HOTFIX-testhotfix: Pulling from codefresh-inc/codefresh/charts-manager
+Digest: sha256:172b14f15721100d405e714eb7d6092a3ee35c7bdc26090e02ea17631dfa0d02
+Status: Downloaded newer image for r.cfcr.io/codefresh-inc/codefresh/charts-manager:HOTFIX-testhotfix
+r.cfcr.io/codefresh-inc/codefresh/charts-manager:HOTFIX-testhotfix
+Pull r.cfcr.io/codefresh-inc/codefresh/charts-manager:HOTFIX-testhotfix completed - Mon Oct  7 11:56:00 UTC 2019 !!!
+
+Tag gcr.io/codefresh-inc/codefresh/charts-manager:HOTFIX-testhotfix completed - Mon Oct  7 11:56:00 UTC 2019 !!!
+
+The push refers to repository [gcr.io/codefresh-inc/codefresh/charts-manager]
+f3f351bc157d: Preparing
+67a34967985f: Preparing
+b718b5deb761: Preparing
+aeaf845540d4: Preparing
+f97941469767: Preparing
+28bf756b6f8e: Preparing
+4c299e1e70d5: Preparing
+f1b5933fe4b5: Preparing
+aeaf845540d4: Waiting
+f97941469767: Waiting
+28bf756b6f8e: Waiting
+4c299e1e70d5: Waiting
+f1b5933fe4b5: Waiting
+b718b5deb761: Layer already exists
+f3f351bc157d: Layer already exists
+67a34967985f: Layer already exists
+f97941469767: Layer already exists
+28bf756b6f8e: Layer already exists
+4c299e1e70d5: Layer already exists
+f1b5933fe4b5: Layer already exists
+aeaf845540d4: Layer already exists
+HOTFIX-testhotfix: digest: sha256:172b14f15721100d405e714eb7d6092a3ee35c7bdc26090e02ea17631dfa0d02 size: 1996
+Push gcr.io/codefresh-inc/codefresh/charts-manager:HOTFIX-testhotfix completed - Mon Oct  7 11:56:01 UTC 2019 !!!
+
+---------- Migrate r.cfcr.io/codefresh-inc/codefresh/charts-manager:1.1.2-hotfix-testhotfix to gcr.io/codefresh-inc/codefresh/charts-manager:1.1.2-hotfix-testhotfix
+1.1.2-hotfix-testhotfix: Pulling from codefresh-inc/codefresh/charts-manager
+Digest: sha256:172b14f15721100d405e714eb7d6092a3ee35c7bdc26090e02ea17631dfa0d02
+Status: Downloaded newer image for r.cfcr.io/codefresh-inc/codefresh/charts-manager:1.1.2-hotfix-testhotfix
+r.cfcr.io/codefresh-inc/codefresh/charts-manager:1.1.2-hotfix-testhotfix
+Pull r.cfcr.io/codefresh-inc/codefresh/charts-manager:1.1.2-hotfix-testhotfix completed - Mon Oct  7 11:56:02 UTC 2019 !!!
+
+Tag gcr.io/codefresh-inc/codefresh/charts-manager:1.1.2-hotfix-testhotfix completed - Mon Oct  7 11:56:02 UTC 2019 !!!
+
+The push refers to repository [gcr.io/codefresh-inc/codefresh/charts-manager]
+f3f351bc157d: Preparing
+67a34967985f: Preparing
+b718b5deb761: Preparing
+aeaf845540d4: Preparing
+f97941469767: Preparing
+28bf756b6f8e: Preparing
+4c299e1e70d5: Preparing
+f1b5933fe4b5: Preparing
+aeaf845540d4: Waiting
+f97941469767: Waiting
+28bf756b6f8e: Waiting
+4c299e1e70d5: Waiting
+f1b5933fe4b5: Waiting
+67a34967985f: Layer already exists
+f3f351bc157d: Layer already exists
+b718b5deb761: Layer already exists
+f97941469767: Layer already exists
+aeaf845540d4: Layer already exists
+4c299e1e70d5: Layer already exists
+28bf756b6f8e: Layer already exists
+f1b5933fe4b5: Layer already exists
+1.1.2-hotfix-testhotfix: digest: sha256:172b14f15721100d405e714eb7d6092a3ee35c7bdc26090e02ea17631dfa0d02 size: 1996
+Push gcr.io/codefresh-inc/codefresh/charts-manager:1.1.2-hotfix-testhotfix completed - Mon Oct  7 11:56:04 UTC 2019 !!!
+
+---------- Migrate r.cfcr.io/codefresh-inc/codefresh/charts-manager:cf-onprem-v1.0.81 to gcr.io/codefresh-inc/codefresh/charts-manager:cf-onprem-v1.0.81
+cf-onprem-v1.0.81: Pulling from codefresh-inc/codefresh/charts-manager
+e7c96db7181b: Already exists
+df9eac31dfef: Already exists
+0a20433d95a4: Already exists
+55cfbee7e705: Already exists
+e0b6eaa35ba3: Already exists
+8ec77ed8340f: Already exists
+84d836a9a742: Already exists
+8b13494ef7a5: Already exists
+Digest: sha256:2cd8f13a2e4d4b2d2b124f11c3c540790d0088d127af9440194d5f99477c9b4a
+Status: Downloaded newer image for r.cfcr.io/codefresh-inc/codefresh/charts-manager:cf-onprem-v1.0.81
+r.cfcr.io/codefresh-inc/codefresh/charts-manager:cf-onprem-v1.0.81
+Pull r.cfcr.io/codefresh-inc/codefresh/charts-manager:cf-onprem-v1.0.81 completed - Mon Oct  7 11:56:05 UTC 2019 !!!
+
+Tag gcr.io/codefresh-inc/codefresh/charts-manager:cf-onprem-v1.0.81 completed - Mon Oct  7 11:56:05 UTC 2019 !!!
+
+The push refers to repository [gcr.io/codefresh-inc/codefresh/charts-manager]
+ff2a728fbf35: Preparing
+67a34967985f: Preparing
+b718b5deb761: Preparing
+aeaf845540d4: Preparing
+f97941469767: Preparing
+28bf756b6f8e: Preparing
+4c299e1e70d5: Preparing
+f1b5933fe4b5: Preparing
+aeaf845540d4: Waiting
+f97941469767: Waiting
+28bf756b6f8e: Waiting
+4c299e1e70d5: Waiting
+f1b5933fe4b5: Waiting
+67a34967985f: Layer already exists
+b718b5deb761: Layer already exists
+ff2a728fbf35: Layer already exists
+28bf756b6f8e: Layer already exists
+aeaf845540d4: Layer already exists
+f97941469767: Layer already exists
+4c299e1e70d5: Layer already exists
+f1b5933fe4b5: Layer already exists
+cf-onprem-v1.0.81: digest: sha256:2cd8f13a2e4d4b2d2b124f11c3c540790d0088d127af9440194d5f99477c9b4a size: 1996
+Push gcr.io/codefresh-inc/codefresh/charts-manager:cf-onprem-v1.0.81 completed - Mon Oct  7 11:56:07 UTC 2019 !!!
+
+---------- Migrate r.cfcr.io/codefresh-inc/codefresh/charts-manager:1.1.2-cf-onprem-v1.0.81 to gcr.io/codefresh-inc/codefresh/charts-manager:1.1.2-cf-onprem-v1.0.81
+1.1.2-cf-onprem-v1.0.81: Pulling from codefresh-inc/codefresh/charts-manager
+Digest: sha256:2cd8f13a2e4d4b2d2b124f11c3c540790d0088d127af9440194d5f99477c9b4a
+Status: Downloaded newer image for r.cfcr.io/codefresh-inc/codefresh/charts-manager:1.1.2-cf-onprem-v1.0.81
+r.cfcr.io/codefresh-inc/codefresh/charts-manager:1.1.2-cf-onprem-v1.0.81
+Pull r.cfcr.io/codefresh-inc/codefresh/charts-manager:1.1.2-cf-onprem-v1.0.81 completed - Mon Oct  7 11:56:08 UTC 2019 !!!
+
+Tag gcr.io/codefresh-inc/codefresh/charts-manager:1.1.2-cf-onprem-v1.0.81 completed - Mon Oct  7 11:56:08 UTC 2019 !!!
+
+The push refers to repository [gcr.io/codefresh-inc/codefresh/charts-manager]
+ff2a728fbf35: Preparing
+67a34967985f: Preparing
+b718b5deb761: Preparing
+aeaf845540d4: Preparing
+f97941469767: Preparing
+28bf756b6f8e: Preparing
+4c299e1e70d5: Preparing
+f1b5933fe4b5: Preparing
+aeaf845540d4: Waiting
+f97941469767: Waiting
+28bf756b6f8e: Waiting
+4c299e1e70d5: Waiting
+f1b5933fe4b5: Waiting
+67a34967985f: Layer already exists
+b718b5deb761: Layer already exists
+ff2a728fbf35: Layer already exists
+aeaf845540d4: Layer already exists
+28bf756b6f8e: Layer already exists
+f97941469767: Layer already exists
+4c299e1e70d5: Layer already exists
+f1b5933fe4b5: Layer already exists
+1.1.2-cf-onprem-v1.0.81: digest: sha256:2cd8f13a2e4d4b2d2b124f11c3c540790d0088d127af9440194d5f99477c9b4a size: 1996
+Push gcr.io/codefresh-inc/codefresh/charts-manager:1.1.2-cf-onprem-v1.0.81 completed - Mon Oct  7 11:56:09 UTC 2019 !!!
+
+---------- Migrate r.cfcr.io/codefresh-inc/codefresh/charts-manager:cf-onprem-v1.0.80 to gcr.io/codefresh-inc/codefresh/charts-manager:cf-onprem-v1.0.80
+cf-onprem-v1.0.80: Pulling from codefresh-inc/codefresh/charts-manager
+e7c96db7181b: Already exists
+df9eac31dfef: Already exists
+0a20433d95a4: Already exists
+55cfbee7e705: Already exists
+e0b6eaa35ba3: Already exists
+8ec77ed8340f: Already exists
+84d836a9a742: Already exists
+8b13494ef7a5: Already exists
+Digest: sha256:8c3064f9ab77f5397abf5053d77ccd1af1dd3d72d97a746c230fff4b793a94f9
+Status: Downloaded newer image for r.cfcr.io/codefresh-inc/codefresh/charts-manager:cf-onprem-v1.0.80
+r.cfcr.io/codefresh-inc/codefresh/charts-manager:cf-onprem-v1.0.80
+Pull r.cfcr.io/codefresh-inc/codefresh/charts-manager:cf-onprem-v1.0.80 completed - Mon Oct  7 11:56:11 UTC 2019 !!!
+
+Tag gcr.io/codefresh-inc/codefresh/charts-manager:cf-onprem-v1.0.80 completed - Mon Oct  7 11:56:11 UTC 2019 !!!
+
+The push refers to repository [gcr.io/codefresh-inc/codefresh/charts-manager]
+ff2a728fbf35: Preparing
+67a34967985f: Preparing
+b718b5deb761: Preparing
+aeaf845540d4: Preparing
+f97941469767: Preparing
+28bf756b6f8e: Preparing
+4c299e1e70d5: Preparing
+f1b5933fe4b5: Preparing
+ff2a728fbf35: Waiting
+67a34967985f: Waiting
+b718b5deb761: Waiting
+aeaf845540d4: Waiting
+f97941469767: Waiting
+28bf756b6f8e: Waiting
+4c299e1e70d5: Waiting
+f1b5933fe4b5: Waiting
+ff2a728fbf35: Layer already exists
+67a34967985f: Layer already exists
+b718b5deb761: Layer already exists
+aeaf845540d4: Layer already exists
+f97941469767: Layer already exists
+28bf756b6f8e: Layer already exists
+4c299e1e70d5: Layer already exists
+f1b5933fe4b5: Layer already exists
+cf-onprem-v1.0.80: digest: sha256:8c3064f9ab77f5397abf5053d77ccd1af1dd3d72d97a746c230fff4b793a94f9 size: 1996
+Push gcr.io/codefresh-inc/codefresh/charts-manager:cf-onprem-v1.0.80 completed - Mon Oct  7 11:56:15 UTC 2019 !!!
+
+---------- Migrate r.cfcr.io/codefresh-inc/codefresh/charts-manager:1.1.2-cf-onprem-v1.0.80 to gcr.io/codefresh-inc/codefresh/charts-manager:1.1.2-cf-onprem-v1.0.80
+1.1.2-cf-onprem-v1.0.80: Pulling from codefresh-inc/codefresh/charts-manager
+Digest: sha256:8c3064f9ab77f5397abf5053d77ccd1af1dd3d72d97a746c230fff4b793a94f9
+Status: Downloaded newer image for r.cfcr.io/codefresh-inc/codefresh/charts-manager:1.1.2-cf-onprem-v1.0.80
+r.cfcr.io/codefresh-inc/codefresh/charts-manager:1.1.2-cf-onprem-v1.0.80
+Pull r.cfcr.io/codefresh-inc/codefresh/charts-manager:1.1.2-cf-onprem-v1.0.80 completed - Mon Oct  7 11:56:16 UTC 2019 !!!
+
+Tag gcr.io/codefresh-inc/codefresh/charts-manager:1.1.2-cf-onprem-v1.0.80 completed - Mon Oct  7 11:56:16 UTC 2019 !!!
+
+The push refers to repository [gcr.io/codefresh-inc/codefresh/charts-manager]
+ff2a728fbf35: Preparing
+67a34967985f: Preparing
+b718b5deb761: Preparing
+aeaf845540d4: Preparing
+f97941469767: Preparing
+28bf756b6f8e: Preparing
+4c299e1e70d5: Preparing
+f1b5933fe4b5: Preparing
+b718b5deb761: Waiting
+aeaf845540d4: Waiting
+f97941469767: Waiting
+28bf756b6f8e: Waiting
+4c299e1e70d5: Waiting
+f1b5933fe4b5: Waiting
+67a34967985f: Layer already exists
+ff2a728fbf35: Layer already exists
+b718b5deb761: Layer already exists
+aeaf845540d4: Layer already exists
+f97941469767: Layer already exists
+28bf756b6f8e: Layer already exists
+4c299e1e70d5: Layer already exists
+f1b5933fe4b5: Layer already exists
+1.1.2-cf-onprem-v1.0.80: digest: sha256:8c3064f9ab77f5397abf5053d77ccd1af1dd3d72d97a746c230fff4b793a94f9 size: 1996
+Push gcr.io/codefresh-inc/codefresh/charts-manager:1.1.2-cf-onprem-v1.0.80 completed - Mon Oct  7 11:56:17 UTC 2019 !!!
+
+---------- Migrate r.cfcr.io/codefresh-inc/codefresh/charts-manager:master to gcr.io/codefresh-inc/codefresh/charts-manager:master
+master: Pulling from codefresh-inc/codefresh/charts-manager
+e7c96db7181b: Already exists
+df9eac31dfef: Already exists
+0a20433d95a4: Already exists
+55cfbee7e705: Already exists
+e0b6eaa35ba3: Already exists
+8ec77ed8340f: Already exists
+84d836a9a742: Already exists
+a361a9f38962: Pulling fs layer
+a361a9f38962: Verifying Checksum
+a361a9f38962: Download complete
+a361a9f38962: Pull complete
+Digest: sha256:35d8eb514bd3f53d191e6ca8edf4362bcea432f8170d0794a012bc30cc86c1f0
+Status: Downloaded newer image for r.cfcr.io/codefresh-inc/codefresh/charts-manager:master
+r.cfcr.io/codefresh-inc/codefresh/charts-manager:master
+Pull r.cfcr.io/codefresh-inc/codefresh/charts-manager:master completed - Mon Oct  7 11:56:19 UTC 2019 !!!
+
+Tag gcr.io/codefresh-inc/codefresh/charts-manager:master completed - Mon Oct  7 11:56:20 UTC 2019 !!!
+
+The push refers to repository [gcr.io/codefresh-inc/codefresh/charts-manager]
+e59e6bc9b249: Preparing
+67a34967985f: Preparing
+b718b5deb761: Preparing
+aeaf845540d4: Preparing
+f97941469767: Preparing
+28bf756b6f8e: Preparing
+4c299e1e70d5: Preparing
+f1b5933fe4b5: Preparing
+aeaf845540d4: Waiting
+f97941469767: Waiting
+28bf756b6f8e: Waiting
+4c299e1e70d5: Waiting
+f1b5933fe4b5: Waiting
+67a34967985f: Layer already exists
+b718b5deb761: Layer already exists
+aeaf845540d4: Layer already exists
+f97941469767: Layer already exists
+28bf756b6f8e: Layer already exists
+4c299e1e70d5: Layer already exists
+f1b5933fe4b5: Layer already exists
+e59e6bc9b249: Pushed
+master: digest: sha256:a415994726299492fa49a456dc3dd6593561aa66e1d6008929a3b31d3f02e84a size: 1996
+Push gcr.io/codefresh-inc/codefresh/charts-manager:master completed - Mon Oct  7 11:56:23 UTC 2019 !!!
+
+---------- Migrate r.cfcr.io/codefresh-inc/codefresh/charts-manager:1.1.2 to gcr.io/codefresh-inc/codefresh/charts-manager:1.1.2
+1.1.2: Pulling from codefresh-inc/codefresh/charts-manager
+Digest: sha256:a415994726299492fa49a456dc3dd6593561aa66e1d6008929a3b31d3f02e84a
+Status: Downloaded newer image for r.cfcr.io/codefresh-inc/codefresh/charts-manager:1.1.2
+r.cfcr.io/codefresh-inc/codefresh/charts-manager:1.1.2
+Pull r.cfcr.io/codefresh-inc/codefresh/charts-manager:1.1.2 completed - Mon Oct  7 11:56:24 UTC 2019 !!!
+
+Tag gcr.io/codefresh-inc/codefresh/charts-manager:1.1.2 completed - Mon Oct  7 11:56:24 UTC 2019 !!!
+
+The push refers to repository [gcr.io/codefresh-inc/codefresh/charts-manager]
+e59e6bc9b249: Preparing
+67a34967985f: Preparing
+b718b5deb761: Preparing
+aeaf845540d4: Preparing
+f97941469767: Preparing
+28bf756b6f8e: Preparing
+4c299e1e70d5: Preparing
+f1b5933fe4b5: Preparing
+aeaf845540d4: Waiting
+f97941469767: Waiting
+28bf756b6f8e: Waiting
+4c299e1e70d5: Waiting
+f1b5933fe4b5: Waiting
+67a34967985f: Layer already exists
+b718b5deb761: Layer already exists
+e59e6bc9b249: Layer already exists
+f97941469767: Layer already exists
+aeaf845540d4: Layer already exists
+28bf756b6f8e: Layer already exists
+4c299e1e70d5: Layer already exists
+f1b5933fe4b5: Layer already exists
+1.1.2: digest: sha256:a415994726299492fa49a456dc3dd6593561aa66e1d6008929a3b31d3f02e84a size: 1996
+Push gcr.io/codefresh-inc/codefresh/charts-manager:1.1.2 completed - Mon Oct  7 11:56:26 UTC 2019 !!!
+
+---------- Migrate r.cfcr.io/codefresh-inc/codefresh/charts-manager:affinity-identation to gcr.io/codefresh-inc/codefresh/charts-manager:affinity-identation
+affinity-identation: Pulling from codefresh-inc/codefresh/charts-manager
+e7c96db7181b: Already exists
+df9eac31dfef: Already exists
+0a20433d95a4: Already exists
+55cfbee7e705: Already exists
+e0b6eaa35ba3: Already exists
+8ec77ed8340f: Already exists
+84d836a9a742: Already exists
+a361a9f38962: Already exists
+Digest: sha256:809305b8de3feac13dce6333d8584dbd5e05869d6f55898f27af90c39a81641a
+Status: Downloaded newer image for r.cfcr.io/codefresh-inc/codefresh/charts-manager:affinity-identation
+r.cfcr.io/codefresh-inc/codefresh/charts-manager:affinity-identation
+Pull r.cfcr.io/codefresh-inc/codefresh/charts-manager:affinity-identation completed - Mon Oct  7 11:56:27 UTC 2019 !!!
+
+Tag gcr.io/codefresh-inc/codefresh/charts-manager:affinity-identation completed - Mon Oct  7 11:56:27 UTC 2019 !!!
+
+The push refers to repository [gcr.io/codefresh-inc/codefresh/charts-manager]
+e59e6bc9b249: Preparing
+67a34967985f: Preparing
+b718b5deb761: Preparing
+aeaf845540d4: Preparing
+f97941469767: Preparing
+28bf756b6f8e: Preparing
+4c299e1e70d5: Preparing
+f1b5933fe4b5: Preparing
+aeaf845540d4: Waiting
+f97941469767: Waiting
+28bf756b6f8e: Waiting
+4c299e1e70d5: Waiting
+f1b5933fe4b5: Waiting
+67a34967985f: Layer already exists
+e59e6bc9b249: Layer already exists
+b718b5deb761: Layer already exists
+f97941469767: Layer already exists
+28bf756b6f8e: Layer already exists
+aeaf845540d4: Layer already exists
+f1b5933fe4b5: Layer already exists
+4c299e1e70d5: Layer already exists
+affinity-identation: digest: sha256:809305b8de3feac13dce6333d8584dbd5e05869d6f55898f27af90c39a81641a size: 1996
+Push gcr.io/codefresh-inc/codefresh/charts-manager:affinity-identation completed - Mon Oct  7 11:56:29 UTC 2019 !!!
+
+---------- Migrate r.cfcr.io/codefresh-inc/codefresh/charts-manager:1.1.2-affinity-identation to gcr.io/codefresh-inc/codefresh/charts-manager:1.1.2-affinity-identation
+1.1.2-affinity-identation: Pulling from codefresh-inc/codefresh/charts-manager
+Digest: sha256:809305b8de3feac13dce6333d8584dbd5e05869d6f55898f27af90c39a81641a
+Status: Downloaded newer image for r.cfcr.io/codefresh-inc/codefresh/charts-manager:1.1.2-affinity-identation
+r.cfcr.io/codefresh-inc/codefresh/charts-manager:1.1.2-affinity-identation
+Pull r.cfcr.io/codefresh-inc/codefresh/charts-manager:1.1.2-affinity-identation completed - Mon Oct  7 11:56:30 UTC 2019 !!!
+
+Tag gcr.io/codefresh-inc/codefresh/charts-manager:1.1.2-affinity-identation completed - Mon Oct  7 11:56:31 UTC 2019 !!!
+
+The push refers to repository [gcr.io/codefresh-inc/codefresh/charts-manager]
+e59e6bc9b249: Preparing
+67a34967985f: Preparing
+b718b5deb761: Preparing
+aeaf845540d4: Preparing
+f97941469767: Preparing
+28bf756b6f8e: Preparing
+4c299e1e70d5: Preparing
+f1b5933fe4b5: Preparing
+aeaf845540d4: Waiting
+f97941469767: Waiting
+28bf756b6f8e: Waiting
+4c299e1e70d5: Waiting
+f1b5933fe4b5: Waiting
+b718b5deb761: Layer already exists
+67a34967985f: Layer already exists
+e59e6bc9b249: Layer already exists
+f97941469767: Layer already exists
+aeaf845540d4: Layer already exists
+28bf756b6f8e: Layer already exists
+4c299e1e70d5: Layer already exists
+f1b5933fe4b5: Layer already exists
+1.1.2-affinity-identation: digest: sha256:809305b8de3feac13dce6333d8584dbd5e05869d6f55898f27af90c39a81641a size: 1996
+Push gcr.io/codefresh-inc/codefresh/charts-manager:1.1.2-affinity-identation completed - Mon Oct  7 11:56:31 UTC 2019 !!!
+
+---------- Migrate r.cfcr.io/codefresh-inc/codefresh/charts-manager:istio-poc to gcr.io/codefresh-inc/codefresh/charts-manager:istio-poc
+istio-poc: Pulling from codefresh-inc/codefresh/charts-manager
+e7c96db7181b: Already exists
+df9eac31dfef: Already exists
+0a20433d95a4: Already exists
+55cfbee7e705: Already exists
+e0b6eaa35ba3: Already exists
+8ec77ed8340f: Already exists
+84d836a9a742: Already exists
+28e7327b2eba: Pulling fs layer
+28e7327b2eba: Verifying Checksum
+28e7327b2eba: Download complete
+28e7327b2eba: Pull complete
+Digest: sha256:07eb540550ae76178084da900ec1a35da7bb118d888e8ac24874d76357a768d5
+Status: Downloaded newer image for r.cfcr.io/codefresh-inc/codefresh/charts-manager:istio-poc
+r.cfcr.io/codefresh-inc/codefresh/charts-manager:istio-poc
+Pull r.cfcr.io/codefresh-inc/codefresh/charts-manager:istio-poc completed - Mon Oct  7 11:56:33 UTC 2019 !!!
+
+Tag gcr.io/codefresh-inc/codefresh/charts-manager:istio-poc completed - Mon Oct  7 11:56:33 UTC 2019 !!!
+
+The push refers to repository [gcr.io/codefresh-inc/codefresh/charts-manager]
+ac8b285625dc: Preparing
+67a34967985f: Preparing
+b718b5deb761: Preparing
+aeaf845540d4: Preparing
+f97941469767: Preparing
+28bf756b6f8e: Preparing
+4c299e1e70d5: Preparing
+f1b5933fe4b5: Preparing
+aeaf845540d4: Waiting
+f97941469767: Waiting
+28bf756b6f8e: Waiting
+4c299e1e70d5: Waiting
+f1b5933fe4b5: Waiting
+b718b5deb761: Layer already exists
+67a34967985f: Layer already exists
+aeaf845540d4: Layer already exists
+f97941469767: Layer already exists
+28bf756b6f8e: Layer already exists
+4c299e1e70d5: Layer already exists
+f1b5933fe4b5: Layer already exists
+ac8b285625dc: Pushed
+istio-poc: digest: sha256:07eb540550ae76178084da900ec1a35da7bb118d888e8ac24874d76357a768d5 size: 1996
+Push gcr.io/codefresh-inc/codefresh/charts-manager:istio-poc completed - Mon Oct  7 11:56:39 UTC 2019 !!!
+
+---------- Migrate r.cfcr.io/codefresh-inc/codefresh/charts-manager:1.1.1-istio-poc to gcr.io/codefresh-inc/codefresh/charts-manager:1.1.1-istio-poc
+1.1.1-istio-poc: Pulling from codefresh-inc/codefresh/charts-manager
+Digest: sha256:07eb540550ae76178084da900ec1a35da7bb118d888e8ac24874d76357a768d5
+Status: Downloaded newer image for r.cfcr.io/codefresh-inc/codefresh/charts-manager:1.1.1-istio-poc
+r.cfcr.io/codefresh-inc/codefresh/charts-manager:1.1.1-istio-poc
+Pull r.cfcr.io/codefresh-inc/codefresh/charts-manager:1.1.1-istio-poc completed - Mon Oct  7 11:56:39 UTC 2019 !!!
+
+Tag gcr.io/codefresh-inc/codefresh/charts-manager:1.1.1-istio-poc completed - Mon Oct  7 11:56:40 UTC 2019 !!!
+
+The push refers to repository [gcr.io/codefresh-inc/codefresh/charts-manager]
+ac8b285625dc: Preparing
+67a34967985f: Preparing
+b718b5deb761: Preparing
+aeaf845540d4: Preparing
+f97941469767: Preparing
+28bf756b6f8e: Preparing
+4c299e1e70d5: Preparing
+f1b5933fe4b5: Preparing
+aeaf845540d4: Waiting
+f97941469767: Waiting
+28bf756b6f8e: Waiting
+4c299e1e70d5: Waiting
+f1b5933fe4b5: Waiting
+67a34967985f: Layer already exists
+ac8b285625dc: Layer already exists
+b718b5deb761: Layer already exists
+28bf756b6f8e: Layer already exists
+f97941469767: Layer already exists
+aeaf845540d4: Layer already exists
+4c299e1e70d5: Layer already exists
+f1b5933fe4b5: Layer already exists
+1.1.1-istio-poc: digest: sha256:07eb540550ae76178084da900ec1a35da7bb118d888e8ac24874d76357a768d5 size: 1996
+Push gcr.io/codefresh-inc/codefresh/charts-manager:1.1.1-istio-poc completed - Mon Oct  7 11:56:41 UTC 2019 !!!
+
+---------- Migrate r.cfcr.io/codefresh-inc/codefresh/charts-manager:1.1.0 to gcr.io/codefresh-inc/codefresh/charts-manager:1.1.0
+1.1.0: Pulling from codefresh-inc/codefresh/charts-manager
+e7c96db7181b: Already exists
+df9eac31dfef: Already exists
+0a20433d95a4: Already exists
+55cfbee7e705: Already exists
+e0b6eaa35ba3: Already exists
+8ec77ed8340f: Already exists
+84d836a9a742: Already exists
+84110b990c01: Pulling fs layer
+84110b990c01: Verifying Checksum
+84110b990c01: Download complete
+84110b990c01: Pull complete
+Digest: sha256:740eafbfd72c883e1439c5af0d4e1cf14747532bf0d10201f6f057b464b712fe
+Status: Downloaded newer image for r.cfcr.io/codefresh-inc/codefresh/charts-manager:1.1.0
+r.cfcr.io/codefresh-inc/codefresh/charts-manager:1.1.0
+Pull r.cfcr.io/codefresh-inc/codefresh/charts-manager:1.1.0 completed - Mon Oct  7 11:56:43 UTC 2019 !!!
+
+Tag gcr.io/codefresh-inc/codefresh/charts-manager:1.1.0 completed - Mon Oct  7 11:56:43 UTC 2019 !!!
+
+The push refers to repository [gcr.io/codefresh-inc/codefresh/charts-manager]
+de06ea647f33: Preparing
+67a34967985f: Preparing
+b718b5deb761: Preparing
+aeaf845540d4: Preparing
+f97941469767: Preparing
+28bf756b6f8e: Preparing
+4c299e1e70d5: Preparing
+f1b5933fe4b5: Preparing
+f97941469767: Waiting
+28bf756b6f8e: Waiting
+4c299e1e70d5: Waiting
+f1b5933fe4b5: Waiting
+aeaf845540d4: Waiting
+b718b5deb761: Layer already exists
+67a34967985f: Layer already exists
+aeaf845540d4: Layer already exists
+f97941469767: Layer already exists
+28bf756b6f8e: Layer already exists
+4c299e1e70d5: Layer already exists
+f1b5933fe4b5: Layer already exists
+de06ea647f33: Pushed
+1.1.0: digest: sha256:740eafbfd72c883e1439c5af0d4e1cf14747532bf0d10201f6f057b464b712fe size: 1996
+Push gcr.io/codefresh-inc/codefresh/charts-manager:1.1.0 completed - Mon Oct  7 11:56:46 UTC 2019 !!!
+
+---------- Migrate r.cfcr.io/codefresh-inc/codefresh/charts-manager:1.1.0-istio-poc to gcr.io/codefresh-inc/codefresh/charts-manager:1.1.0-istio-poc
+1.1.0-istio-poc: Pulling from codefresh-inc/codefresh/charts-manager
+e7c96db7181b: Already exists
+df9eac31dfef: Already exists
+0a20433d95a4: Already exists
+55cfbee7e705: Already exists
+e0b6eaa35ba3: Already exists
+8ec77ed8340f: Already exists
+84d836a9a742: Already exists
+84110b990c01: Already exists
+Digest: sha256:01d8478f35cbfb785991fc32a25841ec026ee80d49fe39242760bf010b5e866d
+Status: Downloaded newer image for r.cfcr.io/codefresh-inc/codefresh/charts-manager:1.1.0-istio-poc
+r.cfcr.io/codefresh-inc/codefresh/charts-manager:1.1.0-istio-poc
+Pull r.cfcr.io/codefresh-inc/codefresh/charts-manager:1.1.0-istio-poc completed - Mon Oct  7 11:56:47 UTC 2019 !!!
+
+Tag gcr.io/codefresh-inc/codefresh/charts-manager:1.1.0-istio-poc completed - Mon Oct  7 11:56:47 UTC 2019 !!!
+
+The push refers to repository [gcr.io/codefresh-inc/codefresh/charts-manager]
+de06ea647f33: Preparing
+67a34967985f: Preparing
+b718b5deb761: Preparing
+aeaf845540d4: Preparing
+f97941469767: Preparing
+28bf756b6f8e: Preparing
+4c299e1e70d5: Preparing
+f1b5933fe4b5: Preparing
+f97941469767: Waiting
+28bf756b6f8e: Waiting
+4c299e1e70d5: Waiting
+f1b5933fe4b5: Waiting
+aeaf845540d4: Layer already exists
+b718b5deb761: Layer already exists
+de06ea647f33: Layer already exists
+67a34967985f: Layer already exists
+28bf756b6f8e: Layer already exists
+f97941469767: Layer already exists
+4c299e1e70d5: Layer already exists
+f1b5933fe4b5: Layer already exists
+1.1.0-istio-poc: digest: sha256:01d8478f35cbfb785991fc32a25841ec026ee80d49fe39242760bf010b5e866d size: 1996
+Push gcr.io/codefresh-inc/codefresh/charts-manager:1.1.0-istio-poc completed - Mon Oct  7 11:56:49 UTC 2019 !!!
+
+---------- Migrate r.cfcr.io/codefresh-inc/codefresh/charts-manager:cf-onprem-v1.0.79 to gcr.io/codefresh-inc/codefresh/charts-manager:cf-onprem-v1.0.79
+cf-onprem-v1.0.79: Pulling from codefresh-inc/codefresh/charts-manager
+e7c96db7181b: Already exists
+df9eac31dfef: Already exists
+0a20433d95a4: Already exists
+55cfbee7e705: Already exists
+e0b6eaa35ba3: Already exists
+8ec77ed8340f: Already exists
+84d836a9a742: Already exists
+38bce50008e2: Pulling fs layer
+38bce50008e2: Verifying Checksum
+38bce50008e2: Download complete
+38bce50008e2: Pull complete
+Digest: sha256:ff108d488d053f497f1605e81787b3875c3d6cdc9ce7af116865737383dbc3ed
+Status: Downloaded newer image for r.cfcr.io/codefresh-inc/codefresh/charts-manager:cf-onprem-v1.0.79
+r.cfcr.io/codefresh-inc/codefresh/charts-manager:cf-onprem-v1.0.79
+Pull r.cfcr.io/codefresh-inc/codefresh/charts-manager:cf-onprem-v1.0.79 completed - Mon Oct  7 11:56:50 UTC 2019 !!!
+
+Tag gcr.io/codefresh-inc/codefresh/charts-manager:cf-onprem-v1.0.79 completed - Mon Oct  7 11:56:50 UTC 2019 !!!
+
+The push refers to repository [gcr.io/codefresh-inc/codefresh/charts-manager]
+17dc72beda89: Preparing
+67a34967985f: Preparing
+b718b5deb761: Preparing
+aeaf845540d4: Preparing
+f97941469767: Preparing
+28bf756b6f8e: Preparing
+4c299e1e70d5: Preparing
+f1b5933fe4b5: Preparing
+b718b5deb761: Waiting
+aeaf845540d4: Waiting
+f97941469767: Waiting
+28bf756b6f8e: Waiting
+4c299e1e70d5: Waiting
+17dc72beda89: Waiting
+f1b5933fe4b5: Waiting
+67a34967985f: Waiting
+17dc72beda89: Pushed
+67a34967985f: Layer already exists
+b718b5deb761: Layer already exists
+aeaf845540d4: Layer already exists
+f97941469767: Layer already exists
+28bf756b6f8e: Layer already exists
+4c299e1e70d5: Layer already exists
+f1b5933fe4b5: Layer already exists
+cf-onprem-v1.0.79: digest: sha256:ff108d488d053f497f1605e81787b3875c3d6cdc9ce7af116865737383dbc3ed size: 1996
+Push gcr.io/codefresh-inc/codefresh/charts-manager:cf-onprem-v1.0.79 completed - Mon Oct  7 11:56:54 UTC 2019 !!!
+
+---------- Migrate r.cfcr.io/codefresh-inc/codefresh/charts-manager:1.0.8-cf-onprem-v1.0.79 to gcr.io/codefresh-inc/codefresh/charts-manager:1.0.8-cf-onprem-v1.0.79
+1.0.8-cf-onprem-v1.0.79: Pulling from codefresh-inc/codefresh/charts-manager
+Digest: sha256:ff108d488d053f497f1605e81787b3875c3d6cdc9ce7af116865737383dbc3ed
+Status: Downloaded newer image for r.cfcr.io/codefresh-inc/codefresh/charts-manager:1.0.8-cf-onprem-v1.0.79
+r.cfcr.io/codefresh-inc/codefresh/charts-manager:1.0.8-cf-onprem-v1.0.79
+Pull r.cfcr.io/codefresh-inc/codefresh/charts-manager:1.0.8-cf-onprem-v1.0.79 completed - Mon Oct  7 11:56:55 UTC 2019 !!!
+
+Tag gcr.io/codefresh-inc/codefresh/charts-manager:1.0.8-cf-onprem-v1.0.79 completed - Mon Oct  7 11:56:55 UTC 2019 !!!
+
+The push refers to repository [gcr.io/codefresh-inc/codefresh/charts-manager]
+17dc72beda89: Preparing
+67a34967985f: Preparing
+b718b5deb761: Preparing
+aeaf845540d4: Preparing
+f97941469767: Preparing
+28bf756b6f8e: Preparing
+4c299e1e70d5: Preparing
+f1b5933fe4b5: Preparing
+b718b5deb761: Waiting
+aeaf845540d4: Waiting
+f97941469767: Waiting
+28bf756b6f8e: Waiting
+4c299e1e70d5: Waiting
+f1b5933fe4b5: Waiting
+17dc72beda89: Layer already exists
+67a34967985f: Layer already exists
+aeaf845540d4: Layer already exists
+b718b5deb761: Layer already exists
+f97941469767: Layer already exists
+28bf756b6f8e: Layer already exists
+f1b5933fe4b5: Layer already exists
+4c299e1e70d5: Layer already exists
+1.0.8-cf-onprem-v1.0.79: digest: sha256:ff108d488d053f497f1605e81787b3875c3d6cdc9ce7af116865737383dbc3ed size: 1996
+Push gcr.io/codefresh-inc/codefresh/charts-manager:1.0.8-cf-onprem-v1.0.79 completed - Mon Oct  7 11:56:55 UTC 2019 !!!
+
+---------- Migrate r.cfcr.io/codefresh-inc/codefresh/charts-manager:1.0.8-istio-poc to gcr.io/codefresh-inc/codefresh/charts-manager:1.0.8-istio-poc
+1.0.8-istio-poc: Pulling from codefresh-inc/codefresh/charts-manager
+e7c96db7181b: Already exists
+df9eac31dfef: Already exists
+0a20433d95a4: Already exists
+55cfbee7e705: Already exists
+e0b6eaa35ba3: Already exists
+8ec77ed8340f: Already exists
+84d836a9a742: Already exists
+bbc7cc8aa870: Pulling fs layer
+bbc7cc8aa870: Download complete
+bbc7cc8aa870: Pull complete
+Digest: sha256:7a3fcff2f7b75a826f66d4b3656d1523df688d342300cdbf3cc2af3c6e713d18
+Status: Downloaded newer image for r.cfcr.io/codefresh-inc/codefresh/charts-manager:1.0.8-istio-poc
+r.cfcr.io/codefresh-inc/codefresh/charts-manager:1.0.8-istio-poc
+Pull r.cfcr.io/codefresh-inc/codefresh/charts-manager:1.0.8-istio-poc completed - Mon Oct  7 11:56:57 UTC 2019 !!!
+
+Tag gcr.io/codefresh-inc/codefresh/charts-manager:1.0.8-istio-poc completed - Mon Oct  7 11:56:57 UTC 2019 !!!
+
+The push refers to repository [gcr.io/codefresh-inc/codefresh/charts-manager]
+22753d05e68b: Preparing
+67a34967985f: Preparing
+b718b5deb761: Preparing
+aeaf845540d4: Preparing
+f97941469767: Preparing
+28bf756b6f8e: Preparing
+4c299e1e70d5: Preparing
+f1b5933fe4b5: Preparing
+b718b5deb761: Waiting
+aeaf845540d4: Waiting
+f97941469767: Waiting
+28bf756b6f8e: Waiting
+4c299e1e70d5: Waiting
+f1b5933fe4b5: Waiting
+67a34967985f: Layer already exists
+b718b5deb761: Layer already exists
+aeaf845540d4: Layer already exists
+f97941469767: Layer already exists
+28bf756b6f8e: Layer already exists
+4c299e1e70d5: Layer already exists
+f1b5933fe4b5: Layer already exists
+22753d05e68b: Pushed
+1.0.8-istio-poc: digest: sha256:7a3fcff2f7b75a826f66d4b3656d1523df688d342300cdbf3cc2af3c6e713d18 size: 1996
+Push gcr.io/codefresh-inc/codefresh/charts-manager:1.0.8-istio-poc completed - Mon Oct  7 11:57:00 UTC 2019 !!!
+
+---------- Migrate r.cfcr.io/codefresh-inc/codefresh/charts-manager:cf-onprem-v1.0.78 to gcr.io/codefresh-inc/codefresh/charts-manager:cf-onprem-v1.0.78
+cf-onprem-v1.0.78: Pulling from codefresh-inc/codefresh/charts-manager
+e7c96db7181b: Already exists
+df9eac31dfef: Already exists
+0a20433d95a4: Already exists
+55cfbee7e705: Already exists
+e0b6eaa35ba3: Already exists
+8ec77ed8340f: Already exists
+84d836a9a742: Already exists
+f6367a5c079b: Pulling fs layer
+f6367a5c079b: Download complete
+f6367a5c079b: Pull complete
+Digest: sha256:4a2d48c7fa880ee4f312d3c153203172e6058e90f3a6164a85f2a2c6b1ad3a9b
+Status: Downloaded newer image for r.cfcr.io/codefresh-inc/codefresh/charts-manager:cf-onprem-v1.0.78
+r.cfcr.io/codefresh-inc/codefresh/charts-manager:cf-onprem-v1.0.78
+Pull r.cfcr.io/codefresh-inc/codefresh/charts-manager:cf-onprem-v1.0.78 completed - Mon Oct  7 11:57:01 UTC 2019 !!!
+
+Tag gcr.io/codefresh-inc/codefresh/charts-manager:cf-onprem-v1.0.78 completed - Mon Oct  7 11:57:01 UTC 2019 !!!
+
+The push refers to repository [gcr.io/codefresh-inc/codefresh/charts-manager]
+46a0d331d6fe: Preparing
+67a34967985f: Preparing
+b718b5deb761: Preparing
+aeaf845540d4: Preparing
+f97941469767: Preparing
+28bf756b6f8e: Preparing
+4c299e1e70d5: Preparing
+f1b5933fe4b5: Preparing
+aeaf845540d4: Waiting
+f97941469767: Waiting
+28bf756b6f8e: Waiting
+4c299e1e70d5: Waiting
+f1b5933fe4b5: Waiting
+b718b5deb761: Waiting
+67a34967985f: Layer already exists
+b718b5deb761: Layer already exists
+aeaf845540d4: Layer already exists
+f97941469767: Layer already exists
+28bf756b6f8e: Layer already exists
+4c299e1e70d5: Layer already exists
+f1b5933fe4b5: Layer already exists
+46a0d331d6fe: Pushed
+cf-onprem-v1.0.78: digest: sha256:4a2d48c7fa880ee4f312d3c153203172e6058e90f3a6164a85f2a2c6b1ad3a9b size: 1996
+Push gcr.io/codefresh-inc/codefresh/charts-manager:cf-onprem-v1.0.78 completed - Mon Oct  7 11:57:04 UTC 2019 !!!
+
+---------- Migrate r.cfcr.io/codefresh-inc/codefresh/charts-manager:1.0.8-cf-onprem-v1.0.78 to gcr.io/codefresh-inc/codefresh/charts-manager:1.0.8-cf-onprem-v1.0.78
+1.0.8-cf-onprem-v1.0.78: Pulling from codefresh-inc/codefresh/charts-manager
+Digest: sha256:4a2d48c7fa880ee4f312d3c153203172e6058e90f3a6164a85f2a2c6b1ad3a9b
+Status: Downloaded newer image for r.cfcr.io/codefresh-inc/codefresh/charts-manager:1.0.8-cf-onprem-v1.0.78
+r.cfcr.io/codefresh-inc/codefresh/charts-manager:1.0.8-cf-onprem-v1.0.78
+Pull r.cfcr.io/codefresh-inc/codefresh/charts-manager:1.0.8-cf-onprem-v1.0.78 completed - Mon Oct  7 11:57:04 UTC 2019 !!!
+
+Tag gcr.io/codefresh-inc/codefresh/charts-manager:1.0.8-cf-onprem-v1.0.78 completed - Mon Oct  7 11:57:05 UTC 2019 !!!
+
+The push refers to repository [gcr.io/codefresh-inc/codefresh/charts-manager]
+46a0d331d6fe: Preparing
+67a34967985f: Preparing
+b718b5deb761: Preparing
+aeaf845540d4: Preparing
+f97941469767: Preparing
+28bf756b6f8e: Preparing
+4c299e1e70d5: Preparing
+f1b5933fe4b5: Preparing
+b718b5deb761: Waiting
+aeaf845540d4: Waiting
+f97941469767: Waiting
+28bf756b6f8e: Waiting
+4c299e1e70d5: Waiting
+f1b5933fe4b5: Waiting
+46a0d331d6fe: Layer already exists
+67a34967985f: Layer already exists
+b718b5deb761: Layer already exists
+aeaf845540d4: Layer already exists
+28bf756b6f8e: Layer already exists
+f97941469767: Layer already exists
+f1b5933fe4b5: Layer already exists
+4c299e1e70d5: Layer already exists
+1.0.8-cf-onprem-v1.0.78: digest: sha256:4a2d48c7fa880ee4f312d3c153203172e6058e90f3a6164a85f2a2c6b1ad3a9b size: 1996
+Push gcr.io/codefresh-inc/codefresh/charts-manager:1.0.8-cf-onprem-v1.0.78 completed - Mon Oct  7 11:57:06 UTC 2019 !!!
+
+---------- Migrate r.cfcr.io/codefresh-inc/codefresh/charts-manager:cf-onprem-v1.0.77 to gcr.io/codefresh-inc/codefresh/charts-manager:cf-onprem-v1.0.77
+cf-onprem-v1.0.77: Pulling from codefresh-inc/codefresh/charts-manager
+e7c96db7181b: Already exists
+df9eac31dfef: Already exists
+0a20433d95a4: Already exists
+55cfbee7e705: Already exists
+e0b6eaa35ba3: Already exists
+8ec77ed8340f: Already exists
+84d836a9a742: Already exists
+25dc1161222e: Pulling fs layer
+25dc1161222e: Verifying Checksum
+25dc1161222e: Download complete
+25dc1161222e: Pull complete
+Digest: sha256:1f65963f0e09b6313914be68c13f5bbdd4396907bbec189068de9688dcd98561
+Status: Downloaded newer image for r.cfcr.io/codefresh-inc/codefresh/charts-manager:cf-onprem-v1.0.77
+r.cfcr.io/codefresh-inc/codefresh/charts-manager:cf-onprem-v1.0.77
+Pull r.cfcr.io/codefresh-inc/codefresh/charts-manager:cf-onprem-v1.0.77 completed - Mon Oct  7 11:57:08 UTC 2019 !!!
+
+Tag gcr.io/codefresh-inc/codefresh/charts-manager:cf-onprem-v1.0.77 completed - Mon Oct  7 11:57:08 UTC 2019 !!!
+
+The push refers to repository [gcr.io/codefresh-inc/codefresh/charts-manager]
+d228891225df: Preparing
+67a34967985f: Preparing
+b718b5deb761: Preparing
+aeaf845540d4: Preparing
+f97941469767: Preparing
+28bf756b6f8e: Preparing
+4c299e1e70d5: Preparing
+f1b5933fe4b5: Preparing
+b718b5deb761: Waiting
+aeaf845540d4: Waiting
+f97941469767: Waiting
+28bf756b6f8e: Waiting
+4c299e1e70d5: Waiting
+f1b5933fe4b5: Waiting
+67a34967985f: Layer already exists
+b718b5deb761: Layer already exists
+aeaf845540d4: Layer already exists
+f97941469767: Layer already exists
+28bf756b6f8e: Layer already exists
+4c299e1e70d5: Layer already exists
+f1b5933fe4b5: Layer already exists
+d228891225df: Pushed
+cf-onprem-v1.0.77: digest: sha256:1f65963f0e09b6313914be68c13f5bbdd4396907bbec189068de9688dcd98561 size: 1996
+Push gcr.io/codefresh-inc/codefresh/charts-manager:cf-onprem-v1.0.77 completed - Mon Oct  7 11:57:13 UTC 2019 !!!
+
+---------- Migrate r.cfcr.io/codefresh-inc/codefresh/charts-manager:1.0.8-cf-onprem-v1.0.77 to gcr.io/codefresh-inc/codefresh/charts-manager:1.0.8-cf-onprem-v1.0.77
+1.0.8-cf-onprem-v1.0.77: Pulling from codefresh-inc/codefresh/charts-manager
+Digest: sha256:1f65963f0e09b6313914be68c13f5bbdd4396907bbec189068de9688dcd98561
+Status: Downloaded newer image for r.cfcr.io/codefresh-inc/codefresh/charts-manager:1.0.8-cf-onprem-v1.0.77
+r.cfcr.io/codefresh-inc/codefresh/charts-manager:1.0.8-cf-onprem-v1.0.77
+Pull r.cfcr.io/codefresh-inc/codefresh/charts-manager:1.0.8-cf-onprem-v1.0.77 completed - Mon Oct  7 11:57:14 UTC 2019 !!!
+
+Tag gcr.io/codefresh-inc/codefresh/charts-manager:1.0.8-cf-onprem-v1.0.77 completed - Mon Oct  7 11:57:14 UTC 2019 !!!
+
+The push refers to repository [gcr.io/codefresh-inc/codefresh/charts-manager]
+d228891225df: Preparing
+67a34967985f: Preparing
+b718b5deb761: Preparing
+aeaf845540d4: Preparing
+f97941469767: Preparing
+28bf756b6f8e: Preparing
+4c299e1e70d5: Preparing
+f1b5933fe4b5: Preparing
+b718b5deb761: Waiting
+aeaf845540d4: Waiting
+f97941469767: Waiting
+28bf756b6f8e: Waiting
+4c299e1e70d5: Waiting
+f1b5933fe4b5: Waiting
+d228891225df: Layer already exists
+b718b5deb761: Layer already exists
+67a34967985f: Layer already exists
+aeaf845540d4: Layer already exists
+f97941469767: Layer already exists
+28bf756b6f8e: Layer already exists
+4c299e1e70d5: Layer already exists
+f1b5933fe4b5: Layer already exists
+1.0.8-cf-onprem-v1.0.77: digest: sha256:1f65963f0e09b6313914be68c13f5bbdd4396907bbec189068de9688dcd98561 size: 1996
+Push gcr.io/codefresh-inc/codefresh/charts-manager:1.0.8-cf-onprem-v1.0.77 completed - Mon Oct  7 11:57:15 UTC 2019 !!!
+
+---------- Migrate r.cfcr.io/codefresh-inc/codefresh/charts-manager:cf-onprem-v1.0.76 to gcr.io/codefresh-inc/codefresh/charts-manager:cf-onprem-v1.0.76
+cf-onprem-v1.0.76: Pulling from codefresh-inc/codefresh/charts-manager
+e7c96db7181b: Already exists
+df9eac31dfef: Already exists
+0a20433d95a4: Already exists
+55cfbee7e705: Already exists
+e0b6eaa35ba3: Already exists
+8ec77ed8340f: Already exists
+84d836a9a742: Already exists
+25dc1161222e: Already exists
+Digest: sha256:47268b9d3b9c54abd9c045d876d51ee681d52f4003cf9b90eead24b0d42fea71
+Status: Downloaded newer image for r.cfcr.io/codefresh-inc/codefresh/charts-manager:cf-onprem-v1.0.76
+r.cfcr.io/codefresh-inc/codefresh/charts-manager:cf-onprem-v1.0.76
+Pull r.cfcr.io/codefresh-inc/codefresh/charts-manager:cf-onprem-v1.0.76 completed - Mon Oct  7 11:57:16 UTC 2019 !!!
+
+Tag gcr.io/codefresh-inc/codefresh/charts-manager:cf-onprem-v1.0.76 completed - Mon Oct  7 11:57:16 UTC 2019 !!!
+
+The push refers to repository [gcr.io/codefresh-inc/codefresh/charts-manager]
+d228891225df: Preparing
+67a34967985f: Preparing
+b718b5deb761: Preparing
+aeaf845540d4: Preparing
+f97941469767: Preparing
+28bf756b6f8e: Preparing
+4c299e1e70d5: Preparing
+f1b5933fe4b5: Preparing
+aeaf845540d4: Waiting
+f97941469767: Waiting
+28bf756b6f8e: Waiting
+4c299e1e70d5: Waiting
+f1b5933fe4b5: Waiting
+67a34967985f: Layer already exists
+d228891225df: Layer already exists
+b718b5deb761: Layer already exists
+aeaf845540d4: Layer already exists
+28bf756b6f8e: Layer already exists
+f97941469767: Layer already exists
+4c299e1e70d5: Layer already exists
+f1b5933fe4b5: Layer already exists
+cf-onprem-v1.0.76: digest: sha256:47268b9d3b9c54abd9c045d876d51ee681d52f4003cf9b90eead24b0d42fea71 size: 1996
+Push gcr.io/codefresh-inc/codefresh/charts-manager:cf-onprem-v1.0.76 completed - Mon Oct  7 11:57:17 UTC 2019 !!!
+
+---------- Migrate r.cfcr.io/codefresh-inc/codefresh/charts-manager:1.0.8-cf-onprem-v1.0.76 to gcr.io/codefresh-inc/codefresh/charts-manager:1.0.8-cf-onprem-v1.0.76
+1.0.8-cf-onprem-v1.0.76: Pulling from codefresh-inc/codefresh/charts-manager
+Digest: sha256:47268b9d3b9c54abd9c045d876d51ee681d52f4003cf9b90eead24b0d42fea71
+Status: Image is up to date for r.cfcr.io/codefresh-inc/codefresh/charts-manager:1.0.8-cf-onprem-v1.0.76
+r.cfcr.io/codefresh-inc/codefresh/charts-manager:1.0.8-cf-onprem-v1.0.76
+Pull r.cfcr.io/codefresh-inc/codefresh/charts-manager:1.0.8-cf-onprem-v1.0.76 completed - Mon Oct  7 11:57:18 UTC 2019 !!!
+
+Tag gcr.io/codefresh-inc/codefresh/charts-manager:1.0.8-cf-onprem-v1.0.76 completed - Mon Oct  7 11:57:19 UTC 2019 !!!
+
+The push refers to repository [gcr.io/codefresh-inc/codefresh/charts-manager]
+d228891225df: Preparing
+67a34967985f: Preparing
+b718b5deb761: Preparing
+aeaf845540d4: Preparing
+f97941469767: Preparing
+28bf756b6f8e: Preparing
+4c299e1e70d5: Preparing
+f1b5933fe4b5: Preparing
+f1b5933fe4b5: Waiting
+d228891225df: Waiting
+67a34967985f: Waiting
+b718b5deb761: Waiting
+aeaf845540d4: Waiting
+f97941469767: Waiting
+28bf756b6f8e: Waiting
+4c299e1e70d5: Waiting
+aeaf845540d4: Layer already exists
+f97941469767: Layer already exists
+28bf756b6f8e: Layer already exists
+4c299e1e70d5: Layer already exists
+f1b5933fe4b5: Layer already exists
+67a34967985f: Layer already exists
+b718b5deb761: Layer already exists
+d228891225df: Layer already exists
+1.0.8-cf-onprem-v1.0.76: digest: sha256:47268b9d3b9c54abd9c045d876d51ee681d52f4003cf9b90eead24b0d42fea71 size: 1996
+Push gcr.io/codefresh-inc/codefresh/charts-manager:1.0.8-cf-onprem-v1.0.76 completed - Mon Oct  7 11:57:19 UTC 2019 !!!
+
+---------- Migrate r.cfcr.io/codefresh-inc/codefresh/charts-manager:cf-onprem-v1.0.75 to gcr.io/codefresh-inc/codefresh/charts-manager:cf-onprem-v1.0.75
+cf-onprem-v1.0.75: Pulling from codefresh-inc/codefresh/charts-manager
+e7c96db7181b: Already exists
+df9eac31dfef: Already exists
+0a20433d95a4: Already exists
+55cfbee7e705: Already exists
+e0b6eaa35ba3: Already exists
+8ec77ed8340f: Already exists
+84d836a9a742: Already exists
+25dc1161222e: Already exists
+Digest: sha256:535f1660fce6836c39d8b2ed690d70d254dd64a0ff509a12cf67446f7d3b7457
+Status: Downloaded newer image for r.cfcr.io/codefresh-inc/codefresh/charts-manager:cf-onprem-v1.0.75
+r.cfcr.io/codefresh-inc/codefresh/charts-manager:cf-onprem-v1.0.75
+Pull r.cfcr.io/codefresh-inc/codefresh/charts-manager:cf-onprem-v1.0.75 completed - Mon Oct  7 11:57:20 UTC 2019 !!!
+
+Tag gcr.io/codefresh-inc/codefresh/charts-manager:cf-onprem-v1.0.75 completed - Mon Oct  7 11:57:20 UTC 2019 !!!
+
+The push refers to repository [gcr.io/codefresh-inc/codefresh/charts-manager]
+d228891225df: Preparing
+67a34967985f: Preparing
+b718b5deb761: Preparing
+aeaf845540d4: Preparing
+f97941469767: Preparing
+28bf756b6f8e: Preparing
+4c299e1e70d5: Preparing
+f1b5933fe4b5: Preparing
+f1b5933fe4b5: Waiting
+aeaf845540d4: Waiting
+f97941469767: Waiting
+28bf756b6f8e: Waiting
+4c299e1e70d5: Waiting
+67a34967985f: Layer already exists
+b718b5deb761: Layer already exists
+d228891225df: Layer already exists
+aeaf845540d4: Layer already exists
+f97941469767: Layer already exists
+28bf756b6f8e: Layer already exists
+4c299e1e70d5: Layer already exists
+f1b5933fe4b5: Layer already exists
+cf-onprem-v1.0.75: digest: sha256:535f1660fce6836c39d8b2ed690d70d254dd64a0ff509a12cf67446f7d3b7457 size: 1996
+Push gcr.io/codefresh-inc/codefresh/charts-manager:cf-onprem-v1.0.75 completed - Mon Oct  7 11:57:22 UTC 2019 !!!
+
+---------- Migrate r.cfcr.io/codefresh-inc/codefresh/charts-manager:1.0.8-cf-onprem-v1.0.75 to gcr.io/codefresh-inc/codefresh/charts-manager:1.0.8-cf-onprem-v1.0.75
+1.0.8-cf-onprem-v1.0.75: Pulling from codefresh-inc/codefresh/charts-manager
+Digest: sha256:535f1660fce6836c39d8b2ed690d70d254dd64a0ff509a12cf67446f7d3b7457
+Status: Image is up to date for r.cfcr.io/codefresh-inc/codefresh/charts-manager:1.0.8-cf-onprem-v1.0.75
+r.cfcr.io/codefresh-inc/codefresh/charts-manager:1.0.8-cf-onprem-v1.0.75
+Pull r.cfcr.io/codefresh-inc/codefresh/charts-manager:1.0.8-cf-onprem-v1.0.75 completed - Mon Oct  7 11:57:23 UTC 2019 !!!
+
+Tag gcr.io/codefresh-inc/codefresh/charts-manager:1.0.8-cf-onprem-v1.0.75 completed - Mon Oct  7 11:57:23 UTC 2019 !!!
+
+The push refers to repository [gcr.io/codefresh-inc/codefresh/charts-manager]
+d228891225df: Preparing
+67a34967985f: Preparing
+b718b5deb761: Preparing
+aeaf845540d4: Preparing
+f97941469767: Preparing
+28bf756b6f8e: Preparing
+4c299e1e70d5: Preparing
+f1b5933fe4b5: Preparing
+aeaf845540d4: Waiting
+f97941469767: Waiting
+28bf756b6f8e: Waiting
+4c299e1e70d5: Waiting
+f1b5933fe4b5: Waiting
+d228891225df: Layer already exists
+67a34967985f: Layer already exists
+b718b5deb761: Layer already exists
+aeaf845540d4: Layer already exists
+28bf756b6f8e: Layer already exists
+f97941469767: Layer already exists
+4c299e1e70d5: Layer already exists
+f1b5933fe4b5: Layer already exists
+1.0.8-cf-onprem-v1.0.75: digest: sha256:535f1660fce6836c39d8b2ed690d70d254dd64a0ff509a12cf67446f7d3b7457 size: 1996
+Push gcr.io/codefresh-inc/codefresh/charts-manager:1.0.8-cf-onprem-v1.0.75 completed - Mon Oct  7 11:57:24 UTC 2019 !!!
+
+---------- Migrate r.cfcr.io/codefresh-inc/codefresh/charts-manager:cf-onprem-v1.0.74 to gcr.io/codefresh-inc/codefresh/charts-manager:cf-onprem-v1.0.74
+cf-onprem-v1.0.74: Pulling from codefresh-inc/codefresh/charts-manager
+Digest: sha256:c84bcf1bc8b12e2311b5fa02c9a41b405762f5c8159ddb24a4d6dc0c214a5a9a
+Status: Image is up to date for r.cfcr.io/codefresh-inc/codefresh/charts-manager:cf-onprem-v1.0.74
+r.cfcr.io/codefresh-inc/codefresh/charts-manager:cf-onprem-v1.0.74
+Pull r.cfcr.io/codefresh-inc/codefresh/charts-manager:cf-onprem-v1.0.74 completed - Mon Oct  7 11:57:24 UTC 2019 !!!
+
+Tag gcr.io/codefresh-inc/codefresh/charts-manager:cf-onprem-v1.0.74 completed - Mon Oct  7 11:57:25 UTC 2019 !!!
+
+The push refers to repository [gcr.io/codefresh-inc/codefresh/charts-manager]
+41cf9b712590: Preparing
+67a34967985f: Preparing
+b718b5deb761: Preparing
+aeaf845540d4: Preparing
+f97941469767: Preparing
+28bf756b6f8e: Preparing
+4c299e1e70d5: Preparing
+f1b5933fe4b5: Preparing
+aeaf845540d4: Waiting
+f97941469767: Waiting
+28bf756b6f8e: Waiting
+4c299e1e70d5: Waiting
+f1b5933fe4b5: Waiting
+b718b5deb761: Layer already exists
+67a34967985f: Layer already exists
+aeaf845540d4: Layer already exists
+f97941469767: Layer already exists
+28bf756b6f8e: Layer already exists
+4c299e1e70d5: Layer already exists
+f1b5933fe4b5: Layer already exists
+41cf9b712590: Pushed
+cf-onprem-v1.0.74: digest: sha256:c84bcf1bc8b12e2311b5fa02c9a41b405762f5c8159ddb24a4d6dc0c214a5a9a size: 1996
+Push gcr.io/codefresh-inc/codefresh/charts-manager:cf-onprem-v1.0.74 completed - Mon Oct  7 11:57:28 UTC 2019 !!!
+
+---------- Migrate r.cfcr.io/codefresh-inc/codefresh/charts-manager:1.0.8-cf-onprem-v1.0.74 to gcr.io/codefresh-inc/codefresh/charts-manager:1.0.8-cf-onprem-v1.0.74
+1.0.8-cf-onprem-v1.0.74: Pulling from codefresh-inc/codefresh/charts-manager
+Digest: sha256:c84bcf1bc8b12e2311b5fa02c9a41b405762f5c8159ddb24a4d6dc0c214a5a9a
+Status: Downloaded newer image for r.cfcr.io/codefresh-inc/codefresh/charts-manager:1.0.8-cf-onprem-v1.0.74
+r.cfcr.io/codefresh-inc/codefresh/charts-manager:1.0.8-cf-onprem-v1.0.74
+Pull r.cfcr.io/codefresh-inc/codefresh/charts-manager:1.0.8-cf-onprem-v1.0.74 completed - Mon Oct  7 11:57:29 UTC 2019 !!!
+
+Tag gcr.io/codefresh-inc/codefresh/charts-manager:1.0.8-cf-onprem-v1.0.74 completed - Mon Oct  7 11:57:29 UTC 2019 !!!
+
+The push refers to repository [gcr.io/codefresh-inc/codefresh/charts-manager]
+41cf9b712590: Preparing
+67a34967985f: Preparing
+b718b5deb761: Preparing
+aeaf845540d4: Preparing
+f97941469767: Preparing
+28bf756b6f8e: Preparing
+4c299e1e70d5: Preparing
+f1b5933fe4b5: Preparing
+aeaf845540d4: Waiting
+f97941469767: Waiting
+28bf756b6f8e: Waiting
+4c299e1e70d5: Waiting
+f1b5933fe4b5: Waiting
+41cf9b712590: Layer already exists
+b718b5deb761: Layer already exists
+67a34967985f: Layer already exists
+aeaf845540d4: Layer already exists
+f97941469767: Layer already exists
+28bf756b6f8e: Layer already exists
+4c299e1e70d5: Layer already exists
+f1b5933fe4b5: Layer already exists
+1.0.8-cf-onprem-v1.0.74: digest: sha256:c84bcf1bc8b12e2311b5fa02c9a41b405762f5c8159ddb24a4d6dc0c214a5a9a size: 1996
+Push gcr.io/codefresh-inc/codefresh/charts-manager:1.0.8-cf-onprem-v1.0.74 completed - Mon Oct  7 11:57:29 UTC 2019 !!!
+
+---------- Migrate r.cfcr.io/codefresh-inc/codefresh/charts-manager:cf-onprem-v1.0.73 to gcr.io/codefresh-inc/codefresh/charts-manager:cf-onprem-v1.0.73
+cf-onprem-v1.0.73: Pulling from codefresh-inc/codefresh/charts-manager
+e7c96db7181b: Already exists
+df9eac31dfef: Already exists
+0a20433d95a4: Already exists
+55cfbee7e705: Already exists
+e0b6eaa35ba3: Already exists
+8ec77ed8340f: Already exists
+84d836a9a742: Already exists
+858c0c5dcb4c: Pulling fs layer
+858c0c5dcb4c: Verifying Checksum
+858c0c5dcb4c: Download complete
+858c0c5dcb4c: Pull complete
+Digest: sha256:b578d6f754b5863e584223246a9b7867e938a459a9a871ed66ae652eac62a707
+Status: Downloaded newer image for r.cfcr.io/codefresh-inc/codefresh/charts-manager:cf-onprem-v1.0.73
+r.cfcr.io/codefresh-inc/codefresh/charts-manager:cf-onprem-v1.0.73
+Pull r.cfcr.io/codefresh-inc/codefresh/charts-manager:cf-onprem-v1.0.73 completed - Mon Oct  7 11:57:31 UTC 2019 !!!
+
+Tag gcr.io/codefresh-inc/codefresh/charts-manager:cf-onprem-v1.0.73 completed - Mon Oct  7 11:57:31 UTC 2019 !!!
+
+The push refers to repository [gcr.io/codefresh-inc/codefresh/charts-manager]
+e74724cce6d7: Preparing
+67a34967985f: Preparing
+b718b5deb761: Preparing
+aeaf845540d4: Preparing
+f97941469767: Preparing
+28bf756b6f8e: Preparing
+4c299e1e70d5: Preparing
+f1b5933fe4b5: Preparing
+aeaf845540d4: Waiting
+f97941469767: Waiting
+28bf756b6f8e: Waiting
+4c299e1e70d5: Waiting
+f1b5933fe4b5: Waiting
+b718b5deb761: Layer already exists
+67a34967985f: Layer already exists
+aeaf845540d4: Layer already exists
+f97941469767: Layer already exists
+28bf756b6f8e: Layer already exists
+4c299e1e70d5: Layer already exists
+f1b5933fe4b5: Layer already exists
+e74724cce6d7: Pushed
+cf-onprem-v1.0.73: digest: sha256:b578d6f754b5863e584223246a9b7867e938a459a9a871ed66ae652eac62a707 size: 1996
+Push gcr.io/codefresh-inc/codefresh/charts-manager:cf-onprem-v1.0.73 completed - Mon Oct  7 11:57:34 UTC 2019 !!!
+
+---------- Migrate r.cfcr.io/codefresh-inc/codefresh/charts-manager:1.0.8-cf-onprem-v1.0.73 to gcr.io/codefresh-inc/codefresh/charts-manager:1.0.8-cf-onprem-v1.0.73
+1.0.8-cf-onprem-v1.0.73: Pulling from codefresh-inc/codefresh/charts-manager
+Digest: sha256:b578d6f754b5863e584223246a9b7867e938a459a9a871ed66ae652eac62a707
+Status: Downloaded newer image for r.cfcr.io/codefresh-inc/codefresh/charts-manager:1.0.8-cf-onprem-v1.0.73
+r.cfcr.io/codefresh-inc/codefresh/charts-manager:1.0.8-cf-onprem-v1.0.73
+Pull r.cfcr.io/codefresh-inc/codefresh/charts-manager:1.0.8-cf-onprem-v1.0.73 completed - Mon Oct  7 11:57:35 UTC 2019 !!!
+
+Tag gcr.io/codefresh-inc/codefresh/charts-manager:1.0.8-cf-onprem-v1.0.73 completed - Mon Oct  7 11:57:35 UTC 2019 !!!
+
+The push refers to repository [gcr.io/codefresh-inc/codefresh/charts-manager]
+e74724cce6d7: Preparing
+67a34967985f: Preparing
+b718b5deb761: Preparing
+aeaf845540d4: Preparing
+f97941469767: Preparing
+28bf756b6f8e: Preparing
+4c299e1e70d5: Preparing
+f1b5933fe4b5: Preparing
+f97941469767: Waiting
+28bf756b6f8e: Waiting
+4c299e1e70d5: Waiting
+f1b5933fe4b5: Waiting
+aeaf845540d4: Layer already exists
+67a34967985f: Layer already exists
+b718b5deb761: Layer already exists
+e74724cce6d7: Layer already exists
+f97941469767: Layer already exists
+f1b5933fe4b5: Layer already exists
+4c299e1e70d5: Layer already exists
+28bf756b6f8e: Layer already exists
+1.0.8-cf-onprem-v1.0.73: digest: sha256:b578d6f754b5863e584223246a9b7867e938a459a9a871ed66ae652eac62a707 size: 1996
+Push gcr.io/codefresh-inc/codefresh/charts-manager:1.0.8-cf-onprem-v1.0.73 completed - Mon Oct  7 11:57:35 UTC 2019 !!!
+
+---------- Migrate r.cfcr.io/codefresh-inc/codefresh/charts-manager:cf-onprem-v1.0.72 to gcr.io/codefresh-inc/codefresh/charts-manager:cf-onprem-v1.0.72
+cf-onprem-v1.0.72: Pulling from codefresh-inc/codefresh/charts-manager
+e7c96db7181b: Already exists
+df9eac31dfef: Already exists
+0a20433d95a4: Already exists
+55cfbee7e705: Already exists
+e0b6eaa35ba3: Already exists
+8ec77ed8340f: Already exists
+84d836a9a742: Already exists
+858c0c5dcb4c: Already exists
+Digest: sha256:25d0491f5b29b03ce0bc5e6072ee67e2955615eef0335e67e0b9cabd14c3a93f
+Status: Downloaded newer image for r.cfcr.io/codefresh-inc/codefresh/charts-manager:cf-onprem-v1.0.72
+r.cfcr.io/codefresh-inc/codefresh/charts-manager:cf-onprem-v1.0.72
+Pull r.cfcr.io/codefresh-inc/codefresh/charts-manager:cf-onprem-v1.0.72 completed - Mon Oct  7 11:57:36 UTC 2019 !!!
+
+Tag gcr.io/codefresh-inc/codefresh/charts-manager:cf-onprem-v1.0.72 completed - Mon Oct  7 11:57:36 UTC 2019 !!!
+
+The push refers to repository [gcr.io/codefresh-inc/codefresh/charts-manager]
+e74724cce6d7: Preparing
+67a34967985f: Preparing
+b718b5deb761: Preparing
+aeaf845540d4: Preparing
+f97941469767: Preparing
+28bf756b6f8e: Preparing
+4c299e1e70d5: Preparing
+f1b5933fe4b5: Preparing
+28bf756b6f8e: Waiting
+f97941469767: Waiting
+4c299e1e70d5: Waiting
+f1b5933fe4b5: Waiting
+b718b5deb761: Layer already exists
+aeaf845540d4: Layer already exists
+67a34967985f: Layer already exists
+28bf756b6f8e: Layer already exists
+f97941469767: Layer already exists
+4c299e1e70d5: Layer already exists
+e74724cce6d7: Layer already exists
+f1b5933fe4b5: Layer already exists
+cf-onprem-v1.0.72: digest: sha256:25d0491f5b29b03ce0bc5e6072ee67e2955615eef0335e67e0b9cabd14c3a93f size: 1996
+Push gcr.io/codefresh-inc/codefresh/charts-manager:cf-onprem-v1.0.72 completed - Mon Oct  7 11:57:38 UTC 2019 !!!
+
+---------- Migrate r.cfcr.io/codefresh-inc/codefresh/charts-manager:1.0.8-cf-onprem-v1.0.72 to gcr.io/codefresh-inc/codefresh/charts-manager:1.0.8-cf-onprem-v1.0.72
+1.0.8-cf-onprem-v1.0.72: Pulling from codefresh-inc/codefresh/charts-manager
+Digest: sha256:25d0491f5b29b03ce0bc5e6072ee67e2955615eef0335e67e0b9cabd14c3a93f
+Status: Image is up to date for r.cfcr.io/codefresh-inc/codefresh/charts-manager:1.0.8-cf-onprem-v1.0.72
+r.cfcr.io/codefresh-inc/codefresh/charts-manager:1.0.8-cf-onprem-v1.0.72
+Pull r.cfcr.io/codefresh-inc/codefresh/charts-manager:1.0.8-cf-onprem-v1.0.72 completed - Mon Oct  7 11:57:39 UTC 2019 !!!
+
+Tag gcr.io/codefresh-inc/codefresh/charts-manager:1.0.8-cf-onprem-v1.0.72 completed - Mon Oct  7 11:57:39 UTC 2019 !!!
+
+The push refers to repository [gcr.io/codefresh-inc/codefresh/charts-manager]
+e74724cce6d7: Preparing
+67a34967985f: Preparing
+b718b5deb761: Preparing
+aeaf845540d4: Preparing
+f97941469767: Preparing
+28bf756b6f8e: Preparing
+4c299e1e70d5: Preparing
+f1b5933fe4b5: Preparing
+f97941469767: Waiting
+28bf756b6f8e: Waiting
+4c299e1e70d5: Waiting
+f1b5933fe4b5: Waiting
+e74724cce6d7: Layer already exists
+67a34967985f: Layer already exists
+b718b5deb761: Layer already exists
+aeaf845540d4: Layer already exists
+f97941469767: Layer already exists
+4c299e1e70d5: Layer already exists
+f1b5933fe4b5: Layer already exists
+28bf756b6f8e: Layer already exists
+1.0.8-cf-onprem-v1.0.72: digest: sha256:25d0491f5b29b03ce0bc5e6072ee67e2955615eef0335e67e0b9cabd14c3a93f size: 1996
+Push gcr.io/codefresh-inc/codefresh/charts-manager:1.0.8-cf-onprem-v1.0.72 completed - Mon Oct  7 11:57:40 UTC 2019 !!!
+
+---------- Migrate r.cfcr.io/codefresh-inc/codefresh/charts-manager:cf-onprem-v1.0.71 to gcr.io/codefresh-inc/codefresh/charts-manager:cf-onprem-v1.0.71
+cf-onprem-v1.0.71: Pulling from codefresh-inc/codefresh/charts-manager
+e7c96db7181b: Already exists
+df9eac31dfef: Already exists
+0a20433d95a4: Already exists
+55cfbee7e705: Already exists
+e0b6eaa35ba3: Already exists
+8ec77ed8340f: Already exists
+84d836a9a742: Already exists
+0127bfbcd7a3: Pulling fs layer
+0127bfbcd7a3: Verifying Checksum
+0127bfbcd7a3: Download complete
+0127bfbcd7a3: Pull complete
+Digest: sha256:a4fe07ad60211bf3b4c15fa3a63ff5d2ddefcb00ff619c8720123078cbd09907
+Status: Downloaded newer image for r.cfcr.io/codefresh-inc/codefresh/charts-manager:cf-onprem-v1.0.71
+r.cfcr.io/codefresh-inc/codefresh/charts-manager:cf-onprem-v1.0.71
+Pull r.cfcr.io/codefresh-inc/codefresh/charts-manager:cf-onprem-v1.0.71 completed - Mon Oct  7 11:57:41 UTC 2019 !!!
+
+Tag gcr.io/codefresh-inc/codefresh/charts-manager:cf-onprem-v1.0.71 completed - Mon Oct  7 11:57:41 UTC 2019 !!!
+
+The push refers to repository [gcr.io/codefresh-inc/codefresh/charts-manager]
+36bdc7e330d7: Preparing
+67a34967985f: Preparing
+b718b5deb761: Preparing
+aeaf845540d4: Preparing
+f97941469767: Preparing
+28bf756b6f8e: Preparing
+4c299e1e70d5: Preparing
+f1b5933fe4b5: Preparing
+4c299e1e70d5: Waiting
+28bf756b6f8e: Waiting
+f1b5933fe4b5: Waiting
+aeaf845540d4: Layer already exists
+b718b5deb761: Layer already exists
+67a34967985f: Layer already exists
+28bf756b6f8e: Layer already exists
+f1b5933fe4b5: Layer already exists
+f97941469767: Layer already exists
+4c299e1e70d5: Layer already exists
+36bdc7e330d7: Pushed
+cf-onprem-v1.0.71: digest: sha256:a4fe07ad60211bf3b4c15fa3a63ff5d2ddefcb00ff619c8720123078cbd09907 size: 1996
+Push gcr.io/codefresh-inc/codefresh/charts-manager:cf-onprem-v1.0.71 completed - Mon Oct  7 11:57:44 UTC 2019 !!!
+
+---------- Migrate r.cfcr.io/codefresh-inc/codefresh/charts-manager:1.0.8-cf-onprem-v1.0.71 to gcr.io/codefresh-inc/codefresh/charts-manager:1.0.8-cf-onprem-v1.0.71
+1.0.8-cf-onprem-v1.0.71: Pulling from codefresh-inc/codefresh/charts-manager
+Digest: sha256:a4fe07ad60211bf3b4c15fa3a63ff5d2ddefcb00ff619c8720123078cbd09907
+Status: Image is up to date for r.cfcr.io/codefresh-inc/codefresh/charts-manager:1.0.8-cf-onprem-v1.0.71
+r.cfcr.io/codefresh-inc/codefresh/charts-manager:1.0.8-cf-onprem-v1.0.71
+Pull r.cfcr.io/codefresh-inc/codefresh/charts-manager:1.0.8-cf-onprem-v1.0.71 completed - Mon Oct  7 11:57:45 UTC 2019 !!!
+
+Tag gcr.io/codefresh-inc/codefresh/charts-manager:1.0.8-cf-onprem-v1.0.71 completed - Mon Oct  7 11:57:45 UTC 2019 !!!
+
+The push refers to repository [gcr.io/codefresh-inc/codefresh/charts-manager]
+36bdc7e330d7: Preparing
+67a34967985f: Preparing
+b718b5deb761: Preparing
+aeaf845540d4: Preparing
+f97941469767: Preparing
+28bf756b6f8e: Preparing
+4c299e1e70d5: Preparing
+f1b5933fe4b5: Preparing
+28bf756b6f8e: Waiting
+4c299e1e70d5: Waiting
+f1b5933fe4b5: Waiting
+36bdc7e330d7: Layer already exists
+f97941469767: Layer already exists
+67a34967985f: Layer already exists
+aeaf845540d4: Layer already exists
+b718b5deb761: Layer already exists
+f1b5933fe4b5: Layer already exists
+4c299e1e70d5: Layer already exists
+28bf756b6f8e: Layer already exists
+1.0.8-cf-onprem-v1.0.71: digest: sha256:a4fe07ad60211bf3b4c15fa3a63ff5d2ddefcb00ff619c8720123078cbd09907 size: 1996
+Push gcr.io/codefresh-inc/codefresh/charts-manager:1.0.8-cf-onprem-v1.0.71 completed - Mon Oct  7 11:57:45 UTC 2019 !!!
+
+---------- Migrate r.cfcr.io/codefresh-inc/codefresh/charts-manager:cf-onprem-v1.0.69 to gcr.io/codefresh-inc/codefresh/charts-manager:cf-onprem-v1.0.69
+cf-onprem-v1.0.69: Pulling from codefresh-inc/codefresh/charts-manager
+bdf0201b3a05: Already exists
+7ba7d1b49177: Already exists
+17af28038337: Already exists
+0dc72543d6f8: Already exists
+77a5c22e4712: Pulling fs layer
+eb6af624f454: Pulling fs layer
+e5c16c05cf58: Pulling fs layer
+f52a4c07e2cc: Pulling fs layer
+f52a4c07e2cc: Waiting
+eb6af624f454: Download complete
+e5c16c05cf58: Waiting
+f52a4c07e2cc: Verifying Checksum
+f52a4c07e2cc: Download complete
+77a5c22e4712: Pull complete
+eb6af624f454: Pull complete
+e5c16c05cf58: Verifying Checksum
+e5c16c05cf58: Download complete
+e5c16c05cf58: Pull complete
+f52a4c07e2cc: Pull complete
+Digest: sha256:091d505cb3e097d6cfbe3510baaa1ba0339e448eafafbed8b06afb3756176f31
+Status: Downloaded newer image for r.cfcr.io/codefresh-inc/codefresh/charts-manager:cf-onprem-v1.0.69
+r.cfcr.io/codefresh-inc/codefresh/charts-manager:cf-onprem-v1.0.69
+Pull r.cfcr.io/codefresh-inc/codefresh/charts-manager:cf-onprem-v1.0.69 completed - Mon Oct  7 11:57:54 UTC 2019 !!!
+
+Tag gcr.io/codefresh-inc/codefresh/charts-manager:cf-onprem-v1.0.69 completed - Mon Oct  7 11:57:54 UTC 2019 !!!
+
+The push refers to repository [gcr.io/codefresh-inc/codefresh/charts-manager]
+a11c8fdd3884: Preparing
+468e557369d3: Preparing
+9cc4913c9092: Preparing
+fbb38f747161: Preparing
+eb7cc2050ad4: Preparing
+7beb793ae248: Preparing
+22dfd5a63f2d: Preparing
+a464c54f93a9: Preparing
+7beb793ae248: Waiting
+a464c54f93a9: Waiting
+9cc4913c9092: Retrying in 5 seconds
+a11c8fdd3884: Retrying in 5 seconds
+468e557369d3: Retrying in 5 seconds
+9cc4913c9092: Retrying in 4 seconds
+a11c8fdd3884: Retrying in 4 seconds
+468e557369d3: Retrying in 4 seconds
+fbb38f747161: Pushed
+7beb793ae248: Layer already exists
+eb7cc2050ad4: Pushed
+22dfd5a63f2d: Layer already exists
+a464c54f93a9: Layer already exists
+9cc4913c9092: Retrying in 3 seconds
+a11c8fdd3884: Retrying in 3 seconds
+468e557369d3: Retrying in 3 seconds
+9cc4913c9092: Retrying in 2 seconds
+a11c8fdd3884: Retrying in 2 seconds
+468e557369d3: Retrying in 2 seconds
+9cc4913c9092: Retrying in 1 second
+a11c8fdd3884: Retrying in 1 second
+468e557369d3: Retrying in 1 second
+a11c8fdd3884: Retrying in 10 seconds
+a11c8fdd3884: Retrying in 9 seconds
+9cc4913c9092: Pushed
+a11c8fdd3884: Retrying in 8 seconds
+a11c8fdd3884: Retrying in 7 seconds
+a11c8fdd3884: Retrying in 6 seconds
+a11c8fdd3884: Retrying in 5 seconds
+a11c8fdd3884: Retrying in 4 seconds
+a11c8fdd3884: Retrying in 3 seconds
+a11c8fdd3884: Retrying in 2 seconds
+a11c8fdd3884: Retrying in 1 second
+a11c8fdd3884: Retrying in 15 seconds
+a11c8fdd3884: Retrying in 14 seconds
+468e557369d3: Pushed
+a11c8fdd3884: Retrying in 13 seconds
+a11c8fdd3884: Retrying in 12 seconds
+a11c8fdd3884: Retrying in 11 seconds
+a11c8fdd3884: Retrying in 10 seconds
+a11c8fdd3884: Retrying in 9 seconds
+a11c8fdd3884: Retrying in 8 seconds
+a11c8fdd3884: Retrying in 7 seconds
+a11c8fdd3884: Retrying in 6 seconds
+a11c8fdd3884: Retrying in 5 seconds
+a11c8fdd3884: Retrying in 4 seconds
+a11c8fdd3884: Retrying in 3 seconds
+a11c8fdd3884: Retrying in 2 seconds
+a11c8fdd3884: Retrying in 1 second
+a11c8fdd3884: Pushed
+cf-onprem-v1.0.69: digest: sha256:091d505cb3e097d6cfbe3510baaa1ba0339e448eafafbed8b06afb3756176f31 size: 1996
+Push gcr.io/codefresh-inc/codefresh/charts-manager:cf-onprem-v1.0.69 completed - Mon Oct  7 11:58:28 UTC 2019 !!!
+
+---------- Migrate r.cfcr.io/codefresh-inc/codefresh/charts-manager:1.0.8-cf-onprem-v1.0.69 to gcr.io/codefresh-inc/codefresh/charts-manager:1.0.8-cf-onprem-v1.0.69
+1.0.8-cf-onprem-v1.0.69: Pulling from codefresh-inc/codefresh/charts-manager
+Digest: sha256:091d505cb3e097d6cfbe3510baaa1ba0339e448eafafbed8b06afb3756176f31
+Status: Image is up to date for r.cfcr.io/codefresh-inc/codefresh/charts-manager:1.0.8-cf-onprem-v1.0.69
+r.cfcr.io/codefresh-inc/codefresh/charts-manager:1.0.8-cf-onprem-v1.0.69
+Pull r.cfcr.io/codefresh-inc/codefresh/charts-manager:1.0.8-cf-onprem-v1.0.69 completed - Mon Oct  7 11:58:29 UTC 2019 !!!
+
+Tag gcr.io/codefresh-inc/codefresh/charts-manager:1.0.8-cf-onprem-v1.0.69 completed - Mon Oct  7 11:58:29 UTC 2019 !!!
+
+The push refers to repository [gcr.io/codefresh-inc/codefresh/charts-manager]
+a11c8fdd3884: Preparing
+468e557369d3: Preparing
+9cc4913c9092: Preparing
+fbb38f747161: Preparing
+eb7cc2050ad4: Preparing
+7beb793ae248: Preparing
+22dfd5a63f2d: Preparing
+a464c54f93a9: Preparing
+7beb793ae248: Waiting
+22dfd5a63f2d: Waiting
+a464c54f93a9: Waiting
+eb7cc2050ad4: Layer already exists
+468e557369d3: Layer already exists
+a11c8fdd3884: Layer already exists
+9cc4913c9092: Layer already exists
+fbb38f747161: Layer already exists
+a464c54f93a9: Layer already exists
+7beb793ae248: Layer already exists
+22dfd5a63f2d: Layer already exists
+1.0.8-cf-onprem-v1.0.69: digest: sha256:091d505cb3e097d6cfbe3510baaa1ba0339e448eafafbed8b06afb3756176f31 size: 1996
+Push gcr.io/codefresh-inc/codefresh/charts-manager:1.0.8-cf-onprem-v1.0.69 completed - Mon Oct  7 11:58:30 UTC 2019 !!!
+
+---------- Migrate r.cfcr.io/codefresh-inc/codefresh/charts-manager:1.0.8 to gcr.io/codefresh-inc/codefresh/charts-manager:1.0.8
+1.0.8: Pulling from codefresh-inc/codefresh/charts-manager
+bdf0201b3a05: Already exists
+7ba7d1b49177: Already exists
+17af28038337: Already exists
+0dc72543d6f8: Already exists
+77a5c22e4712: Already exists
+eb6af624f454: Already exists
+e5c16c05cf58: Already exists
+792600829091: Pulling fs layer
+792600829091: Pull complete
+Digest: sha256:b47eb68f07d1c6f6e2a371e775680a45001690d4bf90e12ddacac53e6d8cc8bf
+Status: Downloaded newer image for r.cfcr.io/codefresh-inc/codefresh/charts-manager:1.0.8
+r.cfcr.io/codefresh-inc/codefresh/charts-manager:1.0.8
+Pull r.cfcr.io/codefresh-inc/codefresh/charts-manager:1.0.8 completed - Mon Oct  7 11:58:31 UTC 2019 !!!
+
+Tag gcr.io/codefresh-inc/codefresh/charts-manager:1.0.8 completed - Mon Oct  7 11:58:31 UTC 2019 !!!
+
+The push refers to repository [gcr.io/codefresh-inc/codefresh/charts-manager]
+8aace620ee14: Preparing
+468e557369d3: Preparing
+9cc4913c9092: Preparing
+fbb38f747161: Preparing
+eb7cc2050ad4: Preparing
+7beb793ae248: Preparing
+22dfd5a63f2d: Preparing
+a464c54f93a9: Preparing
+a464c54f93a9: Waiting
+7beb793ae248: Waiting
+22dfd5a63f2d: Waiting
+468e557369d3: Layer already exists
+fbb38f747161: Layer already exists
+9cc4913c9092: Layer already exists
+eb7cc2050ad4: Layer already exists
+7beb793ae248: Layer already exists
+22dfd5a63f2d: Layer already exists
+a464c54f93a9: Layer already exists
+8aace620ee14: Pushed
+1.0.8: digest: sha256:b47eb68f07d1c6f6e2a371e775680a45001690d4bf90e12ddacac53e6d8cc8bf size: 1996
+Push gcr.io/codefresh-inc/codefresh/charts-manager:1.0.8 completed - Mon Oct  7 11:58:35 UTC 2019 !!!
+
+---------- Migrate r.cfcr.io/codefresh-inc/codefresh/charts-manager:fix_public_repo_chart to gcr.io/codefresh-inc/codefresh/charts-manager:fix_public_repo_chart
+fix_public_repo_chart: Pulling from codefresh-inc/codefresh/charts-manager
+Digest: sha256:a8e5a5dab6d771c7fa6862c6b25e07e32bd11c1bf88fbd69f69da65276208e61
+Status: Image is up to date for r.cfcr.io/codefresh-inc/codefresh/charts-manager:fix_public_repo_chart
+r.cfcr.io/codefresh-inc/codefresh/charts-manager:fix_public_repo_chart
+Pull r.cfcr.io/codefresh-inc/codefresh/charts-manager:fix_public_repo_chart completed - Mon Oct  7 11:58:35 UTC 2019 !!!
+
+Tag gcr.io/codefresh-inc/codefresh/charts-manager:fix_public_repo_chart completed - Mon Oct  7 11:58:36 UTC 2019 !!!
+
+The push refers to repository [gcr.io/codefresh-inc/codefresh/charts-manager]
+8aace620ee14: Preparing
+468e557369d3: Preparing
+9cc4913c9092: Preparing
+fbb38f747161: Preparing
+eb7cc2050ad4: Preparing
+7beb793ae248: Preparing
+22dfd5a63f2d: Preparing
+a464c54f93a9: Preparing
+a464c54f93a9: Waiting
+7beb793ae248: Waiting
+22dfd5a63f2d: Waiting
+eb7cc2050ad4: Layer already exists
+fbb38f747161: Layer already exists
+468e557369d3: Layer already exists
+8aace620ee14: Layer already exists
+9cc4913c9092: Layer already exists
+22dfd5a63f2d: Layer already exists
+a464c54f93a9: Layer already exists
+7beb793ae248: Layer already exists
+fix_public_repo_chart: digest: sha256:a8e5a5dab6d771c7fa6862c6b25e07e32bd11c1bf88fbd69f69da65276208e61 size: 1996
+Push gcr.io/codefresh-inc/codefresh/charts-manager:fix_public_repo_chart completed - Mon Oct  7 11:58:37 UTC 2019 !!!
+
+---------- Migrate r.cfcr.io/codefresh-inc/codefresh/charts-manager:1.0.8-fix-public-repo-chart to gcr.io/codefresh-inc/codefresh/charts-manager:1.0.8-fix-public-repo-chart
+1.0.8-fix-public-repo-chart: Pulling from codefresh-inc/codefresh/charts-manager
+Digest: sha256:a8e5a5dab6d771c7fa6862c6b25e07e32bd11c1bf88fbd69f69da65276208e61
+Status: Image is up to date for r.cfcr.io/codefresh-inc/codefresh/charts-manager:1.0.8-fix-public-repo-chart
+r.cfcr.io/codefresh-inc/codefresh/charts-manager:1.0.8-fix-public-repo-chart
+Pull r.cfcr.io/codefresh-inc/codefresh/charts-manager:1.0.8-fix-public-repo-chart completed - Mon Oct  7 11:58:38 UTC 2019 !!!
+
+Tag gcr.io/codefresh-inc/codefresh/charts-manager:1.0.8-fix-public-repo-chart completed - Mon Oct  7 11:58:38 UTC 2019 !!!
+
+The push refers to repository [gcr.io/codefresh-inc/codefresh/charts-manager]
+8aace620ee14: Preparing
+468e557369d3: Preparing
+9cc4913c9092: Preparing
+fbb38f747161: Preparing
+eb7cc2050ad4: Preparing
+7beb793ae248: Preparing
+22dfd5a63f2d: Preparing
+a464c54f93a9: Preparing
+a464c54f93a9: Waiting
+7beb793ae248: Waiting
+22dfd5a63f2d: Waiting
+9cc4913c9092: Layer already exists
+468e557369d3: Layer already exists
+fbb38f747161: Layer already exists
+eb7cc2050ad4: Layer already exists
+8aace620ee14: Layer already exists
+22dfd5a63f2d: Layer already exists
+a464c54f93a9: Layer already exists
+7beb793ae248: Layer already exists
+1.0.8-fix-public-repo-chart: digest: sha256:a8e5a5dab6d771c7fa6862c6b25e07e32bd11c1bf88fbd69f69da65276208e61 size: 1996
+Push gcr.io/codefresh-inc/codefresh/charts-manager:1.0.8-fix-public-repo-chart completed - Mon Oct  7 11:58:39 UTC 2019 !!!
+
+---------- Migrate r.cfcr.io/codefresh-inc/codefresh/charts-manager:1.0.7-fix-public-repo-chart to gcr.io/codefresh-inc/codefresh/charts-manager:1.0.7-fix-public-repo-chart
+1.0.7-fix-public-repo-chart: Pulling from codefresh-inc/codefresh/charts-manager
+bdf0201b3a05: Already exists
+7ba7d1b49177: Already exists
+17af28038337: Already exists
+0dc72543d6f8: Already exists
+77a5c22e4712: Already exists
+eb6af624f454: Already exists
+e5c16c05cf58: Already exists
+f4b49b696f4e: Pulling fs layer
+f4b49b696f4e: Verifying Checksum
+f4b49b696f4e: Download complete
+f4b49b696f4e: Pull complete
+Digest: sha256:c9567ba5c3961312d20b6c3b2ad589a4fc7dd37f7e203a288d7ec15a919441d9
+Status: Downloaded newer image for r.cfcr.io/codefresh-inc/codefresh/charts-manager:1.0.7-fix-public-repo-chart
+r.cfcr.io/codefresh-inc/codefresh/charts-manager:1.0.7-fix-public-repo-chart
+Pull r.cfcr.io/codefresh-inc/codefresh/charts-manager:1.0.7-fix-public-repo-chart completed - Mon Oct  7 11:58:40 UTC 2019 !!!
+
+Tag gcr.io/codefresh-inc/codefresh/charts-manager:1.0.7-fix-public-repo-chart completed - Mon Oct  7 11:58:40 UTC 2019 !!!
+
+The push refers to repository [gcr.io/codefresh-inc/codefresh/charts-manager]
+44b98b814c28: Preparing
+468e557369d3: Preparing
+9cc4913c9092: Preparing
+fbb38f747161: Preparing
+eb7cc2050ad4: Preparing
+7beb793ae248: Preparing
+22dfd5a63f2d: Preparing
+a464c54f93a9: Preparing
+a464c54f93a9: Waiting
+44b98b814c28: Waiting
+468e557369d3: Waiting
+9cc4913c9092: Waiting
+fbb38f747161: Waiting
+eb7cc2050ad4: Waiting
+7beb793ae248: Waiting
+22dfd5a63f2d: Waiting
+468e557369d3: Layer already exists
+9cc4913c9092: Layer already exists
+fbb38f747161: Layer already exists
+eb7cc2050ad4: Layer already exists
+7beb793ae248: Layer already exists
+22dfd5a63f2d: Layer already exists
+a464c54f93a9: Layer already exists
+44b98b814c28: Pushed
+1.0.7-fix-public-repo-chart: digest: sha256:c9567ba5c3961312d20b6c3b2ad589a4fc7dd37f7e203a288d7ec15a919441d9 size: 1996
+Push gcr.io/codefresh-inc/codefresh/charts-manager:1.0.7-fix-public-repo-chart completed - Mon Oct  7 11:58:45 UTC 2019 !!!
+
+---------- Migrate r.cfcr.io/codefresh-inc/codefresh/charts-manager:1.0.7-cf-onprem-v1.0.69 to gcr.io/codefresh-inc/codefresh/charts-manager:1.0.7-cf-onprem-v1.0.69
+1.0.7-cf-onprem-v1.0.69: Pulling from codefresh-inc/codefresh/charts-manager
+bdf0201b3a05: Already exists
+7ba7d1b49177: Already exists
+17af28038337: Already exists
+0dc72543d6f8: Already exists
+77a5c22e4712: Already exists
+eb6af624f454: Already exists
+e5c16c05cf58: Already exists
+16fd3ab95ae3: Pulling fs layer
+16fd3ab95ae3: Pull complete
+Digest: sha256:7786650b515e11846e3bb21f4c41d7f4816087998c1e9042100552569d12d264
+Status: Downloaded newer image for r.cfcr.io/codefresh-inc/codefresh/charts-manager:1.0.7-cf-onprem-v1.0.69
+r.cfcr.io/codefresh-inc/codefresh/charts-manager:1.0.7-cf-onprem-v1.0.69
+Pull r.cfcr.io/codefresh-inc/codefresh/charts-manager:1.0.7-cf-onprem-v1.0.69 completed - Mon Oct  7 11:58:46 UTC 2019 !!!
+
+Tag gcr.io/codefresh-inc/codefresh/charts-manager:1.0.7-cf-onprem-v1.0.69 completed - Mon Oct  7 11:58:46 UTC 2019 !!!
+
+The push refers to repository [gcr.io/codefresh-inc/codefresh/charts-manager]
+6388c38fe316: Preparing
+468e557369d3: Preparing
+9cc4913c9092: Preparing
+fbb38f747161: Preparing
+eb7cc2050ad4: Preparing
+7beb793ae248: Preparing
+22dfd5a63f2d: Preparing
+a464c54f93a9: Preparing
+a464c54f93a9: Waiting
+fbb38f747161: Waiting
+eb7cc2050ad4: Waiting
+7beb793ae248: Waiting
+22dfd5a63f2d: Waiting
+468e557369d3: Layer already exists
+9cc4913c9092: Layer already exists
+eb7cc2050ad4: Layer already exists
+fbb38f747161: Layer already exists
+7beb793ae248: Layer already exists
+22dfd5a63f2d: Layer already exists
+a464c54f93a9: Layer already exists
+6388c38fe316: Pushed
+1.0.7-cf-onprem-v1.0.69: digest: sha256:7786650b515e11846e3bb21f4c41d7f4816087998c1e9042100552569d12d264 size: 1996
+Push gcr.io/codefresh-inc/codefresh/charts-manager:1.0.7-cf-onprem-v1.0.69 completed - Mon Oct  7 11:58:49 UTC 2019 !!!
+
+---------- Migrate r.cfcr.io/codefresh-inc/codefresh/charts-manager:public_chart_template to gcr.io/codefresh-inc/codefresh/charts-manager:public_chart_template
+public_chart_template: Pulling from codefresh-inc/codefresh/charts-manager
+bdf0201b3a05: Already exists
+7ba7d1b49177: Already exists
+17af28038337: Already exists
+0dc72543d6f8: Already exists
+77a5c22e4712: Already exists
+eb6af624f454: Already exists
+e5c16c05cf58: Already exists
+fa04c6c72731: Pulling fs layer
+fa04c6c72731: Verifying Checksum
+fa04c6c72731: Download complete
+fa04c6c72731: Pull complete
+Digest: sha256:2e32d3d1be855fffa4189d42833e841e6ee6d3f9eede94eda52f8e4e504c7801
+Status: Image is up to date for r.cfcr.io/codefresh-inc/codefresh/charts-manager:public_chart_template
+r.cfcr.io/codefresh-inc/codefresh/charts-manager:public_chart_template
+Pull r.cfcr.io/codefresh-inc/codefresh/charts-manager:public_chart_template completed - Mon Oct  7 11:58:50 UTC 2019 !!!
+
+Tag gcr.io/codefresh-inc/codefresh/charts-manager:public_chart_template completed - Mon Oct  7 11:58:50 UTC 2019 !!!
+
+The push refers to repository [gcr.io/codefresh-inc/codefresh/charts-manager]
+561a74b84b04: Preparing
+468e557369d3: Preparing
+9cc4913c9092: Preparing
+fbb38f747161: Preparing
+eb7cc2050ad4: Preparing
+7beb793ae248: Preparing
+22dfd5a63f2d: Preparing
+a464c54f93a9: Preparing
+fbb38f747161: Waiting
+eb7cc2050ad4: Waiting
+7beb793ae248: Waiting
+22dfd5a63f2d: Waiting
+a464c54f93a9: Waiting
+9cc4913c9092: Layer already exists
+468e557369d3: Layer already exists
+fbb38f747161: Layer already exists
+eb7cc2050ad4: Layer already exists
+7beb793ae248: Layer already exists
+22dfd5a63f2d: Layer already exists
+a464c54f93a9: Layer already exists
+561a74b84b04: Pushed
+public_chart_template: digest: sha256:2e32d3d1be855fffa4189d42833e841e6ee6d3f9eede94eda52f8e4e504c7801 size: 1996
+Push gcr.io/codefresh-inc/codefresh/charts-manager:public_chart_template completed - Mon Oct  7 11:58:53 UTC 2019 !!!
+
+---------- Migrate r.cfcr.io/codefresh-inc/codefresh/charts-manager:1.0.7-public-chart-template to gcr.io/codefresh-inc/codefresh/charts-manager:1.0.7-public-chart-template
+1.0.7-public-chart-template: Pulling from codefresh-inc/codefresh/charts-manager
+Digest: sha256:2e32d3d1be855fffa4189d42833e841e6ee6d3f9eede94eda52f8e4e504c7801
+Status: Downloaded newer image for r.cfcr.io/codefresh-inc/codefresh/charts-manager:1.0.7-public-chart-template
+r.cfcr.io/codefresh-inc/codefresh/charts-manager:1.0.7-public-chart-template
+Pull r.cfcr.io/codefresh-inc/codefresh/charts-manager:1.0.7-public-chart-template completed - Mon Oct  7 11:58:54 UTC 2019 !!!
+
+Tag gcr.io/codefresh-inc/codefresh/charts-manager:1.0.7-public-chart-template completed - Mon Oct  7 11:58:54 UTC 2019 !!!
+
+The push refers to repository [gcr.io/codefresh-inc/codefresh/charts-manager]
+561a74b84b04: Preparing
+468e557369d3: Preparing
+9cc4913c9092: Preparing
+fbb38f747161: Preparing
+eb7cc2050ad4: Preparing
+7beb793ae248: Preparing
+22dfd5a63f2d: Preparing
+a464c54f93a9: Preparing
+fbb38f747161: Waiting
+eb7cc2050ad4: Waiting
+7beb793ae248: Waiting
+22dfd5a63f2d: Waiting
+a464c54f93a9: Waiting
+468e557369d3: Layer already exists
+9cc4913c9092: Layer already exists
+561a74b84b04: Layer already exists
+fbb38f747161: Layer already exists
+eb7cc2050ad4: Layer already exists
+7beb793ae248: Layer already exists
+22dfd5a63f2d: Layer already exists
+a464c54f93a9: Layer already exists
+1.0.7-public-chart-template: digest: sha256:2e32d3d1be855fffa4189d42833e841e6ee6d3f9eede94eda52f8e4e504c7801 size: 1996
+Push gcr.io/codefresh-inc/codefresh/charts-manager:1.0.7-public-chart-template completed - Mon Oct  7 11:58:55 UTC 2019 !!!
+
+---------- Migrate r.cfcr.io/codefresh-inc/codefresh/charts-manager:1.0.7 to gcr.io/codefresh-inc/codefresh/charts-manager:1.0.7
+1.0.7: Pulling from codefresh-inc/codefresh/charts-manager
+Digest: sha256:2e32d3d1be855fffa4189d42833e841e6ee6d3f9eede94eda52f8e4e504c7801
+Status: Image is up to date for r.cfcr.io/codefresh-inc/codefresh/charts-manager:1.0.7
+r.cfcr.io/codefresh-inc/codefresh/charts-manager:1.0.7
+Pull r.cfcr.io/codefresh-inc/codefresh/charts-manager:1.0.7 completed - Mon Oct  7 11:58:56 UTC 2019 !!!
+
+Tag gcr.io/codefresh-inc/codefresh/charts-manager:1.0.7 completed - Mon Oct  7 11:58:56 UTC 2019 !!!
+
+The push refers to repository [gcr.io/codefresh-inc/codefresh/charts-manager]
+561a74b84b04: Preparing
+468e557369d3: Preparing
+9cc4913c9092: Preparing
+fbb38f747161: Preparing
+eb7cc2050ad4: Preparing
+7beb793ae248: Preparing
+22dfd5a63f2d: Preparing
+a464c54f93a9: Preparing
+fbb38f747161: Waiting
+eb7cc2050ad4: Waiting
+7beb793ae248: Waiting
+22dfd5a63f2d: Waiting
+a464c54f93a9: Waiting
+9cc4913c9092: Layer already exists
+468e557369d3: Layer already exists
+fbb38f747161: Layer already exists
+eb7cc2050ad4: Layer already exists
+561a74b84b04: Layer already exists
+22dfd5a63f2d: Layer already exists
+7beb793ae248: Layer already exists
+a464c54f93a9: Layer already exists
+1.0.7: digest: sha256:2e32d3d1be855fffa4189d42833e841e6ee6d3f9eede94eda52f8e4e504c7801 size: 1996
+Push gcr.io/codefresh-inc/codefresh/charts-manager:1.0.7 completed - Mon Oct  7 11:58:56 UTC 2019 !!!
+
+---------- Migrate r.cfcr.io/codefresh-inc/codefresh/charts-manager:1.0.6-public-chart-template to gcr.io/codefresh-inc/codefresh/charts-manager:1.0.6-public-chart-template
+1.0.6-public-chart-template: Pulling from codefresh-inc/codefresh/charts-manager
+Digest: sha256:eaa2b59888250bb13e5854b0d83b0621d0016ece9499a0632fb1aeffc93002f4
+Status: Image is up to date for r.cfcr.io/codefresh-inc/codefresh/charts-manager:1.0.6-public-chart-template
+r.cfcr.io/codefresh-inc/codefresh/charts-manager:1.0.6-public-chart-template
+Pull r.cfcr.io/codefresh-inc/codefresh/charts-manager:1.0.6-public-chart-template completed - Mon Oct  7 11:58:57 UTC 2019 !!!
+
+Tag gcr.io/codefresh-inc/codefresh/charts-manager:1.0.6-public-chart-template completed - Mon Oct  7 11:58:57 UTC 2019 !!!
+
+The push refers to repository [gcr.io/codefresh-inc/codefresh/charts-manager]
+f985fe47694c: Preparing
+468e557369d3: Preparing
+9cc4913c9092: Preparing
+fbb38f747161: Preparing
+eb7cc2050ad4: Preparing
+7beb793ae248: Preparing
+22dfd5a63f2d: Preparing
+a464c54f93a9: Preparing
+a464c54f93a9: Waiting
+468e557369d3: Waiting
+9cc4913c9092: Waiting
+fbb38f747161: Waiting
+eb7cc2050ad4: Waiting
+7beb793ae248: Waiting
+22dfd5a63f2d: Waiting
+22dfd5a63f2d: Layer already exists
+a464c54f93a9: Layer already exists
+9cc4913c9092: Layer already exists
+468e557369d3: Layer already exists
+fbb38f747161: Layer already exists
+eb7cc2050ad4: Layer already exists
+7beb793ae248: Layer already exists
+f985fe47694c: Pushed
+1.0.6-public-chart-template: digest: sha256:eaa2b59888250bb13e5854b0d83b0621d0016ece9499a0632fb1aeffc93002f4 size: 1996
+Push gcr.io/codefresh-inc/codefresh/charts-manager:1.0.6-public-chart-template completed - Mon Oct  7 11:59:00 UTC 2019 !!!
+
+---------- Migrate r.cfcr.io/codefresh-inc/codefresh/charts-manager:saas-2600_disable_public_repos to gcr.io/codefresh-inc/codefresh/charts-manager:saas-2600_disable_public_repos
+saas-2600_disable_public_repos: Pulling from codefresh-inc/codefresh/charts-manager
+bdf0201b3a05: Already exists
+7ba7d1b49177: Already exists
+17af28038337: Already exists
+0dc72543d6f8: Already exists
+77a5c22e4712: Already exists
+eb6af624f454: Already exists
+e5c16c05cf58: Already exists
+7706590a52a4: Pulling fs layer
+7706590a52a4: Verifying Checksum
+7706590a52a4: Download complete
+7706590a52a4: Pull complete
+Digest: sha256:b0b38f057067ec4bc6f4ce8d3ce4bae70a0d9e31e7be24481b862a0fd8c34990
+Status: Downloaded newer image for r.cfcr.io/codefresh-inc/codefresh/charts-manager:saas-2600_disable_public_repos
+r.cfcr.io/codefresh-inc/codefresh/charts-manager:saas-2600_disable_public_repos
+Pull r.cfcr.io/codefresh-inc/codefresh/charts-manager:saas-2600_disable_public_repos completed - Mon Oct  7 11:59:01 UTC 2019 !!!
+
+Tag gcr.io/codefresh-inc/codefresh/charts-manager:saas-2600_disable_public_repos completed - Mon Oct  7 11:59:01 UTC 2019 !!!
+
+The push refers to repository [gcr.io/codefresh-inc/codefresh/charts-manager]
+8956a87ce9c0: Preparing
+468e557369d3: Preparing
+9cc4913c9092: Preparing
+fbb38f747161: Preparing
+eb7cc2050ad4: Preparing
+7beb793ae248: Preparing
+22dfd5a63f2d: Preparing
+a464c54f93a9: Preparing
+fbb38f747161: Waiting
+eb7cc2050ad4: Waiting
+7beb793ae248: Waiting
+22dfd5a63f2d: Waiting
+a464c54f93a9: Waiting
+9cc4913c9092: Layer already exists
+468e557369d3: Layer already exists
+fbb38f747161: Layer already exists
+eb7cc2050ad4: Layer already exists
+7beb793ae248: Layer already exists
+22dfd5a63f2d: Layer already exists
+a464c54f93a9: Layer already exists
+8956a87ce9c0: Pushed
+saas-2600_disable_public_repos: digest: sha256:92b62401987f7ad9a20cec979881bd79731bf102da9c9d263c482470b45287ce size: 1996
+Push gcr.io/codefresh-inc/codefresh/charts-manager:saas-2600_disable_public_repos completed - Mon Oct  7 11:59:04 UTC 2019 !!!
+
+---------- Migrate r.cfcr.io/codefresh-inc/codefresh/charts-manager:SAAS-2600_disable_public_repos to gcr.io/codefresh-inc/codefresh/charts-manager:SAAS-2600_disable_public_repos
+SAAS-2600_disable_public_repos: Pulling from codefresh-inc/codefresh/charts-manager
+Digest: sha256:92b62401987f7ad9a20cec979881bd79731bf102da9c9d263c482470b45287ce
+Status: Image is up to date for r.cfcr.io/codefresh-inc/codefresh/charts-manager:SAAS-2600_disable_public_repos
+r.cfcr.io/codefresh-inc/codefresh/charts-manager:SAAS-2600_disable_public_repos
+Pull r.cfcr.io/codefresh-inc/codefresh/charts-manager:SAAS-2600_disable_public_repos completed - Mon Oct  7 11:59:05 UTC 2019 !!!
+
+Tag gcr.io/codefresh-inc/codefresh/charts-manager:SAAS-2600_disable_public_repos completed - Mon Oct  7 11:59:05 UTC 2019 !!!
+
+The push refers to repository [gcr.io/codefresh-inc/codefresh/charts-manager]
+8956a87ce9c0: Preparing
+468e557369d3: Preparing
+9cc4913c9092: Preparing
+fbb38f747161: Preparing
+eb7cc2050ad4: Preparing
+7beb793ae248: Preparing
+22dfd5a63f2d: Preparing
+a464c54f93a9: Preparing
+a464c54f93a9: Waiting
+fbb38f747161: Waiting
+eb7cc2050ad4: Waiting
+7beb793ae248: Waiting
+22dfd5a63f2d: Waiting
+8956a87ce9c0: Layer already exists
+468e557369d3: Layer already exists
+9cc4913c9092: Layer already exists
+7beb793ae248: Layer already exists
+eb7cc2050ad4: Layer already exists
+fbb38f747161: Layer already exists
+22dfd5a63f2d: Layer already exists
+a464c54f93a9: Layer already exists
+SAAS-2600_disable_public_repos: digest: sha256:92b62401987f7ad9a20cec979881bd79731bf102da9c9d263c482470b45287ce size: 1996
+Push gcr.io/codefresh-inc/codefresh/charts-manager:SAAS-2600_disable_public_repos completed - Mon Oct  7 11:59:06 UTC 2019 !!!
+
+---------- Migrate r.cfcr.io/codefresh-inc/codefresh/charts-manager:1.0.6-saas-2600-disable-public-repos to gcr.io/codefresh-inc/codefresh/charts-manager:1.0.6-saas-2600-disable-public-repos
+1.0.6-saas-2600-disable-public-repos: Pulling from codefresh-inc/codefresh/charts-manager
+Digest: sha256:92b62401987f7ad9a20cec979881bd79731bf102da9c9d263c482470b45287ce
+Status: Image is up to date for r.cfcr.io/codefresh-inc/codefresh/charts-manager:1.0.6-saas-2600-disable-public-repos
+r.cfcr.io/codefresh-inc/codefresh/charts-manager:1.0.6-saas-2600-disable-public-repos
+Pull r.cfcr.io/codefresh-inc/codefresh/charts-manager:1.0.6-saas-2600-disable-public-repos completed - Mon Oct  7 11:59:06 UTC 2019 !!!
+
+Tag gcr.io/codefresh-inc/codefresh/charts-manager:1.0.6-saas-2600-disable-public-repos completed - Mon Oct  7 11:59:07 UTC 2019 !!!
+
+The push refers to repository [gcr.io/codefresh-inc/codefresh/charts-manager]
+8956a87ce9c0: Preparing
+468e557369d3: Preparing
+9cc4913c9092: Preparing
+fbb38f747161: Preparing
+eb7cc2050ad4: Preparing
+7beb793ae248: Preparing
+22dfd5a63f2d: Preparing
+a464c54f93a9: Preparing
+a464c54f93a9: Waiting
+fbb38f747161: Waiting
+eb7cc2050ad4: Waiting
+7beb793ae248: Waiting
+22dfd5a63f2d: Waiting
+9cc4913c9092: Layer already exists
+468e557369d3: Layer already exists
+8956a87ce9c0: Layer already exists
+eb7cc2050ad4: Layer already exists
+7beb793ae248: Layer already exists
+fbb38f747161: Layer already exists
+a464c54f93a9: Layer already exists
+22dfd5a63f2d: Layer already exists
+1.0.6-saas-2600-disable-public-repos: digest: sha256:92b62401987f7ad9a20cec979881bd79731bf102da9c9d263c482470b45287ce size: 1996
+Push gcr.io/codefresh-inc/codefresh/charts-manager:1.0.6-saas-2600-disable-public-repos completed - Mon Oct  7 11:59:07 UTC 2019 !!!
+
+---------- Migrate r.cfcr.io/codefresh-inc/codefresh/charts-manager:1.0.6 to gcr.io/codefresh-inc/codefresh/charts-manager:1.0.6
+1.0.6: Pulling from codefresh-inc/codefresh/charts-manager
+Digest: sha256:92b62401987f7ad9a20cec979881bd79731bf102da9c9d263c482470b45287ce
+Status: Downloaded newer image for r.cfcr.io/codefresh-inc/codefresh/charts-manager:1.0.6
+r.cfcr.io/codefresh-inc/codefresh/charts-manager:1.0.6
+Pull r.cfcr.io/codefresh-inc/codefresh/charts-manager:1.0.6 completed - Mon Oct  7 11:59:08 UTC 2019 !!!
+
+Tag gcr.io/codefresh-inc/codefresh/charts-manager:1.0.6 completed - Mon Oct  7 11:59:08 UTC 2019 !!!
+
+The push refers to repository [gcr.io/codefresh-inc/codefresh/charts-manager]
+8956a87ce9c0: Preparing
+468e557369d3: Preparing
+9cc4913c9092: Preparing
+fbb38f747161: Preparing
+eb7cc2050ad4: Preparing
+7beb793ae248: Preparing
+22dfd5a63f2d: Preparing
+a464c54f93a9: Preparing
+fbb38f747161: Waiting
+eb7cc2050ad4: Waiting
+7beb793ae248: Waiting
+22dfd5a63f2d: Waiting
+a464c54f93a9: Waiting
+9cc4913c9092: Layer already exists
+468e557369d3: Layer already exists
+8956a87ce9c0: Layer already exists
+fbb38f747161: Layer already exists
+eb7cc2050ad4: Layer already exists
+7beb793ae248: Layer already exists
+22dfd5a63f2d: Layer already exists
+a464c54f93a9: Layer already exists
+1.0.6: digest: sha256:92b62401987f7ad9a20cec979881bd79731bf102da9c9d263c482470b45287ce size: 1996
+Push gcr.io/codefresh-inc/codefresh/charts-manager:1.0.6 completed - Mon Oct  7 11:59:09 UTC 2019 !!!
+
+---------- Migrate r.cfcr.io/codefresh-inc/codefresh/charts-manager:1.0.5-saas-2600-disable-public-repos to gcr.io/codefresh-inc/codefresh/charts-manager:1.0.5-saas-2600-disable-public-repos
+1.0.5-saas-2600-disable-public-repos: Pulling from codefresh-inc/codefresh/charts-manager
+bdf0201b3a05: Already exists
+7ba7d1b49177: Already exists
+17af28038337: Already exists
+0dc72543d6f8: Already exists
+77a5c22e4712: Already exists
+eb6af624f454: Already exists
+e5c16c05cf58: Already exists
+73bfdc114de4: Pulling fs layer
+73bfdc114de4: Verifying Checksum
+73bfdc114de4: Download complete
+73bfdc114de4: Pull complete
+Digest: sha256:0a8b35111940d4ab138b8a6aa5ed03decf9ee206704f4b44fc39f7197f9a2b44
+Status: Downloaded newer image for r.cfcr.io/codefresh-inc/codefresh/charts-manager:1.0.5-saas-2600-disable-public-repos
+r.cfcr.io/codefresh-inc/codefresh/charts-manager:1.0.5-saas-2600-disable-public-repos
+Pull r.cfcr.io/codefresh-inc/codefresh/charts-manager:1.0.5-saas-2600-disable-public-repos completed - Mon Oct  7 11:59:10 UTC 2019 !!!
+
+Tag gcr.io/codefresh-inc/codefresh/charts-manager:1.0.5-saas-2600-disable-public-repos completed - Mon Oct  7 11:59:10 UTC 2019 !!!
+
+The push refers to repository [gcr.io/codefresh-inc/codefresh/charts-manager]
+3ea96a17c87e: Preparing
+468e557369d3: Preparing
+9cc4913c9092: Preparing
+fbb38f747161: Preparing
+eb7cc2050ad4: Preparing
+7beb793ae248: Preparing
+22dfd5a63f2d: Preparing
+a464c54f93a9: Preparing
+fbb38f747161: Waiting
+eb7cc2050ad4: Waiting
+7beb793ae248: Waiting
+22dfd5a63f2d: Waiting
+a464c54f93a9: Waiting
+468e557369d3: Layer already exists
+9cc4913c9092: Layer already exists
+fbb38f747161: Layer already exists
+eb7cc2050ad4: Layer already exists
+7beb793ae248: Layer already exists
+22dfd5a63f2d: Layer already exists
+a464c54f93a9: Layer already exists
+3ea96a17c87e: Pushed
+1.0.5-saas-2600-disable-public-repos: digest: sha256:0a8b35111940d4ab138b8a6aa5ed03decf9ee206704f4b44fc39f7197f9a2b44 size: 1996
+Push gcr.io/codefresh-inc/codefresh/charts-manager:1.0.5-saas-2600-disable-public-repos completed - Mon Oct  7 11:59:13 UTC 2019 !!!
+
+---------- Migrate r.cfcr.io/codefresh-inc/codefresh/charts-manager:1.0.5-cf-onprem-v1.0.69 to gcr.io/codefresh-inc/codefresh/charts-manager:1.0.5-cf-onprem-v1.0.69
+1.0.5-cf-onprem-v1.0.69: Pulling from codefresh-inc/codefresh/charts-manager
+bdf0201b3a05: Already exists
+7ba7d1b49177: Already exists
+17af28038337: Already exists
+0dc72543d6f8: Already exists
+77a5c22e4712: Already exists
+eb6af624f454: Already exists
+e5c16c05cf58: Already exists
+07a23cb30c58: Pulling fs layer
+07a23cb30c58: Verifying Checksum
+07a23cb30c58: Download complete
+07a23cb30c58: Pull complete
+Digest: sha256:9ee39af2b4dcadd2c24a0ad664986a683df11dee09125839d6cced59f280ea26
+Status: Downloaded newer image for r.cfcr.io/codefresh-inc/codefresh/charts-manager:1.0.5-cf-onprem-v1.0.69
+r.cfcr.io/codefresh-inc/codefresh/charts-manager:1.0.5-cf-onprem-v1.0.69
+Pull r.cfcr.io/codefresh-inc/codefresh/charts-manager:1.0.5-cf-onprem-v1.0.69 completed - Mon Oct  7 11:59:14 UTC 2019 !!!
+
+Tag gcr.io/codefresh-inc/codefresh/charts-manager:1.0.5-cf-onprem-v1.0.69 completed - Mon Oct  7 11:59:14 UTC 2019 !!!
+
+The push refers to repository [gcr.io/codefresh-inc/codefresh/charts-manager]
+03ca4e1fc508: Preparing
+468e557369d3: Preparing
+9cc4913c9092: Preparing
+fbb38f747161: Preparing
+eb7cc2050ad4: Preparing
+7beb793ae248: Preparing
+22dfd5a63f2d: Preparing
+a464c54f93a9: Preparing
+a464c54f93a9: Waiting
+eb7cc2050ad4: Waiting
+7beb793ae248: Waiting
+22dfd5a63f2d: Waiting
+fbb38f747161: Layer already exists
+9cc4913c9092: Layer already exists
+468e557369d3: Layer already exists
+eb7cc2050ad4: Layer already exists
+7beb793ae248: Layer already exists
+22dfd5a63f2d: Layer already exists
+a464c54f93a9: Layer already exists
+03ca4e1fc508: Pushed
+1.0.5-cf-onprem-v1.0.69: digest: sha256:9ee39af2b4dcadd2c24a0ad664986a683df11dee09125839d6cced59f280ea26 size: 1996
+Push gcr.io/codefresh-inc/codefresh/charts-manager:1.0.5-cf-onprem-v1.0.69 completed - Mon Oct  7 11:59:18 UTC 2019 !!!
+
+---------- Migrate r.cfcr.io/codefresh-inc/codefresh/charts-manager:cf-onprem-v1.0.67 to gcr.io/codefresh-inc/codefresh/charts-manager:cf-onprem-v1.0.67
+cf-onprem-v1.0.67: Pulling from codefresh-inc/codefresh/charts-manager
+Digest: sha256:2fa8a65b7019020ed25a01e75349cec179892310ec8114cdb2837ac7a2103848
+Status: Image is up to date for r.cfcr.io/codefresh-inc/codefresh/charts-manager:cf-onprem-v1.0.67
+r.cfcr.io/codefresh-inc/codefresh/charts-manager:cf-onprem-v1.0.67
+Pull r.cfcr.io/codefresh-inc/codefresh/charts-manager:cf-onprem-v1.0.67 completed - Mon Oct  7 11:59:18 UTC 2019 !!!
+
+Tag gcr.io/codefresh-inc/codefresh/charts-manager:cf-onprem-v1.0.67 completed - Mon Oct  7 11:59:18 UTC 2019 !!!
+
+The push refers to repository [gcr.io/codefresh-inc/codefresh/charts-manager]
+03ca4e1fc508: Preparing
+468e557369d3: Preparing
+9cc4913c9092: Preparing
+fbb38f747161: Preparing
+eb7cc2050ad4: Preparing
+7beb793ae248: Preparing
+22dfd5a63f2d: Preparing
+a464c54f93a9: Preparing
+a464c54f93a9: Waiting
+fbb38f747161: Waiting
+03ca4e1fc508: Waiting
+468e557369d3: Waiting
+eb7cc2050ad4: Waiting
+9cc4913c9092: Waiting
+22dfd5a63f2d: Waiting
+7beb793ae248: Waiting
+eb7cc2050ad4: Layer already exists
+7beb793ae248: Layer already exists
+a464c54f93a9: Layer already exists
+22dfd5a63f2d: Layer already exists
+468e557369d3: Layer already exists
+fbb38f747161: Layer already exists
+03ca4e1fc508: Layer already exists
+9cc4913c9092: Layer already exists
+cf-onprem-v1.0.67: digest: sha256:2fa8a65b7019020ed25a01e75349cec179892310ec8114cdb2837ac7a2103848 size: 1996
+Push gcr.io/codefresh-inc/codefresh/charts-manager:cf-onprem-v1.0.67 completed - Mon Oct  7 11:59:20 UTC 2019 !!!
+
+---------- Migrate r.cfcr.io/codefresh-inc/codefresh/charts-manager:1.0.5-cf-onprem-v1.0.67 to gcr.io/codefresh-inc/codefresh/charts-manager:1.0.5-cf-onprem-v1.0.67
+1.0.5-cf-onprem-v1.0.67: Pulling from codefresh-inc/codefresh/charts-manager
+Digest: sha256:2fa8a65b7019020ed25a01e75349cec179892310ec8114cdb2837ac7a2103848
+Status: Image is up to date for r.cfcr.io/codefresh-inc/codefresh/charts-manager:1.0.5-cf-onprem-v1.0.67
+r.cfcr.io/codefresh-inc/codefresh/charts-manager:1.0.5-cf-onprem-v1.0.67
+Pull r.cfcr.io/codefresh-inc/codefresh/charts-manager:1.0.5-cf-onprem-v1.0.67 completed - Mon Oct  7 11:59:20 UTC 2019 !!!
+
+Tag gcr.io/codefresh-inc/codefresh/charts-manager:1.0.5-cf-onprem-v1.0.67 completed - Mon Oct  7 11:59:21 UTC 2019 !!!
+
+The push refers to repository [gcr.io/codefresh-inc/codefresh/charts-manager]
+03ca4e1fc508: Preparing
+468e557369d3: Preparing
+9cc4913c9092: Preparing
+fbb38f747161: Preparing
+eb7cc2050ad4: Preparing
+7beb793ae248: Preparing
+22dfd5a63f2d: Preparing
+a464c54f93a9: Preparing
+eb7cc2050ad4: Waiting
+7beb793ae248: Waiting
+22dfd5a63f2d: Waiting
+a464c54f93a9: Waiting
+03ca4e1fc508: Layer already exists
+fbb38f747161: Layer already exists
+468e557369d3: Layer already exists
+9cc4913c9092: Layer already exists
+eb7cc2050ad4: Layer already exists
+a464c54f93a9: Layer already exists
+7beb793ae248: Layer already exists
+22dfd5a63f2d: Layer already exists
+1.0.5-cf-onprem-v1.0.67: digest: sha256:2fa8a65b7019020ed25a01e75349cec179892310ec8114cdb2837ac7a2103848 size: 1996
+Push gcr.io/codefresh-inc/codefresh/charts-manager:1.0.5-cf-onprem-v1.0.67 completed - Mon Oct  7 11:59:21 UTC 2019 !!!
+
+---------- Migrate r.cfcr.io/codefresh-inc/codefresh/charts-manager:secimprovements to gcr.io/codefresh-inc/codefresh/charts-manager:secimprovements
+secimprovements: Pulling from codefresh-inc/codefresh/charts-manager
+bdf0201b3a05: Already exists
+7ba7d1b49177: Already exists
+17af28038337: Already exists
+b20b40770f95: Pulling fs layer
+7a1a7c4b42d6: Pulling fs layer
+4d8d74787a99: Pulling fs layer
+593eda5ebef7: Pulling fs layer
+3f6a0ac755cb: Pulling fs layer
+593eda5ebef7: Waiting
+3f6a0ac755cb: Waiting
+4d8d74787a99: Verifying Checksum
+4d8d74787a99: Download complete
+7a1a7c4b42d6: Verifying Checksum
+7a1a7c4b42d6: Download complete
+3f6a0ac755cb: Verifying Checksum
+3f6a0ac755cb: Download complete
+b20b40770f95: Download complete
+b20b40770f95: Pull complete
+7a1a7c4b42d6: Pull complete
+593eda5ebef7: Verifying Checksum
+593eda5ebef7: Download complete
+4d8d74787a99: Pull complete
+593eda5ebef7: Pull complete
+3f6a0ac755cb: Pull complete
+Digest: sha256:45245610652df9f15155c421428dd10fed6af2e2efa961baeabcc167085a43e4
+Status: Downloaded newer image for r.cfcr.io/codefresh-inc/codefresh/charts-manager:secimprovements
+r.cfcr.io/codefresh-inc/codefresh/charts-manager:secimprovements
+Pull r.cfcr.io/codefresh-inc/codefresh/charts-manager:secimprovements completed - Mon Oct  7 11:59:29 UTC 2019 !!!
+
+Tag gcr.io/codefresh-inc/codefresh/charts-manager:secimprovements completed - Mon Oct  7 11:59:29 UTC 2019 !!!
+
+The push refers to repository [gcr.io/codefresh-inc/codefresh/charts-manager]
+2c24d620f27b: Preparing
+2babb0c4086c: Preparing
+4557579831c4: Preparing
+86a2cc456136: Preparing
+606ea703a938: Preparing
+7beb793ae248: Preparing
+22dfd5a63f2d: Preparing
+a464c54f93a9: Preparing
+a464c54f93a9: Waiting
+606ea703a938: Waiting
+7beb793ae248: Waiting
+22dfd5a63f2d: Waiting
+2babb0c4086c: Retrying in 5 seconds
+2babb0c4086c: Retrying in 4 seconds
+86a2cc456136: Pushed
+4557579831c4: Pushed
+2c24d620f27b: Pushed
+22dfd5a63f2d: Layer already exists
+a464c54f93a9: Layer already exists
+7beb793ae248: Layer already exists
+2babb0c4086c: Retrying in 3 seconds
+2babb0c4086c: Retrying in 2 seconds
+606ea703a938: Pushed
+2babb0c4086c: Retrying in 1 second
+2babb0c4086c: Pushed
+secimprovements: digest: sha256:45245610652df9f15155c421428dd10fed6af2e2efa961baeabcc167085a43e4 size: 1996
+Push gcr.io/codefresh-inc/codefresh/charts-manager:secimprovements completed - Mon Oct  7 11:59:56 UTC 2019 !!!
+
+---------- Migrate r.cfcr.io/codefresh-inc/codefresh/charts-manager:1.0.5-secimprovements to gcr.io/codefresh-inc/codefresh/charts-manager:1.0.5-secimprovements
+1.0.5-secimprovements: Pulling from codefresh-inc/codefresh/charts-manager
+Digest: sha256:45245610652df9f15155c421428dd10fed6af2e2efa961baeabcc167085a43e4
+Status: Image is up to date for r.cfcr.io/codefresh-inc/codefresh/charts-manager:1.0.5-secimprovements
+r.cfcr.io/codefresh-inc/codefresh/charts-manager:1.0.5-secimprovements
+Pull r.cfcr.io/codefresh-inc/codefresh/charts-manager:1.0.5-secimprovements completed - Mon Oct  7 11:59:56 UTC 2019 !!!
+
+Tag gcr.io/codefresh-inc/codefresh/charts-manager:1.0.5-secimprovements completed - Mon Oct  7 11:59:57 UTC 2019 !!!
+
+The push refers to repository [gcr.io/codefresh-inc/codefresh/charts-manager]
+2c24d620f27b: Preparing
+2babb0c4086c: Preparing
+4557579831c4: Preparing
+86a2cc456136: Preparing
+606ea703a938: Preparing
+7beb793ae248: Preparing
+22dfd5a63f2d: Preparing
+a464c54f93a9: Preparing
+a464c54f93a9: Waiting
+7beb793ae248: Waiting
+22dfd5a63f2d: Waiting
+606ea703a938: Layer already exists
+2c24d620f27b: Layer already exists
+86a2cc456136: Layer already exists
+4557579831c4: Layer already exists
+2babb0c4086c: Layer already exists
+7beb793ae248: Layer already exists
+22dfd5a63f2d: Layer already exists
+a464c54f93a9: Layer already exists
+1.0.5-secimprovements: digest: sha256:45245610652df9f15155c421428dd10fed6af2e2efa961baeabcc167085a43e4 size: 1996
+Push gcr.io/codefresh-inc/codefresh/charts-manager:1.0.5-secimprovements completed - Mon Oct  7 11:59:57 UTC 2019 !!!
+
+---------- Migrate r.cfcr.io/codefresh-inc/codefresh/charts-manager:sec6 to gcr.io/codefresh-inc/codefresh/charts-manager:sec6
+sec6: Pulling from codefresh-inc/codefresh/charts-manager
+Digest: sha256:45245610652df9f15155c421428dd10fed6af2e2efa961baeabcc167085a43e4
+Status: Image is up to date for r.cfcr.io/codefresh-inc/codefresh/charts-manager:sec6
+r.cfcr.io/codefresh-inc/codefresh/charts-manager:sec6
+Pull r.cfcr.io/codefresh-inc/codefresh/charts-manager:sec6 completed - Mon Oct  7 11:59:58 UTC 2019 !!!
+
+Tag gcr.io/codefresh-inc/codefresh/charts-manager:sec6 completed - Mon Oct  7 11:59:58 UTC 2019 !!!
+
+The push refers to repository [gcr.io/codefresh-inc/codefresh/charts-manager]
+2c24d620f27b: Preparing
+2babb0c4086c: Preparing
+4557579831c4: Preparing
+86a2cc456136: Preparing
+606ea703a938: Preparing
+7beb793ae248: Preparing
+22dfd5a63f2d: Preparing
+a464c54f93a9: Preparing
+a464c54f93a9: Waiting
+7beb793ae248: Waiting
+22dfd5a63f2d: Waiting
+86a2cc456136: Layer already exists
+606ea703a938: Layer already exists
+4557579831c4: Layer already exists
+2babb0c4086c: Layer already exists
+22dfd5a63f2d: Layer already exists
+a464c54f93a9: Layer already exists
+7beb793ae248: Layer already exists
+2c24d620f27b: Layer already exists
+sec6: digest: sha256:45245610652df9f15155c421428dd10fed6af2e2efa961baeabcc167085a43e4 size: 1996
+Push gcr.io/codefresh-inc/codefresh/charts-manager:sec6 completed - Mon Oct  7 11:59:59 UTC 2019 !!!
+
+---------- Migrate r.cfcr.io/codefresh-inc/codefresh/charts-manager:1.0.5 to gcr.io/codefresh-inc/codefresh/charts-manager:1.0.5
+1.0.5: Pulling from codefresh-inc/codefresh/charts-manager
+Digest: sha256:45245610652df9f15155c421428dd10fed6af2e2efa961baeabcc167085a43e4
+Status: Downloaded newer image for r.cfcr.io/codefresh-inc/codefresh/charts-manager:1.0.5
+r.cfcr.io/codefresh-inc/codefresh/charts-manager:1.0.5
+Pull r.cfcr.io/codefresh-inc/codefresh/charts-manager:1.0.5 completed - Mon Oct  7 12:00:00 UTC 2019 !!!
+
+Tag gcr.io/codefresh-inc/codefresh/charts-manager:1.0.5 completed - Mon Oct  7 12:00:00 UTC 2019 !!!
+
+The push refers to repository [gcr.io/codefresh-inc/codefresh/charts-manager]
+2c24d620f27b: Preparing
+2babb0c4086c: Preparing
+4557579831c4: Preparing
+86a2cc456136: Preparing
+606ea703a938: Preparing
+7beb793ae248: Preparing
+22dfd5a63f2d: Preparing
+a464c54f93a9: Preparing
+2babb0c4086c: Waiting
+2c24d620f27b: Waiting
+606ea703a938: Waiting
+7beb793ae248: Waiting
+22dfd5a63f2d: Waiting
+4557579831c4: Waiting
+a464c54f93a9: Waiting
+86a2cc456136: Waiting
+2babb0c4086c: Layer already exists
+2c24d620f27b: Layer already exists
+4557579831c4: Layer already exists
+86a2cc456136: Layer already exists
+606ea703a938: Layer already exists
+22dfd5a63f2d: Layer already exists
+7beb793ae248: Layer already exists
+a464c54f93a9: Layer already exists
+1.0.5: digest: sha256:45245610652df9f15155c421428dd10fed6af2e2efa961baeabcc167085a43e4 size: 1996
+Push gcr.io/codefresh-inc/codefresh/charts-manager:1.0.5 completed - Mon Oct  7 12:00:02 UTC 2019 !!!
+
+---------- Migrate r.cfcr.io/codefresh-inc/codefresh/charts-manager:sec5 to gcr.io/codefresh-inc/codefresh/charts-manager:sec5
+sec5: Pulling from codefresh-inc/codefresh/charts-manager
+bdf0201b3a05: Already exists
+7ba7d1b49177: Already exists
+17af28038337: Already exists
+b20b40770f95: Already exists
+7a1a7c4b42d6: Already exists
+4d8d74787a99: Already exists
+593eda5ebef7: Already exists
+c221c355b5cd: Pulling fs layer
+c221c355b5cd: Verifying Checksum
+c221c355b5cd: Download complete
+c221c355b5cd: Pull complete
+Digest: sha256:5ce031967d3f19930d6a6ec8248cac254a23f965cbca2d198d697988fdc66bdb
+Status: Downloaded newer image for r.cfcr.io/codefresh-inc/codefresh/charts-manager:sec5
+r.cfcr.io/codefresh-inc/codefresh/charts-manager:sec5
+Pull r.cfcr.io/codefresh-inc/codefresh/charts-manager:sec5 completed - Mon Oct  7 12:00:03 UTC 2019 !!!
+
+Tag gcr.io/codefresh-inc/codefresh/charts-manager:sec5 completed - Mon Oct  7 12:00:03 UTC 2019 !!!
+
+The push refers to repository [gcr.io/codefresh-inc/codefresh/charts-manager]
+3fb2d8682b24: Preparing
+2babb0c4086c: Preparing
+4557579831c4: Preparing
+86a2cc456136: Preparing
+606ea703a938: Preparing
+7beb793ae248: Preparing
+22dfd5a63f2d: Preparing
+a464c54f93a9: Preparing
+86a2cc456136: Waiting
+4557579831c4: Waiting
+7beb793ae248: Waiting
+606ea703a938: Waiting
+22dfd5a63f2d: Waiting
+a464c54f93a9: Waiting
+2babb0c4086c: Layer already exists
+4557579831c4: Layer already exists
+86a2cc456136: Layer already exists
+606ea703a938: Layer already exists
+7beb793ae248: Layer already exists
+22dfd5a63f2d: Layer already exists
+a464c54f93a9: Layer already exists
+3fb2d8682b24: Pushed
+sec5: digest: sha256:5ce031967d3f19930d6a6ec8248cac254a23f965cbca2d198d697988fdc66bdb size: 1996
+Push gcr.io/codefresh-inc/codefresh/charts-manager:sec5 completed - Mon Oct  7 12:00:06 UTC 2019 !!!
+
+---------- Migrate r.cfcr.io/codefresh-inc/codefresh/charts-manager:sec4 to gcr.io/codefresh-inc/codefresh/charts-manager:sec4
+sec4: Pulling from codefresh-inc/codefresh/charts-manager
+bdf0201b3a05: Already exists
+7ba7d1b49177: Already exists
+17af28038337: Already exists
+b20b40770f95: Already exists
+7a1a7c4b42d6: Already exists
+4d8d74787a99: Already exists
+593eda5ebef7: Already exists
+9f01875aba0a: Pulling fs layer
+9f01875aba0a: Verifying Checksum
+9f01875aba0a: Download complete
+9f01875aba0a: Pull complete
+Digest: sha256:8e95ab73ada5b0b224b903900a8f1a9a8306f51c162252b3301374a2982ab6dd
+Status: Downloaded newer image for r.cfcr.io/codefresh-inc/codefresh/charts-manager:sec4
+r.cfcr.io/codefresh-inc/codefresh/charts-manager:sec4
+Pull r.cfcr.io/codefresh-inc/codefresh/charts-manager:sec4 completed - Mon Oct  7 12:00:07 UTC 2019 !!!
+
+Tag gcr.io/codefresh-inc/codefresh/charts-manager:sec4 completed - Mon Oct  7 12:00:08 UTC 2019 !!!
+
+The push refers to repository [gcr.io/codefresh-inc/codefresh/charts-manager]
+88b6bff3993f: Preparing
+2babb0c4086c: Preparing
+4557579831c4: Preparing
+86a2cc456136: Preparing
+606ea703a938: Preparing
+7beb793ae248: Preparing
+22dfd5a63f2d: Preparing
+a464c54f93a9: Preparing
+a464c54f93a9: Waiting
+606ea703a938: Waiting
+7beb793ae248: Waiting
+22dfd5a63f2d: Waiting
+86a2cc456136: Layer already exists
+4557579831c4: Layer already exists
+2babb0c4086c: Layer already exists
+7beb793ae248: Layer already exists
+606ea703a938: Layer already exists
+22dfd5a63f2d: Layer already exists
+a464c54f93a9: Layer already exists
+88b6bff3993f: Pushed
+sec4: digest: sha256:8e95ab73ada5b0b224b903900a8f1a9a8306f51c162252b3301374a2982ab6dd size: 1996
+Push gcr.io/codefresh-inc/codefresh/charts-manager:sec4 completed - Mon Oct  7 12:00:11 UTC 2019 !!!
+

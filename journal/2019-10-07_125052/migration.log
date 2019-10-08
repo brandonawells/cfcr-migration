@@ -1,0 +1,1566 @@
+Entering ./migrate-from-cfcr.sh - Mon Oct  7 12:50:55 UTC 2019
+JOURNAL_DIR = ./journal/2019-10-07_125052
+DONE_DIR = ./done
+IMAGES_LIST=./journal/2019-10-07_125052/images-list
+
+Starting at Mon Oct  7 12:50:58 UTC 2019
+Processing ./journal/2019-10-07_125052/images-list
+NAME             TAG                                                        PULL - SKIP
+./journal/2019-10-07_125052/codefresh__hermes.tags
+./journal/2019-10-07_125052/codefresh__hermes.tags
+codefresh/hermes 277fc962bebbea7049806c8b8fc4bfc6055145d8                   r.cfcr.io/codefresh-inc/codefresh/hermes:277fc962bebbea7049806c8b8fc4bfc6055145d8 - SKIP
+./journal/2019-10-07_125052/codefresh__hermes.tags
+./journal/2019-10-07_125052/codefresh__hermes.tags
+codefresh/hermes 69f315deb0a0da943ff06fb35d166b59c2dcf524                   r.cfcr.io/codefresh-inc/codefresh/hermes:69f315deb0a0da943ff06fb35d166b59c2dcf524 - SKIP
+./journal/2019-10-07_125052/codefresh__hermes.tags
+codefresh/hermes 3d385b09643ee350272595a8457dd1f231434287                   r.cfcr.io/codefresh-inc/codefresh/hermes:3d385b09643ee350272595a8457dd1f231434287 - SKIP
+./journal/2019-10-07_125052/codefresh__hermes.tags
+codefresh/hermes 9b2ae2299f914ca4f965837f11754709fe34dac7                   r.cfcr.io/codefresh-inc/codefresh/hermes:9b2ae2299f914ca4f965837f11754709fe34dac7 - SKIP
+./journal/2019-10-07_125052/codefresh__hermes.tags
+./journal/2019-10-07_125052/codefresh__hermes.tags
+codefresh/hermes 7ce14c46de11321a40c7b47b2c7330d6cad9f48a                   r.cfcr.io/codefresh-inc/codefresh/hermes:7ce14c46de11321a40c7b47b2c7330d6cad9f48a - SKIP
+./journal/2019-10-07_125052/codefresh__hermes.tags
+./journal/2019-10-07_125052/codefresh__hermes.tags
+codefresh/hermes e3e99236b262fd2ddf9865a6b9b73364998d920d                   r.cfcr.io/codefresh-inc/codefresh/hermes:e3e99236b262fd2ddf9865a6b9b73364998d920d - SKIP
+./journal/2019-10-07_125052/codefresh__hermes.tags
+./journal/2019-10-07_125052/codefresh__hermes.tags
+codefresh/hermes 5cc2751cc4c4ff76c152d95cbf1e68cbb6d47a58                   r.cfcr.io/codefresh-inc/codefresh/hermes:5cc2751cc4c4ff76c152d95cbf1e68cbb6d47a58 - SKIP
+./journal/2019-10-07_125052/codefresh__hermes.tags
+codefresh/hermes 4a06a927852757136dcc539b9ef16fb715797b27                   r.cfcr.io/codefresh-inc/codefresh/hermes:4a06a927852757136dcc539b9ef16fb715797b27 - SKIP
+./journal/2019-10-07_125052/codefresh__hermes.tags
+./journal/2019-10-07_125052/codefresh__hermes.tags
+codefresh/hermes d080fa4a5a1ffcd3f9cb0050b6114a27963e4448                   r.cfcr.io/codefresh-inc/codefresh/hermes:d080fa4a5a1ffcd3f9cb0050b6114a27963e4448 - SKIP
+./journal/2019-10-07_125052/codefresh__hermes.tags
+codefresh/hermes bb10daf1da699f3003f8c9a73370df885959b989                   r.cfcr.io/codefresh-inc/codefresh/hermes:bb10daf1da699f3003f8c9a73370df885959b989 - SKIP
+./journal/2019-10-07_125052/codefresh__hermes.tags
+./journal/2019-10-07_125052/codefresh__hermes.tags
+codefresh/hermes 8d9543c3fd59dbdee3a34bdd7802d9ceda72a868                   r.cfcr.io/codefresh-inc/codefresh/hermes:8d9543c3fd59dbdee3a34bdd7802d9ceda72a868 - SKIP
+./journal/2019-10-07_125052/codefresh__hermes.tags
+./journal/2019-10-07_125052/codefresh__hermes.tags
+codefresh/hermes e454f8ebd9dcbc94f10fcd79546428916435666e                   r.cfcr.io/codefresh-inc/codefresh/hermes:e454f8ebd9dcbc94f10fcd79546428916435666e - SKIP
+./journal/2019-10-07_125052/codefresh__hermes.tags
+codefresh/hermes ad386a15bab69fc2c676d957a7950c640cc44132                   r.cfcr.io/codefresh-inc/codefresh/hermes:ad386a15bab69fc2c676d957a7950c640cc44132 - SKIP
+./journal/2019-10-07_125052/codefresh__hermes.tags
+codefresh/hermes f358df400b0bf0aa370c53c7088c3d8dfe3fd1c8                   r.cfcr.io/codefresh-inc/codefresh/hermes:f358df400b0bf0aa370c53c7088c3d8dfe3fd1c8 - SKIP
+./journal/2019-10-07_125052/codefresh__hermes.tags
+./journal/2019-10-07_125052/codefresh__hermes.tags
+./journal/2019-10-07_125052/codefresh__hermes.tags
+codefresh/hermes a102e68c9d3bea1eab97ccfd662271b277d0b745                   r.cfcr.io/codefresh-inc/codefresh/hermes:a102e68c9d3bea1eab97ccfd662271b277d0b745 - SKIP
+./journal/2019-10-07_125052/codefresh__hermes.tags
+./journal/2019-10-07_125052/codefresh__hermes.tags
+codefresh/hermes ddcea9ddf2cb1b4e34f1555202238d247b169b7e                   r.cfcr.io/codefresh-inc/codefresh/hermes:ddcea9ddf2cb1b4e34f1555202238d247b169b7e - SKIP
+./journal/2019-10-07_125052/codefresh__hermes.tags
+./journal/2019-10-07_125052/codefresh__hermes.tags
+codefresh/hermes cc19ce34005c04ae97d28cb1a0bd2a0c03ff9ba9                   r.cfcr.io/codefresh-inc/codefresh/hermes:cc19ce34005c04ae97d28cb1a0bd2a0c03ff9ba9 - SKIP
+./journal/2019-10-07_125052/codefresh__hermes.tags
+./journal/2019-10-07_125052/codefresh__hermes.tags
+./journal/2019-10-07_125052/codefresh__hermes.tags
+./journal/2019-10-07_125052/codefresh__hermes.tags
+codefresh/hermes 600811115a735d18842e92affbf8df3702e4e56b                   r.cfcr.io/codefresh-inc/codefresh/hermes:600811115a735d18842e92affbf8df3702e4e56b - SKIP
+./journal/2019-10-07_125052/codefresh__hermes.tags
+./journal/2019-10-07_125052/codefresh__hermes.tags
+./journal/2019-10-07_125052/codefresh__hermes.tags
+codefresh/hermes 25ecf818da3d2ae91c8f9a0fd60214b25916582b                   r.cfcr.io/codefresh-inc/codefresh/hermes:25ecf818da3d2ae91c8f9a0fd60214b25916582b - SKIP
+./journal/2019-10-07_125052/codefresh__hermes.tags
+./journal/2019-10-07_125052/codefresh__hermes.tags
+codefresh/hermes 371bf5398cb766b465ba158470677ac21f30f389                   r.cfcr.io/codefresh-inc/codefresh/hermes:371bf5398cb766b465ba158470677ac21f30f389 - SKIP
+./journal/2019-10-07_125052/codefresh__hermes.tags
+./journal/2019-10-07_125052/codefresh__hermes.tags
+codefresh/hermes c6d3ca6b8d5d633cf82ac377c4799144f4ec6f28                   r.cfcr.io/codefresh-inc/codefresh/hermes:c6d3ca6b8d5d633cf82ac377c4799144f4ec6f28 - SKIP
+./journal/2019-10-07_125052/codefresh__hermes.tags
+./journal/2019-10-07_125052/codefresh__hermes.tags
+codefresh/hermes 5a7de16085f2f38ff86cde74e77211f7ba081276                   r.cfcr.io/codefresh-inc/codefresh/hermes:5a7de16085f2f38ff86cde74e77211f7ba081276 - SKIP
+
+--- Mon Oct  7 12:50:58 UTC 2019
+Processing tag files
+
+  ****************
+  Mon Oct  7 12:50:58 UTC 2019 - ./journal/2019-10-07_125052/codefresh__hermes.tags
+grep: ./done/codefresh__hermes.tags: No such file or directory
+---------- Migrate r.cfcr.io/codefresh-inc/codefresh/hermes:master to gcr.io/codefresh-inc/codefresh/hermes:master
+master: Pulling from codefresh-inc/codefresh/hermes
+e7c96db7181b: Already exists
+b4d4aed1ca1c: Pulling fs layer
+a2ea732e04e7: Pulling fs layer
+6e2d8d0e20fa: Pulling fs layer
+b78a6ed827cf: Pulling fs layer
+b78a6ed827cf: Waiting
+6e2d8d0e20fa: Verifying Checksum
+6e2d8d0e20fa: Download complete
+b4d4aed1ca1c: Verifying Checksum
+b4d4aed1ca1c: Download complete
+a2ea732e04e7: Verifying Checksum
+a2ea732e04e7: Download complete
+b78a6ed827cf: Verifying Checksum
+b78a6ed827cf: Download complete
+b4d4aed1ca1c: Pull complete
+a2ea732e04e7: Pull complete
+6e2d8d0e20fa: Pull complete
+b78a6ed827cf: Pull complete
+Digest: sha256:b8e1bfbcfbac44d7852024d727515ae34d82727be72dd454541b6cfd83eed808
+Status: Downloaded newer image for r.cfcr.io/codefresh-inc/codefresh/hermes:master
+r.cfcr.io/codefresh-inc/codefresh/hermes:master
+Pull r.cfcr.io/codefresh-inc/codefresh/hermes:master completed - Mon Oct  7 12:51:00 UTC 2019 !!!
+
+Tag gcr.io/codefresh-inc/codefresh/hermes:master completed - Mon Oct  7 12:51:00 UTC 2019 !!!
+
+The push refers to repository [gcr.io/codefresh-inc/codefresh/hermes]
+80ad73598547: Preparing
+a364b8ed744c: Preparing
+9c97b58d870b: Preparing
+cd876d407908: Preparing
+f1b5933fe4b5: Preparing
+cd876d407908: Waiting
+f1b5933fe4b5: Waiting
+a364b8ed744c: Waiting
+9c97b58d870b: Waiting
+80ad73598547: Pushed
+a364b8ed744c: Pushed
+cd876d407908: Pushed
+f1b5933fe4b5: Layer already exists
+9c97b58d870b: Pushed
+master: digest: sha256:870dc8f3554f8b3c99b01cc5921bed4003a56466409624f447084516088b9e76 size: 1366
+Push gcr.io/codefresh-inc/codefresh/hermes:master completed - Mon Oct  7 12:51:09 UTC 2019 !!!
+
+---------- Migrate r.cfcr.io/codefresh-inc/codefresh/hermes:0.16.6 to gcr.io/codefresh-inc/codefresh/hermes:0.16.6
+0.16.6: Pulling from codefresh-inc/codefresh/hermes
+Digest: sha256:870dc8f3554f8b3c99b01cc5921bed4003a56466409624f447084516088b9e76
+Status: Downloaded newer image for r.cfcr.io/codefresh-inc/codefresh/hermes:0.16.6
+r.cfcr.io/codefresh-inc/codefresh/hermes:0.16.6
+Pull r.cfcr.io/codefresh-inc/codefresh/hermes:0.16.6 completed - Mon Oct  7 12:51:09 UTC 2019 !!!
+
+Tag gcr.io/codefresh-inc/codefresh/hermes:0.16.6 completed - Mon Oct  7 12:51:10 UTC 2019 !!!
+
+The push refers to repository [gcr.io/codefresh-inc/codefresh/hermes]
+80ad73598547: Preparing
+a364b8ed744c: Preparing
+9c97b58d870b: Preparing
+cd876d407908: Preparing
+f1b5933fe4b5: Preparing
+9c97b58d870b: Waiting
+cd876d407908: Waiting
+f1b5933fe4b5: Waiting
+80ad73598547: Layer already exists
+9c97b58d870b: Layer already exists
+a364b8ed744c: Layer already exists
+cd876d407908: Layer already exists
+f1b5933fe4b5: Layer already exists
+0.16.6: digest: sha256:870dc8f3554f8b3c99b01cc5921bed4003a56466409624f447084516088b9e76 size: 1366
+Push gcr.io/codefresh-inc/codefresh/hermes:0.16.6 completed - Mon Oct  7 12:51:10 UTC 2019 !!!
+
+---------- Migrate r.cfcr.io/codefresh-inc/codefresh/hermes:saas-3860 to gcr.io/codefresh-inc/codefresh/hermes:saas-3860
+saas-3860: Pulling from codefresh-inc/codefresh/hermes
+e7c96db7181b: Already exists
+b4d4aed1ca1c: Already exists
+a2ea732e04e7: Already exists
+6e2d8d0e20fa: Already exists
+b78a6ed827cf: Already exists
+Digest: sha256:c07dd86122aeb202dc617033927baa15c43b40d5ed1d9d5c0e7cbe460fa21fd8
+Status: Downloaded newer image for r.cfcr.io/codefresh-inc/codefresh/hermes:saas-3860
+r.cfcr.io/codefresh-inc/codefresh/hermes:saas-3860
+Pull r.cfcr.io/codefresh-inc/codefresh/hermes:saas-3860 completed - Mon Oct  7 12:51:11 UTC 2019 !!!
+
+Tag gcr.io/codefresh-inc/codefresh/hermes:saas-3860 completed - Mon Oct  7 12:51:11 UTC 2019 !!!
+
+The push refers to repository [gcr.io/codefresh-inc/codefresh/hermes]
+80ad73598547: Preparing
+a364b8ed744c: Preparing
+9c97b58d870b: Preparing
+cd876d407908: Preparing
+f1b5933fe4b5: Preparing
+f1b5933fe4b5: Waiting
+cd876d407908: Layer already exists
+9c97b58d870b: Layer already exists
+80ad73598547: Layer already exists
+a364b8ed744c: Layer already exists
+f1b5933fe4b5: Layer already exists
+saas-3860: digest: sha256:221a84a5b1dd74eabb312866fa1a937299783bb264509dd0b5d9f86e9ca04445 size: 1366
+Push gcr.io/codefresh-inc/codefresh/hermes:saas-3860 completed - Mon Oct  7 12:51:13 UTC 2019 !!!
+
+---------- Migrate r.cfcr.io/codefresh-inc/codefresh/hermes:SAAS-3860 to gcr.io/codefresh-inc/codefresh/hermes:SAAS-3860
+SAAS-3860: Pulling from codefresh-inc/codefresh/hermes
+Digest: sha256:221a84a5b1dd74eabb312866fa1a937299783bb264509dd0b5d9f86e9ca04445
+Status: Downloaded newer image for r.cfcr.io/codefresh-inc/codefresh/hermes:SAAS-3860
+r.cfcr.io/codefresh-inc/codefresh/hermes:SAAS-3860
+Pull r.cfcr.io/codefresh-inc/codefresh/hermes:SAAS-3860 completed - Mon Oct  7 12:51:13 UTC 2019 !!!
+
+Tag gcr.io/codefresh-inc/codefresh/hermes:SAAS-3860 completed - Mon Oct  7 12:51:14 UTC 2019 !!!
+
+The push refers to repository [gcr.io/codefresh-inc/codefresh/hermes]
+80ad73598547: Preparing
+a364b8ed744c: Preparing
+9c97b58d870b: Preparing
+cd876d407908: Preparing
+f1b5933fe4b5: Preparing
+f1b5933fe4b5: Waiting
+cd876d407908: Layer already exists
+9c97b58d870b: Layer already exists
+80ad73598547: Layer already exists
+a364b8ed744c: Layer already exists
+f1b5933fe4b5: Layer already exists
+SAAS-3860: digest: sha256:221a84a5b1dd74eabb312866fa1a937299783bb264509dd0b5d9f86e9ca04445 size: 1366
+Push gcr.io/codefresh-inc/codefresh/hermes:SAAS-3860 completed - Mon Oct  7 12:51:14 UTC 2019 !!!
+
+---------- Migrate r.cfcr.io/codefresh-inc/codefresh/hermes:0.16.6-saas-3860 to gcr.io/codefresh-inc/codefresh/hermes:0.16.6-saas-3860
+0.16.6-saas-3860: Pulling from codefresh-inc/codefresh/hermes
+Digest: sha256:221a84a5b1dd74eabb312866fa1a937299783bb264509dd0b5d9f86e9ca04445
+Status: Downloaded newer image for r.cfcr.io/codefresh-inc/codefresh/hermes:0.16.6-saas-3860
+r.cfcr.io/codefresh-inc/codefresh/hermes:0.16.6-saas-3860
+Pull r.cfcr.io/codefresh-inc/codefresh/hermes:0.16.6-saas-3860 completed - Mon Oct  7 12:51:15 UTC 2019 !!!
+
+Tag gcr.io/codefresh-inc/codefresh/hermes:0.16.6-saas-3860 completed - Mon Oct  7 12:51:15 UTC 2019 !!!
+
+The push refers to repository [gcr.io/codefresh-inc/codefresh/hermes]
+80ad73598547: Preparing
+a364b8ed744c: Preparing
+9c97b58d870b: Preparing
+cd876d407908: Preparing
+f1b5933fe4b5: Preparing
+f1b5933fe4b5: Waiting
+9c97b58d870b: Layer already exists
+cd876d407908: Layer already exists
+80ad73598547: Layer already exists
+a364b8ed744c: Layer already exists
+f1b5933fe4b5: Layer already exists
+0.16.6-saas-3860: digest: sha256:221a84a5b1dd74eabb312866fa1a937299783bb264509dd0b5d9f86e9ca04445 size: 1366
+Push gcr.io/codefresh-inc/codefresh/hermes:0.16.6-saas-3860 completed - Mon Oct  7 12:51:16 UTC 2019 !!!
+
+---------- Migrate r.cfcr.io/codefresh-inc/codefresh/hermes:0.16.5-saas-3860 to gcr.io/codefresh-inc/codefresh/hermes:0.16.5-saas-3860
+0.16.5-saas-3860: Pulling from codefresh-inc/codefresh/hermes
+e7c96db7181b: Already exists
+4fe25f45dfa9: Pulling fs layer
+8bec593a21c6: Pulling fs layer
+b1922b6ac241: Pulling fs layer
+0add755e7d26: Pulling fs layer
+0add755e7d26: Waiting
+4fe25f45dfa9: Verifying Checksum
+4fe25f45dfa9: Download complete
+b1922b6ac241: Verifying Checksum
+b1922b6ac241: Download complete
+0add755e7d26: Verifying Checksum
+8bec593a21c6: Verifying Checksum
+8bec593a21c6: Download complete
+0add755e7d26: Download complete
+4fe25f45dfa9: Pull complete
+8bec593a21c6: Pull complete
+b1922b6ac241: Pull complete
+0add755e7d26: Pull complete
+Digest: sha256:58782e153979a5a10fd92fb77cf2ecc52769ac7252796aa0bce764af5fd88286
+Status: Downloaded newer image for r.cfcr.io/codefresh-inc/codefresh/hermes:0.16.5-saas-3860
+r.cfcr.io/codefresh-inc/codefresh/hermes:0.16.5-saas-3860
+Pull r.cfcr.io/codefresh-inc/codefresh/hermes:0.16.5-saas-3860 completed - Mon Oct  7 12:51:19 UTC 2019 !!!
+
+Tag gcr.io/codefresh-inc/codefresh/hermes:0.16.5-saas-3860 completed - Mon Oct  7 12:51:19 UTC 2019 !!!
+
+The push refers to repository [gcr.io/codefresh-inc/codefresh/hermes]
+0c950d54ecff: Preparing
+cfcf3fb379b7: Preparing
+02d92098d684: Preparing
+6f7914e2431d: Preparing
+f1b5933fe4b5: Preparing
+f1b5933fe4b5: Layer already exists
+cfcf3fb379b7: Retrying in 5 seconds
+0c950d54ecff: Retrying in 5 seconds
+cfcf3fb379b7: Retrying in 4 seconds
+0c950d54ecff: Retrying in 4 seconds
+6f7914e2431d: Pushed
+cfcf3fb379b7: Retrying in 3 seconds
+02d92098d684: Pushed
+0c950d54ecff: Retrying in 3 seconds
+cfcf3fb379b7: Retrying in 2 seconds
+0c950d54ecff: Retrying in 2 seconds
+cfcf3fb379b7: Retrying in 1 second
+0c950d54ecff: Retrying in 1 second
+cfcf3fb379b7: Pushed
+0c950d54ecff: Pushed
+0.16.5-saas-3860: digest: sha256:58782e153979a5a10fd92fb77cf2ecc52769ac7252796aa0bce764af5fd88286 size: 1366
+Push gcr.io/codefresh-inc/codefresh/hermes:0.16.5-saas-3860 completed - Mon Oct  7 12:51:27 UTC 2019 !!!
+
+---------- Migrate r.cfcr.io/codefresh-inc/codefresh/hermes:saas-3872-update-registry-types-add-support-dev-cli to gcr.io/codefresh-inc/codefresh/hermes:saas-3872-update-registry-types-add-support-dev-cli
+saas-3872-update-registry-types-add-support-dev-cli: Pulling from codefresh-inc/codefresh/hermes
+e7c96db7181b: Already exists
+80c7017f2d4c: Pulling fs layer
+a44a628b4b42: Pulling fs layer
+3f62dd897f78: Pulling fs layer
+3d1843cc0d54: Pulling fs layer
+3d1843cc0d54: Waiting
+3f62dd897f78: Verifying Checksum
+3f62dd897f78: Download complete
+80c7017f2d4c: Verifying Checksum
+80c7017f2d4c: Download complete
+3d1843cc0d54: Verifying Checksum
+3d1843cc0d54: Download complete
+a44a628b4b42: Verifying Checksum
+a44a628b4b42: Download complete
+80c7017f2d4c: Pull complete
+a44a628b4b42: Pull complete
+3f62dd897f78: Pull complete
+3d1843cc0d54: Pull complete
+Digest: sha256:3964d358dc2b5ffb5aab5d0fed73c101d72c04397a9429d055ab2445e764c7c1
+Status: Downloaded newer image for r.cfcr.io/codefresh-inc/codefresh/hermes:saas-3872-update-registry-types-add-support-dev-cli
+r.cfcr.io/codefresh-inc/codefresh/hermes:saas-3872-update-registry-types-add-support-dev-cli
+Pull r.cfcr.io/codefresh-inc/codefresh/hermes:saas-3872-update-registry-types-add-support-dev-cli completed - Mon Oct  7 12:51:30 UTC 2019 !!!
+
+Tag gcr.io/codefresh-inc/codefresh/hermes:saas-3872-update-registry-types-add-support-dev-cli completed - Mon Oct  7 12:51:30 UTC 2019 !!!
+
+The push refers to repository [gcr.io/codefresh-inc/codefresh/hermes]
+99779db1e64e: Preparing
+a7b546621054: Preparing
+0e00210b908e: Preparing
+584d28b8e469: Preparing
+f1b5933fe4b5: Preparing
+f1b5933fe4b5: Waiting
+0e00210b908e: Retrying in 5 seconds
+99779db1e64e: Retrying in 5 seconds
+a7b546621054: Pushed
+f1b5933fe4b5: Layer already exists
+0e00210b908e: Retrying in 4 seconds
+99779db1e64e: Retrying in 4 seconds
+584d28b8e469: Pushed
+0e00210b908e: Retrying in 3 seconds
+99779db1e64e: Retrying in 3 seconds
+0e00210b908e: Retrying in 2 seconds
+99779db1e64e: Retrying in 2 seconds
+0e00210b908e: Retrying in 1 second
+99779db1e64e: Retrying in 1 second
+99779db1e64e: Pushed
+0e00210b908e: Pushed
+saas-3872-update-registry-types-add-support-dev-cli: digest: sha256:cbf5d3811e4b8610aefed12d8418bce05a240836aae1cb7ff0d87451b744637c size: 1366
+Push gcr.io/codefresh-inc/codefresh/hermes:saas-3872-update-registry-types-add-support-dev-cli completed - Mon Oct  7 12:51:40 UTC 2019 !!!
+
+---------- Migrate r.cfcr.io/codefresh-inc/codefresh/hermes:SAAS-3872-update-registry-types-add-support-dev-cli to gcr.io/codefresh-inc/codefresh/hermes:SAAS-3872-update-registry-types-add-support-dev-cli
+SAAS-3872-update-registry-types-add-support-dev-cli: Pulling from codefresh-inc/codefresh/hermes
+Digest: sha256:cbf5d3811e4b8610aefed12d8418bce05a240836aae1cb7ff0d87451b744637c
+Status: Downloaded newer image for r.cfcr.io/codefresh-inc/codefresh/hermes:SAAS-3872-update-registry-types-add-support-dev-cli
+r.cfcr.io/codefresh-inc/codefresh/hermes:SAAS-3872-update-registry-types-add-support-dev-cli
+Pull r.cfcr.io/codefresh-inc/codefresh/hermes:SAAS-3872-update-registry-types-add-support-dev-cli completed - Mon Oct  7 12:51:41 UTC 2019 !!!
+
+Tag gcr.io/codefresh-inc/codefresh/hermes:SAAS-3872-update-registry-types-add-support-dev-cli completed - Mon Oct  7 12:51:41 UTC 2019 !!!
+
+The push refers to repository [gcr.io/codefresh-inc/codefresh/hermes]
+99779db1e64e: Preparing
+a7b546621054: Preparing
+0e00210b908e: Preparing
+584d28b8e469: Preparing
+f1b5933fe4b5: Preparing
+99779db1e64e: Waiting
+a7b546621054: Waiting
+0e00210b908e: Waiting
+584d28b8e469: Waiting
+f1b5933fe4b5: Waiting
+a7b546621054: Layer already exists
+99779db1e64e: Layer already exists
+0e00210b908e: Layer already exists
+584d28b8e469: Layer already exists
+f1b5933fe4b5: Layer already exists
+SAAS-3872-update-registry-types-add-support-dev-cli: digest: sha256:cbf5d3811e4b8610aefed12d8418bce05a240836aae1cb7ff0d87451b744637c size: 1366
+Push gcr.io/codefresh-inc/codefresh/hermes:SAAS-3872-update-registry-types-add-support-dev-cli completed - Mon Oct  7 12:51:44 UTC 2019 !!!
+
+---------- Migrate r.cfcr.io/codefresh-inc/codefresh/hermes:0.16.4-saas-3872-update-registry-types-add-support-dev-cli to gcr.io/codefresh-inc/codefresh/hermes:0.16.4-saas-3872-update-registry-types-add-support-dev-cli
+0.16.4-saas-3872-update-registry-types-add-support-dev-cli: Pulling from codefresh-inc/codefresh/hermes
+Digest: sha256:cbf5d3811e4b8610aefed12d8418bce05a240836aae1cb7ff0d87451b744637c
+Status: Downloaded newer image for r.cfcr.io/codefresh-inc/codefresh/hermes:0.16.4-saas-3872-update-registry-types-add-support-dev-cli
+r.cfcr.io/codefresh-inc/codefresh/hermes:0.16.4-saas-3872-update-registry-types-add-support-dev-cli
+Pull r.cfcr.io/codefresh-inc/codefresh/hermes:0.16.4-saas-3872-update-registry-types-add-support-dev-cli completed - Mon Oct  7 12:51:45 UTC 2019 !!!
+
+Tag gcr.io/codefresh-inc/codefresh/hermes:0.16.4-saas-3872-update-registry-types-add-support-dev-cli completed - Mon Oct  7 12:51:45 UTC 2019 !!!
+
+The push refers to repository [gcr.io/codefresh-inc/codefresh/hermes]
+99779db1e64e: Preparing
+a7b546621054: Preparing
+0e00210b908e: Preparing
+584d28b8e469: Preparing
+f1b5933fe4b5: Preparing
+0e00210b908e: Waiting
+584d28b8e469: Waiting
+f1b5933fe4b5: Waiting
+99779db1e64e: Waiting
+a7b546621054: Waiting
+99779db1e64e: Layer already exists
+a7b546621054: Layer already exists
+0e00210b908e: Layer already exists
+584d28b8e469: Layer already exists
+f1b5933fe4b5: Layer already exists
+0.16.4-saas-3872-update-registry-types-add-support-dev-cli: digest: sha256:cbf5d3811e4b8610aefed12d8418bce05a240836aae1cb7ff0d87451b744637c size: 1366
+Push gcr.io/codefresh-inc/codefresh/hermes:0.16.4-saas-3872-update-registry-types-add-support-dev-cli completed - Mon Oct  7 12:51:46 UTC 2019 !!!
+
+---------- Migrate r.cfcr.io/codefresh-inc/codefresh/hermes:cf-onprem-v1.0.82 to gcr.io/codefresh-inc/codefresh/hermes:cf-onprem-v1.0.82
+cf-onprem-v1.0.82: Pulling from codefresh-inc/codefresh/hermes
+e7c96db7181b: Already exists
+ee8ddc7aca6b: Pulling fs layer
+d896c269100e: Pulling fs layer
+9d22873d46d5: Pulling fs layer
+25cf1bb2839b: Pulling fs layer
+25cf1bb2839b: Waiting
+9d22873d46d5: Verifying Checksum
+9d22873d46d5: Download complete
+d896c269100e: Verifying Checksum
+d896c269100e: Download complete
+ee8ddc7aca6b: Download complete
+25cf1bb2839b: Verifying Checksum
+25cf1bb2839b: Download complete
+ee8ddc7aca6b: Pull complete
+d896c269100e: Pull complete
+9d22873d46d5: Pull complete
+25cf1bb2839b: Pull complete
+Digest: sha256:b34801d54bc2fb15164fc7bca02e41980ada29a582624931611f78f3338027f9
+Status: Downloaded newer image for r.cfcr.io/codefresh-inc/codefresh/hermes:cf-onprem-v1.0.82
+r.cfcr.io/codefresh-inc/codefresh/hermes:cf-onprem-v1.0.82
+Pull r.cfcr.io/codefresh-inc/codefresh/hermes:cf-onprem-v1.0.82 completed - Mon Oct  7 12:51:48 UTC 2019 !!!
+
+Tag gcr.io/codefresh-inc/codefresh/hermes:cf-onprem-v1.0.82 completed - Mon Oct  7 12:51:48 UTC 2019 !!!
+
+The push refers to repository [gcr.io/codefresh-inc/codefresh/hermes]
+87455e6210f4: Preparing
+3c33f3cbdd3c: Preparing
+1525073ba90f: Preparing
+33aa04f360b3: Preparing
+f1b5933fe4b5: Preparing
+f1b5933fe4b5: Waiting
+1525073ba90f: Retrying in 5 seconds
+87455e6210f4: Retrying in 5 seconds
+3c33f3cbdd3c: Retrying in 5 seconds
+1525073ba90f: Retrying in 4 seconds
+87455e6210f4: Retrying in 4 seconds
+3c33f3cbdd3c: Retrying in 4 seconds
+33aa04f360b3: Pushed
+f1b5933fe4b5: Layer already exists
+1525073ba90f: Retrying in 3 seconds
+87455e6210f4: Retrying in 3 seconds
+3c33f3cbdd3c: Retrying in 3 seconds
+1525073ba90f: Retrying in 2 seconds
+87455e6210f4: Retrying in 2 seconds
+3c33f3cbdd3c: Retrying in 2 seconds
+1525073ba90f: Retrying in 1 second
+87455e6210f4: Retrying in 1 second
+3c33f3cbdd3c: Retrying in 1 second
+87455e6210f4: Retrying in 10 seconds
+3c33f3cbdd3c: Retrying in 10 seconds
+87455e6210f4: Retrying in 9 seconds
+3c33f3cbdd3c: Retrying in 9 seconds
+1525073ba90f: Pushed
+87455e6210f4: Retrying in 8 seconds
+3c33f3cbdd3c: Retrying in 8 seconds
+87455e6210f4: Retrying in 7 seconds
+3c33f3cbdd3c: Retrying in 7 seconds
+87455e6210f4: Retrying in 6 seconds
+3c33f3cbdd3c: Retrying in 6 seconds
+87455e6210f4: Retrying in 5 seconds
+3c33f3cbdd3c: Retrying in 5 seconds
+87455e6210f4: Retrying in 4 seconds
+3c33f3cbdd3c: Retrying in 4 seconds
+87455e6210f4: Retrying in 3 seconds
+3c33f3cbdd3c: Retrying in 3 seconds
+87455e6210f4: Retrying in 2 seconds
+3c33f3cbdd3c: Retrying in 2 seconds
+87455e6210f4: Retrying in 1 second
+3c33f3cbdd3c: Retrying in 1 second
+87455e6210f4: Pushed
+3c33f3cbdd3c: Pushed
+cf-onprem-v1.0.82: digest: sha256:b34801d54bc2fb15164fc7bca02e41980ada29a582624931611f78f3338027f9 size: 1366
+Push gcr.io/codefresh-inc/codefresh/hermes:cf-onprem-v1.0.82 completed - Mon Oct  7 12:52:07 UTC 2019 !!!
+
+---------- Migrate r.cfcr.io/codefresh-inc/codefresh/hermes:0.16.4-cf-onprem-v1.0.82 to gcr.io/codefresh-inc/codefresh/hermes:0.16.4-cf-onprem-v1.0.82
+0.16.4-cf-onprem-v1.0.82: Pulling from codefresh-inc/codefresh/hermes
+Digest: sha256:b34801d54bc2fb15164fc7bca02e41980ada29a582624931611f78f3338027f9
+Status: Downloaded newer image for r.cfcr.io/codefresh-inc/codefresh/hermes:0.16.4-cf-onprem-v1.0.82
+r.cfcr.io/codefresh-inc/codefresh/hermes:0.16.4-cf-onprem-v1.0.82
+Pull r.cfcr.io/codefresh-inc/codefresh/hermes:0.16.4-cf-onprem-v1.0.82 completed - Mon Oct  7 12:52:07 UTC 2019 !!!
+
+Tag gcr.io/codefresh-inc/codefresh/hermes:0.16.4-cf-onprem-v1.0.82 completed - Mon Oct  7 12:52:07 UTC 2019 !!!
+
+The push refers to repository [gcr.io/codefresh-inc/codefresh/hermes]
+87455e6210f4: Preparing
+3c33f3cbdd3c: Preparing
+1525073ba90f: Preparing
+33aa04f360b3: Preparing
+f1b5933fe4b5: Preparing
+f1b5933fe4b5: Layer already exists
+3c33f3cbdd3c: Layer already exists
+33aa04f360b3: Layer already exists
+87455e6210f4: Layer already exists
+1525073ba90f: Layer already exists
+0.16.4-cf-onprem-v1.0.82: digest: sha256:b34801d54bc2fb15164fc7bca02e41980ada29a582624931611f78f3338027f9 size: 1366
+Push gcr.io/codefresh-inc/codefresh/hermes:0.16.4-cf-onprem-v1.0.82 completed - Mon Oct  7 12:52:08 UTC 2019 !!!
+
+---------- Migrate r.cfcr.io/codefresh-inc/codefresh/hermes:0.16.4 to gcr.io/codefresh-inc/codefresh/hermes:0.16.4
+0.16.4: Pulling from codefresh-inc/codefresh/hermes
+e7c96db7181b: Already exists
+9b0cb068c87f: Pulling fs layer
+3c2525d2286f: Pulling fs layer
+910dc50b01f3: Pulling fs layer
+fe34d1ba6154: Pulling fs layer
+fe34d1ba6154: Waiting
+910dc50b01f3: Verifying Checksum
+910dc50b01f3: Download complete
+9b0cb068c87f: Verifying Checksum
+9b0cb068c87f: Download complete
+3c2525d2286f: Verifying Checksum
+3c2525d2286f: Download complete
+fe34d1ba6154: Verifying Checksum
+fe34d1ba6154: Download complete
+9b0cb068c87f: Pull complete
+3c2525d2286f: Pull complete
+910dc50b01f3: Pull complete
+fe34d1ba6154: Pull complete
+Digest: sha256:e23247513a16fc091fa6fc34aeffb60977bf3692d45f1f925a50929aac504886
+Status: Downloaded newer image for r.cfcr.io/codefresh-inc/codefresh/hermes:0.16.4
+r.cfcr.io/codefresh-inc/codefresh/hermes:0.16.4
+Pull r.cfcr.io/codefresh-inc/codefresh/hermes:0.16.4 completed - Mon Oct  7 12:52:10 UTC 2019 !!!
+
+Tag gcr.io/codefresh-inc/codefresh/hermes:0.16.4 completed - Mon Oct  7 12:52:10 UTC 2019 !!!
+
+The push refers to repository [gcr.io/codefresh-inc/codefresh/hermes]
+388dd11e11b7: Preparing
+28f7aba7311c: Preparing
+84235cfd02b5: Preparing
+a3b9c072f078: Preparing
+f1b5933fe4b5: Preparing
+f1b5933fe4b5: Waiting
+388dd11e11b7: Retrying in 5 seconds
+28f7aba7311c: Retrying in 5 seconds
+f1b5933fe4b5: Layer already exists
+388dd11e11b7: Retrying in 4 seconds
+28f7aba7311c: Retrying in 4 seconds
+a3b9c072f078: Pushed
+388dd11e11b7: Retrying in 3 seconds
+28f7aba7311c: Retrying in 3 seconds
+84235cfd02b5: Pushed
+388dd11e11b7: Retrying in 2 seconds
+28f7aba7311c: Retrying in 2 seconds
+388dd11e11b7: Retrying in 1 second
+28f7aba7311c: Retrying in 1 second
+388dd11e11b7: Pushed
+28f7aba7311c: Pushed
+0.16.4: digest: sha256:e23247513a16fc091fa6fc34aeffb60977bf3692d45f1f925a50929aac504886 size: 1366
+Push gcr.io/codefresh-inc/codefresh/hermes:0.16.4 completed - Mon Oct  7 12:52:19 UTC 2019 !!!
+
+---------- Migrate r.cfcr.io/codefresh-inc/codefresh/hermes:0.16.3 to gcr.io/codefresh-inc/codefresh/hermes:0.16.3
+0.16.3: Pulling from codefresh-inc/codefresh/hermes
+e7c96db7181b: Already exists
+9b0cb068c87f: Already exists
+e2bcf146f6a7: Pulling fs layer
+f18d35bb87dd: Pulling fs layer
+a5d7a9a85cf3: Pulling fs layer
+a5d7a9a85cf3: Verifying Checksum
+a5d7a9a85cf3: Download complete
+f18d35bb87dd: Verifying Checksum
+f18d35bb87dd: Download complete
+e2bcf146f6a7: Verifying Checksum
+e2bcf146f6a7: Download complete
+e2bcf146f6a7: Pull complete
+f18d35bb87dd: Pull complete
+a5d7a9a85cf3: Pull complete
+Digest: sha256:167c08e28b035bb13e164618bb7e3692f49921286aeb7ae90c249becd153d7ec
+Status: Downloaded newer image for r.cfcr.io/codefresh-inc/codefresh/hermes:0.16.3
+r.cfcr.io/codefresh-inc/codefresh/hermes:0.16.3
+Pull r.cfcr.io/codefresh-inc/codefresh/hermes:0.16.3 completed - Mon Oct  7 12:52:20 UTC 2019 !!!
+
+Tag gcr.io/codefresh-inc/codefresh/hermes:0.16.3 completed - Mon Oct  7 12:52:20 UTC 2019 !!!
+
+The push refers to repository [gcr.io/codefresh-inc/codefresh/hermes]
+c06bd4d57252: Preparing
+be1f06e6e47e: Preparing
+b22e7e72c131: Preparing
+a3b9c072f078: Preparing
+f1b5933fe4b5: Preparing
+a3b9c072f078: Waiting
+f1b5933fe4b5: Waiting
+c06bd4d57252: Pushed
+a3b9c072f078: Layer already exists
+f1b5933fe4b5: Layer already exists
+be1f06e6e47e: Pushed
+b22e7e72c131: Pushed
+0.16.3: digest: sha256:167c08e28b035bb13e164618bb7e3692f49921286aeb7ae90c249becd153d7ec size: 1365
+Push gcr.io/codefresh-inc/codefresh/hermes:0.16.3 completed - Mon Oct  7 12:52:24 UTC 2019 !!!
+
+---------- Migrate r.cfcr.io/codefresh-inc/codefresh/hermes:saas-3872-update-registry-types to gcr.io/codefresh-inc/codefresh/hermes:saas-3872-update-registry-types
+saas-3872-update-registry-types: Pulling from codefresh-inc/codefresh/hermes
+e7c96db7181b: Already exists
+9b0cb068c87f: Already exists
+e2bcf146f6a7: Already exists
+f18d35bb87dd: Already exists
+a5d7a9a85cf3: Already exists
+Digest: sha256:cc99be4ab7a6826f375325129c34da7287c50adae776566f2c1e45fed7fe911a
+Status: Downloaded newer image for r.cfcr.io/codefresh-inc/codefresh/hermes:saas-3872-update-registry-types
+r.cfcr.io/codefresh-inc/codefresh/hermes:saas-3872-update-registry-types
+Pull r.cfcr.io/codefresh-inc/codefresh/hermes:saas-3872-update-registry-types completed - Mon Oct  7 12:52:26 UTC 2019 !!!
+
+Tag gcr.io/codefresh-inc/codefresh/hermes:saas-3872-update-registry-types completed - Mon Oct  7 12:52:26 UTC 2019 !!!
+
+The push refers to repository [gcr.io/codefresh-inc/codefresh/hermes]
+c06bd4d57252: Preparing
+be1f06e6e47e: Preparing
+b22e7e72c131: Preparing
+a3b9c072f078: Preparing
+f1b5933fe4b5: Preparing
+a3b9c072f078: Waiting
+f1b5933fe4b5: Waiting
+be1f06e6e47e: Waiting
+b22e7e72c131: Waiting
+b22e7e72c131: Layer already exists
+c06bd4d57252: Layer already exists
+be1f06e6e47e: Layer already exists
+a3b9c072f078: Layer already exists
+f1b5933fe4b5: Layer already exists
+saas-3872-update-registry-types: digest: sha256:39acb4d5878179033f50b8bb3609a9497ecbdd5e607cb61ec2b951187c3b00bd size: 1365
+Push gcr.io/codefresh-inc/codefresh/hermes:saas-3872-update-registry-types completed - Mon Oct  7 12:52:28 UTC 2019 !!!
+
+---------- Migrate r.cfcr.io/codefresh-inc/codefresh/hermes:SAAS-3872-update-registry-types to gcr.io/codefresh-inc/codefresh/hermes:SAAS-3872-update-registry-types
+SAAS-3872-update-registry-types: Pulling from codefresh-inc/codefresh/hermes
+Digest: sha256:39acb4d5878179033f50b8bb3609a9497ecbdd5e607cb61ec2b951187c3b00bd
+Status: Downloaded newer image for r.cfcr.io/codefresh-inc/codefresh/hermes:SAAS-3872-update-registry-types
+r.cfcr.io/codefresh-inc/codefresh/hermes:SAAS-3872-update-registry-types
+Pull r.cfcr.io/codefresh-inc/codefresh/hermes:SAAS-3872-update-registry-types completed - Mon Oct  7 12:52:29 UTC 2019 !!!
+
+Tag gcr.io/codefresh-inc/codefresh/hermes:SAAS-3872-update-registry-types completed - Mon Oct  7 12:52:29 UTC 2019 !!!
+
+The push refers to repository [gcr.io/codefresh-inc/codefresh/hermes]
+c06bd4d57252: Preparing
+be1f06e6e47e: Preparing
+b22e7e72c131: Preparing
+a3b9c072f078: Preparing
+f1b5933fe4b5: Preparing
+c06bd4d57252: Layer already exists
+a3b9c072f078: Layer already exists
+f1b5933fe4b5: Layer already exists
+b22e7e72c131: Layer already exists
+be1f06e6e47e: Layer already exists
+SAAS-3872-update-registry-types: digest: sha256:39acb4d5878179033f50b8bb3609a9497ecbdd5e607cb61ec2b951187c3b00bd size: 1365
+Push gcr.io/codefresh-inc/codefresh/hermes:SAAS-3872-update-registry-types completed - Mon Oct  7 12:52:30 UTC 2019 !!!
+
+---------- Migrate r.cfcr.io/codefresh-inc/codefresh/hermes:0.16.3-saas-3872-update-registry-types to gcr.io/codefresh-inc/codefresh/hermes:0.16.3-saas-3872-update-registry-types
+0.16.3-saas-3872-update-registry-types: Pulling from codefresh-inc/codefresh/hermes
+Digest: sha256:39acb4d5878179033f50b8bb3609a9497ecbdd5e607cb61ec2b951187c3b00bd
+Status: Downloaded newer image for r.cfcr.io/codefresh-inc/codefresh/hermes:0.16.3-saas-3872-update-registry-types
+r.cfcr.io/codefresh-inc/codefresh/hermes:0.16.3-saas-3872-update-registry-types
+Pull r.cfcr.io/codefresh-inc/codefresh/hermes:0.16.3-saas-3872-update-registry-types completed - Mon Oct  7 12:52:31 UTC 2019 !!!
+
+Tag gcr.io/codefresh-inc/codefresh/hermes:0.16.3-saas-3872-update-registry-types completed - Mon Oct  7 12:52:31 UTC 2019 !!!
+
+The push refers to repository [gcr.io/codefresh-inc/codefresh/hermes]
+c06bd4d57252: Preparing
+be1f06e6e47e: Preparing
+b22e7e72c131: Preparing
+a3b9c072f078: Preparing
+f1b5933fe4b5: Preparing
+a3b9c072f078: Waiting
+f1b5933fe4b5: Waiting
+b22e7e72c131: Waiting
+a3b9c072f078: Layer already exists
+f1b5933fe4b5: Layer already exists
+be1f06e6e47e: Layer already exists
+b22e7e72c131: Layer already exists
+c06bd4d57252: Layer already exists
+0.16.3-saas-3872-update-registry-types: digest: sha256:39acb4d5878179033f50b8bb3609a9497ecbdd5e607cb61ec2b951187c3b00bd size: 1365
+Push gcr.io/codefresh-inc/codefresh/hermes:0.16.3-saas-3872-update-registry-types completed - Mon Oct  7 12:52:32 UTC 2019 !!!
+
+---------- Migrate r.cfcr.io/codefresh-inc/codefresh/hermes:0.16.2-saas-3872-update-registry-types to gcr.io/codefresh-inc/codefresh/hermes:0.16.2-saas-3872-update-registry-types
+0.16.2-saas-3872-update-registry-types: Pulling from codefresh-inc/codefresh/hermes
+e7c96db7181b: Already exists
+2f66ca95d4aa: Pulling fs layer
+bbd91e2883e0: Pulling fs layer
+dfef7244aa7d: Pulling fs layer
+67697d574321: Pulling fs layer
+67697d574321: Waiting
+2f66ca95d4aa: Verifying Checksum
+2f66ca95d4aa: Download complete
+dfef7244aa7d: Verifying Checksum
+dfef7244aa7d: Download complete
+bbd91e2883e0: Verifying Checksum
+bbd91e2883e0: Download complete
+67697d574321: Verifying Checksum
+67697d574321: Download complete
+2f66ca95d4aa: Pull complete
+bbd91e2883e0: Pull complete
+dfef7244aa7d: Pull complete
+67697d574321: Pull complete
+Digest: sha256:83b0f6778f9c34403c562849a232bc389a331704b0f76e0d59eb56294229f45f
+Status: Downloaded newer image for r.cfcr.io/codefresh-inc/codefresh/hermes:0.16.2-saas-3872-update-registry-types
+r.cfcr.io/codefresh-inc/codefresh/hermes:0.16.2-saas-3872-update-registry-types
+Pull r.cfcr.io/codefresh-inc/codefresh/hermes:0.16.2-saas-3872-update-registry-types completed - Mon Oct  7 12:52:34 UTC 2019 !!!
+
+Tag gcr.io/codefresh-inc/codefresh/hermes:0.16.2-saas-3872-update-registry-types completed - Mon Oct  7 12:52:34 UTC 2019 !!!
+
+The push refers to repository [gcr.io/codefresh-inc/codefresh/hermes]
+915ce7b90f01: Preparing
+4a94a70a0a7e: Preparing
+fdc83e213dd3: Preparing
+0f5eff3d7e97: Preparing
+f1b5933fe4b5: Preparing
+fdc83e213dd3: Waiting
+0f5eff3d7e97: Waiting
+f1b5933fe4b5: Waiting
+915ce7b90f01: Pushed
+4a94a70a0a7e: Pushed
+f1b5933fe4b5: Layer already exists
+fdc83e213dd3: Pushed
+0f5eff3d7e97: Pushed
+0.16.2-saas-3872-update-registry-types: digest: sha256:83b0f6778f9c34403c562849a232bc389a331704b0f76e0d59eb56294229f45f size: 1365
+Push gcr.io/codefresh-inc/codefresh/hermes:0.16.2-saas-3872-update-registry-types completed - Mon Oct  7 12:52:40 UTC 2019 !!!
+
+---------- Migrate r.cfcr.io/codefresh-inc/codefresh/hermes:0.16.2 to gcr.io/codefresh-inc/codefresh/hermes:0.16.2
+0.16.2: Pulling from codefresh-inc/codefresh/hermes
+e7c96db7181b: Already exists
+2f66ca95d4aa: Already exists
+7b8abf8b18c3: Pulling fs layer
+abcf81d51d07: Pulling fs layer
+164856a2ac19: Pulling fs layer
+7b8abf8b18c3: Verifying Checksum
+7b8abf8b18c3: Download complete
+164856a2ac19: Verifying Checksum
+164856a2ac19: Download complete
+abcf81d51d07: Verifying Checksum
+abcf81d51d07: Download complete
+7b8abf8b18c3: Pull complete
+abcf81d51d07: Pull complete
+164856a2ac19: Pull complete
+Digest: sha256:80d56405537746a5983869c1b3abcbd16e301776d05e2d9229fbb66c15c30da4
+Status: Downloaded newer image for r.cfcr.io/codefresh-inc/codefresh/hermes:0.16.2
+r.cfcr.io/codefresh-inc/codefresh/hermes:0.16.2
+Pull r.cfcr.io/codefresh-inc/codefresh/hermes:0.16.2 completed - Mon Oct  7 12:52:42 UTC 2019 !!!
+
+Tag gcr.io/codefresh-inc/codefresh/hermes:0.16.2 completed - Mon Oct  7 12:52:42 UTC 2019 !!!
+
+The push refers to repository [gcr.io/codefresh-inc/codefresh/hermes]
+fbccc379fa05: Preparing
+10ae3ea04bbd: Preparing
+fcb5c7e0932f: Preparing
+0f5eff3d7e97: Preparing
+f1b5933fe4b5: Preparing
+0f5eff3d7e97: Waiting
+f1b5933fe4b5: Waiting
+fbccc379fa05: Retrying in 5 seconds
+10ae3ea04bbd: Retrying in 5 seconds
+fbccc379fa05: Retrying in 4 seconds
+10ae3ea04bbd: Retrying in 4 seconds
+0f5eff3d7e97: Layer already exists
+f1b5933fe4b5: Layer already exists
+fcb5c7e0932f: Pushed
+fbccc379fa05: Retrying in 3 seconds
+10ae3ea04bbd: Retrying in 3 seconds
+fbccc379fa05: Retrying in 2 seconds
+10ae3ea04bbd: Retrying in 2 seconds
+fbccc379fa05: Retrying in 1 second
+10ae3ea04bbd: Retrying in 1 second
+fbccc379fa05: Pushed
+10ae3ea04bbd: Pushed
+0.16.2: digest: sha256:80d56405537746a5983869c1b3abcbd16e301776d05e2d9229fbb66c15c30da4 size: 1364
+Push gcr.io/codefresh-inc/codefresh/hermes:0.16.2 completed - Mon Oct  7 12:52:51 UTC 2019 !!!
+
+---------- Migrate r.cfcr.io/codefresh-inc/codefresh/hermes:saas-3311 to gcr.io/codefresh-inc/codefresh/hermes:saas-3311
+saas-3311: Pulling from codefresh-inc/codefresh/hermes
+e7c96db7181b: Already exists
+2f66ca95d4aa: Already exists
+7b8abf8b18c3: Already exists
+abcf81d51d07: Already exists
+164856a2ac19: Already exists
+Digest: sha256:1cf0e4caf8f18a8d5a08c705e6f5a3af9e2c982bf11d207d56808097c11c6fb0
+Status: Downloaded newer image for r.cfcr.io/codefresh-inc/codefresh/hermes:saas-3311
+r.cfcr.io/codefresh-inc/codefresh/hermes:saas-3311
+Pull r.cfcr.io/codefresh-inc/codefresh/hermes:saas-3311 completed - Mon Oct  7 12:52:52 UTC 2019 !!!
+
+Tag gcr.io/codefresh-inc/codefresh/hermes:saas-3311 completed - Mon Oct  7 12:52:52 UTC 2019 !!!
+
+The push refers to repository [gcr.io/codefresh-inc/codefresh/hermes]
+fbccc379fa05: Preparing
+10ae3ea04bbd: Preparing
+fcb5c7e0932f: Preparing
+0f5eff3d7e97: Preparing
+f1b5933fe4b5: Preparing
+f1b5933fe4b5: Layer already exists
+10ae3ea04bbd: Layer already exists
+fcb5c7e0932f: Layer already exists
+0f5eff3d7e97: Layer already exists
+fbccc379fa05: Layer already exists
+saas-3311: digest: sha256:7f6ac4a3cdcb25c6188580c961a7c5e8c01fcac9285d6c27d0711336e3cf71c0 size: 1364
+Push gcr.io/codefresh-inc/codefresh/hermes:saas-3311 completed - Mon Oct  7 12:52:54 UTC 2019 !!!
+
+---------- Migrate r.cfcr.io/codefresh-inc/codefresh/hermes:SAAS-3311 to gcr.io/codefresh-inc/codefresh/hermes:SAAS-3311
+SAAS-3311: Pulling from codefresh-inc/codefresh/hermes
+Digest: sha256:7f6ac4a3cdcb25c6188580c961a7c5e8c01fcac9285d6c27d0711336e3cf71c0
+Status: Downloaded newer image for r.cfcr.io/codefresh-inc/codefresh/hermes:SAAS-3311
+r.cfcr.io/codefresh-inc/codefresh/hermes:SAAS-3311
+Pull r.cfcr.io/codefresh-inc/codefresh/hermes:SAAS-3311 completed - Mon Oct  7 12:52:55 UTC 2019 !!!
+
+Tag gcr.io/codefresh-inc/codefresh/hermes:SAAS-3311 completed - Mon Oct  7 12:52:56 UTC 2019 !!!
+
+The push refers to repository [gcr.io/codefresh-inc/codefresh/hermes]
+fbccc379fa05: Preparing
+10ae3ea04bbd: Preparing
+fcb5c7e0932f: Preparing
+0f5eff3d7e97: Preparing
+f1b5933fe4b5: Preparing
+0f5eff3d7e97: Waiting
+f1b5933fe4b5: Waiting
+10ae3ea04bbd: Layer already exists
+fbccc379fa05: Layer already exists
+fcb5c7e0932f: Layer already exists
+f1b5933fe4b5: Layer already exists
+0f5eff3d7e97: Layer already exists
+SAAS-3311: digest: sha256:7f6ac4a3cdcb25c6188580c961a7c5e8c01fcac9285d6c27d0711336e3cf71c0 size: 1364
+Push gcr.io/codefresh-inc/codefresh/hermes:SAAS-3311 completed - Mon Oct  7 12:52:57 UTC 2019 !!!
+
+---------- Migrate r.cfcr.io/codefresh-inc/codefresh/hermes:0.16.2-saas-3311 to gcr.io/codefresh-inc/codefresh/hermes:0.16.2-saas-3311
+0.16.2-saas-3311: Pulling from codefresh-inc/codefresh/hermes
+Digest: sha256:7f6ac4a3cdcb25c6188580c961a7c5e8c01fcac9285d6c27d0711336e3cf71c0
+Status: Downloaded newer image for r.cfcr.io/codefresh-inc/codefresh/hermes:0.16.2-saas-3311
+r.cfcr.io/codefresh-inc/codefresh/hermes:0.16.2-saas-3311
+Pull r.cfcr.io/codefresh-inc/codefresh/hermes:0.16.2-saas-3311 completed - Mon Oct  7 12:52:58 UTC 2019 !!!
+
+Tag gcr.io/codefresh-inc/codefresh/hermes:0.16.2-saas-3311 completed - Mon Oct  7 12:52:58 UTC 2019 !!!
+
+The push refers to repository [gcr.io/codefresh-inc/codefresh/hermes]
+fbccc379fa05: Preparing
+10ae3ea04bbd: Preparing
+fcb5c7e0932f: Preparing
+0f5eff3d7e97: Preparing
+f1b5933fe4b5: Preparing
+fcb5c7e0932f: Waiting
+0f5eff3d7e97: Waiting
+f1b5933fe4b5: Waiting
+10ae3ea04bbd: Layer already exists
+fbccc379fa05: Layer already exists
+0f5eff3d7e97: Layer already exists
+fcb5c7e0932f: Layer already exists
+f1b5933fe4b5: Layer already exists
+0.16.2-saas-3311: digest: sha256:7f6ac4a3cdcb25c6188580c961a7c5e8c01fcac9285d6c27d0711336e3cf71c0 size: 1364
+Push gcr.io/codefresh-inc/codefresh/hermes:0.16.2-saas-3311 completed - Mon Oct  7 12:52:59 UTC 2019 !!!
+
+---------- Migrate r.cfcr.io/codefresh-inc/codefresh/hermes:0.16.1-saas-3311 to gcr.io/codefresh-inc/codefresh/hermes:0.16.1-saas-3311
+0.16.1-saas-3311: Pulling from codefresh-inc/codefresh/hermes
+e7c96db7181b: Already exists
+2f66ca95d4aa: Already exists
+26f28487292a: Pulling fs layer
+8c7dc95e753e: Pulling fs layer
+8ce9deff4ffa: Pulling fs layer
+8ce9deff4ffa: Verifying Checksum
+8ce9deff4ffa: Download complete
+8c7dc95e753e: Verifying Checksum
+8c7dc95e753e: Download complete
+26f28487292a: Verifying Checksum
+26f28487292a: Download complete
+26f28487292a: Pull complete
+8c7dc95e753e: Pull complete
+8ce9deff4ffa: Pull complete
+Digest: sha256:a071ce412d15c857f252ee3617814a51986e742ee3bb553dca1227d77f03174b
+Status: Downloaded newer image for r.cfcr.io/codefresh-inc/codefresh/hermes:0.16.1-saas-3311
+r.cfcr.io/codefresh-inc/codefresh/hermes:0.16.1-saas-3311
+Pull r.cfcr.io/codefresh-inc/codefresh/hermes:0.16.1-saas-3311 completed - Mon Oct  7 12:53:02 UTC 2019 !!!
+
+Tag gcr.io/codefresh-inc/codefresh/hermes:0.16.1-saas-3311 completed - Mon Oct  7 12:53:02 UTC 2019 !!!
+
+The push refers to repository [gcr.io/codefresh-inc/codefresh/hermes]
+0fb8042bb1f1: Preparing
+1e1e649acb4c: Preparing
+0622859cefff: Preparing
+0f5eff3d7e97: Preparing
+f1b5933fe4b5: Preparing
+1e1e649acb4c: Waiting
+0622859cefff: Waiting
+0f5eff3d7e97: Waiting
+f1b5933fe4b5: Waiting
+0f5eff3d7e97: Layer already exists
+f1b5933fe4b5: Layer already exists
+1e1e649acb4c: Retrying in 5 seconds
+1e1e649acb4c: Retrying in 4 seconds
+0fb8042bb1f1: Pushed
+1e1e649acb4c: Retrying in 3 seconds
+1e1e649acb4c: Retrying in 2 seconds
+0622859cefff: Pushed
+1e1e649acb4c: Retrying in 1 second
+1e1e649acb4c: Pushed
+0.16.1-saas-3311: digest: sha256:a071ce412d15c857f252ee3617814a51986e742ee3bb553dca1227d77f03174b size: 1364
+Push gcr.io/codefresh-inc/codefresh/hermes:0.16.1-saas-3311 completed - Mon Oct  7 12:53:12 UTC 2019 !!!
+
+---------- Migrate r.cfcr.io/codefresh-inc/codefresh/hermes:0.16.1-cf-onprem-v1.0.82 to gcr.io/codefresh-inc/codefresh/hermes:0.16.1-cf-onprem-v1.0.82
+0.16.1-cf-onprem-v1.0.82: Pulling from codefresh-inc/codefresh/hermes
+e7c96db7181b: Already exists
+2f66ca95d4aa: Already exists
+d903f568ed73: Pulling fs layer
+e586aaecb939: Pulling fs layer
+84daa6c6dc1c: Pulling fs layer
+e586aaecb939: Verifying Checksum
+e586aaecb939: Download complete
+84daa6c6dc1c: Verifying Checksum
+84daa6c6dc1c: Download complete
+d903f568ed73: Verifying Checksum
+d903f568ed73: Download complete
+d903f568ed73: Pull complete
+e586aaecb939: Pull complete
+84daa6c6dc1c: Pull complete
+Digest: sha256:b155b4fe48cb267ca350b7f84f6acd7a2ee15008fc1923928e130defb9d79ccd
+Status: Downloaded newer image for r.cfcr.io/codefresh-inc/codefresh/hermes:0.16.1-cf-onprem-v1.0.82
+r.cfcr.io/codefresh-inc/codefresh/hermes:0.16.1-cf-onprem-v1.0.82
+Pull r.cfcr.io/codefresh-inc/codefresh/hermes:0.16.1-cf-onprem-v1.0.82 completed - Mon Oct  7 12:53:15 UTC 2019 !!!
+
+Tag gcr.io/codefresh-inc/codefresh/hermes:0.16.1-cf-onprem-v1.0.82 completed - Mon Oct  7 12:53:15 UTC 2019 !!!
+
+The push refers to repository [gcr.io/codefresh-inc/codefresh/hermes]
+5cd041381f48: Preparing
+cd893983d7c2: Preparing
+5154633ed8d2: Preparing
+0f5eff3d7e97: Preparing
+f1b5933fe4b5: Preparing
+5cd041381f48: Waiting
+cd893983d7c2: Waiting
+5154633ed8d2: Waiting
+0f5eff3d7e97: Waiting
+f1b5933fe4b5: Waiting
+5cd041381f48: Retrying in 5 seconds
+5cd041381f48: Retrying in 4 seconds
+cd893983d7c2: Pushed
+0f5eff3d7e97: Layer already exists
+5cd041381f48: Retrying in 3 seconds
+f1b5933fe4b5: Layer already exists
+5cd041381f48: Retrying in 2 seconds
+5154633ed8d2: Pushed
+5cd041381f48: Retrying in 1 second
+5cd041381f48: Pushed
+0.16.1-cf-onprem-v1.0.82: digest: sha256:b155b4fe48cb267ca350b7f84f6acd7a2ee15008fc1923928e130defb9d79ccd size: 1364
+Push gcr.io/codefresh-inc/codefresh/hermes:0.16.1-cf-onprem-v1.0.82 completed - Mon Oct  7 12:53:26 UTC 2019 !!!
+
+---------- Migrate r.cfcr.io/codefresh-inc/codefresh/hermes:0.16.1 to gcr.io/codefresh-inc/codefresh/hermes:0.16.1
+0.16.1: Pulling from codefresh-inc/codefresh/hermes
+e7c96db7181b: Already exists
+7fa1b3e5582d: Pulling fs layer
+946eb98864d7: Pulling fs layer
+67e9da94ab78: Pulling fs layer
+6651af50e472: Pulling fs layer
+6651af50e472: Waiting
+67e9da94ab78: Verifying Checksum
+67e9da94ab78: Download complete
+7fa1b3e5582d: Verifying Checksum
+7fa1b3e5582d: Download complete
+946eb98864d7: Verifying Checksum
+946eb98864d7: Download complete
+6651af50e472: Verifying Checksum
+6651af50e472: Download complete
+7fa1b3e5582d: Pull complete
+946eb98864d7: Pull complete
+67e9da94ab78: Pull complete
+6651af50e472: Pull complete
+Digest: sha256:ffc50e25534bcc8952ea67ea2183e26a7b7275476621082511b452f14e3dd31a
+Status: Downloaded newer image for r.cfcr.io/codefresh-inc/codefresh/hermes:0.16.1
+r.cfcr.io/codefresh-inc/codefresh/hermes:0.16.1
+Pull r.cfcr.io/codefresh-inc/codefresh/hermes:0.16.1 completed - Mon Oct  7 12:53:29 UTC 2019 !!!
+
+Tag gcr.io/codefresh-inc/codefresh/hermes:0.16.1 completed - Mon Oct  7 12:53:29 UTC 2019 !!!
+
+The push refers to repository [gcr.io/codefresh-inc/codefresh/hermes]
+b28e8db8eeae: Preparing
+2d0dd4330db2: Preparing
+dca531547597: Preparing
+c237a8c7f7ec: Preparing
+f1b5933fe4b5: Preparing
+b28e8db8eeae: Waiting
+2d0dd4330db2: Waiting
+dca531547597: Waiting
+c237a8c7f7ec: Waiting
+f1b5933fe4b5: Waiting
+b28e8db8eeae: Retrying in 5 seconds
+2d0dd4330db2: Pushed
+b28e8db8eeae: Retrying in 4 seconds
+b28e8db8eeae: Retrying in 3 seconds
+c237a8c7f7ec: Pushed
+f1b5933fe4b5: Layer already exists
+b28e8db8eeae: Retrying in 2 seconds
+dca531547597: Pushed
+b28e8db8eeae: Retrying in 1 second
+b28e8db8eeae: Pushed
+0.16.1: digest: sha256:ffc50e25534bcc8952ea67ea2183e26a7b7275476621082511b452f14e3dd31a size: 1364
+Push gcr.io/codefresh-inc/codefresh/hermes:0.16.1 completed - Mon Oct  7 12:53:39 UTC 2019 !!!
+
+---------- Migrate r.cfcr.io/codefresh-inc/codefresh/hermes:0.16.0 to gcr.io/codefresh-inc/codefresh/hermes:0.16.0
+0.16.0: Pulling from codefresh-inc/codefresh/hermes
+e7c96db7181b: Already exists
+3a0fca58f2d3: Pulling fs layer
+4d325ad14260: Pulling fs layer
+03c0441d4e33: Pulling fs layer
+58fc25d17567: Pulling fs layer
+03c0441d4e33: Waiting
+58fc25d17567: Waiting
+4d325ad14260: Verifying Checksum
+4d325ad14260: Download complete
+03c0441d4e33: Verifying Checksum
+03c0441d4e33: Download complete
+58fc25d17567: Verifying Checksum
+58fc25d17567: Download complete
+3a0fca58f2d3: Verifying Checksum
+3a0fca58f2d3: Download complete
+3a0fca58f2d3: Pull complete
+4d325ad14260: Pull complete
+03c0441d4e33: Pull complete
+58fc25d17567: Pull complete
+Digest: sha256:07233abde0004694e677be7427648e78c5921f68a8efc351acbe472c9315a5c8
+Status: Downloaded newer image for r.cfcr.io/codefresh-inc/codefresh/hermes:0.16.0
+r.cfcr.io/codefresh-inc/codefresh/hermes:0.16.0
+Pull r.cfcr.io/codefresh-inc/codefresh/hermes:0.16.0 completed - Mon Oct  7 12:53:43 UTC 2019 !!!
+
+Tag gcr.io/codefresh-inc/codefresh/hermes:0.16.0 completed - Mon Oct  7 12:53:44 UTC 2019 !!!
+
+The push refers to repository [gcr.io/codefresh-inc/codefresh/hermes]
+28c1684516b6: Preparing
+931d4756ded1: Preparing
+2b659b6e72d2: Preparing
+defb8f17da77: Preparing
+f1b5933fe4b5: Preparing
+28c1684516b6: Waiting
+931d4756ded1: Waiting
+2b659b6e72d2: Waiting
+defb8f17da77: Waiting
+f1b5933fe4b5: Waiting
+931d4756ded1: Pushed
+28c1684516b6: Pushed
+f1b5933fe4b5: Layer already exists
+defb8f17da77: Pushed
+2b659b6e72d2: Pushed
+0.16.0: digest: sha256:07233abde0004694e677be7427648e78c5921f68a8efc351acbe472c9315a5c8 size: 1364
+Push gcr.io/codefresh-inc/codefresh/hermes:0.16.0 completed - Mon Oct  7 12:53:50 UTC 2019 !!!
+
+---------- Migrate r.cfcr.io/codefresh-inc/codefresh/hermes:saas-1450 to gcr.io/codefresh-inc/codefresh/hermes:saas-1450
+saas-1450: Pulling from codefresh-inc/codefresh/hermes
+e7c96db7181b: Already exists
+3a0fca58f2d3: Already exists
+4d325ad14260: Already exists
+03c0441d4e33: Already exists
+58fc25d17567: Already exists
+Digest: sha256:6c279d5a09d7c1788da350ede418108329ddb8e37f6b3cbfce88eb0639d52645
+Status: Downloaded newer image for r.cfcr.io/codefresh-inc/codefresh/hermes:saas-1450
+r.cfcr.io/codefresh-inc/codefresh/hermes:saas-1450
+Pull r.cfcr.io/codefresh-inc/codefresh/hermes:saas-1450 completed - Mon Oct  7 12:53:51 UTC 2019 !!!
+
+Tag gcr.io/codefresh-inc/codefresh/hermes:saas-1450 completed - Mon Oct  7 12:53:52 UTC 2019 !!!
+
+The push refers to repository [gcr.io/codefresh-inc/codefresh/hermes]
+28c1684516b6: Preparing
+931d4756ded1: Preparing
+2b659b6e72d2: Preparing
+defb8f17da77: Preparing
+f1b5933fe4b5: Preparing
+f1b5933fe4b5: Waiting
+28c1684516b6: Layer already exists
+defb8f17da77: Layer already exists
+931d4756ded1: Layer already exists
+2b659b6e72d2: Layer already exists
+f1b5933fe4b5: Layer already exists
+saas-1450: digest: sha256:9ef93379e21e7b93a185e9ba3a1170c21229f208c5a1cde8b29ee9e0463709a7 size: 1364
+Push gcr.io/codefresh-inc/codefresh/hermes:saas-1450 completed - Mon Oct  7 12:53:53 UTC 2019 !!!
+
+---------- Migrate r.cfcr.io/codefresh-inc/codefresh/hermes:SAAS-1450 to gcr.io/codefresh-inc/codefresh/hermes:SAAS-1450
+SAAS-1450: Pulling from codefresh-inc/codefresh/hermes
+Digest: sha256:9ef93379e21e7b93a185e9ba3a1170c21229f208c5a1cde8b29ee9e0463709a7
+Status: Downloaded newer image for r.cfcr.io/codefresh-inc/codefresh/hermes:SAAS-1450
+r.cfcr.io/codefresh-inc/codefresh/hermes:SAAS-1450
+Pull r.cfcr.io/codefresh-inc/codefresh/hermes:SAAS-1450 completed - Mon Oct  7 12:53:54 UTC 2019 !!!
+
+Tag gcr.io/codefresh-inc/codefresh/hermes:SAAS-1450 completed - Mon Oct  7 12:53:54 UTC 2019 !!!
+
+The push refers to repository [gcr.io/codefresh-inc/codefresh/hermes]
+28c1684516b6: Preparing
+931d4756ded1: Preparing
+2b659b6e72d2: Preparing
+defb8f17da77: Preparing
+f1b5933fe4b5: Preparing
+defb8f17da77: Waiting
+f1b5933fe4b5: Waiting
+28c1684516b6: Layer already exists
+931d4756ded1: Layer already exists
+2b659b6e72d2: Layer already exists
+defb8f17da77: Layer already exists
+f1b5933fe4b5: Layer already exists
+SAAS-1450: digest: sha256:9ef93379e21e7b93a185e9ba3a1170c21229f208c5a1cde8b29ee9e0463709a7 size: 1364
+Push gcr.io/codefresh-inc/codefresh/hermes:SAAS-1450 completed - Mon Oct  7 12:53:54 UTC 2019 !!!
+
+---------- Migrate r.cfcr.io/codefresh-inc/codefresh/hermes:0.16.0-saas-1450 to gcr.io/codefresh-inc/codefresh/hermes:0.16.0-saas-1450
+0.16.0-saas-1450: Pulling from codefresh-inc/codefresh/hermes
+Digest: sha256:9ef93379e21e7b93a185e9ba3a1170c21229f208c5a1cde8b29ee9e0463709a7
+Status: Downloaded newer image for r.cfcr.io/codefresh-inc/codefresh/hermes:0.16.0-saas-1450
+r.cfcr.io/codefresh-inc/codefresh/hermes:0.16.0-saas-1450
+Pull r.cfcr.io/codefresh-inc/codefresh/hermes:0.16.0-saas-1450 completed - Mon Oct  7 12:53:55 UTC 2019 !!!
+
+Tag gcr.io/codefresh-inc/codefresh/hermes:0.16.0-saas-1450 completed - Mon Oct  7 12:53:55 UTC 2019 !!!
+
+The push refers to repository [gcr.io/codefresh-inc/codefresh/hermes]
+28c1684516b6: Preparing
+931d4756ded1: Preparing
+2b659b6e72d2: Preparing
+defb8f17da77: Preparing
+f1b5933fe4b5: Preparing
+f1b5933fe4b5: Waiting
+2b659b6e72d2: Layer already exists
+28c1684516b6: Layer already exists
+defb8f17da77: Layer already exists
+931d4756ded1: Layer already exists
+f1b5933fe4b5: Layer already exists
+0.16.0-saas-1450: digest: sha256:9ef93379e21e7b93a185e9ba3a1170c21229f208c5a1cde8b29ee9e0463709a7 size: 1364
+Push gcr.io/codefresh-inc/codefresh/hermes:0.16.0-saas-1450 completed - Mon Oct  7 12:53:56 UTC 2019 !!!
+
+---------- Migrate r.cfcr.io/codefresh-inc/codefresh/hermes:cf-onprem-v1.0.81 to gcr.io/codefresh-inc/codefresh/hermes:cf-onprem-v1.0.81
+cf-onprem-v1.0.81: Pulling from codefresh-inc/codefresh/hermes
+e7c96db7181b: Already exists
+2fa3d60ebd26: Pulling fs layer
+5bbbab293088: Pulling fs layer
+71283bc473fb: Pulling fs layer
+635bcca295be: Pulling fs layer
+635bcca295be: Waiting
+71283bc473fb: Verifying Checksum
+71283bc473fb: Download complete
+2fa3d60ebd26: Verifying Checksum
+2fa3d60ebd26: Download complete
+5bbbab293088: Verifying Checksum
+5bbbab293088: Download complete
+635bcca295be: Verifying Checksum
+635bcca295be: Download complete
+2fa3d60ebd26: Pull complete
+5bbbab293088: Pull complete
+71283bc473fb: Pull complete
+635bcca295be: Pull complete
+Digest: sha256:ce04dbda2e968289ab5e8d33984c252fb96a91b48a05f19f0b2ad8ed9bb10420
+Status: Downloaded newer image for r.cfcr.io/codefresh-inc/codefresh/hermes:cf-onprem-v1.0.81
+r.cfcr.io/codefresh-inc/codefresh/hermes:cf-onprem-v1.0.81
+Pull r.cfcr.io/codefresh-inc/codefresh/hermes:cf-onprem-v1.0.81 completed - Mon Oct  7 12:53:58 UTC 2019 !!!
+
+Tag gcr.io/codefresh-inc/codefresh/hermes:cf-onprem-v1.0.81 completed - Mon Oct  7 12:53:58 UTC 2019 !!!
+
+The push refers to repository [gcr.io/codefresh-inc/codefresh/hermes]
+e21eb0679c4e: Preparing
+c88e55c7b965: Preparing
+164a1e3256e8: Preparing
+fb82a1949374: Preparing
+f1b5933fe4b5: Preparing
+e21eb0679c4e: Waiting
+c88e55c7b965: Waiting
+164a1e3256e8: Waiting
+fb82a1949374: Waiting
+f1b5933fe4b5: Waiting
+e21eb0679c4e: Pushed
+c88e55c7b965: Pushed
+164a1e3256e8: Pushed
+f1b5933fe4b5: Layer already exists
+fb82a1949374: Pushed
+cf-onprem-v1.0.81: digest: sha256:ce04dbda2e968289ab5e8d33984c252fb96a91b48a05f19f0b2ad8ed9bb10420 size: 1364
+Push gcr.io/codefresh-inc/codefresh/hermes:cf-onprem-v1.0.81 completed - Mon Oct  7 12:54:05 UTC 2019 !!!
+
+---------- Migrate r.cfcr.io/codefresh-inc/codefresh/hermes:0.15.0-cf-onprem-v1.0.81 to gcr.io/codefresh-inc/codefresh/hermes:0.15.0-cf-onprem-v1.0.81
+0.15.0-cf-onprem-v1.0.81: Pulling from codefresh-inc/codefresh/hermes
+Digest: sha256:ce04dbda2e968289ab5e8d33984c252fb96a91b48a05f19f0b2ad8ed9bb10420
+Status: Downloaded newer image for r.cfcr.io/codefresh-inc/codefresh/hermes:0.15.0-cf-onprem-v1.0.81
+r.cfcr.io/codefresh-inc/codefresh/hermes:0.15.0-cf-onprem-v1.0.81
+Pull r.cfcr.io/codefresh-inc/codefresh/hermes:0.15.0-cf-onprem-v1.0.81 completed - Mon Oct  7 12:54:06 UTC 2019 !!!
+
+Tag gcr.io/codefresh-inc/codefresh/hermes:0.15.0-cf-onprem-v1.0.81 completed - Mon Oct  7 12:54:07 UTC 2019 !!!
+
+The push refers to repository [gcr.io/codefresh-inc/codefresh/hermes]
+e21eb0679c4e: Preparing
+c88e55c7b965: Preparing
+164a1e3256e8: Preparing
+fb82a1949374: Preparing
+f1b5933fe4b5: Preparing
+f1b5933fe4b5: Waiting
+c88e55c7b965: Layer already exists
+e21eb0679c4e: Layer already exists
+fb82a1949374: Layer already exists
+164a1e3256e8: Layer already exists
+f1b5933fe4b5: Layer already exists
+0.15.0-cf-onprem-v1.0.81: digest: sha256:ce04dbda2e968289ab5e8d33984c252fb96a91b48a05f19f0b2ad8ed9bb10420 size: 1364
+Push gcr.io/codefresh-inc/codefresh/hermes:0.15.0-cf-onprem-v1.0.81 completed - Mon Oct  7 12:54:07 UTC 2019 !!!
+
+---------- Migrate r.cfcr.io/codefresh-inc/codefresh/hermes:0.15.0 to gcr.io/codefresh-inc/codefresh/hermes:0.15.0
+0.15.0: Pulling from codefresh-inc/codefresh/hermes
+e7c96db7181b: Already exists
+c2a193cabc16: Pulling fs layer
+399d484ac4e3: Pulling fs layer
+e78dafce0a5f: Pulling fs layer
+cf49dc931446: Pulling fs layer
+e78dafce0a5f: Waiting
+cf49dc931446: Waiting
+c2a193cabc16: Verifying Checksum
+c2a193cabc16: Download complete
+399d484ac4e3: Verifying Checksum
+399d484ac4e3: Download complete
+e78dafce0a5f: Verifying Checksum
+e78dafce0a5f: Download complete
+cf49dc931446: Verifying Checksum
+cf49dc931446: Download complete
+c2a193cabc16: Pull complete
+399d484ac4e3: Pull complete
+e78dafce0a5f: Pull complete
+cf49dc931446: Pull complete
+Digest: sha256:99069b97fcaf5c6748f62f045c2fcf1b7cb18a1ec01a5ad8bade08ed135ccaf3
+Status: Downloaded newer image for r.cfcr.io/codefresh-inc/codefresh/hermes:0.15.0
+r.cfcr.io/codefresh-inc/codefresh/hermes:0.15.0
+Pull r.cfcr.io/codefresh-inc/codefresh/hermes:0.15.0 completed - Mon Oct  7 12:54:10 UTC 2019 !!!
+
+Tag gcr.io/codefresh-inc/codefresh/hermes:0.15.0 completed - Mon Oct  7 12:54:10 UTC 2019 !!!
+
+The push refers to repository [gcr.io/codefresh-inc/codefresh/hermes]
+4c70e1256975: Preparing
+fbe3aba8d836: Preparing
+bf287c16a6e7: Preparing
+da599a3f74f0: Preparing
+f1b5933fe4b5: Preparing
+f1b5933fe4b5: Waiting
+fbe3aba8d836: Retrying in 5 seconds
+4c70e1256975: Retrying in 5 seconds
+fbe3aba8d836: Retrying in 4 seconds
+4c70e1256975: Retrying in 4 seconds
+fbe3aba8d836: Retrying in 3 seconds
+da599a3f74f0: Pushed
+4c70e1256975: Retrying in 3 seconds
+f1b5933fe4b5: Layer already exists
+bf287c16a6e7: Pushed
+fbe3aba8d836: Retrying in 2 seconds
+4c70e1256975: Retrying in 2 seconds
+fbe3aba8d836: Retrying in 1 second
+4c70e1256975: Retrying in 1 second
+fbe3aba8d836: Pushed
+4c70e1256975: Pushed
+0.15.0: digest: sha256:99069b97fcaf5c6748f62f045c2fcf1b7cb18a1ec01a5ad8bade08ed135ccaf3 size: 1364
+Push gcr.io/codefresh-inc/codefresh/hermes:0.15.0 completed - Mon Oct  7 12:54:19 UTC 2019 !!!
+
+---------- Migrate r.cfcr.io/codefresh-inc/codefresh/hermes:saas-bump-version to gcr.io/codefresh-inc/codefresh/hermes:saas-bump-version
+saas-bump-version: Pulling from codefresh-inc/codefresh/hermes
+e7c96db7181b: Already exists
+c2a193cabc16: Already exists
+399d484ac4e3: Already exists
+e78dafce0a5f: Already exists
+cf49dc931446: Already exists
+Digest: sha256:94e701ec6571389a9eaa8c1ce4519fd9db12ee8629115857a9d1bf13f009067d
+Status: Downloaded newer image for r.cfcr.io/codefresh-inc/codefresh/hermes:saas-bump-version
+r.cfcr.io/codefresh-inc/codefresh/hermes:saas-bump-version
+Pull r.cfcr.io/codefresh-inc/codefresh/hermes:saas-bump-version completed - Mon Oct  7 12:54:20 UTC 2019 !!!
+
+Tag gcr.io/codefresh-inc/codefresh/hermes:saas-bump-version completed - Mon Oct  7 12:54:20 UTC 2019 !!!
+
+The push refers to repository [gcr.io/codefresh-inc/codefresh/hermes]
+4c70e1256975: Preparing
+fbe3aba8d836: Preparing
+bf287c16a6e7: Preparing
+4c70e1256975: Waiting
+fbe3aba8d836: Waiting
+bf287c16a6e7: Waiting
+da599a3f74f0: Preparing
+f1b5933fe4b5: Preparing
+f1b5933fe4b5: Waiting
+da599a3f74f0: Waiting
+4c70e1256975: Layer already exists
+fbe3aba8d836: Layer already exists
+bf287c16a6e7: Layer already exists
+f1b5933fe4b5: Layer already exists
+da599a3f74f0: Layer already exists
+saas-bump-version: digest: sha256:86e1ad8d20429afddd1501337cdb2cf4637a8bd4d9a88a7c06fd2171eb941cf1 size: 1364
+Push gcr.io/codefresh-inc/codefresh/hermes:saas-bump-version completed - Mon Oct  7 12:54:24 UTC 2019 !!!
+
+---------- Migrate r.cfcr.io/codefresh-inc/codefresh/hermes:SAAS-bump-version to gcr.io/codefresh-inc/codefresh/hermes:SAAS-bump-version
+SAAS-bump-version: Pulling from codefresh-inc/codefresh/hermes
+Digest: sha256:86e1ad8d20429afddd1501337cdb2cf4637a8bd4d9a88a7c06fd2171eb941cf1
+Status: Downloaded newer image for r.cfcr.io/codefresh-inc/codefresh/hermes:SAAS-bump-version
+r.cfcr.io/codefresh-inc/codefresh/hermes:SAAS-bump-version
+Pull r.cfcr.io/codefresh-inc/codefresh/hermes:SAAS-bump-version completed - Mon Oct  7 12:54:25 UTC 2019 !!!
+
+Tag gcr.io/codefresh-inc/codefresh/hermes:SAAS-bump-version completed - Mon Oct  7 12:54:26 UTC 2019 !!!
+
+The push refers to repository [gcr.io/codefresh-inc/codefresh/hermes]
+4c70e1256975: Preparing
+fbe3aba8d836: Preparing
+bf287c16a6e7: Preparing
+da599a3f74f0: Preparing
+f1b5933fe4b5: Preparing
+f1b5933fe4b5: Waiting
+4c70e1256975: Layer already exists
+da599a3f74f0: Layer already exists
+fbe3aba8d836: Layer already exists
+bf287c16a6e7: Layer already exists
+f1b5933fe4b5: Layer already exists
+SAAS-bump-version: digest: sha256:86e1ad8d20429afddd1501337cdb2cf4637a8bd4d9a88a7c06fd2171eb941cf1 size: 1364
+Push gcr.io/codefresh-inc/codefresh/hermes:SAAS-bump-version completed - Mon Oct  7 12:54:26 UTC 2019 !!!
+
+---------- Migrate r.cfcr.io/codefresh-inc/codefresh/hermes:0.15.0-saas-bump-version to gcr.io/codefresh-inc/codefresh/hermes:0.15.0-saas-bump-version
+0.15.0-saas-bump-version: Pulling from codefresh-inc/codefresh/hermes
+Digest: sha256:86e1ad8d20429afddd1501337cdb2cf4637a8bd4d9a88a7c06fd2171eb941cf1
+Status: Downloaded newer image for r.cfcr.io/codefresh-inc/codefresh/hermes:0.15.0-saas-bump-version
+r.cfcr.io/codefresh-inc/codefresh/hermes:0.15.0-saas-bump-version
+Pull r.cfcr.io/codefresh-inc/codefresh/hermes:0.15.0-saas-bump-version completed - Mon Oct  7 12:54:27 UTC 2019 !!!
+
+Tag gcr.io/codefresh-inc/codefresh/hermes:0.15.0-saas-bump-version completed - Mon Oct  7 12:54:27 UTC 2019 !!!
+
+The push refers to repository [gcr.io/codefresh-inc/codefresh/hermes]
+4c70e1256975: Preparing
+fbe3aba8d836: Preparing
+bf287c16a6e7: Preparing
+da599a3f74f0: Preparing
+f1b5933fe4b5: Preparing
+f1b5933fe4b5: Waiting
+fbe3aba8d836: Layer already exists
+4c70e1256975: Layer already exists
+bf287c16a6e7: Layer already exists
+da599a3f74f0: Layer already exists
+f1b5933fe4b5: Layer already exists
+0.15.0-saas-bump-version: digest: sha256:86e1ad8d20429afddd1501337cdb2cf4637a8bd4d9a88a7c06fd2171eb941cf1 size: 1364
+Push gcr.io/codefresh-inc/codefresh/hermes:0.15.0-saas-bump-version completed - Mon Oct  7 12:54:28 UTC 2019 !!!
+
+---------- Migrate r.cfcr.io/codefresh-inc/codefresh/hermes:saas-fix-protocol to gcr.io/codefresh-inc/codefresh/hermes:saas-fix-protocol
+saas-fix-protocol: Pulling from codefresh-inc/codefresh/hermes
+e7c96db7181b: Already exists
+c2a193cabc16: Already exists
+31ba268aea22: Pulling fs layer
+c92eeb7da3d2: Pulling fs layer
+1bbb4f8a55d9: Pulling fs layer
+1bbb4f8a55d9: Verifying Checksum
+1bbb4f8a55d9: Download complete
+c92eeb7da3d2: Verifying Checksum
+c92eeb7da3d2: Download complete
+31ba268aea22: Verifying Checksum
+31ba268aea22: Download complete
+31ba268aea22: Pull complete
+c92eeb7da3d2: Pull complete
+1bbb4f8a55d9: Pull complete
+Digest: sha256:6cb6e118b64841903daa8cfe88336f2b33cdf78832fe2a3a1a0e0c80a170475a
+Status: Downloaded newer image for r.cfcr.io/codefresh-inc/codefresh/hermes:saas-fix-protocol
+r.cfcr.io/codefresh-inc/codefresh/hermes:saas-fix-protocol
+Pull r.cfcr.io/codefresh-inc/codefresh/hermes:saas-fix-protocol completed - Mon Oct  7 12:54:32 UTC 2019 !!!
+
+Tag gcr.io/codefresh-inc/codefresh/hermes:saas-fix-protocol completed - Mon Oct  7 12:54:32 UTC 2019 !!!
+
+The push refers to repository [gcr.io/codefresh-inc/codefresh/hermes]
+5542992e61ef: Preparing
+f57abb062bf5: Preparing
+b0ae792798aa: Preparing
+da599a3f74f0: Preparing
+f1b5933fe4b5: Preparing
+5542992e61ef: Waiting
+f57abb062bf5: Waiting
+b0ae792798aa: Waiting
+da599a3f74f0: Waiting
+f1b5933fe4b5: Waiting
+5542992e61ef: Pushed
+da599a3f74f0: Layer already exists
+f1b5933fe4b5: Layer already exists
+f57abb062bf5: Pushed
+b0ae792798aa: Pushed
+saas-fix-protocol: digest: sha256:9fea8c29bf394097204fcab3e9b6d7b3d030d41d14a6e5a28a10354192822149 size: 1364
+Push gcr.io/codefresh-inc/codefresh/hermes:saas-fix-protocol completed - Mon Oct  7 12:54:39 UTC 2019 !!!
+
+---------- Migrate r.cfcr.io/codefresh-inc/codefresh/hermes:SAAS-fix-protocol to gcr.io/codefresh-inc/codefresh/hermes:SAAS-fix-protocol
+SAAS-fix-protocol: Pulling from codefresh-inc/codefresh/hermes
+Digest: sha256:9fea8c29bf394097204fcab3e9b6d7b3d030d41d14a6e5a28a10354192822149
+Status: Downloaded newer image for r.cfcr.io/codefresh-inc/codefresh/hermes:SAAS-fix-protocol
+r.cfcr.io/codefresh-inc/codefresh/hermes:SAAS-fix-protocol
+Pull r.cfcr.io/codefresh-inc/codefresh/hermes:SAAS-fix-protocol completed - Mon Oct  7 12:54:40 UTC 2019 !!!
+
+Tag gcr.io/codefresh-inc/codefresh/hermes:SAAS-fix-protocol completed - Mon Oct  7 12:54:41 UTC 2019 !!!
+
+The push refers to repository [gcr.io/codefresh-inc/codefresh/hermes]
+5542992e61ef: Preparing
+f57abb062bf5: Preparing
+b0ae792798aa: Preparing
+da599a3f74f0: Preparing
+f1b5933fe4b5: Preparing
+5542992e61ef: Waiting
+f57abb062bf5: Waiting
+b0ae792798aa: Waiting
+da599a3f74f0: Waiting
+f1b5933fe4b5: Waiting
+5542992e61ef: Layer already exists
+f57abb062bf5: Layer already exists
+b0ae792798aa: Layer already exists
+da599a3f74f0: Layer already exists
+f1b5933fe4b5: Layer already exists
+SAAS-fix-protocol: digest: sha256:9fea8c29bf394097204fcab3e9b6d7b3d030d41d14a6e5a28a10354192822149 size: 1364
+Push gcr.io/codefresh-inc/codefresh/hermes:SAAS-fix-protocol completed - Mon Oct  7 12:54:44 UTC 2019 !!!
+
+---------- Migrate r.cfcr.io/codefresh-inc/codefresh/hermes:0.14.0-saas-fix-protocol to gcr.io/codefresh-inc/codefresh/hermes:0.14.0-saas-fix-protocol
+0.14.0-saas-fix-protocol: Pulling from codefresh-inc/codefresh/hermes
+Digest: sha256:9fea8c29bf394097204fcab3e9b6d7b3d030d41d14a6e5a28a10354192822149
+Status: Downloaded newer image for r.cfcr.io/codefresh-inc/codefresh/hermes:0.14.0-saas-fix-protocol
+r.cfcr.io/codefresh-inc/codefresh/hermes:0.14.0-saas-fix-protocol
+Pull r.cfcr.io/codefresh-inc/codefresh/hermes:0.14.0-saas-fix-protocol completed - Mon Oct  7 12:54:45 UTC 2019 !!!
+
+Tag gcr.io/codefresh-inc/codefresh/hermes:0.14.0-saas-fix-protocol completed - Mon Oct  7 12:54:45 UTC 2019 !!!
+
+The push refers to repository [gcr.io/codefresh-inc/codefresh/hermes]
+5542992e61ef: Preparing
+f57abb062bf5: Preparing
+b0ae792798aa: Preparing
+da599a3f74f0: Preparing
+f1b5933fe4b5: Preparing
+b0ae792798aa: Waiting
+da599a3f74f0: Waiting
+f1b5933fe4b5: Waiting
+5542992e61ef: Layer already exists
+f57abb062bf5: Layer already exists
+b0ae792798aa: Layer already exists
+da599a3f74f0: Layer already exists
+f1b5933fe4b5: Layer already exists
+0.14.0-saas-fix-protocol: digest: sha256:9fea8c29bf394097204fcab3e9b6d7b3d030d41d14a6e5a28a10354192822149 size: 1364
+Push gcr.io/codefresh-inc/codefresh/hermes:0.14.0-saas-fix-protocol completed - Mon Oct  7 12:54:46 UTC 2019 !!!
+
+---------- Migrate r.cfcr.io/codefresh-inc/codefresh/hermes:0.13.0 to gcr.io/codefresh-inc/codefresh/hermes:0.13.0
+0.13.0: Pulling from codefresh-inc/codefresh/hermes
+e7c96db7181b: Already exists
+c2a193cabc16: Already exists
+a2f106f7ad31: Pulling fs layer
+9bbfcacaf169: Pulling fs layer
+55ee1f435262: Pulling fs layer
+9bbfcacaf169: Verifying Checksum
+9bbfcacaf169: Download complete
+55ee1f435262: Verifying Checksum
+55ee1f435262: Download complete
+a2f106f7ad31: Verifying Checksum
+a2f106f7ad31: Download complete
+a2f106f7ad31: Pull complete
+9bbfcacaf169: Pull complete
+55ee1f435262: Pull complete
+Digest: sha256:a264c4939f01d1f75f42f36549a7a64ca1c772905a4d1557fa009378c609c2f7
+Status: Downloaded newer image for r.cfcr.io/codefresh-inc/codefresh/hermes:0.13.0
+r.cfcr.io/codefresh-inc/codefresh/hermes:0.13.0
+Pull r.cfcr.io/codefresh-inc/codefresh/hermes:0.13.0 completed - Mon Oct  7 12:54:49 UTC 2019 !!!
+
+Tag gcr.io/codefresh-inc/codefresh/hermes:0.13.0 completed - Mon Oct  7 12:54:49 UTC 2019 !!!
+
+The push refers to repository [gcr.io/codefresh-inc/codefresh/hermes]
+51c0e7a22bbe: Preparing
+41b85097b01e: Preparing
+d461648312fa: Preparing
+da599a3f74f0: Preparing
+f1b5933fe4b5: Preparing
+da599a3f74f0: Waiting
+f1b5933fe4b5: Waiting
+da599a3f74f0: Layer already exists
+f1b5933fe4b5: Layer already exists
+41b85097b01e: Pushed
+51c0e7a22bbe: Pushed
+d461648312fa: Pushed
+0.13.0: digest: sha256:a264c4939f01d1f75f42f36549a7a64ca1c772905a4d1557fa009378c609c2f7 size: 1364
+Push gcr.io/codefresh-inc/codefresh/hermes:0.13.0 completed - Mon Oct  7 12:54:55 UTC 2019 !!!
+
+---------- Migrate r.cfcr.io/codefresh-inc/codefresh/hermes:saas-update-api-uri to gcr.io/codefresh-inc/codefresh/hermes:saas-update-api-uri
+saas-update-api-uri: Pulling from codefresh-inc/codefresh/hermes
+e7c96db7181b: Already exists
+c2a193cabc16: Already exists
+a2f106f7ad31: Already exists
+9bbfcacaf169: Already exists
+55ee1f435262: Already exists
+Digest: sha256:a445ec208b1d6a6db5d0ebd68c87577eecfee085f35c5d4a8eb3186fabc22a8c
+Status: Downloaded newer image for r.cfcr.io/codefresh-inc/codefresh/hermes:saas-update-api-uri
+r.cfcr.io/codefresh-inc/codefresh/hermes:saas-update-api-uri
+Pull r.cfcr.io/codefresh-inc/codefresh/hermes:saas-update-api-uri completed - Mon Oct  7 12:54:56 UTC 2019 !!!
+
+Tag gcr.io/codefresh-inc/codefresh/hermes:saas-update-api-uri completed - Mon Oct  7 12:54:56 UTC 2019 !!!
+
+The push refers to repository [gcr.io/codefresh-inc/codefresh/hermes]
+51c0e7a22bbe: Preparing
+41b85097b01e: Preparing
+d461648312fa: Preparing
+da599a3f74f0: Preparing
+f1b5933fe4b5: Preparing
+51c0e7a22bbe: Layer already exists
+41b85097b01e: Layer already exists
+da599a3f74f0: Layer already exists
+f1b5933fe4b5: Layer already exists
+d461648312fa: Layer already exists
+saas-update-api-uri: digest: sha256:4601eb2f5ec30afe9c80cb28b8b654f3f710265301e3253e5b7303e3e5cb515f size: 1364
+Push gcr.io/codefresh-inc/codefresh/hermes:saas-update-api-uri completed - Mon Oct  7 12:54:59 UTC 2019 !!!
+
+---------- Migrate r.cfcr.io/codefresh-inc/codefresh/hermes:SAAS-update-api-uri to gcr.io/codefresh-inc/codefresh/hermes:SAAS-update-api-uri
+SAAS-update-api-uri: Pulling from codefresh-inc/codefresh/hermes
+Digest: sha256:4601eb2f5ec30afe9c80cb28b8b654f3f710265301e3253e5b7303e3e5cb515f
+Status: Downloaded newer image for r.cfcr.io/codefresh-inc/codefresh/hermes:SAAS-update-api-uri
+r.cfcr.io/codefresh-inc/codefresh/hermes:SAAS-update-api-uri
+Pull r.cfcr.io/codefresh-inc/codefresh/hermes:SAAS-update-api-uri completed - Mon Oct  7 12:55:00 UTC 2019 !!!
+
+Tag gcr.io/codefresh-inc/codefresh/hermes:SAAS-update-api-uri completed - Mon Oct  7 12:55:00 UTC 2019 !!!
+
+The push refers to repository [gcr.io/codefresh-inc/codefresh/hermes]
+51c0e7a22bbe: Preparing
+41b85097b01e: Preparing
+d461648312fa: Preparing
+da599a3f74f0: Preparing
+f1b5933fe4b5: Preparing
+d461648312fa: Waiting
+da599a3f74f0: Waiting
+f1b5933fe4b5: Waiting
+51c0e7a22bbe: Layer already exists
+41b85097b01e: Layer already exists
+d461648312fa: Layer already exists
+f1b5933fe4b5: Layer already exists
+da599a3f74f0: Layer already exists
+SAAS-update-api-uri: digest: sha256:4601eb2f5ec30afe9c80cb28b8b654f3f710265301e3253e5b7303e3e5cb515f size: 1364
+Push gcr.io/codefresh-inc/codefresh/hermes:SAAS-update-api-uri completed - Mon Oct  7 12:55:01 UTC 2019 !!!
+
+---------- Migrate r.cfcr.io/codefresh-inc/codefresh/hermes:0.13.0-saas-update-api-uri to gcr.io/codefresh-inc/codefresh/hermes:0.13.0-saas-update-api-uri
+0.13.0-saas-update-api-uri: Pulling from codefresh-inc/codefresh/hermes
+Digest: sha256:4601eb2f5ec30afe9c80cb28b8b654f3f710265301e3253e5b7303e3e5cb515f
+Status: Downloaded newer image for r.cfcr.io/codefresh-inc/codefresh/hermes:0.13.0-saas-update-api-uri
+r.cfcr.io/codefresh-inc/codefresh/hermes:0.13.0-saas-update-api-uri
+Pull r.cfcr.io/codefresh-inc/codefresh/hermes:0.13.0-saas-update-api-uri completed - Mon Oct  7 12:55:01 UTC 2019 !!!
+
+Tag gcr.io/codefresh-inc/codefresh/hermes:0.13.0-saas-update-api-uri completed - Mon Oct  7 12:55:02 UTC 2019 !!!
+
+The push refers to repository [gcr.io/codefresh-inc/codefresh/hermes]
+51c0e7a22bbe: Preparing
+41b85097b01e: Preparing
+d461648312fa: Preparing
+da599a3f74f0: Preparing
+f1b5933fe4b5: Preparing
+51c0e7a22bbe: Waiting
+41b85097b01e: Waiting
+d461648312fa: Waiting
+da599a3f74f0: Waiting
+f1b5933fe4b5: Waiting
+51c0e7a22bbe: Layer already exists
+41b85097b01e: Layer already exists
+d461648312fa: Layer already exists
+da599a3f74f0: Layer already exists
+f1b5933fe4b5: Layer already exists
+0.13.0-saas-update-api-uri: digest: sha256:4601eb2f5ec30afe9c80cb28b8b654f3f710265301e3253e5b7303e3e5cb515f size: 1364
+Push gcr.io/codefresh-inc/codefresh/hermes:0.13.0-saas-update-api-uri completed - Mon Oct  7 12:55:06 UTC 2019 !!!
+
+---------- Migrate r.cfcr.io/codefresh-inc/codefresh/hermes:0.12.0 to gcr.io/codefresh-inc/codefresh/hermes:0.12.0
+0.12.0: Pulling from codefresh-inc/codefresh/hermes
+e7c96db7181b: Already exists
+c2a193cabc16: Already exists
+69f50507893b: Pulling fs layer
+8be604d9a778: Pulling fs layer
+1b43afd04e15: Pulling fs layer
+8be604d9a778: Verifying Checksum
+8be604d9a778: Download complete
+1b43afd04e15: Verifying Checksum
+1b43afd04e15: Download complete
+69f50507893b: Verifying Checksum
+69f50507893b: Download complete
+69f50507893b: Pull complete
+8be604d9a778: Pull complete
+1b43afd04e15: Pull complete
+Digest: sha256:46b964b6ec4df15c609f8989e7ff45bf7d8841506f3f39e30b8dbb0f31e6bca0
+Status: Downloaded newer image for r.cfcr.io/codefresh-inc/codefresh/hermes:0.12.0
+r.cfcr.io/codefresh-inc/codefresh/hermes:0.12.0
+Pull r.cfcr.io/codefresh-inc/codefresh/hermes:0.12.0 completed - Mon Oct  7 12:55:11 UTC 2019 !!!
+
+Tag gcr.io/codefresh-inc/codefresh/hermes:0.12.0 completed - Mon Oct  7 12:55:11 UTC 2019 !!!
+
+The push refers to repository [gcr.io/codefresh-inc/codefresh/hermes]
+2c59e0f492d2: Preparing
+af2205524798: Preparing
+8284529a7b92: Preparing
+da599a3f74f0: Preparing
+f1b5933fe4b5: Preparing
+2c59e0f492d2: Waiting
+af2205524798: Waiting
+8284529a7b92: Waiting
+da599a3f74f0: Waiting
+f1b5933fe4b5: Waiting
+2c59e0f492d2: Retrying in 5 seconds
+2c59e0f492d2: Retrying in 4 seconds
+af2205524798: Pushed
+da599a3f74f0: Layer already exists
+f1b5933fe4b5: Layer already exists
+2c59e0f492d2: Retrying in 3 seconds
+8284529a7b92: Pushed
+2c59e0f492d2: Retrying in 2 seconds
+2c59e0f492d2: Retrying in 1 second
+2c59e0f492d2: Pushed
+0.12.0: digest: sha256:46b964b6ec4df15c609f8989e7ff45bf7d8841506f3f39e30b8dbb0f31e6bca0 size: 1364
+Push gcr.io/codefresh-inc/codefresh/hermes:0.12.0 completed - Mon Oct  7 12:55:31 UTC 2019 !!!
+

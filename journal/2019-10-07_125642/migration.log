@@ -1,0 +1,1228 @@
+Entering ./migrate-from-cfcr.sh - Mon Oct  7 12:56:45 UTC 2019
+JOURNAL_DIR = ./journal/2019-10-07_125642
+DONE_DIR = ./done
+IMAGES_LIST=./journal/2019-10-07_125642/images-list
+
+Starting at Mon Oct  7 12:56:49 UTC 2019
+Processing ./journal/2019-10-07_125642/images-list
+NAME                       TAG                                      PULL - SKIP
+./journal/2019-10-07_125642/codefresh__segment-reporter.tags
+./journal/2019-10-07_125642/codefresh__segment-reporter.tags
+codefresh/segment-reporter 02af0f5418090ad1f64bbabbe13f309324589397 r.cfcr.io/codefresh-inc/codefresh/segment-reporter:02af0f5418090ad1f64bbabbe13f309324589397 - SKIP
+./journal/2019-10-07_125642/codefresh__segment-reporter.tags
+codefresh/segment-reporter 8a936c4c0eeda75e8e3042e912befe408f4f8221 r.cfcr.io/codefresh-inc/codefresh/segment-reporter:8a936c4c0eeda75e8e3042e912befe408f4f8221 - SKIP
+./journal/2019-10-07_125642/codefresh__segment-reporter.tags
+codefresh/segment-reporter a027eb7810f3c9ab94b62448b2f084234fabfb0e r.cfcr.io/codefresh-inc/codefresh/segment-reporter:a027eb7810f3c9ab94b62448b2f084234fabfb0e - SKIP
+./journal/2019-10-07_125642/codefresh__segment-reporter.tags
+./journal/2019-10-07_125642/codefresh__segment-reporter.tags
+codefresh/segment-reporter 7b0be28f9f6f7e63e3373123d1ad848228fd84c4 r.cfcr.io/codefresh-inc/codefresh/segment-reporter:7b0be28f9f6f7e63e3373123d1ad848228fd84c4 - SKIP
+./journal/2019-10-07_125642/codefresh__segment-reporter.tags
+./journal/2019-10-07_125642/codefresh__segment-reporter.tags
+codefresh/segment-reporter 6745d5e9b25f7459188d689af739217ac9c0d606 r.cfcr.io/codefresh-inc/codefresh/segment-reporter:6745d5e9b25f7459188d689af739217ac9c0d606 - SKIP
+codefresh/segment-reporter 8e6d8da8c269e84a37f2860e8e91481276778a0d r.cfcr.io/codefresh-inc/codefresh/segment-reporter:8e6d8da8c269e84a37f2860e8e91481276778a0d - SKIP
+./journal/2019-10-07_125642/codefresh__segment-reporter.tags
+codefresh/segment-reporter b8f991924ca8db22af039b7c08e72cecb830c96f r.cfcr.io/codefresh-inc/codefresh/segment-reporter:b8f991924ca8db22af039b7c08e72cecb830c96f - SKIP
+./journal/2019-10-07_125642/codefresh__segment-reporter.tags
+codefresh/segment-reporter 4f15ea7878490ed83fc22ff4c3a753fc80a2520b r.cfcr.io/codefresh-inc/codefresh/segment-reporter:4f15ea7878490ed83fc22ff4c3a753fc80a2520b - SKIP
+./journal/2019-10-07_125642/codefresh__segment-reporter.tags
+codefresh/segment-reporter e6575eaff6001ebc10fad59776bdfe79b98edb57 r.cfcr.io/codefresh-inc/codefresh/segment-reporter:e6575eaff6001ebc10fad59776bdfe79b98edb57 - SKIP
+./journal/2019-10-07_125642/codefresh__segment-reporter.tags
+codefresh/segment-reporter 78a481679b9876583c1d2bb97ca6f042261c7041 r.cfcr.io/codefresh-inc/codefresh/segment-reporter:78a481679b9876583c1d2bb97ca6f042261c7041 - SKIP
+./journal/2019-10-07_125642/codefresh__segment-reporter.tags
+./journal/2019-10-07_125642/codefresh__segment-reporter.tags
+codefresh/segment-reporter 1fce70aead116d56d011650283662fba42ad01d3 r.cfcr.io/codefresh-inc/codefresh/segment-reporter:1fce70aead116d56d011650283662fba42ad01d3 - SKIP
+codefresh/segment-reporter ff361ac0b6ae7b3458a5d8349815393a99a0ec7c r.cfcr.io/codefresh-inc/codefresh/segment-reporter:ff361ac0b6ae7b3458a5d8349815393a99a0ec7c - SKIP
+./journal/2019-10-07_125642/codefresh__segment-reporter.tags
+codefresh/segment-reporter 6674f77194fbe858c73028691ce54d6a5c2e38ba r.cfcr.io/codefresh-inc/codefresh/segment-reporter:6674f77194fbe858c73028691ce54d6a5c2e38ba - SKIP
+./journal/2019-10-07_125642/codefresh__segment-reporter.tags
+codefresh/segment-reporter d3af49f86bc974a8e0d43fc29a453ed8b3538ad5 r.cfcr.io/codefresh-inc/codefresh/segment-reporter:d3af49f86bc974a8e0d43fc29a453ed8b3538ad5 - SKIP
+codefresh/segment-reporter 1c56ee111ba84200a14c9bac8194a9741e2350f9 r.cfcr.io/codefresh-inc/codefresh/segment-reporter:1c56ee111ba84200a14c9bac8194a9741e2350f9 - SKIP
+codefresh/segment-reporter 03c133b84a9f5c947d5a5aa332f8ace65a2cca06 r.cfcr.io/codefresh-inc/codefresh/segment-reporter:03c133b84a9f5c947d5a5aa332f8ace65a2cca06 - SKIP
+codefresh/segment-reporter 2defbfdaabdf00601f472d8b5da366393026f6a4 r.cfcr.io/codefresh-inc/codefresh/segment-reporter:2defbfdaabdf00601f472d8b5da366393026f6a4 - SKIP
+./journal/2019-10-07_125642/codefresh__segment-reporter.tags
+./journal/2019-10-07_125642/codefresh__segment-reporter.tags
+codefresh/segment-reporter 31698293be10f394cdd18f5f7dfd8bcee0154f91 r.cfcr.io/codefresh-inc/codefresh/segment-reporter:31698293be10f394cdd18f5f7dfd8bcee0154f91 - SKIP
+./journal/2019-10-07_125642/codefresh__segment-reporter.tags
+codefresh/segment-reporter 15f2f65e409922d45e05dbe95e0e828fc4c4ede5 r.cfcr.io/codefresh-inc/codefresh/segment-reporter:15f2f65e409922d45e05dbe95e0e828fc4c4ede5 - SKIP
+codefresh/segment-reporter 68e81a8df9555a11900a03302649fc25156d2a23 r.cfcr.io/codefresh-inc/codefresh/segment-reporter:68e81a8df9555a11900a03302649fc25156d2a23 - SKIP
+./journal/2019-10-07_125642/codefresh__segment-reporter.tags
+./journal/2019-10-07_125642/codefresh__segment-reporter.tags
+./journal/2019-10-07_125642/codefresh__segment-reporter.tags
+codefresh/segment-reporter 39c5727fae7db6403a4906b7650ad119033441bb r.cfcr.io/codefresh-inc/codefresh/segment-reporter:39c5727fae7db6403a4906b7650ad119033441bb - SKIP
+./journal/2019-10-07_125642/codefresh__segment-reporter.tags
+./journal/2019-10-07_125642/codefresh__segment-reporter.tags
+codefresh/segment-reporter 8df8e86308f8de39f744ab6a9478c56df26688e3 r.cfcr.io/codefresh-inc/codefresh/segment-reporter:8df8e86308f8de39f744ab6a9478c56df26688e3 - SKIP
+codefresh/segment-reporter c427b3b982c4ae395b8991ff26c252213576b56c r.cfcr.io/codefresh-inc/codefresh/segment-reporter:c427b3b982c4ae395b8991ff26c252213576b56c - SKIP
+
+--- Mon Oct  7 12:56:49 UTC 2019
+Processing tag files
+
+  ****************
+  Mon Oct  7 12:56:49 UTC 2019 - ./journal/2019-10-07_125642/codefresh__segment-reporter.tags
+grep: ./done/codefresh__segment-reporter.tags: No such file or directory
+---------- Migrate r.cfcr.io/codefresh-inc/codefresh/segment-reporter:master to gcr.io/codefresh-inc/codefresh/segment-reporter:master
+master: Pulling from codefresh-inc/codefresh/segment-reporter
+2aecc7e1714b: Pulling fs layer
+f0c5c0fcc61d: Pulling fs layer
+fca27890d3d4: Pulling fs layer
+35190bddecc2: Pulling fs layer
+ab63bf74051e: Pulling fs layer
+4bd0f790acbc: Pulling fs layer
+1b798000025b: Pulling fs layer
+7be2d9b38dfe: Pulling fs layer
+35190bddecc2: Waiting
+ab63bf74051e: Waiting
+4bd0f790acbc: Waiting
+1b798000025b: Waiting
+7be2d9b38dfe: Waiting
+2aecc7e1714b: Verifying Checksum
+2aecc7e1714b: Download complete
+fca27890d3d4: Verifying Checksum
+fca27890d3d4: Download complete
+35190bddecc2: Verifying Checksum
+35190bddecc2: Download complete
+ab63bf74051e: Verifying Checksum
+ab63bf74051e: Download complete
+f0c5c0fcc61d: Verifying Checksum
+f0c5c0fcc61d: Download complete
+2aecc7e1714b: Pull complete
+4bd0f790acbc: Verifying Checksum
+4bd0f790acbc: Download complete
+7be2d9b38dfe: Verifying Checksum
+7be2d9b38dfe: Download complete
+1b798000025b: Verifying Checksum
+1b798000025b: Download complete
+f0c5c0fcc61d: Pull complete
+fca27890d3d4: Pull complete
+35190bddecc2: Pull complete
+ab63bf74051e: Pull complete
+4bd0f790acbc: Pull complete
+1b798000025b: Pull complete
+7be2d9b38dfe: Pull complete
+Digest: sha256:19c4e18a90e7774aa66c57a607c77b31fc3d34a38b4b2fe42b77efd50e2d697a
+Status: Downloaded newer image for r.cfcr.io/codefresh-inc/codefresh/segment-reporter:master
+r.cfcr.io/codefresh-inc/codefresh/segment-reporter:master
+Pull r.cfcr.io/codefresh-inc/codefresh/segment-reporter:master completed - Mon Oct  7 12:57:07 UTC 2019 !!!
+
+Tag gcr.io/codefresh-inc/codefresh/segment-reporter:master completed - Mon Oct  7 12:57:07 UTC 2019 !!!
+
+The push refers to repository [gcr.io/codefresh-inc/codefresh/segment-reporter]
+aedc91b3552a: Preparing
+caacae88a09a: Preparing
+1e9077203763: Preparing
+17179d82d786: Preparing
+b8d39c104858: Preparing
+b928dd69094d: Preparing
+49a20c266dfb: Preparing
+3fb66f713c9f: Preparing
+1e9077203763: Waiting
+17179d82d786: Waiting
+b8d39c104858: Waiting
+b928dd69094d: Waiting
+49a20c266dfb: Waiting
+3fb66f713c9f: Waiting
+aedc91b3552a: Pushed
+1e9077203763: Pushed
+17179d82d786: Pushed
+b8d39c104858: Pushed
+b928dd69094d: Pushed
+3fb66f713c9f: Pushed
+49a20c266dfb: Pushed
+caacae88a09a: Pushed
+master: digest: sha256:75e84400719d3d27d6c4514efffd67b09e0c1a89d89c0c31ba7e9c46f54a3f2f size: 1994
+Push gcr.io/codefresh-inc/codefresh/segment-reporter:master completed - Mon Oct  7 12:57:28 UTC 2019 !!!
+
+---------- Migrate r.cfcr.io/codefresh-inc/codefresh/segment-reporter:1.1.0 to gcr.io/codefresh-inc/codefresh/segment-reporter:1.1.0
+1.1.0: Pulling from codefresh-inc/codefresh/segment-reporter
+Digest: sha256:e12be98bbafce2c0c27d0a3736ef690077f6cf23525703b11d4d617961bf0490
+Status: Downloaded newer image for r.cfcr.io/codefresh-inc/codefresh/segment-reporter:1.1.0
+r.cfcr.io/codefresh-inc/codefresh/segment-reporter:1.1.0
+Pull r.cfcr.io/codefresh-inc/codefresh/segment-reporter:1.1.0 completed - Mon Oct  7 12:57:29 UTC 2019 !!!
+
+Tag gcr.io/codefresh-inc/codefresh/segment-reporter:1.1.0 completed - Mon Oct  7 12:57:29 UTC 2019 !!!
+
+The push refers to repository [gcr.io/codefresh-inc/codefresh/segment-reporter]
+aedc91b3552a: Preparing
+caacae88a09a: Preparing
+1e9077203763: Preparing
+17179d82d786: Preparing
+b8d39c104858: Preparing
+b928dd69094d: Preparing
+49a20c266dfb: Preparing
+3fb66f713c9f: Preparing
+aedc91b3552a: Waiting
+caacae88a09a: Waiting
+1e9077203763: Waiting
+17179d82d786: Waiting
+b8d39c104858: Waiting
+b928dd69094d: Waiting
+49a20c266dfb: Waiting
+3fb66f713c9f: Waiting
+aedc91b3552a: Layer already exists
+caacae88a09a: Layer already exists
+1e9077203763: Layer already exists
+17179d82d786: Layer already exists
+b8d39c104858: Layer already exists
+b928dd69094d: Layer already exists
+49a20c266dfb: Layer already exists
+3fb66f713c9f: Layer already exists
+1.1.0: digest: sha256:75e84400719d3d27d6c4514efffd67b09e0c1a89d89c0c31ba7e9c46f54a3f2f size: 1994
+Push gcr.io/codefresh-inc/codefresh/segment-reporter:1.1.0 completed - Mon Oct  7 12:57:34 UTC 2019 !!!
+
+---------- Migrate r.cfcr.io/codefresh-inc/codefresh/segment-reporter:istio-poc to gcr.io/codefresh-inc/codefresh/segment-reporter:istio-poc
+istio-poc: Pulling from codefresh-inc/codefresh/segment-reporter
+2aecc7e1714b: Already exists
+f0c5c0fcc61d: Already exists
+fca27890d3d4: Already exists
+35190bddecc2: Already exists
+ab63bf74051e: Already exists
+4bd0f790acbc: Already exists
+1b798000025b: Already exists
+7be2d9b38dfe: Already exists
+Digest: sha256:0c6c558de9b26c97dda4d008aed05ccb6e04a3b3ee98a495798600bed6cc9d0c
+Status: Downloaded newer image for r.cfcr.io/codefresh-inc/codefresh/segment-reporter:istio-poc
+r.cfcr.io/codefresh-inc/codefresh/segment-reporter:istio-poc
+Pull r.cfcr.io/codefresh-inc/codefresh/segment-reporter:istio-poc completed - Mon Oct  7 12:57:35 UTC 2019 !!!
+
+Tag gcr.io/codefresh-inc/codefresh/segment-reporter:istio-poc completed - Mon Oct  7 12:57:35 UTC 2019 !!!
+
+The push refers to repository [gcr.io/codefresh-inc/codefresh/segment-reporter]
+aedc91b3552a: Preparing
+caacae88a09a: Preparing
+1e9077203763: Preparing
+17179d82d786: Preparing
+b8d39c104858: Preparing
+b928dd69094d: Preparing
+49a20c266dfb: Preparing
+3fb66f713c9f: Preparing
+aedc91b3552a: Waiting
+b8d39c104858: Waiting
+b928dd69094d: Waiting
+49a20c266dfb: Waiting
+caacae88a09a: Waiting
+3fb66f713c9f: Waiting
+1e9077203763: Waiting
+aedc91b3552a: Layer already exists
+caacae88a09a: Layer already exists
+1e9077203763: Layer already exists
+17179d82d786: Layer already exists
+b8d39c104858: Layer already exists
+b928dd69094d: Layer already exists
+49a20c266dfb: Layer already exists
+3fb66f713c9f: Layer already exists
+istio-poc: digest: sha256:3034d192588159319557ea2badf2cb14ccb718c0c1a4e836e93f4415ffb25b0e size: 1994
+Push gcr.io/codefresh-inc/codefresh/segment-reporter:istio-poc completed - Mon Oct  7 12:57:37 UTC 2019 !!!
+
+---------- Migrate r.cfcr.io/codefresh-inc/codefresh/segment-reporter:1.1.0-istio-poc to gcr.io/codefresh-inc/codefresh/segment-reporter:1.1.0-istio-poc
+1.1.0-istio-poc: Pulling from codefresh-inc/codefresh/segment-reporter
+Digest: sha256:0c6c558de9b26c97dda4d008aed05ccb6e04a3b3ee98a495798600bed6cc9d0c
+Status: Downloaded newer image for r.cfcr.io/codefresh-inc/codefresh/segment-reporter:1.1.0-istio-poc
+r.cfcr.io/codefresh-inc/codefresh/segment-reporter:1.1.0-istio-poc
+Pull r.cfcr.io/codefresh-inc/codefresh/segment-reporter:1.1.0-istio-poc completed - Mon Oct  7 12:57:38 UTC 2019 !!!
+
+Tag gcr.io/codefresh-inc/codefresh/segment-reporter:1.1.0-istio-poc completed - Mon Oct  7 12:57:38 UTC 2019 !!!
+
+The push refers to repository [gcr.io/codefresh-inc/codefresh/segment-reporter]
+aedc91b3552a: Preparing
+caacae88a09a: Preparing
+1e9077203763: Preparing
+17179d82d786: Preparing
+b8d39c104858: Preparing
+b928dd69094d: Preparing
+49a20c266dfb: Preparing
+3fb66f713c9f: Preparing
+17179d82d786: Waiting
+b8d39c104858: Waiting
+b928dd69094d: Waiting
+49a20c266dfb: Waiting
+3fb66f713c9f: Waiting
+1e9077203763: Waiting
+aedc91b3552a: Layer already exists
+caacae88a09a: Layer already exists
+1e9077203763: Layer already exists
+17179d82d786: Layer already exists
+b928dd69094d: Layer already exists
+b8d39c104858: Layer already exists
+49a20c266dfb: Layer already exists
+3fb66f713c9f: Layer already exists
+1.1.0-istio-poc: digest: sha256:3034d192588159319557ea2badf2cb14ccb718c0c1a4e836e93f4415ffb25b0e size: 1994
+Push gcr.io/codefresh-inc/codefresh/segment-reporter:1.1.0-istio-poc completed - Mon Oct  7 12:57:39 UTC 2019 !!!
+
+---------- Migrate r.cfcr.io/codefresh-inc/codefresh/segment-reporter:1.0.5-istio-poc to gcr.io/codefresh-inc/codefresh/segment-reporter:1.0.5-istio-poc
+1.0.5-istio-poc: Pulling from codefresh-inc/codefresh/segment-reporter
+2aecc7e1714b: Already exists
+f0c5c0fcc61d: Already exists
+fca27890d3d4: Already exists
+35190bddecc2: Already exists
+ab63bf74051e: Already exists
+4bd0f790acbc: Already exists
+1b798000025b: Already exists
+bba40b459011: Pulling fs layer
+bba40b459011: Verifying Checksum
+bba40b459011: Download complete
+bba40b459011: Pull complete
+Digest: sha256:9231369132f6d743c35c7b9c42170f4161041e206850ea2af211335e231c7f51
+Status: Downloaded newer image for r.cfcr.io/codefresh-inc/codefresh/segment-reporter:1.0.5-istio-poc
+r.cfcr.io/codefresh-inc/codefresh/segment-reporter:1.0.5-istio-poc
+Pull r.cfcr.io/codefresh-inc/codefresh/segment-reporter:1.0.5-istio-poc completed - Mon Oct  7 12:57:40 UTC 2019 !!!
+
+Tag gcr.io/codefresh-inc/codefresh/segment-reporter:1.0.5-istio-poc completed - Mon Oct  7 12:57:40 UTC 2019 !!!
+
+The push refers to repository [gcr.io/codefresh-inc/codefresh/segment-reporter]
+455e1009b19e: Preparing
+caacae88a09a: Preparing
+1e9077203763: Preparing
+17179d82d786: Preparing
+b8d39c104858: Preparing
+b928dd69094d: Preparing
+49a20c266dfb: Preparing
+3fb66f713c9f: Preparing
+1e9077203763: Waiting
+17179d82d786: Waiting
+b8d39c104858: Waiting
+b928dd69094d: Waiting
+49a20c266dfb: Waiting
+3fb66f713c9f: Waiting
+caacae88a09a: Layer already exists
+1e9077203763: Layer already exists
+17179d82d786: Layer already exists
+b8d39c104858: Layer already exists
+b928dd69094d: Layer already exists
+49a20c266dfb: Layer already exists
+3fb66f713c9f: Layer already exists
+455e1009b19e: Pushed
+1.0.5-istio-poc: digest: sha256:66b591c6b7578c3b19927077716b434cadd859a98e4dd6e007c2248e51ceb696 size: 1994
+Push gcr.io/codefresh-inc/codefresh/segment-reporter:1.0.5-istio-poc completed - Mon Oct  7 12:57:43 UTC 2019 !!!
+
+---------- Migrate r.cfcr.io/codefresh-inc/codefresh/segment-reporter:secimprovment to gcr.io/codefresh-inc/codefresh/segment-reporter:secimprovment
+secimprovment: Pulling from codefresh-inc/codefresh/segment-reporter
+e7c96db7181b: Already exists
+df9eac31dfef: Already exists
+0a20433d95a4: Already exists
+7ca752d7e6e4: Pulling fs layer
+ae3b8752832d: Pulling fs layer
+ebcdef52129f: Pulling fs layer
+144f11b3309f: Pulling fs layer
+144f11b3309f: Waiting
+7ca752d7e6e4: Verifying Checksum
+7ca752d7e6e4: Download complete
+ae3b8752832d: Verifying Checksum
+ae3b8752832d: Download complete
+7ca752d7e6e4: Pull complete
+144f11b3309f: Verifying Checksum
+144f11b3309f: Download complete
+ae3b8752832d: Pull complete
+ebcdef52129f: Verifying Checksum
+ebcdef52129f: Download complete
+ebcdef52129f: Pull complete
+144f11b3309f: Pull complete
+Digest: sha256:920083c0d01197ab092d1ed6d4a241a767b6558ab4d1ce584f14ad8b583e67f6
+Status: Downloaded newer image for r.cfcr.io/codefresh-inc/codefresh/segment-reporter:secimprovment
+r.cfcr.io/codefresh-inc/codefresh/segment-reporter:secimprovment
+Pull r.cfcr.io/codefresh-inc/codefresh/segment-reporter:secimprovment completed - Mon Oct  7 12:57:56 UTC 2019 !!!
+
+Tag gcr.io/codefresh-inc/codefresh/segment-reporter:secimprovment completed - Mon Oct  7 12:57:56 UTC 2019 !!!
+
+The push refers to repository [gcr.io/codefresh-inc/codefresh/segment-reporter]
+8ab12c4aa7c6: Preparing
+34af51f7b362: Preparing
+62a439761a5a: Preparing
+a6be74c0d0af: Preparing
+28bf756b6f8e: Preparing
+4c299e1e70d5: Preparing
+f1b5933fe4b5: Preparing
+8ab12c4aa7c6: Waiting
+34af51f7b362: Waiting
+62a439761a5a: Waiting
+a6be74c0d0af: Waiting
+28bf756b6f8e: Waiting
+4c299e1e70d5: Waiting
+f1b5933fe4b5: Waiting
+8ab12c4aa7c6: Pushed
+28bf756b6f8e: Layer already exists
+4c299e1e70d5: Layer already exists
+f1b5933fe4b5: Layer already exists
+62a439761a5a: Pushed
+a6be74c0d0af: Pushed
+34af51f7b362: Pushed
+secimprovment: digest: sha256:920083c0d01197ab092d1ed6d4a241a767b6558ab4d1ce584f14ad8b583e67f6 size: 1789
+Push gcr.io/codefresh-inc/codefresh/segment-reporter:secimprovment completed - Mon Oct  7 12:58:16 UTC 2019 !!!
+
+---------- Migrate r.cfcr.io/codefresh-inc/codefresh/segment-reporter:1.0.6-secimprovment to gcr.io/codefresh-inc/codefresh/segment-reporter:1.0.6-secimprovment
+1.0.6-secimprovment: Pulling from codefresh-inc/codefresh/segment-reporter
+Digest: sha256:920083c0d01197ab092d1ed6d4a241a767b6558ab4d1ce584f14ad8b583e67f6
+Status: Downloaded newer image for r.cfcr.io/codefresh-inc/codefresh/segment-reporter:1.0.6-secimprovment
+r.cfcr.io/codefresh-inc/codefresh/segment-reporter:1.0.6-secimprovment
+Pull r.cfcr.io/codefresh-inc/codefresh/segment-reporter:1.0.6-secimprovment completed - Mon Oct  7 12:58:18 UTC 2019 !!!
+
+Tag gcr.io/codefresh-inc/codefresh/segment-reporter:1.0.6-secimprovment completed - Mon Oct  7 12:58:18 UTC 2019 !!!
+
+The push refers to repository [gcr.io/codefresh-inc/codefresh/segment-reporter]
+8ab12c4aa7c6: Preparing
+34af51f7b362: Preparing
+62a439761a5a: Preparing
+a6be74c0d0af: Preparing
+28bf756b6f8e: Preparing
+4c299e1e70d5: Preparing
+f1b5933fe4b5: Preparing
+8ab12c4aa7c6: Waiting
+34af51f7b362: Waiting
+62a439761a5a: Waiting
+a6be74c0d0af: Waiting
+28bf756b6f8e: Waiting
+4c299e1e70d5: Waiting
+f1b5933fe4b5: Waiting
+8ab12c4aa7c6: Layer already exists
+34af51f7b362: Layer already exists
+62a439761a5a: Layer already exists
+a6be74c0d0af: Layer already exists
+28bf756b6f8e: Layer already exists
+4c299e1e70d5: Layer already exists
+f1b5933fe4b5: Layer already exists
+1.0.6-secimprovment: digest: sha256:920083c0d01197ab092d1ed6d4a241a767b6558ab4d1ce584f14ad8b583e67f6 size: 1789
+Push gcr.io/codefresh-inc/codefresh/segment-reporter:1.0.6-secimprovment completed - Mon Oct  7 12:58:19 UTC 2019 !!!
+
+---------- Migrate r.cfcr.io/codefresh-inc/codefresh/segment-reporter:sec2 to gcr.io/codefresh-inc/codefresh/segment-reporter:sec2
+sec2: Pulling from codefresh-inc/codefresh/segment-reporter
+Digest: sha256:920083c0d01197ab092d1ed6d4a241a767b6558ab4d1ce584f14ad8b583e67f6
+Status: Downloaded newer image for r.cfcr.io/codefresh-inc/codefresh/segment-reporter:sec2
+r.cfcr.io/codefresh-inc/codefresh/segment-reporter:sec2
+Pull r.cfcr.io/codefresh-inc/codefresh/segment-reporter:sec2 completed - Mon Oct  7 12:58:19 UTC 2019 !!!
+
+Tag gcr.io/codefresh-inc/codefresh/segment-reporter:sec2 completed - Mon Oct  7 12:58:20 UTC 2019 !!!
+
+The push refers to repository [gcr.io/codefresh-inc/codefresh/segment-reporter]
+8ab12c4aa7c6: Preparing
+34af51f7b362: Preparing
+62a439761a5a: Preparing
+a6be74c0d0af: Preparing
+28bf756b6f8e: Preparing
+4c299e1e70d5: Preparing
+f1b5933fe4b5: Preparing
+62a439761a5a: Waiting
+a6be74c0d0af: Waiting
+28bf756b6f8e: Waiting
+4c299e1e70d5: Waiting
+f1b5933fe4b5: Waiting
+34af51f7b362: Layer already exists
+62a439761a5a: Layer already exists
+8ab12c4aa7c6: Layer already exists
+a6be74c0d0af: Layer already exists
+28bf756b6f8e: Layer already exists
+4c299e1e70d5: Layer already exists
+f1b5933fe4b5: Layer already exists
+sec2: digest: sha256:920083c0d01197ab092d1ed6d4a241a767b6558ab4d1ce584f14ad8b583e67f6 size: 1789
+Push gcr.io/codefresh-inc/codefresh/segment-reporter:sec2 completed - Mon Oct  7 12:58:20 UTC 2019 !!!
+
+---------- Migrate r.cfcr.io/codefresh-inc/codefresh/segment-reporter:sec1 to gcr.io/codefresh-inc/codefresh/segment-reporter:sec1
+sec1: Pulling from codefresh-inc/codefresh/segment-reporter
+e7c96db7181b: Already exists
+df9eac31dfef: Already exists
+0a20433d95a4: Already exists
+7ca752d7e6e4: Already exists
+ae3b8752832d: Already exists
+ebcdef52129f: Already exists
+eaf5d453aa68: Pulling fs layer
+eaf5d453aa68: Verifying Checksum
+eaf5d453aa68: Download complete
+eaf5d453aa68: Pull complete
+Digest: sha256:43722f1acc94bda1b72360c487e283b49942ebbac18e632d1ff23f041a991bc3
+Status: Downloaded newer image for r.cfcr.io/codefresh-inc/codefresh/segment-reporter:sec1
+r.cfcr.io/codefresh-inc/codefresh/segment-reporter:sec1
+Pull r.cfcr.io/codefresh-inc/codefresh/segment-reporter:sec1 completed - Mon Oct  7 12:58:22 UTC 2019 !!!
+
+Tag gcr.io/codefresh-inc/codefresh/segment-reporter:sec1 completed - Mon Oct  7 12:58:22 UTC 2019 !!!
+
+The push refers to repository [gcr.io/codefresh-inc/codefresh/segment-reporter]
+e97943596b3e: Preparing
+34af51f7b362: Preparing
+62a439761a5a: Preparing
+a6be74c0d0af: Preparing
+28bf756b6f8e: Preparing
+4c299e1e70d5: Preparing
+f1b5933fe4b5: Preparing
+a6be74c0d0af: Waiting
+28bf756b6f8e: Waiting
+4c299e1e70d5: Waiting
+f1b5933fe4b5: Waiting
+62a439761a5a: Layer already exists
+34af51f7b362: Layer already exists
+28bf756b6f8e: Layer already exists
+a6be74c0d0af: Layer already exists
+4c299e1e70d5: Layer already exists
+f1b5933fe4b5: Layer already exists
+e97943596b3e: Pushed
+sec1: digest: sha256:43722f1acc94bda1b72360c487e283b49942ebbac18e632d1ff23f041a991bc3 size: 1789
+Push gcr.io/codefresh-inc/codefresh/segment-reporter:sec1 completed - Mon Oct  7 12:58:25 UTC 2019 !!!
+
+---------- Migrate r.cfcr.io/codefresh-inc/codefresh/segment-reporter:1.0.5 to gcr.io/codefresh-inc/codefresh/segment-reporter:1.0.5
+1.0.5: Pulling from codefresh-inc/codefresh/segment-reporter
+2aecc7e1714b: Already exists
+f0c5c0fcc61d: Already exists
+fca27890d3d4: Already exists
+3e021c8a83b2: Pulling fs layer
+57b2e76ad04c: Pulling fs layer
+2cb435af6273: Pulling fs layer
+566e253350e5: Pulling fs layer
+4b34c46f7922: Pulling fs layer
+566e253350e5: Waiting
+4b34c46f7922: Waiting
+3e021c8a83b2: Verifying Checksum
+3e021c8a83b2: Download complete
+2cb435af6273: Verifying Checksum
+2cb435af6273: Download complete
+3e021c8a83b2: Pull complete
+57b2e76ad04c: Verifying Checksum
+57b2e76ad04c: Download complete
+57b2e76ad04c: Pull complete
+4b34c46f7922: Verifying Checksum
+4b34c46f7922: Download complete
+2cb435af6273: Pull complete
+566e253350e5: Verifying Checksum
+566e253350e5: Download complete
+566e253350e5: Pull complete
+4b34c46f7922: Pull complete
+Digest: sha256:0d44bd33c65a3ebe284e0151772841d41386c0f61e273108a8cddf4c3cb3ecd0
+Status: Downloaded newer image for r.cfcr.io/codefresh-inc/codefresh/segment-reporter:1.0.5
+r.cfcr.io/codefresh-inc/codefresh/segment-reporter:1.0.5
+Pull r.cfcr.io/codefresh-inc/codefresh/segment-reporter:1.0.5 completed - Mon Oct  7 12:58:37 UTC 2019 !!!
+
+Tag gcr.io/codefresh-inc/codefresh/segment-reporter:1.0.5 completed - Mon Oct  7 12:58:37 UTC 2019 !!!
+
+The push refers to repository [gcr.io/codefresh-inc/codefresh/segment-reporter]
+4a78a0459a4e: Preparing
+105e11de5692: Preparing
+185b70713d9a: Preparing
+9fef13318d58: Preparing
+b0e5939f3320: Preparing
+b928dd69094d: Preparing
+49a20c266dfb: Preparing
+3fb66f713c9f: Preparing
+b0e5939f3320: Waiting
+b928dd69094d: Waiting
+49a20c266dfb: Waiting
+3fb66f713c9f: Waiting
+185b70713d9a: Retrying in 5 seconds
+105e11de5692: Retrying in 5 seconds
+4a78a0459a4e: Retrying in 5 seconds
+185b70713d9a: Retrying in 4 seconds
+105e11de5692: Retrying in 4 seconds
+4a78a0459a4e: Retrying in 4 seconds
+9fef13318d58: Pushed
+b928dd69094d: Layer already exists
+49a20c266dfb: Layer already exists
+3fb66f713c9f: Layer already exists
+105e11de5692: Retrying in 3 seconds
+185b70713d9a: Retrying in 3 seconds
+4a78a0459a4e: Retrying in 3 seconds
+b0e5939f3320: Pushed
+185b70713d9a: Retrying in 2 seconds
+105e11de5692: Retrying in 2 seconds
+4a78a0459a4e: Retrying in 2 seconds
+185b70713d9a: Retrying in 1 second
+4a78a0459a4e: Retrying in 1 second
+105e11de5692: Retrying in 1 second
+105e11de5692: Retrying in 10 seconds
+105e11de5692: Retrying in 9 seconds
+4a78a0459a4e: Pushed
+185b70713d9a: Pushed
+105e11de5692: Retrying in 8 seconds
+105e11de5692: Retrying in 7 seconds
+105e11de5692: Retrying in 6 seconds
+105e11de5692: Retrying in 5 seconds
+105e11de5692: Retrying in 4 seconds
+105e11de5692: Retrying in 3 seconds
+105e11de5692: Retrying in 2 seconds
+105e11de5692: Retrying in 1 second
+105e11de5692: Pushed
+1.0.5: digest: sha256:2b22f1cc27b502522110455962872ddedcb55197075995e6fefa5b42348b08bf size: 1994
+Push gcr.io/codefresh-inc/codefresh/segment-reporter:1.0.5 completed - Mon Oct  7 12:59:13 UTC 2019 !!!
+
+---------- Migrate r.cfcr.io/codefresh-inc/codefresh/segment-reporter:fixversion to gcr.io/codefresh-inc/codefresh/segment-reporter:fixversion
+fixversion: Pulling from codefresh-inc/codefresh/segment-reporter
+2aecc7e1714b: Already exists
+f0c5c0fcc61d: Already exists
+fca27890d3d4: Already exists
+3e021c8a83b2: Already exists
+57b2e76ad04c: Already exists
+2cb435af6273: Already exists
+566e253350e5: Already exists
+4b34c46f7922: Already exists
+Digest: sha256:13e392395849ee213a83797c74726d41816bbb8f25326fbfa9966676e28cb641
+Status: Downloaded newer image for r.cfcr.io/codefresh-inc/codefresh/segment-reporter:fixversion
+r.cfcr.io/codefresh-inc/codefresh/segment-reporter:fixversion
+Pull r.cfcr.io/codefresh-inc/codefresh/segment-reporter:fixversion completed - Mon Oct  7 12:59:15 UTC 2019 !!!
+
+Tag gcr.io/codefresh-inc/codefresh/segment-reporter:fixversion completed - Mon Oct  7 12:59:15 UTC 2019 !!!
+
+The push refers to repository [gcr.io/codefresh-inc/codefresh/segment-reporter]
+4a78a0459a4e: Preparing
+105e11de5692: Preparing
+185b70713d9a: Preparing
+9fef13318d58: Preparing
+b0e5939f3320: Preparing
+b928dd69094d: Preparing
+49a20c266dfb: Preparing
+3fb66f713c9f: Preparing
+4a78a0459a4e: Waiting
+105e11de5692: Waiting
+185b70713d9a: Waiting
+9fef13318d58: Waiting
+b0e5939f3320: Waiting
+b928dd69094d: Waiting
+49a20c266dfb: Waiting
+3fb66f713c9f: Waiting
+105e11de5692: Layer already exists
+4a78a0459a4e: Layer already exists
+185b70713d9a: Layer already exists
+9fef13318d58: Layer already exists
+b0e5939f3320: Layer already exists
+b928dd69094d: Layer already exists
+49a20c266dfb: Layer already exists
+3fb66f713c9f: Layer already exists
+fixversion: digest: sha256:f9b2b22b8f7a815336e921c1bef623741d2cfafdf8cfb244a00ea6c6c8a975fa size: 1994
+Push gcr.io/codefresh-inc/codefresh/segment-reporter:fixversion completed - Mon Oct  7 12:59:24 UTC 2019 !!!
+
+---------- Migrate r.cfcr.io/codefresh-inc/codefresh/segment-reporter:1.0.5-fixversion to gcr.io/codefresh-inc/codefresh/segment-reporter:1.0.5-fixversion
+1.0.5-fixversion: Pulling from codefresh-inc/codefresh/segment-reporter
+Digest: sha256:13e392395849ee213a83797c74726d41816bbb8f25326fbfa9966676e28cb641
+Status: Downloaded newer image for r.cfcr.io/codefresh-inc/codefresh/segment-reporter:1.0.5-fixversion
+r.cfcr.io/codefresh-inc/codefresh/segment-reporter:1.0.5-fixversion
+Pull r.cfcr.io/codefresh-inc/codefresh/segment-reporter:1.0.5-fixversion completed - Mon Oct  7 12:59:26 UTC 2019 !!!
+
+Tag gcr.io/codefresh-inc/codefresh/segment-reporter:1.0.5-fixversion completed - Mon Oct  7 12:59:26 UTC 2019 !!!
+
+The push refers to repository [gcr.io/codefresh-inc/codefresh/segment-reporter]
+4a78a0459a4e: Preparing
+105e11de5692: Preparing
+185b70713d9a: Preparing
+9fef13318d58: Preparing
+b0e5939f3320: Preparing
+b928dd69094d: Preparing
+49a20c266dfb: Preparing
+3fb66f713c9f: Preparing
+9fef13318d58: Waiting
+b0e5939f3320: Waiting
+b928dd69094d: Waiting
+49a20c266dfb: Waiting
+3fb66f713c9f: Waiting
+185b70713d9a: Layer already exists
+4a78a0459a4e: Layer already exists
+105e11de5692: Layer already exists
+b0e5939f3320: Layer already exists
+9fef13318d58: Layer already exists
+b928dd69094d: Layer already exists
+49a20c266dfb: Layer already exists
+3fb66f713c9f: Layer already exists
+1.0.5-fixversion: digest: sha256:f9b2b22b8f7a815336e921c1bef623741d2cfafdf8cfb244a00ea6c6c8a975fa size: 1994
+Push gcr.io/codefresh-inc/codefresh/segment-reporter:1.0.5-fixversion completed - Mon Oct  7 12:59:27 UTC 2019 !!!
+
+---------- Migrate r.cfcr.io/codefresh-inc/codefresh/segment-reporter:1.0.3-fixversion to gcr.io/codefresh-inc/codefresh/segment-reporter:1.0.3-fixversion
+1.0.3-fixversion: Pulling from codefresh-inc/codefresh/segment-reporter
+2aecc7e1714b: Already exists
+f0c5c0fcc61d: Already exists
+fca27890d3d4: Already exists
+3e021c8a83b2: Already exists
+57b2e76ad04c: Already exists
+2cb435af6273: Already exists
+566e253350e5: Already exists
+fe47cd0e4c1a: Pulling fs layer
+fe47cd0e4c1a: Verifying Checksum
+fe47cd0e4c1a: Download complete
+fe47cd0e4c1a: Pull complete
+Digest: sha256:8f0aff950a873d35a649e3070f30f130bfca3a74f98a587f57e58bbf4f2f449a
+Status: Downloaded newer image for r.cfcr.io/codefresh-inc/codefresh/segment-reporter:1.0.3-fixversion
+r.cfcr.io/codefresh-inc/codefresh/segment-reporter:1.0.3-fixversion
+Pull r.cfcr.io/codefresh-inc/codefresh/segment-reporter:1.0.3-fixversion completed - Mon Oct  7 12:59:28 UTC 2019 !!!
+
+Tag gcr.io/codefresh-inc/codefresh/segment-reporter:1.0.3-fixversion completed - Mon Oct  7 12:59:28 UTC 2019 !!!
+
+The push refers to repository [gcr.io/codefresh-inc/codefresh/segment-reporter]
+35b04a85c449: Preparing
+105e11de5692: Preparing
+185b70713d9a: Preparing
+9fef13318d58: Preparing
+b0e5939f3320: Preparing
+b928dd69094d: Preparing
+49a20c266dfb: Preparing
+3fb66f713c9f: Preparing
+35b04a85c449: Waiting
+105e11de5692: Waiting
+185b70713d9a: Waiting
+9fef13318d58: Waiting
+b928dd69094d: Waiting
+49a20c266dfb: Waiting
+3fb66f713c9f: Waiting
+b0e5939f3320: Waiting
+105e11de5692: Layer already exists
+185b70713d9a: Layer already exists
+9fef13318d58: Layer already exists
+b0e5939f3320: Layer already exists
+b928dd69094d: Layer already exists
+3fb66f713c9f: Layer already exists
+49a20c266dfb: Layer already exists
+35b04a85c449: Pushed
+1.0.3-fixversion: digest: sha256:b989407fcf26b01d81c725d9068abf6a690b2813cb6f0c62bb47464558d5e8a6 size: 1994
+Push gcr.io/codefresh-inc/codefresh/segment-reporter:1.0.3-fixversion completed - Mon Oct  7 12:59:32 UTC 2019 !!!
+
+---------- Migrate r.cfcr.io/codefresh-inc/codefresh/segment-reporter:1.0.4 to gcr.io/codefresh-inc/codefresh/segment-reporter:1.0.4
+1.0.4: Pulling from codefresh-inc/codefresh/segment-reporter
+e7c96db7181b: Already exists
+df9eac31dfef: Already exists
+0a20433d95a4: Already exists
+0185e5052c71: Pulling fs layer
+2a7471a418af: Pulling fs layer
+48c6e49eecc6: Pulling fs layer
+775b3e76315f: Pulling fs layer
+01d0b15be115: Pulling fs layer
+48c6e49eecc6: Waiting
+775b3e76315f: Waiting
+01d0b15be115: Waiting
+2a7471a418af: Verifying Checksum
+2a7471a418af: Download complete
+0185e5052c71: Verifying Checksum
+0185e5052c71: Download complete
+48c6e49eecc6: Verifying Checksum
+48c6e49eecc6: Download complete
+0185e5052c71: Pull complete
+01d0b15be115: Verifying Checksum
+01d0b15be115: Download complete
+2a7471a418af: Pull complete
+775b3e76315f: Verifying Checksum
+775b3e76315f: Download complete
+48c6e49eecc6: Pull complete
+775b3e76315f: Pull complete
+01d0b15be115: Pull complete
+Digest: sha256:2a2cba3f06a493f382ee1b35bb84577c1df721bf4bedbe6d235d56dc2e27f150
+Status: Downloaded newer image for r.cfcr.io/codefresh-inc/codefresh/segment-reporter:1.0.4
+r.cfcr.io/codefresh-inc/codefresh/segment-reporter:1.0.4
+Pull r.cfcr.io/codefresh-inc/codefresh/segment-reporter:1.0.4 completed - Mon Oct  7 12:59:52 UTC 2019 !!!
+
+Tag gcr.io/codefresh-inc/codefresh/segment-reporter:1.0.4 completed - Mon Oct  7 12:59:52 UTC 2019 !!!
+
+The push refers to repository [gcr.io/codefresh-inc/codefresh/segment-reporter]
+ace24ef2e2b8: Preparing
+9cb007cb970c: Preparing
+50db08bb0420: Preparing
+c31a89b19bd7: Preparing
+1133754f08bf: Preparing
+28bf756b6f8e: Preparing
+4c299e1e70d5: Preparing
+f1b5933fe4b5: Preparing
+9cb007cb970c: Waiting
+50db08bb0420: Waiting
+c31a89b19bd7: Waiting
+1133754f08bf: Waiting
+28bf756b6f8e: Waiting
+4c299e1e70d5: Waiting
+f1b5933fe4b5: Waiting
+ace24ef2e2b8: Pushed
+50db08bb0420: Retrying in 5 seconds
+50db08bb0420: Retrying in 4 seconds
+c31a89b19bd7: Pushed
+1133754f08bf: Pushed
+28bf756b6f8e: Layer already exists
+4c299e1e70d5: Layer already exists
+f1b5933fe4b5: Layer already exists
+50db08bb0420: Retrying in 3 seconds
+50db08bb0420: Retrying in 2 seconds
+50db08bb0420: Retrying in 1 second
+50db08bb0420: Pushed
+9cb007cb970c: Pushed
+1.0.4: digest: sha256:2a2cba3f06a493f382ee1b35bb84577c1df721bf4bedbe6d235d56dc2e27f150 size: 1995
+Push gcr.io/codefresh-inc/codefresh/segment-reporter:1.0.4 completed - Mon Oct  7 13:00:15 UTC 2019 !!!
+
+---------- Migrate r.cfcr.io/codefresh-inc/codefresh/segment-reporter:1.0.3-istio-poc to gcr.io/codefresh-inc/codefresh/segment-reporter:1.0.3-istio-poc
+1.0.3-istio-poc: Pulling from codefresh-inc/codefresh/segment-reporter
+2aecc7e1714b: Already exists
+f0c5c0fcc61d: Already exists
+fca27890d3d4: Already exists
+35190bddecc2: Already exists
+ab63bf74051e: Already exists
+4bd0f790acbc: Already exists
+1b798000025b: Already exists
+af5701b4ee05: Pulling fs layer
+af5701b4ee05: Verifying Checksum
+af5701b4ee05: Download complete
+af5701b4ee05: Pull complete
+Digest: sha256:377dd395c0425438e5f076752590d3f15fd62af5895d9a201293c331620e4877
+Status: Downloaded newer image for r.cfcr.io/codefresh-inc/codefresh/segment-reporter:1.0.3-istio-poc
+r.cfcr.io/codefresh-inc/codefresh/segment-reporter:1.0.3-istio-poc
+Pull r.cfcr.io/codefresh-inc/codefresh/segment-reporter:1.0.3-istio-poc completed - Mon Oct  7 13:00:21 UTC 2019 !!!
+
+Tag gcr.io/codefresh-inc/codefresh/segment-reporter:1.0.3-istio-poc completed - Mon Oct  7 13:00:21 UTC 2019 !!!
+
+The push refers to repository [gcr.io/codefresh-inc/codefresh/segment-reporter]
+60319748bb86: Preparing
+caacae88a09a: Preparing
+1e9077203763: Preparing
+17179d82d786: Preparing
+b8d39c104858: Preparing
+b928dd69094d: Preparing
+49a20c266dfb: Preparing
+3fb66f713c9f: Preparing
+60319748bb86: Waiting
+caacae88a09a: Waiting
+1e9077203763: Waiting
+17179d82d786: Waiting
+b8d39c104858: Waiting
+b928dd69094d: Waiting
+49a20c266dfb: Waiting
+3fb66f713c9f: Waiting
+caacae88a09a: Layer already exists
+1e9077203763: Layer already exists
+17179d82d786: Layer already exists
+b8d39c104858: Layer already exists
+b928dd69094d: Layer already exists
+49a20c266dfb: Layer already exists
+3fb66f713c9f: Layer already exists
+60319748bb86: Pushed
+1.0.3-istio-poc: digest: sha256:b09e0e5072e5decc5dcbaad1953e893539ee614f868a344a28f92579706ba1bd size: 1994
+Push gcr.io/codefresh-inc/codefresh/segment-reporter:1.0.3-istio-poc completed - Mon Oct  7 13:00:30 UTC 2019 !!!
+
+---------- Migrate r.cfcr.io/codefresh-inc/codefresh/segment-reporter:1.0.4-secimprovment to gcr.io/codefresh-inc/codefresh/segment-reporter:1.0.4-secimprovment
+1.0.4-secimprovment: Pulling from codefresh-inc/codefresh/segment-reporter
+e7c96db7181b: Already exists
+df9eac31dfef: Already exists
+0a20433d95a4: Already exists
+0185e5052c71: Already exists
+2a7471a418af: Already exists
+48c6e49eecc6: Already exists
+775b3e76315f: Already exists
+01d0b15be115: Already exists
+Digest: sha256:dda711b21830755bb47dc36b0af8f504328314d52b7a9e703964502ecb6e3ca3
+Status: Downloaded newer image for r.cfcr.io/codefresh-inc/codefresh/segment-reporter:1.0.4-secimprovment
+r.cfcr.io/codefresh-inc/codefresh/segment-reporter:1.0.4-secimprovment
+Pull r.cfcr.io/codefresh-inc/codefresh/segment-reporter:1.0.4-secimprovment completed - Mon Oct  7 13:00:33 UTC 2019 !!!
+
+Tag gcr.io/codefresh-inc/codefresh/segment-reporter:1.0.4-secimprovment completed - Mon Oct  7 13:00:33 UTC 2019 !!!
+
+The push refers to repository [gcr.io/codefresh-inc/codefresh/segment-reporter]
+ace24ef2e2b8: Preparing
+9cb007cb970c: Preparing
+50db08bb0420: Preparing
+c31a89b19bd7: Preparing
+1133754f08bf: Preparing
+28bf756b6f8e: Preparing
+4c299e1e70d5: Preparing
+f1b5933fe4b5: Preparing
+c31a89b19bd7: Waiting
+1133754f08bf: Waiting
+28bf756b6f8e: Waiting
+4c299e1e70d5: Waiting
+f1b5933fe4b5: Waiting
+50db08bb0420: Layer already exists
+9cb007cb970c: Layer already exists
+ace24ef2e2b8: Layer already exists
+c31a89b19bd7: Layer already exists
+1133754f08bf: Layer already exists
+28bf756b6f8e: Layer already exists
+4c299e1e70d5: Layer already exists
+f1b5933fe4b5: Layer already exists
+1.0.4-secimprovment: digest: sha256:dda711b21830755bb47dc36b0af8f504328314d52b7a9e703964502ecb6e3ca3 size: 1995
+Push gcr.io/codefresh-inc/codefresh/segment-reporter:1.0.4-secimprovment completed - Mon Oct  7 13:00:35 UTC 2019 !!!
+
+---------- Migrate r.cfcr.io/codefresh-inc/codefresh/segment-reporter:1.0.3 to gcr.io/codefresh-inc/codefresh/segment-reporter:1.0.3
+1.0.3: Pulling from codefresh-inc/codefresh/segment-reporter
+2aecc7e1714b: Already exists
+f0c5c0fcc61d: Already exists
+fca27890d3d4: Already exists
+52ca07a67b71: Pulling fs layer
+b8e07f2501d3: Pulling fs layer
+593254fca242: Pulling fs layer
+14aa11814cea: Pulling fs layer
+f5941f609813: Pulling fs layer
+14aa11814cea: Waiting
+f5941f609813: Waiting
+593254fca242: Download complete
+52ca07a67b71: Verifying Checksum
+52ca07a67b71: Download complete
+52ca07a67b71: Pull complete
+b8e07f2501d3: Verifying Checksum
+b8e07f2501d3: Download complete
+f5941f609813: Verifying Checksum
+f5941f609813: Download complete
+b8e07f2501d3: Pull complete
+593254fca242: Pull complete
+14aa11814cea: Verifying Checksum
+14aa11814cea: Download complete
+14aa11814cea: Pull complete
+f5941f609813: Pull complete
+Digest: sha256:2089e86e7398992f4451d85d7cdb0c4902142b57cfac470a6fa174621a2da9b3
+Status: Downloaded newer image for r.cfcr.io/codefresh-inc/codefresh/segment-reporter:1.0.3
+r.cfcr.io/codefresh-inc/codefresh/segment-reporter:1.0.3
+Pull r.cfcr.io/codefresh-inc/codefresh/segment-reporter:1.0.3 completed - Mon Oct  7 13:00:44 UTC 2019 !!!
+
+Tag gcr.io/codefresh-inc/codefresh/segment-reporter:1.0.3 completed - Mon Oct  7 13:00:44 UTC 2019 !!!
+
+The push refers to repository [gcr.io/codefresh-inc/codefresh/segment-reporter]
+87c9438b72cc: Preparing
+9b89d361b161: Preparing
+42e3afe57186: Preparing
+dea45f17da3e: Preparing
+80aa70f1b54f: Preparing
+b928dd69094d: Preparing
+49a20c266dfb: Preparing
+3fb66f713c9f: Preparing
+42e3afe57186: Waiting
+dea45f17da3e: Waiting
+80aa70f1b54f: Waiting
+b928dd69094d: Waiting
+49a20c266dfb: Waiting
+3fb66f713c9f: Waiting
+87c9438b72cc: Retrying in 5 seconds
+87c9438b72cc: Retrying in 4 seconds
+87c9438b72cc: Retrying in 3 seconds
+42e3afe57186: Pushed
+87c9438b72cc: Retrying in 2 seconds
+dea45f17da3e: Pushed
+b928dd69094d: Layer already exists
+49a20c266dfb: Layer already exists
+3fb66f713c9f: Layer already exists
+87c9438b72cc: Retrying in 1 second
+80aa70f1b54f: Pushed
+87c9438b72cc: Retrying in 10 seconds
+87c9438b72cc: Retrying in 9 seconds
+87c9438b72cc: Retrying in 8 seconds
+87c9438b72cc: Retrying in 7 seconds
+9b89d361b161: Pushed
+87c9438b72cc: Retrying in 6 seconds
+87c9438b72cc: Retrying in 5 seconds
+87c9438b72cc: Retrying in 4 seconds
+87c9438b72cc: Retrying in 3 seconds
+87c9438b72cc: Retrying in 2 seconds
+87c9438b72cc: Retrying in 1 second
+87c9438b72cc: Pushed
+1.0.3: digest: sha256:7f519def090c920ef2e8e0be86666b4317fb6222be17845d00e6dbf9d3120acb size: 1994
+Push gcr.io/codefresh-inc/codefresh/segment-reporter:1.0.3 completed - Mon Oct  7 13:01:03 UTC 2019 !!!
+
+---------- Migrate r.cfcr.io/codefresh-inc/codefresh/segment-reporter:changeaffinity to gcr.io/codefresh-inc/codefresh/segment-reporter:changeaffinity
+changeaffinity: Pulling from codefresh-inc/codefresh/segment-reporter
+2aecc7e1714b: Already exists
+f0c5c0fcc61d: Already exists
+fca27890d3d4: Already exists
+52ca07a67b71: Already exists
+b8e07f2501d3: Already exists
+593254fca242: Already exists
+14aa11814cea: Already exists
+f5941f609813: Already exists
+Digest: sha256:6acdbbcb5a8dde89fbc83828836104e8e8da94f453baed7ce606c29c29c62c8d
+Status: Downloaded newer image for r.cfcr.io/codefresh-inc/codefresh/segment-reporter:changeaffinity
+r.cfcr.io/codefresh-inc/codefresh/segment-reporter:changeaffinity
+Pull r.cfcr.io/codefresh-inc/codefresh/segment-reporter:changeaffinity completed - Mon Oct  7 13:01:03 UTC 2019 !!!
+
+Tag gcr.io/codefresh-inc/codefresh/segment-reporter:changeaffinity completed - Mon Oct  7 13:01:04 UTC 2019 !!!
+
+The push refers to repository [gcr.io/codefresh-inc/codefresh/segment-reporter]
+87c9438b72cc: Preparing
+9b89d361b161: Preparing
+42e3afe57186: Preparing
+dea45f17da3e: Preparing
+80aa70f1b54f: Preparing
+b928dd69094d: Preparing
+49a20c266dfb: Preparing
+3fb66f713c9f: Preparing
+b928dd69094d: Waiting
+49a20c266dfb: Waiting
+3fb66f713c9f: Waiting
+dea45f17da3e: Layer already exists
+87c9438b72cc: Layer already exists
+80aa70f1b54f: Layer already exists
+9b89d361b161: Layer already exists
+42e3afe57186: Layer already exists
+49a20c266dfb: Layer already exists
+3fb66f713c9f: Layer already exists
+b928dd69094d: Layer already exists
+changeaffinity: digest: sha256:fe5a36930afb5c3e8f650005b4d7edcf549cfe52f3263c00daeee773cdf188cc size: 1994
+Push gcr.io/codefresh-inc/codefresh/segment-reporter:changeaffinity completed - Mon Oct  7 13:01:05 UTC 2019 !!!
+
+---------- Migrate r.cfcr.io/codefresh-inc/codefresh/segment-reporter:1.0.3-changeaffinity to gcr.io/codefresh-inc/codefresh/segment-reporter:1.0.3-changeaffinity
+1.0.3-changeaffinity: Pulling from codefresh-inc/codefresh/segment-reporter
+Digest: sha256:6acdbbcb5a8dde89fbc83828836104e8e8da94f453baed7ce606c29c29c62c8d
+Status: Downloaded newer image for r.cfcr.io/codefresh-inc/codefresh/segment-reporter:1.0.3-changeaffinity
+r.cfcr.io/codefresh-inc/codefresh/segment-reporter:1.0.3-changeaffinity
+Pull r.cfcr.io/codefresh-inc/codefresh/segment-reporter:1.0.3-changeaffinity completed - Mon Oct  7 13:01:06 UTC 2019 !!!
+
+Tag gcr.io/codefresh-inc/codefresh/segment-reporter:1.0.3-changeaffinity completed - Mon Oct  7 13:01:06 UTC 2019 !!!
+
+The push refers to repository [gcr.io/codefresh-inc/codefresh/segment-reporter]
+87c9438b72cc: Preparing
+9b89d361b161: Preparing
+42e3afe57186: Preparing
+dea45f17da3e: Preparing
+80aa70f1b54f: Preparing
+b928dd69094d: Preparing
+49a20c266dfb: Preparing
+3fb66f713c9f: Preparing
+9b89d361b161: Waiting
+42e3afe57186: Waiting
+dea45f17da3e: Waiting
+80aa70f1b54f: Waiting
+b928dd69094d: Waiting
+49a20c266dfb: Waiting
+3fb66f713c9f: Waiting
+87c9438b72cc: Layer already exists
+9b89d361b161: Layer already exists
+42e3afe57186: Layer already exists
+dea45f17da3e: Layer already exists
+80aa70f1b54f: Layer already exists
+b928dd69094d: Layer already exists
+49a20c266dfb: Layer already exists
+3fb66f713c9f: Layer already exists
+1.0.3-changeaffinity: digest: sha256:fe5a36930afb5c3e8f650005b4d7edcf549cfe52f3263c00daeee773cdf188cc size: 1994
+Push gcr.io/codefresh-inc/codefresh/segment-reporter:1.0.3-changeaffinity completed - Mon Oct  7 13:01:07 UTC 2019 !!!
+
+---------- Migrate r.cfcr.io/codefresh-inc/codefresh/segment-reporter:1.0.2-changeaffinity to gcr.io/codefresh-inc/codefresh/segment-reporter:1.0.2-changeaffinity
+1.0.2-changeaffinity: Pulling from codefresh-inc/codefresh/segment-reporter
+2aecc7e1714b: Already exists
+f0c5c0fcc61d: Already exists
+fca27890d3d4: Already exists
+52ca07a67b71: Already exists
+b8e07f2501d3: Already exists
+593254fca242: Already exists
+14aa11814cea: Already exists
+c01fb7648251: Pulling fs layer
+c01fb7648251: Verifying Checksum
+c01fb7648251: Download complete
+c01fb7648251: Pull complete
+Digest: sha256:f1554202ff2ac9eb772073b0874b4da0a5ea94364ef1cb0133aa77ca90808d51
+Status: Downloaded newer image for r.cfcr.io/codefresh-inc/codefresh/segment-reporter:1.0.2-changeaffinity
+r.cfcr.io/codefresh-inc/codefresh/segment-reporter:1.0.2-changeaffinity
+Pull r.cfcr.io/codefresh-inc/codefresh/segment-reporter:1.0.2-changeaffinity completed - Mon Oct  7 13:01:08 UTC 2019 !!!
+
+Tag gcr.io/codefresh-inc/codefresh/segment-reporter:1.0.2-changeaffinity completed - Mon Oct  7 13:01:08 UTC 2019 !!!
+
+The push refers to repository [gcr.io/codefresh-inc/codefresh/segment-reporter]
+84267c4902e4: Preparing
+9b89d361b161: Preparing
+42e3afe57186: Preparing
+dea45f17da3e: Preparing
+80aa70f1b54f: Preparing
+b928dd69094d: Preparing
+49a20c266dfb: Preparing
+3fb66f713c9f: Preparing
+9b89d361b161: Waiting
+42e3afe57186: Waiting
+dea45f17da3e: Waiting
+80aa70f1b54f: Waiting
+b928dd69094d: Waiting
+49a20c266dfb: Waiting
+3fb66f713c9f: Waiting
+9b89d361b161: Layer already exists
+42e3afe57186: Layer already exists
+dea45f17da3e: Layer already exists
+80aa70f1b54f: Layer already exists
+b928dd69094d: Layer already exists
+49a20c266dfb: Layer already exists
+3fb66f713c9f: Layer already exists
+84267c4902e4: Pushed
+1.0.2-changeaffinity: digest: sha256:c66e16d0dcf803805845a444311a953f6ee779d5450e4868666d68c7de186e2f size: 1994
+Push gcr.io/codefresh-inc/codefresh/segment-reporter:1.0.2-changeaffinity completed - Mon Oct  7 13:01:11 UTC 2019 !!!
+
+---------- Migrate r.cfcr.io/codefresh-inc/codefresh/segment-reporter:1.0.2 to gcr.io/codefresh-inc/codefresh/segment-reporter:1.0.2
+1.0.2: Pulling from codefresh-inc/codefresh/segment-reporter
+2aecc7e1714b: Already exists
+f0c5c0fcc61d: Already exists
+fca27890d3d4: Already exists
+52ca07a67b71: Already exists
+b8e07f2501d3: Already exists
+593254fca242: Already exists
+14aa11814cea: Already exists
+392da2d7a236: Pulling fs layer
+392da2d7a236: Verifying Checksum
+392da2d7a236: Download complete
+392da2d7a236: Pull complete
+Digest: sha256:adde6ca027cb56b06a5c2bdbe43da736d6af5759336ce143613d6fa0180c6989
+Status: Downloaded newer image for r.cfcr.io/codefresh-inc/codefresh/segment-reporter:1.0.2
+r.cfcr.io/codefresh-inc/codefresh/segment-reporter:1.0.2
+Pull r.cfcr.io/codefresh-inc/codefresh/segment-reporter:1.0.2 completed - Mon Oct  7 13:01:12 UTC 2019 !!!
+
+Tag gcr.io/codefresh-inc/codefresh/segment-reporter:1.0.2 completed - Mon Oct  7 13:01:12 UTC 2019 !!!
+
+The push refers to repository [gcr.io/codefresh-inc/codefresh/segment-reporter]
+b3a410d10b3c: Preparing
+9b89d361b161: Preparing
+42e3afe57186: Preparing
+dea45f17da3e: Preparing
+80aa70f1b54f: Preparing
+b928dd69094d: Preparing
+49a20c266dfb: Preparing
+3fb66f713c9f: Preparing
+dea45f17da3e: Waiting
+80aa70f1b54f: Waiting
+b928dd69094d: Waiting
+49a20c266dfb: Waiting
+3fb66f713c9f: Waiting
+42e3afe57186: Waiting
+9b89d361b161: Layer already exists
+42e3afe57186: Layer already exists
+dea45f17da3e: Layer already exists
+80aa70f1b54f: Layer already exists
+b928dd69094d: Layer already exists
+49a20c266dfb: Layer already exists
+3fb66f713c9f: Layer already exists
+b3a410d10b3c: Pushed
+1.0.2: digest: sha256:cd3951b6b2c16ab1e3cf90c0972517047f188d2c932abeeba91fff52430b0b11 size: 1994
+Push gcr.io/codefresh-inc/codefresh/segment-reporter:1.0.2 completed - Mon Oct  7 13:01:14 UTC 2019 !!!
+
+---------- Migrate r.cfcr.io/codefresh-inc/codefresh/segment-reporter:add_service.yaml to gcr.io/codefresh-inc/codefresh/segment-reporter:add_service.yaml
+add_service.yaml: Pulling from codefresh-inc/codefresh/segment-reporter
+2aecc7e1714b: Already exists
+f0c5c0fcc61d: Already exists
+fca27890d3d4: Already exists
+52ca07a67b71: Already exists
+b8e07f2501d3: Already exists
+593254fca242: Already exists
+14aa11814cea: Already exists
+0f4982536313: Pulling fs layer
+0f4982536313: Verifying Checksum
+0f4982536313: Download complete
+0f4982536313: Pull complete
+Digest: sha256:835691bfb8a15bc8bb7d1ab7b95c091ae9935ce3ff8255b0e94aaf706427fae6
+Status: Downloaded newer image for r.cfcr.io/codefresh-inc/codefresh/segment-reporter:add_service.yaml
+r.cfcr.io/codefresh-inc/codefresh/segment-reporter:add_service.yaml
+Pull r.cfcr.io/codefresh-inc/codefresh/segment-reporter:add_service.yaml completed - Mon Oct  7 13:01:16 UTC 2019 !!!
+
+Tag gcr.io/codefresh-inc/codefresh/segment-reporter:add_service.yaml completed - Mon Oct  7 13:01:16 UTC 2019 !!!
+
+The push refers to repository [gcr.io/codefresh-inc/codefresh/segment-reporter]
+0440aa2249da: Preparing
+9b89d361b161: Preparing
+42e3afe57186: Preparing
+dea45f17da3e: Preparing
+80aa70f1b54f: Preparing
+b928dd69094d: Preparing
+49a20c266dfb: Preparing
+3fb66f713c9f: Preparing
+80aa70f1b54f: Waiting
+b928dd69094d: Waiting
+49a20c266dfb: Waiting
+3fb66f713c9f: Waiting
+9b89d361b161: Layer already exists
+dea45f17da3e: Layer already exists
+42e3afe57186: Layer already exists
+b928dd69094d: Layer already exists
+80aa70f1b54f: Layer already exists
+49a20c266dfb: Layer already exists
+3fb66f713c9f: Layer already exists
+0440aa2249da: Pushed
+add_service.yaml: digest: sha256:c4f039cd83e475605ffed2e4a5247b06690b857e65fb54b06a3bbc036fdf5e29 size: 1994
+Push gcr.io/codefresh-inc/codefresh/segment-reporter:add_service.yaml completed - Mon Oct  7 13:01:18 UTC 2019 !!!
+
+---------- Migrate r.cfcr.io/codefresh-inc/codefresh/segment-reporter:1.0.1 to gcr.io/codefresh-inc/codefresh/segment-reporter:1.0.1
+1.0.1: Pulling from codefresh-inc/codefresh/segment-reporter
+2aecc7e1714b: Already exists
+f0c5c0fcc61d: Already exists
+fca27890d3d4: Already exists
+52ca07a67b71: Already exists
+b8e07f2501d3: Already exists
+593254fca242: Already exists
+14aa11814cea: Already exists
+a042801b6d6e: Pulling fs layer
+a042801b6d6e: Verifying Checksum
+a042801b6d6e: Download complete
+a042801b6d6e: Pull complete
+Digest: sha256:7333f12c81849977e3062e19a9d677eb41bcee3edea911b2e5b6f292edd710d6
+Status: Downloaded newer image for r.cfcr.io/codefresh-inc/codefresh/segment-reporter:1.0.1
+r.cfcr.io/codefresh-inc/codefresh/segment-reporter:1.0.1
+Pull r.cfcr.io/codefresh-inc/codefresh/segment-reporter:1.0.1 completed - Mon Oct  7 13:01:19 UTC 2019 !!!
+
+Tag gcr.io/codefresh-inc/codefresh/segment-reporter:1.0.1 completed - Mon Oct  7 13:01:20 UTC 2019 !!!
+
+The push refers to repository [gcr.io/codefresh-inc/codefresh/segment-reporter]
+fffbe063f186: Preparing
+9b89d361b161: Preparing
+42e3afe57186: Preparing
+dea45f17da3e: Preparing
+80aa70f1b54f: Preparing
+b928dd69094d: Preparing
+49a20c266dfb: Preparing
+3fb66f713c9f: Preparing
+80aa70f1b54f: Waiting
+49a20c266dfb: Waiting
+3fb66f713c9f: Waiting
+b928dd69094d: Waiting
+9b89d361b161: Layer already exists
+42e3afe57186: Layer already exists
+dea45f17da3e: Layer already exists
+b928dd69094d: Layer already exists
+80aa70f1b54f: Layer already exists
+49a20c266dfb: Layer already exists
+3fb66f713c9f: Layer already exists
+fffbe063f186: Pushed
+1.0.1: digest: sha256:8333d0448e2ab658febc8fb5ca70497b06f42083bf369901d71afb9fde565cfb size: 1994
+Push gcr.io/codefresh-inc/codefresh/segment-reporter:1.0.1 completed - Mon Oct  7 13:01:22 UTC 2019 !!!
+
+---------- Migrate r.cfcr.io/codefresh-inc/codefresh/segment-reporter:add_chart to gcr.io/codefresh-inc/codefresh/segment-reporter:add_chart
+add_chart: Pulling from codefresh-inc/codefresh/segment-reporter
+2aecc7e1714b: Already exists
+f0c5c0fcc61d: Already exists
+fca27890d3d4: Already exists
+52ca07a67b71: Already exists
+cae7815b6ad4: Pulling fs layer
+2cf6df8113ec: Pulling fs layer
+86d887f4b10f: Pulling fs layer
+6e10fc38ac17: Pulling fs layer
+6e10fc38ac17: Waiting
+cae7815b6ad4: Verifying Checksum
+cae7815b6ad4: Download complete
+cae7815b6ad4: Pull complete
+2cf6df8113ec: Verifying Checksum
+2cf6df8113ec: Download complete
+6e10fc38ac17: Verifying Checksum
+6e10fc38ac17: Download complete
+2cf6df8113ec: Pull complete
+86d887f4b10f: Verifying Checksum
+86d887f4b10f: Download complete
+86d887f4b10f: Pull complete
+6e10fc38ac17: Pull complete
+Digest: sha256:8976697379222a500d7a83a5414d0d244728417e1384185d7b06123a202f3bb9
+Status: Downloaded newer image for r.cfcr.io/codefresh-inc/codefresh/segment-reporter:add_chart
+r.cfcr.io/codefresh-inc/codefresh/segment-reporter:add_chart
+Pull r.cfcr.io/codefresh-inc/codefresh/segment-reporter:add_chart completed - Mon Oct  7 13:01:30 UTC 2019 !!!
+
+Tag gcr.io/codefresh-inc/codefresh/segment-reporter:add_chart completed - Mon Oct  7 13:01:30 UTC 2019 !!!
+
+The push refers to repository [gcr.io/codefresh-inc/codefresh/segment-reporter]
+57833944035b: Preparing
+6b3ebb817483: Preparing
+a07b95f92214: Preparing
+9c04615d557f: Preparing
+80aa70f1b54f: Preparing
+b928dd69094d: Preparing
+49a20c266dfb: Preparing
+3fb66f713c9f: Preparing
+b928dd69094d: Waiting
+49a20c266dfb: Waiting
+3fb66f713c9f: Waiting
+80aa70f1b54f: Layer already exists
+b928dd69094d: Layer already exists
+49a20c266dfb: Layer already exists
+3fb66f713c9f: Layer already exists
+57833944035b: Retrying in 5 seconds
+a07b95f92214: Retrying in 5 seconds
+57833944035b: Retrying in 4 seconds
+a07b95f92214: Retrying in 4 seconds
+57833944035b: Retrying in 3 seconds
+a07b95f92214: Retrying in 3 seconds
+9c04615d557f: Pushed
+57833944035b: Retrying in 2 seconds
+a07b95f92214: Retrying in 2 seconds
+57833944035b: Retrying in 1 second
+a07b95f92214: Retrying in 1 second
+57833944035b: Retrying in 10 seconds
+57833944035b: Retrying in 9 seconds
+a07b95f92214: Pushed
+57833944035b: Retrying in 8 seconds
+57833944035b: Retrying in 7 seconds
+57833944035b: Retrying in 6 seconds
+57833944035b: Retrying in 5 seconds
+57833944035b: Retrying in 4 seconds
+6b3ebb817483: Pushed
+57833944035b: Retrying in 3 seconds
+57833944035b: Retrying in 2 seconds
+57833944035b: Retrying in 1 second
+57833944035b: Pushed
+add_chart: digest: sha256:8bacd524261796ecdd10d6700bb48a14304993334d21a8d0720f0889638e7643 size: 1994
+Push gcr.io/codefresh-inc/codefresh/segment-reporter:add_chart completed - Mon Oct  7 13:01:48 UTC 2019 !!!
+

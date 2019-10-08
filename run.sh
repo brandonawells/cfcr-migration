@@ -17,10 +17,10 @@ mkdir -p $JOURNAL_DIR
 
 export JOURNAL_DIR
 echo "Starting migrtate-from-cfcr.sh in background. output to $LOG_FILE"
-$DIR/migrate-from-cfcr.sh $@ &>$LOG_FILE  <&- &
+nohup $DIR/migrate-from-cfcr.sh $@ &>$LOG_FILE  <&- &
 MIGRATE_PID=$!
 echo "Migrate script is running with PID $MIGRATE_PID 
 see the log output in $JOURNAL_DIR 
 "
 
-wait $MIGRATE_PID
+tail -f $JOURNAL_DIR/migration.log

@@ -1,0 +1,3 @@
+gcr.io/codefresh-inc/codefresh/cf-debugger:master
+gcr.io/codefresh-inc/codefresh/cf-debugger:node-debugger
+gcr.io/codefresh-inc/codefresh/cf-debugger:try-resize

@@ -1,0 +1,253 @@
+Entering ./migrate-from-cfcr.sh - Mon Oct  7 12:48:38 UTC 2019
+JOURNAL_DIR = ./journal/2019-10-07_124833
+DONE_DIR = ./done
+IMAGES_LIST=./journal/2019-10-07_124833/images-list
+
+Starting at Mon Oct  7 12:48:41 UTC 2019
+Processing ./journal/2019-10-07_124833/images-list
+NAME                            TAG                                      PULL - SKIP
+./journal/2019-10-07_124833/codefresh__accounts-referrals.tags
+codefresh/accounts-referrals    8bc884ed003beef28c498f9dca9a02391771b02d r.cfcr.io/codefresh-inc/codefresh/accounts-referrals:8bc884ed003beef28c498f9dca9a02391771b02d - SKIP
+./journal/2019-10-07_124833/codefresh__accounts-referrals.tags
+./journal/2019-10-07_124833/codefresh-io__accounts-referrals.tags
+codefresh-io/accounts-referrals 8bc884ed003beef28c498f9dca9a02391771b02d r.cfcr.io/codefresh-inc/codefresh-io/accounts-referrals:8bc884ed003beef28c498f9dca9a02391771b02d - SKIP
+./journal/2019-10-07_124833/codefresh__accounts-referrals.tags
+./journal/2019-10-07_124833/codefresh__accounts-referrals.tags
+codefresh/accounts-referrals    3b8facaebe8b075e996a7b4e7c572ec5c9cb4fd7 r.cfcr.io/codefresh-inc/codefresh/accounts-referrals:3b8facaebe8b075e996a7b4e7c572ec5c9cb4fd7 - SKIP
+./journal/2019-10-07_124833/codefresh-io__accounts-referrals.tags
+codefresh-io/accounts-referrals 3b8facaebe8b075e996a7b4e7c572ec5c9cb4fd7 r.cfcr.io/codefresh-inc/codefresh-io/accounts-referrals:3b8facaebe8b075e996a7b4e7c572ec5c9cb4fd7 - SKIP
+./journal/2019-10-07_124833/codefresh-io__accounts-referrals.tags
+./journal/2019-10-07_124833/codefresh-io__accounts-referrals.tags
+codefresh-io/accounts-referrals 2e94be8c332ee943534c666e9f9dfdd8e0305765 r.cfcr.io/codefresh-inc/codefresh-io/accounts-referrals:2e94be8c332ee943534c666e9f9dfdd8e0305765 - SKIP
+./journal/2019-10-07_124833/codefresh__accounts-referrals.tags
+./journal/2019-10-07_124833/codefresh__accounts-referrals.tags
+codefresh/accounts-referrals    2e94be8c332ee943534c666e9f9dfdd8e0305765 r.cfcr.io/codefresh-inc/codefresh/accounts-referrals:2e94be8c332ee943534c666e9f9dfdd8e0305765 - SKIP
+./journal/2019-10-07_124833/codefresh__accounts-referrals.tags
+codefresh-io/accounts-referrals c757d8377ae033ece55040b7ded827f9374c284a r.cfcr.io/codefresh-inc/codefresh-io/accounts-referrals:c757d8377ae033ece55040b7ded827f9374c284a - SKIP
+codefresh/accounts-referrals    c757d8377ae033ece55040b7ded827f9374c284a r.cfcr.io/codefresh-inc/codefresh/accounts-referrals:c757d8377ae033ece55040b7ded827f9374c284a - SKIP
+./journal/2019-10-07_124833/codefresh__accounts-referrals.tags
+codefresh/accounts-referrals    72cf0153d33217d0783a470007e231b6fd96aa80 r.cfcr.io/codefresh-inc/codefresh/accounts-referrals:72cf0153d33217d0783a470007e231b6fd96aa80 - SKIP
+codefresh-io/accounts-referrals 72cf0153d33217d0783a470007e231b6fd96aa80 r.cfcr.io/codefresh-inc/codefresh-io/accounts-referrals:72cf0153d33217d0783a470007e231b6fd96aa80 - SKIP
+./journal/2019-10-07_124833/codefresh__accounts-referrals.tags
+codefresh/accounts-referrals    81300f7b50dcaa8cf4e92b0452985dce2162e3a6 r.cfcr.io/codefresh-inc/codefresh/accounts-referrals:81300f7b50dcaa8cf4e92b0452985dce2162e3a6 - SKIP
+codefresh-io/accounts-referrals 81300f7b50dcaa8cf4e92b0452985dce2162e3a6 r.cfcr.io/codefresh-inc/codefresh-io/accounts-referrals:81300f7b50dcaa8cf4e92b0452985dce2162e3a6 - SKIP
+./journal/2019-10-07_124833/codefresh__accounts-referrals.tags
+codefresh/accounts-referrals    206a9df82685029b9de0eba03fa521182dfb1861 r.cfcr.io/codefresh-inc/codefresh/accounts-referrals:206a9df82685029b9de0eba03fa521182dfb1861 - SKIP
+./journal/2019-10-07_124833/codefresh__accounts-referrals.tags
+./journal/2019-10-07_124833/codefresh-io__accounts-referrals.tags
+codefresh-io/accounts-referrals 206a9df82685029b9de0eba03fa521182dfb1861 r.cfcr.io/codefresh-inc/codefresh-io/accounts-referrals:206a9df82685029b9de0eba03fa521182dfb1861 - SKIP
+codefresh/accounts-referrals    c44e827d1492b0f3aaccbcb97f93a653ccf6d879 r.cfcr.io/codefresh-inc/codefresh/accounts-referrals:c44e827d1492b0f3aaccbcb97f93a653ccf6d879 - SKIP
+./journal/2019-10-07_124833/codefresh__accounts-referrals.tags
+codefresh-io/accounts-referrals c44e827d1492b0f3aaccbcb97f93a653ccf6d879 r.cfcr.io/codefresh-inc/codefresh-io/accounts-referrals:c44e827d1492b0f3aaccbcb97f93a653ccf6d879 - SKIP
+./journal/2019-10-07_124833/codefresh__accounts-referrals.tags
+codefresh/accounts-referrals    a6400398ae6777b618813efb13793d27b197e103 r.cfcr.io/codefresh-inc/codefresh/accounts-referrals:a6400398ae6777b618813efb13793d27b197e103 - SKIP
+codefresh-io/accounts-referrals a6400398ae6777b618813efb13793d27b197e103 r.cfcr.io/codefresh-inc/codefresh-io/accounts-referrals:a6400398ae6777b618813efb13793d27b197e103 - SKIP
+./journal/2019-10-07_124833/codefresh__accounts-referrals.tags
+codefresh/accounts-referrals    848e42675807ef7242064444326b6436ab8c4e09 r.cfcr.io/codefresh-inc/codefresh/accounts-referrals:848e42675807ef7242064444326b6436ab8c4e09 - SKIP
+./journal/2019-10-07_124833/codefresh__accounts-referrals.tags
+./journal/2019-10-07_124833/codefresh-io__accounts-referrals.tags
+codefresh-io/accounts-referrals 848e42675807ef7242064444326b6436ab8c4e09 r.cfcr.io/codefresh-inc/codefresh-io/accounts-referrals:848e42675807ef7242064444326b6436ab8c4e09 - SKIP
+codefresh-io/accounts-referrals dc45404575415649bb468b35777ca08c521d3a09 r.cfcr.io/codefresh-inc/codefresh-io/accounts-referrals:dc45404575415649bb468b35777ca08c521d3a09 - SKIP
+codefresh/accounts-referrals    dc45404575415649bb468b35777ca08c521d3a09 r.cfcr.io/codefresh-inc/codefresh/accounts-referrals:dc45404575415649bb468b35777ca08c521d3a09 - SKIP
+./journal/2019-10-07_124833/codefresh__accounts-referrals.tags
+codefresh/accounts-referrals    238c9f89eb1ceebe5402551ab19995e18c2b799e r.cfcr.io/codefresh-inc/codefresh/accounts-referrals:238c9f89eb1ceebe5402551ab19995e18c2b799e - SKIP
+codefresh-io/accounts-referrals 238c9f89eb1ceebe5402551ab19995e18c2b799e r.cfcr.io/codefresh-inc/codefresh-io/accounts-referrals:238c9f89eb1ceebe5402551ab19995e18c2b799e - SKIP
+codefresh-io/accounts-referrals 65d2ea64be51fca07e7f0501dea509545dec75a7 r.cfcr.io/codefresh-inc/codefresh-io/accounts-referrals:65d2ea64be51fca07e7f0501dea509545dec75a7 - SKIP
+
+--- Mon Oct  7 12:48:41 UTC 2019
+Processing tag files
+
+  ****************
+  Mon Oct  7 12:48:41 UTC 2019 - ./journal/2019-10-07_124833/codefresh-io__accounts-referrals.tags
+Skipping Image gcr.io/codefresh-inc/codefresh-io/accounts-referrals:encode-user-header - it is already done
+Skipping Image gcr.io/codefresh-inc/codefresh-io/accounts-referrals:master - it is already done
+Skipping Image gcr.io/codefresh-inc/codefresh-io/accounts-referrals:preemptible-saas-3841 - it is already done
+Skipping Image gcr.io/codefresh-inc/codefresh-io/accounts-referrals:preemptible-SAAS-3841 - it is already done
+Skipping Image gcr.io/codefresh-inc/codefresh-io/accounts-referrals:affinity-identation - it is already done
+---------- Migrate r.cfcr.io/codefresh-inc/codefresh-io/accounts-referrals:istio-poc to gcr.io/codefresh-inc/codefresh-io/accounts-referrals:istio-poc
+istio-poc: Pulling from codefresh-inc/codefresh-io/accounts-referrals
+e7c96db7181b: Already exists
+df9eac31dfef: Already exists
+0a20433d95a4: Already exists
+f151fb45d901: Already exists
+325014cc5f7f: Already exists
+524002a24bce: Already exists
+b5a5d991bfd9: Already exists
+e7fef319514c: Pulling fs layer
+e7fef319514c: Verifying Checksum
+e7fef319514c: Download complete
+e7fef319514c: Pull complete
+Digest: sha256:2fda7a2315027df14d987c0b84f6f73a630bd8c37d5bbc2905211c080fb21be1
+Status: Downloaded newer image for r.cfcr.io/codefresh-inc/codefresh-io/accounts-referrals:istio-poc
+r.cfcr.io/codefresh-inc/codefresh-io/accounts-referrals:istio-poc
+Pull r.cfcr.io/codefresh-inc/codefresh-io/accounts-referrals:istio-poc completed - Mon Oct  7 12:48:44 UTC 2019 !!!
+
+Tag gcr.io/codefresh-inc/codefresh-io/accounts-referrals:istio-poc completed - Mon Oct  7 12:48:44 UTC 2019 !!!
+
+The push refers to repository [gcr.io/codefresh-inc/codefresh-io/accounts-referrals]
+c9408ef96ae7: Preparing
+bc11aac2ed6a: Preparing
+d756fcf5c2cd: Preparing
+19d33e96a1b0: Preparing
+5ede17426e0d: Preparing
+28bf756b6f8e: Preparing
+4c299e1e70d5: Preparing
+f1b5933fe4b5: Preparing
+d756fcf5c2cd: Waiting
+19d33e96a1b0: Waiting
+5ede17426e0d: Waiting
+28bf756b6f8e: Waiting
+4c299e1e70d5: Waiting
+f1b5933fe4b5: Waiting
+bc11aac2ed6a: Waiting
+bc11aac2ed6a: Layer already exists
+d756fcf5c2cd: Layer already exists
+19d33e96a1b0: Layer already exists
+5ede17426e0d: Layer already exists
+28bf756b6f8e: Layer already exists
+4c299e1e70d5: Layer already exists
+f1b5933fe4b5: Layer already exists
+c9408ef96ae7: Pushed
+istio-poc: digest: sha256:2fda7a2315027df14d987c0b84f6f73a630bd8c37d5bbc2905211c080fb21be1 size: 1998
+Push gcr.io/codefresh-inc/codefresh-io/accounts-referrals:istio-poc completed - Mon Oct  7 12:48:49 UTC 2019 !!!
+
+
+  ****************
+  Mon Oct  7 12:48:49 UTC 2019 - ./journal/2019-10-07_124833/codefresh__accounts-referrals.tags
+Skipping Image gcr.io/codefresh-inc/codefresh/accounts-referrals:encode-user-header - it is already done
+Skipping Image gcr.io/codefresh-inc/codefresh/accounts-referrals:1.1.3-encode-user-header - it is already done
+Skipping Image gcr.io/codefresh-inc/codefresh/accounts-referrals:master - it is already done
+Skipping Image gcr.io/codefresh-inc/codefresh/accounts-referrals:1.1.2 - it is already done
+Skipping Image gcr.io/codefresh-inc/codefresh/accounts-referrals:preemptible-saas-3841 - it is already done
+Skipping Image gcr.io/codefresh-inc/codefresh/accounts-referrals:preemptible-SAAS-3841 - it is already done
+Skipping Image gcr.io/codefresh-inc/codefresh/accounts-referrals:1.1.2-preemptible-saas-3841 - it is already done
+Skipping Image gcr.io/codefresh-inc/codefresh/accounts-referrals:1.1.1-preemptible-saas-3841 - it is already done
+Skipping Image gcr.io/codefresh-inc/codefresh/accounts-referrals:1.1.1 - it is already done
+Skipping Image gcr.io/codefresh-inc/codefresh/accounts-referrals:affinity-identation - it is already done
+Skipping Image gcr.io/codefresh-inc/codefresh/accounts-referrals:1.1.1-affinity-identation - it is already done
+Skipping Image gcr.io/codefresh-inc/codefresh/accounts-referrals:1.1.0-affinity-identation - it is already done
+Skipping Image gcr.io/codefresh-inc/codefresh/accounts-referrals:1.1.0 - it is already done
+---------- Migrate r.cfcr.io/codefresh-inc/codefresh/accounts-referrals:istio-poc to gcr.io/codefresh-inc/codefresh/accounts-referrals:istio-poc
+istio-poc: Pulling from codefresh-inc/codefresh/accounts-referrals
+e7c96db7181b: Already exists
+df9eac31dfef: Already exists
+0a20433d95a4: Already exists
+98885f0bfbb5: Already exists
+e4afb1824133: Already exists
+4e541883f821: Already exists
+c7fb4d708662: Already exists
+e12c74fd8acb: Already exists
+Digest: sha256:3a4efa9fb389ded2c46a0692565b40e58ea55878bb79327e8b8dc94c93dcb01a
+Status: Downloaded newer image for r.cfcr.io/codefresh-inc/codefresh/accounts-referrals:istio-poc
+r.cfcr.io/codefresh-inc/codefresh/accounts-referrals:istio-poc
+Pull r.cfcr.io/codefresh-inc/codefresh/accounts-referrals:istio-poc completed - Mon Oct  7 12:48:50 UTC 2019 !!!
+
+Tag gcr.io/codefresh-inc/codefresh/accounts-referrals:istio-poc completed - Mon Oct  7 12:48:50 UTC 2019 !!!
+
+The push refers to repository [gcr.io/codefresh-inc/codefresh/accounts-referrals]
+0bad75975d9a: Preparing
+8c984b9f6603: Preparing
+8fb33f53b12f: Preparing
+0102df3e1939: Preparing
+262a9edb08ae: Preparing
+28bf756b6f8e: Preparing
+4c299e1e70d5: Preparing
+f1b5933fe4b5: Preparing
+262a9edb08ae: Waiting
+28bf756b6f8e: Waiting
+4c299e1e70d5: Waiting
+f1b5933fe4b5: Waiting
+0102df3e1939: Layer already exists
+8c984b9f6603: Layer already exists
+0bad75975d9a: Layer already exists
+8fb33f53b12f: Layer already exists
+f1b5933fe4b5: Layer already exists
+4c299e1e70d5: Layer already exists
+28bf756b6f8e: Layer already exists
+262a9edb08ae: Layer already exists
+istio-poc: digest: sha256:3a4efa9fb389ded2c46a0692565b40e58ea55878bb79327e8b8dc94c93dcb01a size: 1998
+Push gcr.io/codefresh-inc/codefresh/accounts-referrals:istio-poc completed - Mon Oct  7 12:48:52 UTC 2019 !!!
+
+---------- Migrate r.cfcr.io/codefresh-inc/codefresh/accounts-referrals:1.1.0-istio-poc to gcr.io/codefresh-inc/codefresh/accounts-referrals:1.1.0-istio-poc
+1.1.0-istio-poc: Pulling from codefresh-inc/codefresh/accounts-referrals
+Digest: sha256:3a4efa9fb389ded2c46a0692565b40e58ea55878bb79327e8b8dc94c93dcb01a
+Status: Downloaded newer image for r.cfcr.io/codefresh-inc/codefresh/accounts-referrals:1.1.0-istio-poc
+r.cfcr.io/codefresh-inc/codefresh/accounts-referrals:1.1.0-istio-poc
+Pull r.cfcr.io/codefresh-inc/codefresh/accounts-referrals:1.1.0-istio-poc completed - Mon Oct  7 12:48:53 UTC 2019 !!!
+
+Tag gcr.io/codefresh-inc/codefresh/accounts-referrals:1.1.0-istio-poc completed - Mon Oct  7 12:48:53 UTC 2019 !!!
+
+The push refers to repository [gcr.io/codefresh-inc/codefresh/accounts-referrals]
+0bad75975d9a: Preparing
+8c984b9f6603: Preparing
+8fb33f53b12f: Preparing
+0102df3e1939: Preparing
+262a9edb08ae: Preparing
+28bf756b6f8e: Preparing
+4c299e1e70d5: Preparing
+f1b5933fe4b5: Preparing
+8fb33f53b12f: Waiting
+0102df3e1939: Waiting
+262a9edb08ae: Waiting
+28bf756b6f8e: Waiting
+4c299e1e70d5: Waiting
+f1b5933fe4b5: Waiting
+8c984b9f6603: Waiting
+0bad75975d9a: Layer already exists
+8c984b9f6603: Layer already exists
+8fb33f53b12f: Layer already exists
+0102df3e1939: Layer already exists
+262a9edb08ae: Layer already exists
+28bf756b6f8e: Layer already exists
+4c299e1e70d5: Layer already exists
+f1b5933fe4b5: Layer already exists
+1.1.0-istio-poc: digest: sha256:3a4efa9fb389ded2c46a0692565b40e58ea55878bb79327e8b8dc94c93dcb01a size: 1998
+Push gcr.io/codefresh-inc/codefresh/accounts-referrals:1.1.0-istio-poc completed - Mon Oct  7 12:48:54 UTC 2019 !!!
+
+---------- Migrate r.cfcr.io/codefresh-inc/codefresh/accounts-referrals:1.0.2-istio-poc to gcr.io/codefresh-inc/codefresh/accounts-referrals:1.0.2-istio-poc
+1.0.2-istio-poc: Pulling from codefresh-inc/codefresh/accounts-referrals
+e7c96db7181b: Already exists
+df9eac31dfef: Already exists
+0a20433d95a4: Already exists
+98885f0bfbb5: Already exists
+e4afb1824133: Already exists
+4e541883f821: Already exists
+c7fb4d708662: Already exists
+b31c4dce9f19: Pulling fs layer
+b31c4dce9f19: Verifying Checksum
+b31c4dce9f19: Download complete
+b31c4dce9f19: Pull complete
+Digest: sha256:431917826a2d68af269b3e356358574b24ae483a2265a593a3640ef009ba65cb
+Status: Downloaded newer image for r.cfcr.io/codefresh-inc/codefresh/accounts-referrals:1.0.2-istio-poc
+r.cfcr.io/codefresh-inc/codefresh/accounts-referrals:1.0.2-istio-poc
+Pull r.cfcr.io/codefresh-inc/codefresh/accounts-referrals:1.0.2-istio-poc completed - Mon Oct  7 12:48:55 UTC 2019 !!!
+
+Tag gcr.io/codefresh-inc/codefresh/accounts-referrals:1.0.2-istio-poc completed - Mon Oct  7 12:48:55 UTC 2019 !!!
+
+The push refers to repository [gcr.io/codefresh-inc/codefresh/accounts-referrals]
+1ea94568be4f: Preparing
+8c984b9f6603: Preparing
+8fb33f53b12f: Preparing
+0102df3e1939: Preparing
+262a9edb08ae: Preparing
+28bf756b6f8e: Preparing
+4c299e1e70d5: Preparing
+f1b5933fe4b5: Preparing
+8c984b9f6603: Waiting
+8fb33f53b12f: Waiting
+0102df3e1939: Waiting
+262a9edb08ae: Waiting
+28bf756b6f8e: Waiting
+4c299e1e70d5: Waiting
+f1b5933fe4b5: Waiting
+8c984b9f6603: Layer already exists
+8fb33f53b12f: Layer already exists
+0102df3e1939: Layer already exists
+262a9edb08ae: Layer already exists
+28bf756b6f8e: Layer already exists
+4c299e1e70d5: Layer already exists
+f1b5933fe4b5: Layer already exists
+1ea94568be4f: Pushed
+1.0.2-istio-poc: digest: sha256:431917826a2d68af269b3e356358574b24ae483a2265a593a3640ef009ba65cb size: 1998
+Push gcr.io/codefresh-inc/codefresh/accounts-referrals:1.0.2-istio-poc completed - Mon Oct  7 12:48:59 UTC 2019 !!!
+

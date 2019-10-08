@@ -1,0 +1,1712 @@
+Entering ./migrate-from-cfcr.sh - Mon Oct  7 11:44:03 UTC 2019
+JOURNAL_DIR = ./journal/2019-10-07_114359
+DONE_DIR = ./done
+IMAGES_LIST=./journal/2019-10-07_114359/images-list
+
+Starting at Mon Oct  7 11:44:05 UTC 2019
+Processing ./journal/2019-10-07_114359/images-list
+NAME                       TAG                                      PULL - SKIP
+./journal/2019-10-07_114359/codefresh__kube-integration.tags
+codefresh/kube-integration 75e7279061066d1bf5794f76d3d34d896a53c7be r.cfcr.io/codefresh-inc/codefresh/kube-integration:75e7279061066d1bf5794f76d3d34d896a53c7be - SKIP
+./journal/2019-10-07_114359/codefresh__kube-integration.tags
+codefresh/kube-integration 697fe68860bb78e224b5a651f6e0a9c61ea46417 r.cfcr.io/codefresh-inc/codefresh/kube-integration:697fe68860bb78e224b5a651f6e0a9c61ea46417 - SKIP
+./journal/2019-10-07_114359/codefresh__kube-integration.tags
+./journal/2019-10-07_114359/codefresh__kube-integration.tags
+codefresh/kube-integration 852004620ea06b110aa7e202b6e18e9ff2fbd72f r.cfcr.io/codefresh-inc/codefresh/kube-integration:852004620ea06b110aa7e202b6e18e9ff2fbd72f - SKIP
+./journal/2019-10-07_114359/codefresh__kube-integration.tags
+codefresh/kube-integration 6f2f087a744970edd7e5a0b31a1a3c538e3c20a6 r.cfcr.io/codefresh-inc/codefresh/kube-integration:6f2f087a744970edd7e5a0b31a1a3c538e3c20a6 - SKIP
+./journal/2019-10-07_114359/codefresh__kube-integration.tags
+codefresh/kube-integration ee5d57f951370575d691941f7ba45266e77c7279 r.cfcr.io/codefresh-inc/codefresh/kube-integration:ee5d57f951370575d691941f7ba45266e77c7279 - SKIP
+./journal/2019-10-07_114359/codefresh__kube-integration.tags
+codefresh/kube-integration b3afc463d76a93c3f160da851d75b192d890cc9e r.cfcr.io/codefresh-inc/codefresh/kube-integration:b3afc463d76a93c3f160da851d75b192d890cc9e - SKIP
+./journal/2019-10-07_114359/codefresh__kube-integration.tags
+./journal/2019-10-07_114359/codefresh__kube-integration.tags
+./journal/2019-10-07_114359/codefresh__kube-integration.tags
+./journal/2019-10-07_114359/codefresh__kube-integration.tags
+./journal/2019-10-07_114359/codefresh__kube-integration.tags
+./journal/2019-10-07_114359/codefresh__kube-integration.tags
+./journal/2019-10-07_114359/codefresh__kube-integration.tags
+codefresh/kube-integration 7fe7055ff24a3f429547fd3e7f1bd99581433462 r.cfcr.io/codefresh-inc/codefresh/kube-integration:7fe7055ff24a3f429547fd3e7f1bd99581433462 - SKIP
+./journal/2019-10-07_114359/codefresh__kube-integration.tags
+codefresh/kube-integration d30c6e39373838100d8a001b1fad29662fb037f7 r.cfcr.io/codefresh-inc/codefresh/kube-integration:d30c6e39373838100d8a001b1fad29662fb037f7 - SKIP
+./journal/2019-10-07_114359/codefresh__kube-integration.tags
+codefresh/kube-integration 00fb6248bde88ec1bdcefab16862d16879325934 r.cfcr.io/codefresh-inc/codefresh/kube-integration:00fb6248bde88ec1bdcefab16862d16879325934 - SKIP
+./journal/2019-10-07_114359/codefresh__kube-integration.tags
+codefresh/kube-integration 7ea2ed0c6a4f697fb43f96279ae8d2430357fb08 r.cfcr.io/codefresh-inc/codefresh/kube-integration:7ea2ed0c6a4f697fb43f96279ae8d2430357fb08 - SKIP
+./journal/2019-10-07_114359/codefresh__kube-integration.tags
+./journal/2019-10-07_114359/codefresh__kube-integration.tags
+./journal/2019-10-07_114359/codefresh__kube-integration.tags
+./journal/2019-10-07_114359/codefresh__kube-integration.tags
+codefresh/kube-integration 8336632a163a128207f268a8a9da5be50a19d760 r.cfcr.io/codefresh-inc/codefresh/kube-integration:8336632a163a128207f268a8a9da5be50a19d760 - SKIP
+./journal/2019-10-07_114359/codefresh__kube-integration.tags
+./journal/2019-10-07_114359/codefresh__kube-integration.tags
+codefresh/kube-integration 95773a26679454eed7ca956838c8bf74a7ab7a54 r.cfcr.io/codefresh-inc/codefresh/kube-integration:95773a26679454eed7ca956838c8bf74a7ab7a54 - SKIP
+./journal/2019-10-07_114359/codefresh__kube-integration.tags
+codefresh/kube-integration 139e8d12064c0e46dcc052176eb5c107ebd4f514 r.cfcr.io/codefresh-inc/codefresh/kube-integration:139e8d12064c0e46dcc052176eb5c107ebd4f514 - SKIP
+./journal/2019-10-07_114359/codefresh__kube-integration.tags
+codefresh/kube-integration 9c1fa660a380e858e12f99de6db29bb20f780ae9 r.cfcr.io/codefresh-inc/codefresh/kube-integration:9c1fa660a380e858e12f99de6db29bb20f780ae9 - SKIP
+./journal/2019-10-07_114359/codefresh__kube-integration.tags
+./journal/2019-10-07_114359/codefresh__kube-integration.tags
+codefresh/kube-integration c8f4bf2d8121a1ae8076ac47f7623f6a1089148b r.cfcr.io/codefresh-inc/codefresh/kube-integration:c8f4bf2d8121a1ae8076ac47f7623f6a1089148b - SKIP
+./journal/2019-10-07_114359/codefresh__kube-integration.tags
+codefresh/kube-integration 15b309dc956b411e57a9787e2f47a5915453c5be r.cfcr.io/codefresh-inc/codefresh/kube-integration:15b309dc956b411e57a9787e2f47a5915453c5be - SKIP
+./journal/2019-10-07_114359/codefresh__kube-integration.tags
+codefresh/kube-integration 9c958d585e89f9f49fdd03755452b33c2ad41f40 r.cfcr.io/codefresh-inc/codefresh/kube-integration:9c958d585e89f9f49fdd03755452b33c2ad41f40 - SKIP
+./journal/2019-10-07_114359/codefresh__kube-integration.tags
+./journal/2019-10-07_114359/codefresh__kube-integration.tags
+codefresh/kube-integration e04306455e22bb5b9cbd110bd4cedbe79cc8abbe r.cfcr.io/codefresh-inc/codefresh/kube-integration:e04306455e22bb5b9cbd110bd4cedbe79cc8abbe - SKIP
+./journal/2019-10-07_114359/codefresh__kube-integration.tags
+./journal/2019-10-07_114359/codefresh__kube-integration.tags
+./journal/2019-10-07_114359/codefresh__kube-integration.tags
+codefresh/kube-integration c6418153858e624d41533cc8e7df8afda6cbbd03 r.cfcr.io/codefresh-inc/codefresh/kube-integration:c6418153858e624d41533cc8e7df8afda6cbbd03 - SKIP
+./journal/2019-10-07_114359/codefresh__kube-integration.tags
+codefresh/kube-integration 8dc77fc538644092f5a3e54061df1d8210a324e7 r.cfcr.io/codefresh-inc/codefresh/kube-integration:8dc77fc538644092f5a3e54061df1d8210a324e7 - SKIP
+./journal/2019-10-07_114359/codefresh__kube-integration.tags
+./journal/2019-10-07_114359/codefresh__kube-integration.tags
+codefresh/kube-integration ae01d2c099e77535af1049a724f5c828214a77e3 r.cfcr.io/codefresh-inc/codefresh/kube-integration:ae01d2c099e77535af1049a724f5c828214a77e3 - SKIP
+
+--- Mon Oct  7 11:44:06 UTC 2019
+Processing tag files
+
+  ****************
+  Mon Oct  7 11:44:06 UTC 2019 - ./journal/2019-10-07_114359/codefresh__kube-integration.tags
+grep: ./done/codefresh__kube-integration.tags: No such file or directory
+---------- Migrate r.cfcr.io/codefresh-inc/codefresh/kube-integration:encode-user-header to gcr.io/codefresh-inc/codefresh/kube-integration:encode-user-header
+encode-user-header: Pulling from codefresh-inc/codefresh/kube-integration
+e7c96db7181b: Already exists
+df9eac31dfef: Already exists
+0a20433d95a4: Already exists
+5e356cab42aa: Pulling fs layer
+4aaa25fe2718: Pulling fs layer
+6843130dee7b: Pulling fs layer
+0c8f8621d85a: Pulling fs layer
+0c8f8621d85a: Waiting
+4aaa25fe2718: Download complete
+5e356cab42aa: Verifying Checksum
+5e356cab42aa: Download complete
+5e356cab42aa: Pull complete
+4aaa25fe2718: Pull complete
+0c8f8621d85a: Verifying Checksum
+0c8f8621d85a: Download complete
+6843130dee7b: Verifying Checksum
+6843130dee7b: Download complete
+6843130dee7b: Pull complete
+0c8f8621d85a: Pull complete
+Digest: sha256:de322277892457113d855dff4a0a4059b1a7435c4f10fa13dd4880c28a17f5c0
+Status: Downloaded newer image for r.cfcr.io/codefresh-inc/codefresh/kube-integration:encode-user-header
+r.cfcr.io/codefresh-inc/codefresh/kube-integration:encode-user-header
+Pull r.cfcr.io/codefresh-inc/codefresh/kube-integration:encode-user-header completed - Mon Oct  7 11:44:17 UTC 2019 !!!
+
+Tag gcr.io/codefresh-inc/codefresh/kube-integration:encode-user-header completed - Mon Oct  7 11:44:17 UTC 2019 !!!
+
+The push refers to repository [gcr.io/codefresh-inc/codefresh/kube-integration]
+0a75fa4cf0fd: Preparing
+dbc1bb160d72: Preparing
+c098a463ce75: Preparing
+9a7b79b6e5fe: Preparing
+28bf756b6f8e: Preparing
+4c299e1e70d5: Preparing
+f1b5933fe4b5: Preparing
+0a75fa4cf0fd: Waiting
+dbc1bb160d72: Waiting
+c098a463ce75: Waiting
+9a7b79b6e5fe: Waiting
+28bf756b6f8e: Waiting
+4c299e1e70d5: Waiting
+f1b5933fe4b5: Waiting
+c098a463ce75: Retrying in 5 seconds
+dbc1bb160d72: Retrying in 5 seconds
+0a75fa4cf0fd: Retrying in 5 seconds
+c098a463ce75: Retrying in 4 seconds
+dbc1bb160d72: Retrying in 4 seconds
+0a75fa4cf0fd: Retrying in 4 seconds
+9a7b79b6e5fe: Pushed
+28bf756b6f8e: Layer already exists
+4c299e1e70d5: Layer already exists
+f1b5933fe4b5: Layer already exists
+c098a463ce75: Retrying in 3 seconds
+dbc1bb160d72: Retrying in 3 seconds
+0a75fa4cf0fd: Retrying in 3 seconds
+c098a463ce75: Retrying in 2 seconds
+dbc1bb160d72: Retrying in 2 seconds
+0a75fa4cf0fd: Retrying in 2 seconds
+c098a463ce75: Retrying in 1 second
+dbc1bb160d72: Retrying in 1 second
+0a75fa4cf0fd: Retrying in 1 second
+dbc1bb160d72: Retrying in 10 seconds
+0a75fa4cf0fd: Retrying in 10 seconds
+c098a463ce75: Pushed
+dbc1bb160d72: Retrying in 9 seconds
+0a75fa4cf0fd: Retrying in 9 seconds
+dbc1bb160d72: Retrying in 8 seconds
+0a75fa4cf0fd: Retrying in 8 seconds
+dbc1bb160d72: Retrying in 7 seconds
+0a75fa4cf0fd: Retrying in 7 seconds
+dbc1bb160d72: Retrying in 6 seconds
+0a75fa4cf0fd: Retrying in 6 seconds
+dbc1bb160d72: Retrying in 5 seconds
+0a75fa4cf0fd: Retrying in 5 seconds
+dbc1bb160d72: Retrying in 4 seconds
+0a75fa4cf0fd: Retrying in 4 seconds
+dbc1bb160d72: Retrying in 3 seconds
+0a75fa4cf0fd: Retrying in 3 seconds
+dbc1bb160d72: Retrying in 2 seconds
+0a75fa4cf0fd: Retrying in 2 seconds
+dbc1bb160d72: Retrying in 1 second
+0a75fa4cf0fd: Retrying in 1 second
+0a75fa4cf0fd: Retrying in 15 seconds
+0a75fa4cf0fd: Retrying in 14 seconds
+0a75fa4cf0fd: Retrying in 13 seconds
+0a75fa4cf0fd: Retrying in 12 seconds
+0a75fa4cf0fd: Retrying in 11 seconds
+0a75fa4cf0fd: Retrying in 10 seconds
+0a75fa4cf0fd: Retrying in 9 seconds
+0a75fa4cf0fd: Retrying in 8 seconds
+0a75fa4cf0fd: Retrying in 7 seconds
+0a75fa4cf0fd: Retrying in 6 seconds
+0a75fa4cf0fd: Retrying in 5 seconds
+0a75fa4cf0fd: Retrying in 4 seconds
+0a75fa4cf0fd: Retrying in 3 seconds
+0a75fa4cf0fd: Retrying in 2 seconds
+0a75fa4cf0fd: Retrying in 1 second
+0a75fa4cf0fd: Retrying in 20 seconds
+0a75fa4cf0fd: Retrying in 19 seconds
+0a75fa4cf0fd: Retrying in 18 seconds
+0a75fa4cf0fd: Retrying in 17 seconds
+0a75fa4cf0fd: Retrying in 16 seconds
+0a75fa4cf0fd: Retrying in 15 seconds
+0a75fa4cf0fd: Retrying in 14 seconds
+0a75fa4cf0fd: Retrying in 13 seconds
+dbc1bb160d72: Pushed
+0a75fa4cf0fd: Retrying in 12 seconds
+0a75fa4cf0fd: Retrying in 11 seconds
+0a75fa4cf0fd: Retrying in 10 seconds
+0a75fa4cf0fd: Retrying in 9 seconds
+0a75fa4cf0fd: Retrying in 8 seconds
+0a75fa4cf0fd: Retrying in 7 seconds
+0a75fa4cf0fd: Retrying in 6 seconds
+0a75fa4cf0fd: Retrying in 5 seconds
+0a75fa4cf0fd: Retrying in 4 seconds
+0a75fa4cf0fd: Retrying in 3 seconds
+0a75fa4cf0fd: Retrying in 2 seconds
+0a75fa4cf0fd: Retrying in 1 second
+0a75fa4cf0fd: Pushed
+encode-user-header: digest: sha256:de322277892457113d855dff4a0a4059b1a7435c4f10fa13dd4880c28a17f5c0 size: 1789
+Push gcr.io/codefresh-inc/codefresh/kube-integration:encode-user-header completed - Mon Oct  7 11:45:11 UTC 2019 !!!
+
+---------- Migrate r.cfcr.io/codefresh-inc/codefresh/kube-integration:1.7.3-encode-user-header to gcr.io/codefresh-inc/codefresh/kube-integration:1.7.3-encode-user-header
+1.7.3-encode-user-header: Pulling from codefresh-inc/codefresh/kube-integration
+Digest: sha256:de322277892457113d855dff4a0a4059b1a7435c4f10fa13dd4880c28a17f5c0
+Status: Downloaded newer image for r.cfcr.io/codefresh-inc/codefresh/kube-integration:1.7.3-encode-user-header
+r.cfcr.io/codefresh-inc/codefresh/kube-integration:1.7.3-encode-user-header
+Pull r.cfcr.io/codefresh-inc/codefresh/kube-integration:1.7.3-encode-user-header completed - Mon Oct  7 11:45:12 UTC 2019 !!!
+
+Tag gcr.io/codefresh-inc/codefresh/kube-integration:1.7.3-encode-user-header completed - Mon Oct  7 11:45:12 UTC 2019 !!!
+
+The push refers to repository [gcr.io/codefresh-inc/codefresh/kube-integration]
+0a75fa4cf0fd: Preparing
+dbc1bb160d72: Preparing
+c098a463ce75: Preparing
+9a7b79b6e5fe: Preparing
+28bf756b6f8e: Preparing
+4c299e1e70d5: Preparing
+f1b5933fe4b5: Preparing
+9a7b79b6e5fe: Waiting
+28bf756b6f8e: Waiting
+4c299e1e70d5: Waiting
+f1b5933fe4b5: Waiting
+dbc1bb160d72: Layer already exists
+0a75fa4cf0fd: Layer already exists
+c098a463ce75: Layer already exists
+28bf756b6f8e: Layer already exists
+9a7b79b6e5fe: Layer already exists
+4c299e1e70d5: Layer already exists
+f1b5933fe4b5: Layer already exists
+1.7.3-encode-user-header: digest: sha256:de322277892457113d855dff4a0a4059b1a7435c4f10fa13dd4880c28a17f5c0 size: 1789
+Push gcr.io/codefresh-inc/codefresh/kube-integration:1.7.3-encode-user-header completed - Mon Oct  7 11:45:13 UTC 2019 !!!
+
+---------- Migrate r.cfcr.io/codefresh-inc/codefresh/kube-integration:preemptible-saas-3841 to gcr.io/codefresh-inc/codefresh/kube-integration:preemptible-saas-3841
+preemptible-saas-3841: Pulling from codefresh-inc/codefresh/kube-integration
+e7c96db7181b: Already exists
+df9eac31dfef: Already exists
+0a20433d95a4: Already exists
+5e356cab42aa: Already exists
+bc7b523a1eb5: Pulling fs layer
+97ec9a10f78a: Pulling fs layer
+a7f4b22603a5: Pulling fs layer
+bc7b523a1eb5: Verifying Checksum
+bc7b523a1eb5: Download complete
+a7f4b22603a5: Verifying Checksum
+a7f4b22603a5: Download complete
+bc7b523a1eb5: Pull complete
+97ec9a10f78a: Verifying Checksum
+97ec9a10f78a: Download complete
+97ec9a10f78a: Pull complete
+a7f4b22603a5: Pull complete
+Digest: sha256:4386a6e93063df9824816855c1a3d6067818c7c0ee6f95828b508b9ec987eec0
+Status: Downloaded newer image for r.cfcr.io/codefresh-inc/codefresh/kube-integration:preemptible-saas-3841
+r.cfcr.io/codefresh-inc/codefresh/kube-integration:preemptible-saas-3841
+Pull r.cfcr.io/codefresh-inc/codefresh/kube-integration:preemptible-saas-3841 completed - Mon Oct  7 11:45:38 UTC 2019 !!!
+
+Tag gcr.io/codefresh-inc/codefresh/kube-integration:preemptible-saas-3841 completed - Mon Oct  7 11:45:38 UTC 2019 !!!
+
+The push refers to repository [gcr.io/codefresh-inc/codefresh/kube-integration]
+dd554a6ec35d: Preparing
+531ddb4bb5e0: Preparing
+8432d7dbf538: Preparing
+9a7b79b6e5fe: Preparing
+28bf756b6f8e: Preparing
+4c299e1e70d5: Preparing
+f1b5933fe4b5: Preparing
+8432d7dbf538: Waiting
+9a7b79b6e5fe: Waiting
+28bf756b6f8e: Waiting
+4c299e1e70d5: Waiting
+f1b5933fe4b5: Waiting
+dd554a6ec35d: Retrying in 5 seconds
+dd554a6ec35d: Retrying in 4 seconds
+8432d7dbf538: Pushed
+9a7b79b6e5fe: Layer already exists
+28bf756b6f8e: Layer already exists
+dd554a6ec35d: Retrying in 3 seconds
+4c299e1e70d5: Layer already exists
+f1b5933fe4b5: Layer already exists
+dd554a6ec35d: Retrying in 2 seconds
+dd554a6ec35d: Retrying in 1 second
+dd554a6ec35d: Retrying in 10 seconds
+dd554a6ec35d: Retrying in 9 seconds
+dd554a6ec35d: Retrying in 8 seconds
+dd554a6ec35d: Retrying in 7 seconds
+dd554a6ec35d: Retrying in 6 seconds
+dd554a6ec35d: Retrying in 5 seconds
+531ddb4bb5e0: Pushed
+dd554a6ec35d: Retrying in 4 seconds
+dd554a6ec35d: Retrying in 3 seconds
+dd554a6ec35d: Retrying in 2 seconds
+dd554a6ec35d: Retrying in 1 second
+dd554a6ec35d: Pushed
+preemptible-saas-3841: digest: sha256:9aff3f03ec6e46f71ccbdac0d9534a21e3178b5d1d49ed96add79be38da8e19b size: 1789
+Push gcr.io/codefresh-inc/codefresh/kube-integration:preemptible-saas-3841 completed - Mon Oct  7 11:45:57 UTC 2019 !!!
+
+---------- Migrate r.cfcr.io/codefresh-inc/codefresh/kube-integration:preemptible-SAAS-3841 to gcr.io/codefresh-inc/codefresh/kube-integration:preemptible-SAAS-3841
+preemptible-SAAS-3841: Pulling from codefresh-inc/codefresh/kube-integration
+Digest: sha256:9aff3f03ec6e46f71ccbdac0d9534a21e3178b5d1d49ed96add79be38da8e19b
+Status: Downloaded newer image for r.cfcr.io/codefresh-inc/codefresh/kube-integration:preemptible-SAAS-3841
+r.cfcr.io/codefresh-inc/codefresh/kube-integration:preemptible-SAAS-3841
+Pull r.cfcr.io/codefresh-inc/codefresh/kube-integration:preemptible-SAAS-3841 completed - Mon Oct  7 11:45:57 UTC 2019 !!!
+
+Tag gcr.io/codefresh-inc/codefresh/kube-integration:preemptible-SAAS-3841 completed - Mon Oct  7 11:45:57 UTC 2019 !!!
+
+The push refers to repository [gcr.io/codefresh-inc/codefresh/kube-integration]
+dd554a6ec35d: Preparing
+531ddb4bb5e0: Preparing
+8432d7dbf538: Preparing
+9a7b79b6e5fe: Preparing
+28bf756b6f8e: Preparing
+4c299e1e70d5: Preparing
+f1b5933fe4b5: Preparing
+28bf756b6f8e: Waiting
+4c299e1e70d5: Waiting
+f1b5933fe4b5: Waiting
+9a7b79b6e5fe: Layer already exists
+dd554a6ec35d: Layer already exists
+531ddb4bb5e0: Layer already exists
+8432d7dbf538: Layer already exists
+28bf756b6f8e: Layer already exists
+f1b5933fe4b5: Layer already exists
+4c299e1e70d5: Layer already exists
+preemptible-SAAS-3841: digest: sha256:9aff3f03ec6e46f71ccbdac0d9534a21e3178b5d1d49ed96add79be38da8e19b size: 1789
+Push gcr.io/codefresh-inc/codefresh/kube-integration:preemptible-SAAS-3841 completed - Mon Oct  7 11:45:58 UTC 2019 !!!
+
+---------- Migrate r.cfcr.io/codefresh-inc/codefresh/kube-integration:1.7.3-preemptible-saas-3841 to gcr.io/codefresh-inc/codefresh/kube-integration:1.7.3-preemptible-saas-3841
+1.7.3-preemptible-saas-3841: Pulling from codefresh-inc/codefresh/kube-integration
+Digest: sha256:9aff3f03ec6e46f71ccbdac0d9534a21e3178b5d1d49ed96add79be38da8e19b
+Status: Downloaded newer image for r.cfcr.io/codefresh-inc/codefresh/kube-integration:1.7.3-preemptible-saas-3841
+r.cfcr.io/codefresh-inc/codefresh/kube-integration:1.7.3-preemptible-saas-3841
+Pull r.cfcr.io/codefresh-inc/codefresh/kube-integration:1.7.3-preemptible-saas-3841 completed - Mon Oct  7 11:45:59 UTC 2019 !!!
+
+Tag gcr.io/codefresh-inc/codefresh/kube-integration:1.7.3-preemptible-saas-3841 completed - Mon Oct  7 11:45:59 UTC 2019 !!!
+
+The push refers to repository [gcr.io/codefresh-inc/codefresh/kube-integration]
+dd554a6ec35d: Preparing
+531ddb4bb5e0: Preparing
+8432d7dbf538: Preparing
+9a7b79b6e5fe: Preparing
+28bf756b6f8e: Preparing
+4c299e1e70d5: Preparing
+f1b5933fe4b5: Preparing
+28bf756b6f8e: Waiting
+4c299e1e70d5: Waiting
+f1b5933fe4b5: Waiting
+531ddb4bb5e0: Layer already exists
+8432d7dbf538: Layer already exists
+dd554a6ec35d: Layer already exists
+9a7b79b6e5fe: Layer already exists
+28bf756b6f8e: Layer already exists
+4c299e1e70d5: Layer already exists
+f1b5933fe4b5: Layer already exists
+1.7.3-preemptible-saas-3841: digest: sha256:9aff3f03ec6e46f71ccbdac0d9534a21e3178b5d1d49ed96add79be38da8e19b size: 1789
+Push gcr.io/codefresh-inc/codefresh/kube-integration:1.7.3-preemptible-saas-3841 completed - Mon Oct  7 11:45:59 UTC 2019 !!!
+
+---------- Migrate r.cfcr.io/codefresh-inc/codefresh/kube-integration:1.7.2-preemptible-saas-3841 to gcr.io/codefresh-inc/codefresh/kube-integration:1.7.2-preemptible-saas-3841
+1.7.2-preemptible-saas-3841: Pulling from codefresh-inc/codefresh/kube-integration
+e7c96db7181b: Already exists
+df9eac31dfef: Already exists
+0a20433d95a4: Already exists
+5e356cab42aa: Already exists
+bc7b523a1eb5: Already exists
+97ec9a10f78a: Already exists
+a8c97ce31f25: Pulling fs layer
+a8c97ce31f25: Verifying Checksum
+a8c97ce31f25: Download complete
+a8c97ce31f25: Pull complete
+Digest: sha256:9f279846854ec02c7d9f335117a4203883a1d31c3b2b4d42ef97336c664039ab
+Status: Downloaded newer image for r.cfcr.io/codefresh-inc/codefresh/kube-integration:1.7.2-preemptible-saas-3841
+r.cfcr.io/codefresh-inc/codefresh/kube-integration:1.7.2-preemptible-saas-3841
+Pull r.cfcr.io/codefresh-inc/codefresh/kube-integration:1.7.2-preemptible-saas-3841 completed - Mon Oct  7 11:46:01 UTC 2019 !!!
+
+Tag gcr.io/codefresh-inc/codefresh/kube-integration:1.7.2-preemptible-saas-3841 completed - Mon Oct  7 11:46:01 UTC 2019 !!!
+
+The push refers to repository [gcr.io/codefresh-inc/codefresh/kube-integration]
+5b4c69416021: Preparing
+531ddb4bb5e0: Preparing
+8432d7dbf538: Preparing
+9a7b79b6e5fe: Preparing
+28bf756b6f8e: Preparing
+4c299e1e70d5: Preparing
+f1b5933fe4b5: Preparing
+28bf756b6f8e: Waiting
+4c299e1e70d5: Waiting
+f1b5933fe4b5: Waiting
+9a7b79b6e5fe: Layer already exists
+8432d7dbf538: Layer already exists
+531ddb4bb5e0: Layer already exists
+28bf756b6f8e: Layer already exists
+f1b5933fe4b5: Layer already exists
+4c299e1e70d5: Layer already exists
+5b4c69416021: Pushed
+1.7.2-preemptible-saas-3841: digest: sha256:9f279846854ec02c7d9f335117a4203883a1d31c3b2b4d42ef97336c664039ab size: 1789
+Push gcr.io/codefresh-inc/codefresh/kube-integration:1.7.2-preemptible-saas-3841 completed - Mon Oct  7 11:46:05 UTC 2019 !!!
+
+---------- Migrate r.cfcr.io/codefresh-inc/codefresh/kube-integration:cf-onprem-v1.0.82 to gcr.io/codefresh-inc/codefresh/kube-integration:cf-onprem-v1.0.82
+cf-onprem-v1.0.82: Pulling from codefresh-inc/codefresh/kube-integration
+e7c96db7181b: Already exists
+df9eac31dfef: Already exists
+0a20433d95a4: Already exists
+5e356cab42aa: Already exists
+bc7b523a1eb5: Already exists
+97ec9a10f78a: Already exists
+e4aec4725c95: Pulling fs layer
+e4aec4725c95: Verifying Checksum
+e4aec4725c95: Download complete
+e4aec4725c95: Pull complete
+Digest: sha256:24041dc186eb3badd68d45ec68c36a29a6d058b3a3f0dc3872e2ba443c16b82b
+Status: Downloaded newer image for r.cfcr.io/codefresh-inc/codefresh/kube-integration:cf-onprem-v1.0.82
+r.cfcr.io/codefresh-inc/codefresh/kube-integration:cf-onprem-v1.0.82
+Pull r.cfcr.io/codefresh-inc/codefresh/kube-integration:cf-onprem-v1.0.82 completed - Mon Oct  7 11:46:06 UTC 2019 !!!
+
+Tag gcr.io/codefresh-inc/codefresh/kube-integration:cf-onprem-v1.0.82 completed - Mon Oct  7 11:46:07 UTC 2019 !!!
+
+The push refers to repository [gcr.io/codefresh-inc/codefresh/kube-integration]
+74fe14015e4c: Preparing
+531ddb4bb5e0: Preparing
+8432d7dbf538: Preparing
+9a7b79b6e5fe: Preparing
+28bf756b6f8e: Preparing
+4c299e1e70d5: Preparing
+f1b5933fe4b5: Preparing
+28bf756b6f8e: Waiting
+4c299e1e70d5: Waiting
+f1b5933fe4b5: Waiting
+8432d7dbf538: Layer already exists
+9a7b79b6e5fe: Layer already exists
+531ddb4bb5e0: Layer already exists
+28bf756b6f8e: Layer already exists
+4c299e1e70d5: Layer already exists
+f1b5933fe4b5: Layer already exists
+74fe14015e4c: Pushed
+cf-onprem-v1.0.82: digest: sha256:24041dc186eb3badd68d45ec68c36a29a6d058b3a3f0dc3872e2ba443c16b82b size: 1789
+Push gcr.io/codefresh-inc/codefresh/kube-integration:cf-onprem-v1.0.82 completed - Mon Oct  7 11:46:11 UTC 2019 !!!
+
+---------- Migrate r.cfcr.io/codefresh-inc/codefresh/kube-integration:1.7.2-cf-onprem-v1.0.82 to gcr.io/codefresh-inc/codefresh/kube-integration:1.7.2-cf-onprem-v1.0.82
+1.7.2-cf-onprem-v1.0.82: Pulling from codefresh-inc/codefresh/kube-integration
+Digest: sha256:24041dc186eb3badd68d45ec68c36a29a6d058b3a3f0dc3872e2ba443c16b82b
+Status: Downloaded newer image for r.cfcr.io/codefresh-inc/codefresh/kube-integration:1.7.2-cf-onprem-v1.0.82
+r.cfcr.io/codefresh-inc/codefresh/kube-integration:1.7.2-cf-onprem-v1.0.82
+Pull r.cfcr.io/codefresh-inc/codefresh/kube-integration:1.7.2-cf-onprem-v1.0.82 completed - Mon Oct  7 11:46:11 UTC 2019 !!!
+
+Tag gcr.io/codefresh-inc/codefresh/kube-integration:1.7.2-cf-onprem-v1.0.82 completed - Mon Oct  7 11:46:12 UTC 2019 !!!
+
+The push refers to repository [gcr.io/codefresh-inc/codefresh/kube-integration]
+74fe14015e4c: Preparing
+531ddb4bb5e0: Preparing
+8432d7dbf538: Preparing
+9a7b79b6e5fe: Preparing
+28bf756b6f8e: Preparing
+4c299e1e70d5: Preparing
+f1b5933fe4b5: Preparing
+4c299e1e70d5: Waiting
+f1b5933fe4b5: Waiting
+531ddb4bb5e0: Layer already exists
+9a7b79b6e5fe: Layer already exists
+74fe14015e4c: Layer already exists
+28bf756b6f8e: Layer already exists
+8432d7dbf538: Layer already exists
+4c299e1e70d5: Layer already exists
+f1b5933fe4b5: Layer already exists
+1.7.2-cf-onprem-v1.0.82: digest: sha256:24041dc186eb3badd68d45ec68c36a29a6d058b3a3f0dc3872e2ba443c16b82b size: 1789
+Push gcr.io/codefresh-inc/codefresh/kube-integration:1.7.2-cf-onprem-v1.0.82 completed - Mon Oct  7 11:46:12 UTC 2019 !!!
+
+---------- Migrate r.cfcr.io/codefresh-inc/codefresh/kube-integration:cf-onprem-v1.0.81 to gcr.io/codefresh-inc/codefresh/kube-integration:cf-onprem-v1.0.81
+cf-onprem-v1.0.81: Pulling from codefresh-inc/codefresh/kube-integration
+e7c96db7181b: Already exists
+df9eac31dfef: Already exists
+0a20433d95a4: Already exists
+5e356cab42aa: Already exists
+bc7b523a1eb5: Already exists
+97ec9a10f78a: Already exists
+e4aec4725c95: Already exists
+Digest: sha256:956f336954ec981a35136569a2772ebb52ebaa30b7af4d46106b5acec38604ca
+Status: Downloaded newer image for r.cfcr.io/codefresh-inc/codefresh/kube-integration:cf-onprem-v1.0.81
+r.cfcr.io/codefresh-inc/codefresh/kube-integration:cf-onprem-v1.0.81
+Pull r.cfcr.io/codefresh-inc/codefresh/kube-integration:cf-onprem-v1.0.81 completed - Mon Oct  7 11:46:13 UTC 2019 !!!
+
+Tag gcr.io/codefresh-inc/codefresh/kube-integration:cf-onprem-v1.0.81 completed - Mon Oct  7 11:46:13 UTC 2019 !!!
+
+The push refers to repository [gcr.io/codefresh-inc/codefresh/kube-integration]
+74fe14015e4c: Preparing
+531ddb4bb5e0: Preparing
+8432d7dbf538: Preparing
+9a7b79b6e5fe: Preparing
+28bf756b6f8e: Preparing
+4c299e1e70d5: Preparing
+f1b5933fe4b5: Preparing
+4c299e1e70d5: Waiting
+f1b5933fe4b5: Waiting
+8432d7dbf538: Layer already exists
+74fe14015e4c: Layer already exists
+9a7b79b6e5fe: Layer already exists
+28bf756b6f8e: Layer already exists
+531ddb4bb5e0: Layer already exists
+f1b5933fe4b5: Layer already exists
+4c299e1e70d5: Layer already exists
+cf-onprem-v1.0.81: digest: sha256:956f336954ec981a35136569a2772ebb52ebaa30b7af4d46106b5acec38604ca size: 1789
+Push gcr.io/codefresh-inc/codefresh/kube-integration:cf-onprem-v1.0.81 completed - Mon Oct  7 11:46:15 UTC 2019 !!!
+
+---------- Migrate r.cfcr.io/codefresh-inc/codefresh/kube-integration:1.7.2-cf-onprem-v1.0.81 to gcr.io/codefresh-inc/codefresh/kube-integration:1.7.2-cf-onprem-v1.0.81
+1.7.2-cf-onprem-v1.0.81: Pulling from codefresh-inc/codefresh/kube-integration
+Digest: sha256:956f336954ec981a35136569a2772ebb52ebaa30b7af4d46106b5acec38604ca
+Status: Downloaded newer image for r.cfcr.io/codefresh-inc/codefresh/kube-integration:1.7.2-cf-onprem-v1.0.81
+r.cfcr.io/codefresh-inc/codefresh/kube-integration:1.7.2-cf-onprem-v1.0.81
+Pull r.cfcr.io/codefresh-inc/codefresh/kube-integration:1.7.2-cf-onprem-v1.0.81 completed - Mon Oct  7 11:46:16 UTC 2019 !!!
+
+Tag gcr.io/codefresh-inc/codefresh/kube-integration:1.7.2-cf-onprem-v1.0.81 completed - Mon Oct  7 11:46:16 UTC 2019 !!!
+
+The push refers to repository [gcr.io/codefresh-inc/codefresh/kube-integration]
+74fe14015e4c: Preparing
+531ddb4bb5e0: Preparing
+8432d7dbf538: Preparing
+9a7b79b6e5fe: Preparing
+28bf756b6f8e: Preparing
+4c299e1e70d5: Preparing
+f1b5933fe4b5: Preparing
+4c299e1e70d5: Waiting
+f1b5933fe4b5: Waiting
+8432d7dbf538: Layer already exists
+74fe14015e4c: Layer already exists
+531ddb4bb5e0: Layer already exists
+9a7b79b6e5fe: Layer already exists
+28bf756b6f8e: Layer already exists
+f1b5933fe4b5: Layer already exists
+4c299e1e70d5: Layer already exists
+1.7.2-cf-onprem-v1.0.81: digest: sha256:956f336954ec981a35136569a2772ebb52ebaa30b7af4d46106b5acec38604ca size: 1789
+Push gcr.io/codefresh-inc/codefresh/kube-integration:1.7.2-cf-onprem-v1.0.81 completed - Mon Oct  7 11:46:17 UTC 2019 !!!
+
+---------- Migrate r.cfcr.io/codefresh-inc/codefresh/kube-integration:cf-onprem-v1.0.80 to gcr.io/codefresh-inc/codefresh/kube-integration:cf-onprem-v1.0.80
+cf-onprem-v1.0.80: Pulling from codefresh-inc/codefresh/kube-integration
+e7c96db7181b: Already exists
+df9eac31dfef: Already exists
+0a20433d95a4: Already exists
+5e356cab42aa: Already exists
+bc7b523a1eb5: Already exists
+97ec9a10f78a: Already exists
+e4aec4725c95: Already exists
+Digest: sha256:36c91ad3745479d3241f638e75f12cb161f75c2c4ef6d7aad0c93bbbcf7e3e86
+Status: Downloaded newer image for r.cfcr.io/codefresh-inc/codefresh/kube-integration:cf-onprem-v1.0.80
+r.cfcr.io/codefresh-inc/codefresh/kube-integration:cf-onprem-v1.0.80
+Pull r.cfcr.io/codefresh-inc/codefresh/kube-integration:cf-onprem-v1.0.80 completed - Mon Oct  7 11:46:18 UTC 2019 !!!
+
+Tag gcr.io/codefresh-inc/codefresh/kube-integration:cf-onprem-v1.0.80 completed - Mon Oct  7 11:46:18 UTC 2019 !!!
+
+The push refers to repository [gcr.io/codefresh-inc/codefresh/kube-integration]
+74fe14015e4c: Preparing
+531ddb4bb5e0: Preparing
+8432d7dbf538: Preparing
+9a7b79b6e5fe: Preparing
+28bf756b6f8e: Preparing
+4c299e1e70d5: Preparing
+f1b5933fe4b5: Preparing
+4c299e1e70d5: Waiting
+f1b5933fe4b5: Waiting
+8432d7dbf538: Layer already exists
+74fe14015e4c: Layer already exists
+9a7b79b6e5fe: Layer already exists
+28bf756b6f8e: Layer already exists
+531ddb4bb5e0: Layer already exists
+4c299e1e70d5: Layer already exists
+f1b5933fe4b5: Layer already exists
+cf-onprem-v1.0.80: digest: sha256:36c91ad3745479d3241f638e75f12cb161f75c2c4ef6d7aad0c93bbbcf7e3e86 size: 1789
+Push gcr.io/codefresh-inc/codefresh/kube-integration:cf-onprem-v1.0.80 completed - Mon Oct  7 11:46:20 UTC 2019 !!!
+
+---------- Migrate r.cfcr.io/codefresh-inc/codefresh/kube-integration:1.7.2-cf-onprem-v1.0.80 to gcr.io/codefresh-inc/codefresh/kube-integration:1.7.2-cf-onprem-v1.0.80
+1.7.2-cf-onprem-v1.0.80: Pulling from codefresh-inc/codefresh/kube-integration
+Digest: sha256:36c91ad3745479d3241f638e75f12cb161f75c2c4ef6d7aad0c93bbbcf7e3e86
+Status: Downloaded newer image for r.cfcr.io/codefresh-inc/codefresh/kube-integration:1.7.2-cf-onprem-v1.0.80
+r.cfcr.io/codefresh-inc/codefresh/kube-integration:1.7.2-cf-onprem-v1.0.80
+Pull r.cfcr.io/codefresh-inc/codefresh/kube-integration:1.7.2-cf-onprem-v1.0.80 completed - Mon Oct  7 11:46:21 UTC 2019 !!!
+
+Tag gcr.io/codefresh-inc/codefresh/kube-integration:1.7.2-cf-onprem-v1.0.80 completed - Mon Oct  7 11:46:21 UTC 2019 !!!
+
+The push refers to repository [gcr.io/codefresh-inc/codefresh/kube-integration]
+74fe14015e4c: Preparing
+531ddb4bb5e0: Preparing
+8432d7dbf538: Preparing
+9a7b79b6e5fe: Preparing
+28bf756b6f8e: Preparing
+4c299e1e70d5: Preparing
+f1b5933fe4b5: Preparing
+4c299e1e70d5: Waiting
+f1b5933fe4b5: Waiting
+9a7b79b6e5fe: Layer already exists
+8432d7dbf538: Layer already exists
+28bf756b6f8e: Layer already exists
+531ddb4bb5e0: Layer already exists
+74fe14015e4c: Layer already exists
+f1b5933fe4b5: Layer already exists
+4c299e1e70d5: Layer already exists
+1.7.2-cf-onprem-v1.0.80: digest: sha256:36c91ad3745479d3241f638e75f12cb161f75c2c4ef6d7aad0c93bbbcf7e3e86 size: 1789
+Push gcr.io/codefresh-inc/codefresh/kube-integration:1.7.2-cf-onprem-v1.0.80 completed - Mon Oct  7 11:46:22 UTC 2019 !!!
+
+---------- Migrate r.cfcr.io/codefresh-inc/codefresh/kube-integration:saas-3414-source-ip to gcr.io/codefresh-inc/codefresh/kube-integration:saas-3414-source-ip
+saas-3414-source-ip: Pulling from codefresh-inc/codefresh/kube-integration
+e7c96db7181b: Already exists
+df9eac31dfef: Already exists
+0a20433d95a4: Already exists
+5e356cab42aa: Already exists
+001014daf918: Pulling fs layer
+f0f6e46b2fec: Pulling fs layer
+63b785137530: Pulling fs layer
+001014daf918: Verifying Checksum
+001014daf918: Download complete
+63b785137530: Verifying Checksum
+63b785137530: Download complete
+001014daf918: Pull complete
+f0f6e46b2fec: Verifying Checksum
+f0f6e46b2fec: Download complete
+f0f6e46b2fec: Pull complete
+63b785137530: Pull complete
+Digest: sha256:ca60cacc4fce95fa86809c6df4a46ba29b11b8ec223d6a7867a316adb2b68ac2
+Status: Downloaded newer image for r.cfcr.io/codefresh-inc/codefresh/kube-integration:saas-3414-source-ip
+r.cfcr.io/codefresh-inc/codefresh/kube-integration:saas-3414-source-ip
+Pull r.cfcr.io/codefresh-inc/codefresh/kube-integration:saas-3414-source-ip completed - Mon Oct  7 11:46:41 UTC 2019 !!!
+
+Tag gcr.io/codefresh-inc/codefresh/kube-integration:saas-3414-source-ip completed - Mon Oct  7 11:46:41 UTC 2019 !!!
+
+The push refers to repository [gcr.io/codefresh-inc/codefresh/kube-integration]
+50c81c3635b2: Preparing
+db3dca1cfe11: Preparing
+8245f95ffa8b: Preparing
+9a7b79b6e5fe: Preparing
+28bf756b6f8e: Preparing
+4c299e1e70d5: Preparing
+f1b5933fe4b5: Preparing
+9a7b79b6e5fe: Waiting
+28bf756b6f8e: Waiting
+4c299e1e70d5: Waiting
+f1b5933fe4b5: Waiting
+db3dca1cfe11: Retrying in 5 seconds
+9a7b79b6e5fe: Layer already exists
+28bf756b6f8e: Layer already exists
+4c299e1e70d5: Layer already exists
+f1b5933fe4b5: Layer already exists
+50c81c3635b2: Pushed
+db3dca1cfe11: Retrying in 4 seconds
+8245f95ffa8b: Pushed
+db3dca1cfe11: Retrying in 3 seconds
+db3dca1cfe11: Retrying in 2 seconds
+db3dca1cfe11: Retrying in 1 second
+db3dca1cfe11: Pushed
+saas-3414-source-ip: digest: sha256:b5e8571a58d1ed0c23b45787ab67b2085c148c8f7f87f846e9ae1f67dc2a80d0 size: 1789
+Push gcr.io/codefresh-inc/codefresh/kube-integration:saas-3414-source-ip completed - Mon Oct  7 11:47:02 UTC 2019 !!!
+
+---------- Migrate r.cfcr.io/codefresh-inc/codefresh/kube-integration:SAAS-3414-source-ip to gcr.io/codefresh-inc/codefresh/kube-integration:SAAS-3414-source-ip
+SAAS-3414-source-ip: Pulling from codefresh-inc/codefresh/kube-integration
+Digest: sha256:b5e8571a58d1ed0c23b45787ab67b2085c148c8f7f87f846e9ae1f67dc2a80d0
+Status: Downloaded newer image for r.cfcr.io/codefresh-inc/codefresh/kube-integration:SAAS-3414-source-ip
+r.cfcr.io/codefresh-inc/codefresh/kube-integration:SAAS-3414-source-ip
+Pull r.cfcr.io/codefresh-inc/codefresh/kube-integration:SAAS-3414-source-ip completed - Mon Oct  7 11:47:03 UTC 2019 !!!
+
+Tag gcr.io/codefresh-inc/codefresh/kube-integration:SAAS-3414-source-ip completed - Mon Oct  7 11:47:03 UTC 2019 !!!
+
+The push refers to repository [gcr.io/codefresh-inc/codefresh/kube-integration]
+50c81c3635b2: Preparing
+db3dca1cfe11: Preparing
+8245f95ffa8b: Preparing
+9a7b79b6e5fe: Preparing
+28bf756b6f8e: Preparing
+4c299e1e70d5: Preparing
+f1b5933fe4b5: Preparing
+9a7b79b6e5fe: Waiting
+28bf756b6f8e: Waiting
+4c299e1e70d5: Waiting
+f1b5933fe4b5: Waiting
+db3dca1cfe11: Layer already exists
+50c81c3635b2: Layer already exists
+8245f95ffa8b: Layer already exists
+9a7b79b6e5fe: Layer already exists
+28bf756b6f8e: Layer already exists
+4c299e1e70d5: Layer already exists
+f1b5933fe4b5: Layer already exists
+SAAS-3414-source-ip: digest: sha256:b5e8571a58d1ed0c23b45787ab67b2085c148c8f7f87f846e9ae1f67dc2a80d0 size: 1789
+Push gcr.io/codefresh-inc/codefresh/kube-integration:SAAS-3414-source-ip completed - Mon Oct  7 11:47:03 UTC 2019 !!!
+
+---------- Migrate r.cfcr.io/codefresh-inc/codefresh/kube-integration:1.7.6-saas-3414-source-ip to gcr.io/codefresh-inc/codefresh/kube-integration:1.7.6-saas-3414-source-ip
+1.7.6-saas-3414-source-ip: Pulling from codefresh-inc/codefresh/kube-integration
+Digest: sha256:b5e8571a58d1ed0c23b45787ab67b2085c148c8f7f87f846e9ae1f67dc2a80d0
+Status: Downloaded newer image for r.cfcr.io/codefresh-inc/codefresh/kube-integration:1.7.6-saas-3414-source-ip
+r.cfcr.io/codefresh-inc/codefresh/kube-integration:1.7.6-saas-3414-source-ip
+Pull r.cfcr.io/codefresh-inc/codefresh/kube-integration:1.7.6-saas-3414-source-ip completed - Mon Oct  7 11:47:04 UTC 2019 !!!
+
+Tag gcr.io/codefresh-inc/codefresh/kube-integration:1.7.6-saas-3414-source-ip completed - Mon Oct  7 11:47:04 UTC 2019 !!!
+
+The push refers to repository [gcr.io/codefresh-inc/codefresh/kube-integration]
+50c81c3635b2: Preparing
+db3dca1cfe11: Preparing
+8245f95ffa8b: Preparing
+9a7b79b6e5fe: Preparing
+28bf756b6f8e: Preparing
+4c299e1e70d5: Preparing
+f1b5933fe4b5: Preparing
+28bf756b6f8e: Waiting
+4c299e1e70d5: Waiting
+f1b5933fe4b5: Waiting
+9a7b79b6e5fe: Layer already exists
+8245f95ffa8b: Layer already exists
+db3dca1cfe11: Layer already exists
+f1b5933fe4b5: Layer already exists
+28bf756b6f8e: Layer already exists
+50c81c3635b2: Layer already exists
+4c299e1e70d5: Layer already exists
+1.7.6-saas-3414-source-ip: digest: sha256:b5e8571a58d1ed0c23b45787ab67b2085c148c8f7f87f846e9ae1f67dc2a80d0 size: 1789
+Push gcr.io/codefresh-inc/codefresh/kube-integration:1.7.6-saas-3414-source-ip completed - Mon Oct  7 11:47:05 UTC 2019 !!!
+
+---------- Migrate r.cfcr.io/codefresh-inc/codefresh/kube-integration:1.7.5-saas-3414-source-ip to gcr.io/codefresh-inc/codefresh/kube-integration:1.7.5-saas-3414-source-ip
+1.7.5-saas-3414-source-ip: Pulling from codefresh-inc/codefresh/kube-integration
+e7c96db7181b: Already exists
+df9eac31dfef: Already exists
+0a20433d95a4: Already exists
+5e356cab42aa: Already exists
+001014daf918: Already exists
+f0f6e46b2fec: Already exists
+29ae365a8705: Pulling fs layer
+29ae365a8705: Verifying Checksum
+29ae365a8705: Download complete
+29ae365a8705: Pull complete
+Digest: sha256:34ef6230e9ef689149b55b9a8569ab574f6ad297e1ea63c35d61afa8c759d80e
+Status: Downloaded newer image for r.cfcr.io/codefresh-inc/codefresh/kube-integration:1.7.5-saas-3414-source-ip
+r.cfcr.io/codefresh-inc/codefresh/kube-integration:1.7.5-saas-3414-source-ip
+Pull r.cfcr.io/codefresh-inc/codefresh/kube-integration:1.7.5-saas-3414-source-ip completed - Mon Oct  7 11:47:06 UTC 2019 !!!
+
+Tag gcr.io/codefresh-inc/codefresh/kube-integration:1.7.5-saas-3414-source-ip completed - Mon Oct  7 11:47:07 UTC 2019 !!!
+
+The push refers to repository [gcr.io/codefresh-inc/codefresh/kube-integration]
+337915f7bd6e: Preparing
+db3dca1cfe11: Preparing
+8245f95ffa8b: Preparing
+9a7b79b6e5fe: Preparing
+28bf756b6f8e: Preparing
+4c299e1e70d5: Preparing
+f1b5933fe4b5: Preparing
+28bf756b6f8e: Waiting
+4c299e1e70d5: Waiting
+f1b5933fe4b5: Waiting
+8245f95ffa8b: Layer already exists
+db3dca1cfe11: Layer already exists
+9a7b79b6e5fe: Layer already exists
+4c299e1e70d5: Layer already exists
+f1b5933fe4b5: Layer already exists
+28bf756b6f8e: Layer already exists
+337915f7bd6e: Pushed
+1.7.5-saas-3414-source-ip: digest: sha256:34ef6230e9ef689149b55b9a8569ab574f6ad297e1ea63c35d61afa8c759d80e size: 1789
+Push gcr.io/codefresh-inc/codefresh/kube-integration:1.7.5-saas-3414-source-ip completed - Mon Oct  7 11:47:10 UTC 2019 !!!
+
+---------- Migrate r.cfcr.io/codefresh-inc/codefresh/kube-integration:1.7.4-saas-3414-source-ip to gcr.io/codefresh-inc/codefresh/kube-integration:1.7.4-saas-3414-source-ip
+1.7.4-saas-3414-source-ip: Pulling from codefresh-inc/codefresh/kube-integration
+e7c96db7181b: Already exists
+df9eac31dfef: Already exists
+0a20433d95a4: Already exists
+5e356cab42aa: Already exists
+f2c1bb32fde9: Pulling fs layer
+1e54ddf351dd: Pulling fs layer
+9b75a6d4f971: Pulling fs layer
+f2c1bb32fde9: Verifying Checksum
+f2c1bb32fde9: Download complete
+9b75a6d4f971: Verifying Checksum
+9b75a6d4f971: Download complete
+f2c1bb32fde9: Pull complete
+1e54ddf351dd: Verifying Checksum
+1e54ddf351dd: Download complete
+1e54ddf351dd: Pull complete
+9b75a6d4f971: Pull complete
+Digest: sha256:d25e5895769e2f0590f79bce6974457e647d2faa8d025b4cc0085b53781daa98
+Status: Downloaded newer image for r.cfcr.io/codefresh-inc/codefresh/kube-integration:1.7.4-saas-3414-source-ip
+r.cfcr.io/codefresh-inc/codefresh/kube-integration:1.7.4-saas-3414-source-ip
+Pull r.cfcr.io/codefresh-inc/codefresh/kube-integration:1.7.4-saas-3414-source-ip completed - Mon Oct  7 11:47:34 UTC 2019 !!!
+
+Tag gcr.io/codefresh-inc/codefresh/kube-integration:1.7.4-saas-3414-source-ip completed - Mon Oct  7 11:47:34 UTC 2019 !!!
+
+The push refers to repository [gcr.io/codefresh-inc/codefresh/kube-integration]
+ca8cd12012b0: Preparing
+29596215c162: Preparing
+73939dd3bf09: Preparing
+9a7b79b6e5fe: Preparing
+28bf756b6f8e: Preparing
+4c299e1e70d5: Preparing
+f1b5933fe4b5: Preparing
+ca8cd12012b0: Waiting
+29596215c162: Waiting
+73939dd3bf09: Waiting
+9a7b79b6e5fe: Waiting
+28bf756b6f8e: Waiting
+4c299e1e70d5: Waiting
+f1b5933fe4b5: Waiting
+ca8cd12012b0: Pushed
+9a7b79b6e5fe: Layer already exists
+28bf756b6f8e: Layer already exists
+4c299e1e70d5: Layer already exists
+f1b5933fe4b5: Layer already exists
+73939dd3bf09: Pushed
+29596215c162: Pushed
+1.7.4-saas-3414-source-ip: digest: sha256:d25e5895769e2f0590f79bce6974457e647d2faa8d025b4cc0085b53781daa98 size: 1789
+Push gcr.io/codefresh-inc/codefresh/kube-integration:1.7.4-saas-3414-source-ip completed - Mon Oct  7 11:47:59 UTC 2019 !!!
+
+---------- Migrate r.cfcr.io/codefresh-inc/codefresh/kube-integration:1.7.3-saas-3414-source-ip to gcr.io/codefresh-inc/codefresh/kube-integration:1.7.3-saas-3414-source-ip
+1.7.3-saas-3414-source-ip: Pulling from codefresh-inc/codefresh/kube-integration
+e7c96db7181b: Already exists
+df9eac31dfef: Already exists
+0a20433d95a4: Already exists
+5e356cab42aa: Already exists
+e6fe7950c49a: Pulling fs layer
+0ff343f6f431: Pulling fs layer
+527a7b1224b5: Pulling fs layer
+527a7b1224b5: Verifying Checksum
+527a7b1224b5: Download complete
+e6fe7950c49a: Verifying Checksum
+e6fe7950c49a: Download complete
+e6fe7950c49a: Pull complete
+0ff343f6f431: Verifying Checksum
+0ff343f6f431: Download complete
+0ff343f6f431: Pull complete
+527a7b1224b5: Pull complete
+Digest: sha256:b7443422d79fd2419a13ca62ccd49229bb84490250f3a16aa851db723e78d10f
+Status: Downloaded newer image for r.cfcr.io/codefresh-inc/codefresh/kube-integration:1.7.3-saas-3414-source-ip
+r.cfcr.io/codefresh-inc/codefresh/kube-integration:1.7.3-saas-3414-source-ip
+Pull r.cfcr.io/codefresh-inc/codefresh/kube-integration:1.7.3-saas-3414-source-ip completed - Mon Oct  7 11:48:18 UTC 2019 !!!
+
+Tag gcr.io/codefresh-inc/codefresh/kube-integration:1.7.3-saas-3414-source-ip completed - Mon Oct  7 11:48:18 UTC 2019 !!!
+
+The push refers to repository [gcr.io/codefresh-inc/codefresh/kube-integration]
+ff4b2b42c3eb: Preparing
+6c5154760766: Preparing
+d891369201ec: Preparing
+9a7b79b6e5fe: Preparing
+28bf756b6f8e: Preparing
+4c299e1e70d5: Preparing
+f1b5933fe4b5: Preparing
+d891369201ec: Waiting
+9a7b79b6e5fe: Waiting
+28bf756b6f8e: Waiting
+4c299e1e70d5: Waiting
+f1b5933fe4b5: Waiting
+ff4b2b42c3eb: Retrying in 5 seconds
+ff4b2b42c3eb: Retrying in 4 seconds
+ff4b2b42c3eb: Retrying in 3 seconds
+ff4b2b42c3eb: Retrying in 2 seconds
+d891369201ec: Pushed
+9a7b79b6e5fe: Layer already exists
+28bf756b6f8e: Layer already exists
+4c299e1e70d5: Layer already exists
+ff4b2b42c3eb: Retrying in 1 second
+f1b5933fe4b5: Layer already exists
+ff4b2b42c3eb: Retrying in 10 seconds
+ff4b2b42c3eb: Retrying in 9 seconds
+ff4b2b42c3eb: Retrying in 8 seconds
+ff4b2b42c3eb: Retrying in 7 seconds
+ff4b2b42c3eb: Retrying in 6 seconds
+ff4b2b42c3eb: Retrying in 5 seconds
+ff4b2b42c3eb: Retrying in 4 seconds
+ff4b2b42c3eb: Retrying in 3 seconds
+ff4b2b42c3eb: Retrying in 2 seconds
+ff4b2b42c3eb: Retrying in 1 second
+6c5154760766: Pushed
+ff4b2b42c3eb: Pushed
+1.7.3-saas-3414-source-ip: digest: sha256:b7443422d79fd2419a13ca62ccd49229bb84490250f3a16aa851db723e78d10f size: 1789
+Push gcr.io/codefresh-inc/codefresh/kube-integration:1.7.3-saas-3414-source-ip completed - Mon Oct  7 11:48:37 UTC 2019 !!!
+
+---------- Migrate r.cfcr.io/codefresh-inc/codefresh/kube-integration:master to gcr.io/codefresh-inc/codefresh/kube-integration:master
+master: Pulling from codefresh-inc/codefresh/kube-integration
+e7c96db7181b: Already exists
+df9eac31dfef: Already exists
+0a20433d95a4: Already exists
+5e356cab42aa: Already exists
+42b05a51a3d1: Pulling fs layer
+440cd0c00cc8: Pulling fs layer
+0e3e25655458: Pulling fs layer
+0e3e25655458: Verifying Checksum
+0e3e25655458: Download complete
+42b05a51a3d1: Verifying Checksum
+42b05a51a3d1: Download complete
+42b05a51a3d1: Pull complete
+440cd0c00cc8: Verifying Checksum
+440cd0c00cc8: Download complete
+440cd0c00cc8: Pull complete
+0e3e25655458: Pull complete
+Digest: sha256:9935847057edaf3871e9e8226d0e2689ffb7d704ccaa1c7403fc4604ff33e8be
+Status: Downloaded newer image for r.cfcr.io/codefresh-inc/codefresh/kube-integration:master
+r.cfcr.io/codefresh-inc/codefresh/kube-integration:master
+Pull r.cfcr.io/codefresh-inc/codefresh/kube-integration:master completed - Mon Oct  7 11:48:53 UTC 2019 !!!
+
+Tag gcr.io/codefresh-inc/codefresh/kube-integration:master completed - Mon Oct  7 11:48:54 UTC 2019 !!!
+
+The push refers to repository [gcr.io/codefresh-inc/codefresh/kube-integration]
+05fbbf153703: Preparing
+7361971f8175: Preparing
+38acebd3e321: Preparing
+9a7b79b6e5fe: Preparing
+28bf756b6f8e: Preparing
+4c299e1e70d5: Preparing
+f1b5933fe4b5: Preparing
+7361971f8175: Waiting
+38acebd3e321: Waiting
+9a7b79b6e5fe: Waiting
+28bf756b6f8e: Waiting
+4c299e1e70d5: Waiting
+f1b5933fe4b5: Waiting
+05fbbf153703: Pushed
+9a7b79b6e5fe: Layer already exists
+28bf756b6f8e: Layer already exists
+4c299e1e70d5: Layer already exists
+f1b5933fe4b5: Layer already exists
+38acebd3e321: Pushed
+7361971f8175: Pushed
+master: digest: sha256:3f9bffcfcdba6cf5ef9a3ebbb9617968e303bc970e7d6ad86429e1fecb3a5ac7 size: 1789
+Push gcr.io/codefresh-inc/codefresh/kube-integration:master completed - Mon Oct  7 11:49:23 UTC 2019 !!!
+
+---------- Migrate r.cfcr.io/codefresh-inc/codefresh/kube-integration:1.7.2 to gcr.io/codefresh-inc/codefresh/kube-integration:1.7.2
+1.7.2: Pulling from codefresh-inc/codefresh/kube-integration
+Digest: sha256:3f9bffcfcdba6cf5ef9a3ebbb9617968e303bc970e7d6ad86429e1fecb3a5ac7
+Status: Downloaded newer image for r.cfcr.io/codefresh-inc/codefresh/kube-integration:1.7.2
+r.cfcr.io/codefresh-inc/codefresh/kube-integration:1.7.2
+Pull r.cfcr.io/codefresh-inc/codefresh/kube-integration:1.7.2 completed - Mon Oct  7 11:49:25 UTC 2019 !!!
+
+Tag gcr.io/codefresh-inc/codefresh/kube-integration:1.7.2 completed - Mon Oct  7 11:49:25 UTC 2019 !!!
+
+The push refers to repository [gcr.io/codefresh-inc/codefresh/kube-integration]
+05fbbf153703: Preparing
+7361971f8175: Preparing
+38acebd3e321: Preparing
+9a7b79b6e5fe: Preparing
+28bf756b6f8e: Preparing
+4c299e1e70d5: Preparing
+f1b5933fe4b5: Preparing
+9a7b79b6e5fe: Waiting
+28bf756b6f8e: Waiting
+4c299e1e70d5: Waiting
+f1b5933fe4b5: Waiting
+05fbbf153703: Layer already exists
+38acebd3e321: Layer already exists
+7361971f8175: Layer already exists
+28bf756b6f8e: Layer already exists
+9a7b79b6e5fe: Layer already exists
+4c299e1e70d5: Layer already exists
+f1b5933fe4b5: Layer already exists
+1.7.2: digest: sha256:3f9bffcfcdba6cf5ef9a3ebbb9617968e303bc970e7d6ad86429e1fecb3a5ac7 size: 1789
+Push gcr.io/codefresh-inc/codefresh/kube-integration:1.7.2 completed - Mon Oct  7 11:49:27 UTC 2019 !!!
+
+---------- Migrate r.cfcr.io/codefresh-inc/codefresh/kube-integration:fix-digital-ocean-test-connection to gcr.io/codefresh-inc/codefresh/kube-integration:fix-digital-ocean-test-connection
+fix-digital-ocean-test-connection: Pulling from codefresh-inc/codefresh/kube-integration
+e7c96db7181b: Already exists
+df9eac31dfef: Already exists
+0a20433d95a4: Already exists
+5e356cab42aa: Already exists
+42b05a51a3d1: Already exists
+440cd0c00cc8: Already exists
+0e3e25655458: Already exists
+Digest: sha256:10d957902bbad87c787839cb27fd8605465f2a987ca592ae74d2feb38dde065e
+Status: Downloaded newer image for r.cfcr.io/codefresh-inc/codefresh/kube-integration:fix-digital-ocean-test-connection
+r.cfcr.io/codefresh-inc/codefresh/kube-integration:fix-digital-ocean-test-connection
+Pull r.cfcr.io/codefresh-inc/codefresh/kube-integration:fix-digital-ocean-test-connection completed - Mon Oct  7 11:49:28 UTC 2019 !!!
+
+Tag gcr.io/codefresh-inc/codefresh/kube-integration:fix-digital-ocean-test-connection completed - Mon Oct  7 11:49:29 UTC 2019 !!!
+
+The push refers to repository [gcr.io/codefresh-inc/codefresh/kube-integration]
+05fbbf153703: Preparing
+7361971f8175: Preparing
+38acebd3e321: Preparing
+9a7b79b6e5fe: Preparing
+28bf756b6f8e: Preparing
+4c299e1e70d5: Preparing
+f1b5933fe4b5: Preparing
+05fbbf153703: Waiting
+7361971f8175: Waiting
+38acebd3e321: Waiting
+9a7b79b6e5fe: Waiting
+28bf756b6f8e: Waiting
+4c299e1e70d5: Waiting
+f1b5933fe4b5: Waiting
+38acebd3e321: Layer already exists
+7361971f8175: Layer already exists
+05fbbf153703: Layer already exists
+28bf756b6f8e: Layer already exists
+9a7b79b6e5fe: Layer already exists
+4c299e1e70d5: Layer already exists
+f1b5933fe4b5: Layer already exists
+fix-digital-ocean-test-connection: digest: sha256:10d957902bbad87c787839cb27fd8605465f2a987ca592ae74d2feb38dde065e size: 1789
+Push gcr.io/codefresh-inc/codefresh/kube-integration:fix-digital-ocean-test-connection completed - Mon Oct  7 11:49:33 UTC 2019 !!!
+
+---------- Migrate r.cfcr.io/codefresh-inc/codefresh/kube-integration:1.7.2-fix-digital-ocean-test-connection to gcr.io/codefresh-inc/codefresh/kube-integration:1.7.2-fix-digital-ocean-test-connection
+1.7.2-fix-digital-ocean-test-connection: Pulling from codefresh-inc/codefresh/kube-integration
+Digest: sha256:10d957902bbad87c787839cb27fd8605465f2a987ca592ae74d2feb38dde065e
+Status: Downloaded newer image for r.cfcr.io/codefresh-inc/codefresh/kube-integration:1.7.2-fix-digital-ocean-test-connection
+r.cfcr.io/codefresh-inc/codefresh/kube-integration:1.7.2-fix-digital-ocean-test-connection
+Pull r.cfcr.io/codefresh-inc/codefresh/kube-integration:1.7.2-fix-digital-ocean-test-connection completed - Mon Oct  7 11:49:34 UTC 2019 !!!
+
+Tag gcr.io/codefresh-inc/codefresh/kube-integration:1.7.2-fix-digital-ocean-test-connection completed - Mon Oct  7 11:49:34 UTC 2019 !!!
+
+The push refers to repository [gcr.io/codefresh-inc/codefresh/kube-integration]
+05fbbf153703: Preparing
+7361971f8175: Preparing
+38acebd3e321: Preparing
+9a7b79b6e5fe: Preparing
+28bf756b6f8e: Preparing
+4c299e1e70d5: Preparing
+f1b5933fe4b5: Preparing
+9a7b79b6e5fe: Waiting
+28bf756b6f8e: Waiting
+4c299e1e70d5: Waiting
+f1b5933fe4b5: Waiting
+38acebd3e321: Layer already exists
+7361971f8175: Layer already exists
+05fbbf153703: Layer already exists
+28bf756b6f8e: Layer already exists
+4c299e1e70d5: Layer already exists
+9a7b79b6e5fe: Layer already exists
+f1b5933fe4b5: Layer already exists
+1.7.2-fix-digital-ocean-test-connection: digest: sha256:10d957902bbad87c787839cb27fd8605465f2a987ca592ae74d2feb38dde065e size: 1789
+Push gcr.io/codefresh-inc/codefresh/kube-integration:1.7.2-fix-digital-ocean-test-connection completed - Mon Oct  7 11:49:36 UTC 2019 !!!
+
+---------- Migrate r.cfcr.io/codefresh-inc/codefresh/kube-integration:1.7.1 to gcr.io/codefresh-inc/codefresh/kube-integration:1.7.1
+1.7.1: Pulling from codefresh-inc/codefresh/kube-integration
+e7c96db7181b: Already exists
+df9eac31dfef: Already exists
+0a20433d95a4: Already exists
+5e356cab42aa: Already exists
+2a2ad6a9e4bc: Pulling fs layer
+fd7b23132c21: Pulling fs layer
+5f44923cc655: Pulling fs layer
+5f44923cc655: Verifying Checksum
+5f44923cc655: Download complete
+2a2ad6a9e4bc: Verifying Checksum
+2a2ad6a9e4bc: Download complete
+2a2ad6a9e4bc: Pull complete
+fd7b23132c21: Verifying Checksum
+fd7b23132c21: Download complete
+fd7b23132c21: Pull complete
+5f44923cc655: Pull complete
+Digest: sha256:6437261fc4c098e49f1c17fe9baed83cecdffdef46a96f7fce3322438a516b59
+Status: Downloaded newer image for r.cfcr.io/codefresh-inc/codefresh/kube-integration:1.7.1
+r.cfcr.io/codefresh-inc/codefresh/kube-integration:1.7.1
+Pull r.cfcr.io/codefresh-inc/codefresh/kube-integration:1.7.1 completed - Mon Oct  7 11:49:53 UTC 2019 !!!
+
+Tag gcr.io/codefresh-inc/codefresh/kube-integration:1.7.1 completed - Mon Oct  7 11:49:53 UTC 2019 !!!
+
+The push refers to repository [gcr.io/codefresh-inc/codefresh/kube-integration]
+50d702478bd7: Preparing
+54906fc74540: Preparing
+e7c323f7c907: Preparing
+9a7b79b6e5fe: Preparing
+28bf756b6f8e: Preparing
+4c299e1e70d5: Preparing
+f1b5933fe4b5: Preparing
+4c299e1e70d5: Waiting
+f1b5933fe4b5: Waiting
+9a7b79b6e5fe: Layer already exists
+28bf756b6f8e: Layer already exists
+f1b5933fe4b5: Layer already exists
+4c299e1e70d5: Layer already exists
+50d702478bd7: Retrying in 5 seconds
+50d702478bd7: Retrying in 4 seconds
+e7c323f7c907: Pushed
+50d702478bd7: Retrying in 3 seconds
+50d702478bd7: Retrying in 2 seconds
+50d702478bd7: Retrying in 1 second
+50d702478bd7: Retrying in 10 seconds
+50d702478bd7: Retrying in 9 seconds
+50d702478bd7: Retrying in 8 seconds
+50d702478bd7: Retrying in 7 seconds
+50d702478bd7: Retrying in 6 seconds
+50d702478bd7: Retrying in 5 seconds
+50d702478bd7: Retrying in 4 seconds
+50d702478bd7: Retrying in 3 seconds
+50d702478bd7: Retrying in 2 seconds
+50d702478bd7: Retrying in 1 second
+50d702478bd7: Retrying in 15 seconds
+50d702478bd7: Retrying in 14 seconds
+50d702478bd7: Retrying in 13 seconds
+50d702478bd7: Retrying in 12 seconds
+50d702478bd7: Retrying in 11 seconds
+54906fc74540: Pushed
+50d702478bd7: Retrying in 10 seconds
+50d702478bd7: Retrying in 9 seconds
+50d702478bd7: Retrying in 8 seconds
+50d702478bd7: Retrying in 7 seconds
+50d702478bd7: Retrying in 6 seconds
+50d702478bd7: Retrying in 5 seconds
+50d702478bd7: Retrying in 4 seconds
+50d702478bd7: Retrying in 3 seconds
+50d702478bd7: Retrying in 2 seconds
+50d702478bd7: Retrying in 1 second
+50d702478bd7: Pushed
+1.7.1: digest: sha256:6437261fc4c098e49f1c17fe9baed83cecdffdef46a96f7fce3322438a516b59 size: 1789
+Push gcr.io/codefresh-inc/codefresh/kube-integration:1.7.1 completed - Mon Oct  7 11:50:29 UTC 2019 !!!
+
+---------- Migrate r.cfcr.io/codefresh-inc/codefresh/kube-integration:cluster-not-admin-credentials to gcr.io/codefresh-inc/codefresh/kube-integration:cluster-not-admin-credentials
+cluster-not-admin-credentials: Pulling from codefresh-inc/codefresh/kube-integration
+e7c96db7181b: Already exists
+df9eac31dfef: Already exists
+0a20433d95a4: Already exists
+5e356cab42aa: Already exists
+2a2ad6a9e4bc: Already exists
+fd7b23132c21: Already exists
+5f44923cc655: Already exists
+Digest: sha256:a897fad3b94e6164c9a6f8da8ba626d62d12939a39aeafa3d79f3a7a4f7e49f0
+Status: Downloaded newer image for r.cfcr.io/codefresh-inc/codefresh/kube-integration:cluster-not-admin-credentials
+r.cfcr.io/codefresh-inc/codefresh/kube-integration:cluster-not-admin-credentials
+Pull r.cfcr.io/codefresh-inc/codefresh/kube-integration:cluster-not-admin-credentials completed - Mon Oct  7 11:50:31 UTC 2019 !!!
+
+Tag gcr.io/codefresh-inc/codefresh/kube-integration:cluster-not-admin-credentials completed - Mon Oct  7 11:50:31 UTC 2019 !!!
+
+The push refers to repository [gcr.io/codefresh-inc/codefresh/kube-integration]
+50d702478bd7: Preparing
+54906fc74540: Preparing
+e7c323f7c907: Preparing
+9a7b79b6e5fe: Preparing
+28bf756b6f8e: Preparing
+4c299e1e70d5: Preparing
+f1b5933fe4b5: Preparing
+28bf756b6f8e: Waiting
+4c299e1e70d5: Waiting
+f1b5933fe4b5: Waiting
+54906fc74540: Layer already exists
+50d702478bd7: Layer already exists
+e7c323f7c907: Layer already exists
+9a7b79b6e5fe: Layer already exists
+4c299e1e70d5: Layer already exists
+f1b5933fe4b5: Layer already exists
+28bf756b6f8e: Layer already exists
+cluster-not-admin-credentials: digest: sha256:a897fad3b94e6164c9a6f8da8ba626d62d12939a39aeafa3d79f3a7a4f7e49f0 size: 1789
+Push gcr.io/codefresh-inc/codefresh/kube-integration:cluster-not-admin-credentials completed - Mon Oct  7 11:50:34 UTC 2019 !!!
+
+---------- Migrate r.cfcr.io/codefresh-inc/codefresh/kube-integration:1.7.1-cluster-not-admin-credentials to gcr.io/codefresh-inc/codefresh/kube-integration:1.7.1-cluster-not-admin-credentials
+1.7.1-cluster-not-admin-credentials: Pulling from codefresh-inc/codefresh/kube-integration
+Digest: sha256:a897fad3b94e6164c9a6f8da8ba626d62d12939a39aeafa3d79f3a7a4f7e49f0
+Status: Downloaded newer image for r.cfcr.io/codefresh-inc/codefresh/kube-integration:1.7.1-cluster-not-admin-credentials
+r.cfcr.io/codefresh-inc/codefresh/kube-integration:1.7.1-cluster-not-admin-credentials
+Pull r.cfcr.io/codefresh-inc/codefresh/kube-integration:1.7.1-cluster-not-admin-credentials completed - Mon Oct  7 11:50:35 UTC 2019 !!!
+
+Tag gcr.io/codefresh-inc/codefresh/kube-integration:1.7.1-cluster-not-admin-credentials completed - Mon Oct  7 11:50:35 UTC 2019 !!!
+
+The push refers to repository [gcr.io/codefresh-inc/codefresh/kube-integration]
+50d702478bd7: Preparing
+54906fc74540: Preparing
+e7c323f7c907: Preparing
+9a7b79b6e5fe: Preparing
+28bf756b6f8e: Preparing
+4c299e1e70d5: Preparing
+f1b5933fe4b5: Preparing
+50d702478bd7: Waiting
+54906fc74540: Waiting
+e7c323f7c907: Waiting
+9a7b79b6e5fe: Waiting
+28bf756b6f8e: Waiting
+4c299e1e70d5: Waiting
+f1b5933fe4b5: Waiting
+54906fc74540: Layer already exists
+50d702478bd7: Layer already exists
+e7c323f7c907: Layer already exists
+9a7b79b6e5fe: Layer already exists
+28bf756b6f8e: Layer already exists
+4c299e1e70d5: Layer already exists
+f1b5933fe4b5: Layer already exists
+1.7.1-cluster-not-admin-credentials: digest: sha256:a897fad3b94e6164c9a6f8da8ba626d62d12939a39aeafa3d79f3a7a4f7e49f0 size: 1789
+Push gcr.io/codefresh-inc/codefresh/kube-integration:1.7.1-cluster-not-admin-credentials completed - Mon Oct  7 11:50:38 UTC 2019 !!!
+
+---------- Migrate r.cfcr.io/codefresh-inc/codefresh/kube-integration:1.7.0-cluster-not-admin-credentials to gcr.io/codefresh-inc/codefresh/kube-integration:1.7.0-cluster-not-admin-credentials
+1.7.0-cluster-not-admin-credentials: Pulling from codefresh-inc/codefresh/kube-integration
+e7c96db7181b: Already exists
+df9eac31dfef: Already exists
+0a20433d95a4: Already exists
+5e356cab42aa: Already exists
+74513bcf6e10: Pulling fs layer
+7d074e5108b2: Pulling fs layer
+c9f2d8f9d165: Pulling fs layer
+74513bcf6e10: Verifying Checksum
+74513bcf6e10: Download complete
+c9f2d8f9d165: Verifying Checksum
+c9f2d8f9d165: Download complete
+74513bcf6e10: Pull complete
+7d074e5108b2: Verifying Checksum
+7d074e5108b2: Download complete
+7d074e5108b2: Pull complete
+c9f2d8f9d165: Pull complete
+Digest: sha256:b2f2a36d09602c8eb85e71fca4074ada6440eb4440e8b022a7fd6e9a0f9d0e90
+Status: Downloaded newer image for r.cfcr.io/codefresh-inc/codefresh/kube-integration:1.7.0-cluster-not-admin-credentials
+r.cfcr.io/codefresh-inc/codefresh/kube-integration:1.7.0-cluster-not-admin-credentials
+Pull r.cfcr.io/codefresh-inc/codefresh/kube-integration:1.7.0-cluster-not-admin-credentials completed - Mon Oct  7 11:51:08 UTC 2019 !!!
+
+Tag gcr.io/codefresh-inc/codefresh/kube-integration:1.7.0-cluster-not-admin-credentials completed - Mon Oct  7 11:51:08 UTC 2019 !!!
+
+The push refers to repository [gcr.io/codefresh-inc/codefresh/kube-integration]
+3993d5af04d2: Preparing
+4354a936bcb4: Preparing
+511701eb84e0: Preparing
+9a7b79b6e5fe: Preparing
+28bf756b6f8e: Preparing
+4c299e1e70d5: Preparing
+f1b5933fe4b5: Preparing
+28bf756b6f8e: Waiting
+4c299e1e70d5: Waiting
+f1b5933fe4b5: Waiting
+9a7b79b6e5fe: Layer already exists
+28bf756b6f8e: Layer already exists
+4c299e1e70d5: Layer already exists
+f1b5933fe4b5: Layer already exists
+4354a936bcb4: Retrying in 5 seconds
+3993d5af04d2: Retrying in 5 seconds
+4354a936bcb4: Retrying in 4 seconds
+3993d5af04d2: Retrying in 4 seconds
+511701eb84e0: Pushed
+4354a936bcb4: Retrying in 3 seconds
+3993d5af04d2: Retrying in 3 seconds
+4354a936bcb4: Retrying in 2 seconds
+3993d5af04d2: Retrying in 2 seconds
+4354a936bcb4: Retrying in 1 second
+3993d5af04d2: Retrying in 1 second
+3993d5af04d2: Retrying in 10 seconds
+3993d5af04d2: Retrying in 9 seconds
+3993d5af04d2: Retrying in 8 seconds
+3993d5af04d2: Retrying in 7 seconds
+3993d5af04d2: Retrying in 6 seconds
+3993d5af04d2: Retrying in 5 seconds
+3993d5af04d2: Retrying in 4 seconds
+3993d5af04d2: Retrying in 3 seconds
+3993d5af04d2: Retrying in 2 seconds
+3993d5af04d2: Retrying in 1 second
+3993d5af04d2: Retrying in 15 seconds
+3993d5af04d2: Retrying in 14 seconds
+3993d5af04d2: Retrying in 13 seconds
+3993d5af04d2: Retrying in 12 seconds
+3993d5af04d2: Retrying in 11 seconds
+3993d5af04d2: Retrying in 10 seconds
+3993d5af04d2: Retrying in 9 seconds
+3993d5af04d2: Retrying in 8 seconds
+3993d5af04d2: Retrying in 7 seconds
+3993d5af04d2: Retrying in 6 seconds
+3993d5af04d2: Retrying in 5 seconds
+3993d5af04d2: Retrying in 4 seconds
+3993d5af04d2: Retrying in 3 seconds
+4354a936bcb4: Pushed
+3993d5af04d2: Retrying in 2 seconds
+3993d5af04d2: Retrying in 1 second
+3993d5af04d2: Pushed
+1.7.0-cluster-not-admin-credentials: digest: sha256:b2f2a36d09602c8eb85e71fca4074ada6440eb4440e8b022a7fd6e9a0f9d0e90 size: 1789
+Push gcr.io/codefresh-inc/codefresh/kube-integration:1.7.0-cluster-not-admin-credentials completed - Mon Oct  7 11:51:43 UTC 2019 !!!
+
+---------- Migrate r.cfcr.io/codefresh-inc/codefresh/kube-integration:1.7.0 to gcr.io/codefresh-inc/codefresh/kube-integration:1.7.0
+1.7.0: Pulling from codefresh-inc/codefresh/kube-integration
+e7c96db7181b: Already exists
+df9eac31dfef: Already exists
+0a20433d95a4: Already exists
+5e356cab42aa: Already exists
+74513bcf6e10: Already exists
+7d074e5108b2: Already exists
+8a7b63e3cf25: Pulling fs layer
+8a7b63e3cf25: Verifying Checksum
+8a7b63e3cf25: Download complete
+8a7b63e3cf25: Pull complete
+Digest: sha256:702d2cf4da3b4b54dcf130a0f9ed4751c8d3d5d3a60ecbfb609b671af4bfd4ec
+Status: Downloaded newer image for r.cfcr.io/codefresh-inc/codefresh/kube-integration:1.7.0
+r.cfcr.io/codefresh-inc/codefresh/kube-integration:1.7.0
+Pull r.cfcr.io/codefresh-inc/codefresh/kube-integration:1.7.0 completed - Mon Oct  7 11:51:45 UTC 2019 !!!
+
+Tag gcr.io/codefresh-inc/codefresh/kube-integration:1.7.0 completed - Mon Oct  7 11:51:45 UTC 2019 !!!
+
+The push refers to repository [gcr.io/codefresh-inc/codefresh/kube-integration]
+907cf5496090: Preparing
+4354a936bcb4: Preparing
+511701eb84e0: Preparing
+9a7b79b6e5fe: Preparing
+28bf756b6f8e: Preparing
+4c299e1e70d5: Preparing
+f1b5933fe4b5: Preparing
+4c299e1e70d5: Waiting
+f1b5933fe4b5: Waiting
+28bf756b6f8e: Layer already exists
+9a7b79b6e5fe: Layer already exists
+4354a936bcb4: Layer already exists
+511701eb84e0: Layer already exists
+4c299e1e70d5: Layer already exists
+f1b5933fe4b5: Layer already exists
+907cf5496090: Pushed
+1.7.0: digest: sha256:702d2cf4da3b4b54dcf130a0f9ed4751c8d3d5d3a60ecbfb609b671af4bfd4ec size: 1789
+Push gcr.io/codefresh-inc/codefresh/kube-integration:1.7.0 completed - Mon Oct  7 11:51:49 UTC 2019 !!!
+
+---------- Migrate r.cfcr.io/codefresh-inc/codefresh/kube-integration:istio-poc to gcr.io/codefresh-inc/codefresh/kube-integration:istio-poc
+istio-poc: Pulling from codefresh-inc/codefresh/kube-integration
+e7c96db7181b: Already exists
+df9eac31dfef: Already exists
+0a20433d95a4: Already exists
+5e356cab42aa: Already exists
+74513bcf6e10: Already exists
+7d074e5108b2: Already exists
+8a7b63e3cf25: Already exists
+Digest: sha256:b4414e319c90dbaeae3205924108f606d737136d1bfc767c731cdaada66a2b5e
+Status: Downloaded newer image for r.cfcr.io/codefresh-inc/codefresh/kube-integration:istio-poc
+r.cfcr.io/codefresh-inc/codefresh/kube-integration:istio-poc
+Pull r.cfcr.io/codefresh-inc/codefresh/kube-integration:istio-poc completed - Mon Oct  7 11:51:50 UTC 2019 !!!
+
+Tag gcr.io/codefresh-inc/codefresh/kube-integration:istio-poc completed - Mon Oct  7 11:51:50 UTC 2019 !!!
+
+The push refers to repository [gcr.io/codefresh-inc/codefresh/kube-integration]
+907cf5496090: Preparing
+4354a936bcb4: Preparing
+511701eb84e0: Preparing
+9a7b79b6e5fe: Preparing
+28bf756b6f8e: Preparing
+4c299e1e70d5: Preparing
+f1b5933fe4b5: Preparing
+511701eb84e0: Waiting
+9a7b79b6e5fe: Waiting
+28bf756b6f8e: Waiting
+4c299e1e70d5: Waiting
+f1b5933fe4b5: Waiting
+4354a936bcb4: Layer already exists
+907cf5496090: Layer already exists
+511701eb84e0: Layer already exists
+9a7b79b6e5fe: Layer already exists
+28bf756b6f8e: Layer already exists
+4c299e1e70d5: Layer already exists
+f1b5933fe4b5: Layer already exists
+istio-poc: digest: sha256:b4414e319c90dbaeae3205924108f606d737136d1bfc767c731cdaada66a2b5e size: 1789
+Push gcr.io/codefresh-inc/codefresh/kube-integration:istio-poc completed - Mon Oct  7 11:51:52 UTC 2019 !!!
+
+---------- Migrate r.cfcr.io/codefresh-inc/codefresh/kube-integration:1.7.0-istio-poc to gcr.io/codefresh-inc/codefresh/kube-integration:1.7.0-istio-poc
+1.7.0-istio-poc: Pulling from codefresh-inc/codefresh/kube-integration
+Digest: sha256:b4414e319c90dbaeae3205924108f606d737136d1bfc767c731cdaada66a2b5e
+Status: Downloaded newer image for r.cfcr.io/codefresh-inc/codefresh/kube-integration:1.7.0-istio-poc
+r.cfcr.io/codefresh-inc/codefresh/kube-integration:1.7.0-istio-poc
+Pull r.cfcr.io/codefresh-inc/codefresh/kube-integration:1.7.0-istio-poc completed - Mon Oct  7 11:51:53 UTC 2019 !!!
+
+Tag gcr.io/codefresh-inc/codefresh/kube-integration:1.7.0-istio-poc completed - Mon Oct  7 11:51:53 UTC 2019 !!!
+
+The push refers to repository [gcr.io/codefresh-inc/codefresh/kube-integration]
+907cf5496090: Preparing
+4354a936bcb4: Preparing
+511701eb84e0: Preparing
+9a7b79b6e5fe: Preparing
+28bf756b6f8e: Preparing
+4c299e1e70d5: Preparing
+f1b5933fe4b5: Preparing
+907cf5496090: Waiting
+4354a936bcb4: Waiting
+511701eb84e0: Waiting
+9a7b79b6e5fe: Waiting
+28bf756b6f8e: Waiting
+4c299e1e70d5: Waiting
+f1b5933fe4b5: Waiting
+907cf5496090: Layer already exists
+4354a936bcb4: Layer already exists
+9a7b79b6e5fe: Layer already exists
+511701eb84e0: Layer already exists
+28bf756b6f8e: Layer already exists
+4c299e1e70d5: Layer already exists
+f1b5933fe4b5: Layer already exists
+1.7.0-istio-poc: digest: sha256:b4414e319c90dbaeae3205924108f606d737136d1bfc767c731cdaada66a2b5e size: 1789
+Push gcr.io/codefresh-inc/codefresh/kube-integration:1.7.0-istio-poc completed - Mon Oct  7 11:51:55 UTC 2019 !!!
+
+---------- Migrate r.cfcr.io/codefresh-inc/codefresh/kube-integration:1.6.2-istio-poc to gcr.io/codefresh-inc/codefresh/kube-integration:1.6.2-istio-poc
+1.6.2-istio-poc: Pulling from codefresh-inc/codefresh/kube-integration
+e7c96db7181b: Already exists
+df9eac31dfef: Already exists
+0a20433d95a4: Already exists
+5e356cab42aa: Already exists
+74513bcf6e10: Already exists
+7d074e5108b2: Already exists
+d6cc211a1bcc: Pulling fs layer
+d6cc211a1bcc: Verifying Checksum
+d6cc211a1bcc: Download complete
+d6cc211a1bcc: Pull complete
+Digest: sha256:754e0f26b4a9e8508753a134f840fb92322f8930fad3c1c464d183ec4f39cb69
+Status: Downloaded newer image for r.cfcr.io/codefresh-inc/codefresh/kube-integration:1.6.2-istio-poc
+r.cfcr.io/codefresh-inc/codefresh/kube-integration:1.6.2-istio-poc
+Pull r.cfcr.io/codefresh-inc/codefresh/kube-integration:1.6.2-istio-poc completed - Mon Oct  7 11:51:57 UTC 2019 !!!
+
+Tag gcr.io/codefresh-inc/codefresh/kube-integration:1.6.2-istio-poc completed - Mon Oct  7 11:51:57 UTC 2019 !!!
+
+The push refers to repository [gcr.io/codefresh-inc/codefresh/kube-integration]
+054feb2eec8a: Preparing
+4354a936bcb4: Preparing
+511701eb84e0: Preparing
+9a7b79b6e5fe: Preparing
+28bf756b6f8e: Preparing
+4c299e1e70d5: Preparing
+f1b5933fe4b5: Preparing
+511701eb84e0: Waiting
+9a7b79b6e5fe: Waiting
+28bf756b6f8e: Waiting
+4c299e1e70d5: Waiting
+f1b5933fe4b5: Waiting
+4354a936bcb4: Layer already exists
+511701eb84e0: Layer already exists
+9a7b79b6e5fe: Layer already exists
+28bf756b6f8e: Layer already exists
+4c299e1e70d5: Layer already exists
+f1b5933fe4b5: Layer already exists
+054feb2eec8a: Pushed
+1.6.2-istio-poc: digest: sha256:754e0f26b4a9e8508753a134f840fb92322f8930fad3c1c464d183ec4f39cb69 size: 1789
+Push gcr.io/codefresh-inc/codefresh/kube-integration:1.6.2-istio-poc completed - Mon Oct  7 11:52:00 UTC 2019 !!!
+
+---------- Migrate r.cfcr.io/codefresh-inc/codefresh/kube-integration:cf-onprem-v1.0.79 to gcr.io/codefresh-inc/codefresh/kube-integration:cf-onprem-v1.0.79
+cf-onprem-v1.0.79: Pulling from codefresh-inc/codefresh/kube-integration
+e7c96db7181b: Already exists
+df9eac31dfef: Already exists
+0a20433d95a4: Already exists
+5e356cab42aa: Already exists
+3bd18b567ee6: Pulling fs layer
+d2a99fe07f54: Pulling fs layer
+f6f0b32a461c: Pulling fs layer
+f6f0b32a461c: Verifying Checksum
+f6f0b32a461c: Download complete
+3bd18b567ee6: Verifying Checksum
+3bd18b567ee6: Download complete
+3bd18b567ee6: Pull complete
+d2a99fe07f54: Verifying Checksum
+d2a99fe07f54: Download complete
+d2a99fe07f54: Pull complete
+f6f0b32a461c: Pull complete
+Digest: sha256:b40203b93f9e325d6feb9d3465f309636393f4ba6bf42c6b4031b3e4da53384f
+Status: Downloaded newer image for r.cfcr.io/codefresh-inc/codefresh/kube-integration:cf-onprem-v1.0.79
+r.cfcr.io/codefresh-inc/codefresh/kube-integration:cf-onprem-v1.0.79
+Pull r.cfcr.io/codefresh-inc/codefresh/kube-integration:cf-onprem-v1.0.79 completed - Mon Oct  7 11:52:26 UTC 2019 !!!
+
+Tag gcr.io/codefresh-inc/codefresh/kube-integration:cf-onprem-v1.0.79 completed - Mon Oct  7 11:52:26 UTC 2019 !!!
+
+The push refers to repository [gcr.io/codefresh-inc/codefresh/kube-integration]
+fc58287eb1f9: Preparing
+af59589f4e8f: Preparing
+c7748b9c7b3b: Preparing
+9a7b79b6e5fe: Preparing
+28bf756b6f8e: Preparing
+4c299e1e70d5: Preparing
+f1b5933fe4b5: Preparing
+fc58287eb1f9: Waiting
+af59589f4e8f: Waiting
+c7748b9c7b3b: Waiting
+9a7b79b6e5fe: Waiting
+28bf756b6f8e: Waiting
+4c299e1e70d5: Waiting
+f1b5933fe4b5: Waiting
+fc58287eb1f9: Retrying in 5 seconds
+fc58287eb1f9: Retrying in 4 seconds
+fc58287eb1f9: Retrying in 3 seconds
+c7748b9c7b3b: Pushed
+9a7b79b6e5fe: Layer already exists
+fc58287eb1f9: Retrying in 2 seconds
+28bf756b6f8e: Layer already exists
+4c299e1e70d5: Layer already exists
+f1b5933fe4b5: Layer already exists
+fc58287eb1f9: Retrying in 1 second
+fc58287eb1f9: Retrying in 10 seconds
+fc58287eb1f9: Retrying in 9 seconds
+fc58287eb1f9: Retrying in 8 seconds
+fc58287eb1f9: Retrying in 7 seconds
+fc58287eb1f9: Retrying in 6 seconds
+fc58287eb1f9: Retrying in 5 seconds
+fc58287eb1f9: Retrying in 4 seconds
+fc58287eb1f9: Retrying in 3 seconds
+fc58287eb1f9: Retrying in 2 seconds
+fc58287eb1f9: Retrying in 1 second
+fc58287eb1f9: Retrying in 15 seconds
+fc58287eb1f9: Retrying in 14 seconds
+fc58287eb1f9: Retrying in 13 seconds
+fc58287eb1f9: Retrying in 12 seconds
+fc58287eb1f9: Retrying in 11 seconds
+fc58287eb1f9: Retrying in 10 seconds
+af59589f4e8f: Pushed
+fc58287eb1f9: Retrying in 9 seconds
+fc58287eb1f9: Retrying in 8 seconds
+fc58287eb1f9: Retrying in 7 seconds
+fc58287eb1f9: Retrying in 6 seconds
+fc58287eb1f9: Retrying in 5 seconds
+fc58287eb1f9: Retrying in 4 seconds
+fc58287eb1f9: Retrying in 3 seconds
+fc58287eb1f9: Retrying in 2 seconds
+fc58287eb1f9: Retrying in 1 second
+fc58287eb1f9: Pushed
+cf-onprem-v1.0.79: digest: sha256:b40203b93f9e325d6feb9d3465f309636393f4ba6bf42c6b4031b3e4da53384f size: 1789
+Push gcr.io/codefresh-inc/codefresh/kube-integration:cf-onprem-v1.0.79 completed - Mon Oct  7 11:53:00 UTC 2019 !!!
+
+---------- Migrate r.cfcr.io/codefresh-inc/codefresh/kube-integration:1.6.2-cf-onprem-v1.0.79 to gcr.io/codefresh-inc/codefresh/kube-integration:1.6.2-cf-onprem-v1.0.79
+1.6.2-cf-onprem-v1.0.79: Pulling from codefresh-inc/codefresh/kube-integration
+Digest: sha256:b40203b93f9e325d6feb9d3465f309636393f4ba6bf42c6b4031b3e4da53384f
+Status: Downloaded newer image for r.cfcr.io/codefresh-inc/codefresh/kube-integration:1.6.2-cf-onprem-v1.0.79
+r.cfcr.io/codefresh-inc/codefresh/kube-integration:1.6.2-cf-onprem-v1.0.79
+Pull r.cfcr.io/codefresh-inc/codefresh/kube-integration:1.6.2-cf-onprem-v1.0.79 completed - Mon Oct  7 11:53:01 UTC 2019 !!!
+
+Tag gcr.io/codefresh-inc/codefresh/kube-integration:1.6.2-cf-onprem-v1.0.79 completed - Mon Oct  7 11:53:01 UTC 2019 !!!
+
+The push refers to repository [gcr.io/codefresh-inc/codefresh/kube-integration]
+fc58287eb1f9: Preparing
+af59589f4e8f: Preparing
+c7748b9c7b3b: Preparing
+9a7b79b6e5fe: Preparing
+28bf756b6f8e: Preparing
+4c299e1e70d5: Preparing
+f1b5933fe4b5: Preparing
+28bf756b6f8e: Waiting
+4c299e1e70d5: Waiting
+f1b5933fe4b5: Waiting
+af59589f4e8f: Layer already exists
+fc58287eb1f9: Layer already exists
+c7748b9c7b3b: Layer already exists
+9a7b79b6e5fe: Layer already exists
+f1b5933fe4b5: Layer already exists
+4c299e1e70d5: Layer already exists
+28bf756b6f8e: Layer already exists
+1.6.2-cf-onprem-v1.0.79: digest: sha256:b40203b93f9e325d6feb9d3465f309636393f4ba6bf42c6b4031b3e4da53384f size: 1789
+Push gcr.io/codefresh-inc/codefresh/kube-integration:1.6.2-cf-onprem-v1.0.79 completed - Mon Oct  7 11:53:02 UTC 2019 !!!
+
+---------- Migrate r.cfcr.io/codefresh-inc/codefresh/kube-integration:1.6.2 to gcr.io/codefresh-inc/codefresh/kube-integration:1.6.2
+1.6.2: Pulling from codefresh-inc/codefresh/kube-integration
+e7c96db7181b: Already exists
+df9eac31dfef: Already exists
+0a20433d95a4: Already exists
+5e356cab42aa: Already exists
+3bd18b567ee6: Already exists
+d2a99fe07f54: Already exists
+f8b002ba4bef: Pulling fs layer
+f8b002ba4bef: Verifying Checksum
+f8b002ba4bef: Download complete
+f8b002ba4bef: Pull complete
+Digest: sha256:4eb6f0e61003ff43553f80e02c15a6012549853a4a0ad65bc9d4319e8891286c
+Status: Downloaded newer image for r.cfcr.io/codefresh-inc/codefresh/kube-integration:1.6.2
+r.cfcr.io/codefresh-inc/codefresh/kube-integration:1.6.2
+Pull r.cfcr.io/codefresh-inc/codefresh/kube-integration:1.6.2 completed - Mon Oct  7 11:53:03 UTC 2019 !!!
+
+Tag gcr.io/codefresh-inc/codefresh/kube-integration:1.6.2 completed - Mon Oct  7 11:53:04 UTC 2019 !!!
+
+The push refers to repository [gcr.io/codefresh-inc/codefresh/kube-integration]
+93fe08254c2c: Preparing
+af59589f4e8f: Preparing
+c7748b9c7b3b: Preparing
+9a7b79b6e5fe: Preparing
+28bf756b6f8e: Preparing
+4c299e1e70d5: Preparing
+f1b5933fe4b5: Preparing
+9a7b79b6e5fe: Waiting
+28bf756b6f8e: Waiting
+4c299e1e70d5: Waiting
+f1b5933fe4b5: Waiting
+93fe08254c2c: Waiting
+af59589f4e8f: Waiting
+c7748b9c7b3b: Waiting
+af59589f4e8f: Layer already exists
+c7748b9c7b3b: Layer already exists
+9a7b79b6e5fe: Layer already exists
+28bf756b6f8e: Layer already exists
+4c299e1e70d5: Layer already exists
+f1b5933fe4b5: Layer already exists
+93fe08254c2c: Pushed
+1.6.2: digest: sha256:4eb6f0e61003ff43553f80e02c15a6012549853a4a0ad65bc9d4319e8891286c size: 1789
+Push gcr.io/codefresh-inc/codefresh/kube-integration:1.6.2 completed - Mon Oct  7 11:53:09 UTC 2019 !!!
+
+---------- Migrate r.cfcr.io/codefresh-inc/codefresh/kube-integration:update-http-infra to gcr.io/codefresh-inc/codefresh/kube-integration:update-http-infra
+update-http-infra: Pulling from codefresh-inc/codefresh/kube-integration
+e7c96db7181b: Already exists
+df9eac31dfef: Already exists
+0a20433d95a4: Already exists
+5e356cab42aa: Already exists
+3bd18b567ee6: Already exists
+d2a99fe07f54: Already exists
+f8b002ba4bef: Already exists
+Digest: sha256:a6d08d94cd7bcce44b19ccb3c8fc30156fc680635086c22c6d8aaa2d86502f23
+Status: Downloaded newer image for r.cfcr.io/codefresh-inc/codefresh/kube-integration:update-http-infra
+r.cfcr.io/codefresh-inc/codefresh/kube-integration:update-http-infra
+Pull r.cfcr.io/codefresh-inc/codefresh/kube-integration:update-http-infra completed - Mon Oct  7 11:53:10 UTC 2019 !!!
+
+Tag gcr.io/codefresh-inc/codefresh/kube-integration:update-http-infra completed - Mon Oct  7 11:53:10 UTC 2019 !!!
+
+The push refers to repository [gcr.io/codefresh-inc/codefresh/kube-integration]
+93fe08254c2c: Preparing
+af59589f4e8f: Preparing
+c7748b9c7b3b: Preparing
+9a7b79b6e5fe: Preparing
+28bf756b6f8e: Preparing
+4c299e1e70d5: Preparing
+f1b5933fe4b5: Preparing
+9a7b79b6e5fe: Waiting
+28bf756b6f8e: Waiting
+4c299e1e70d5: Waiting
+f1b5933fe4b5: Waiting
+93fe08254c2c: Layer already exists
+af59589f4e8f: Layer already exists
+c7748b9c7b3b: Layer already exists
+4c299e1e70d5: Layer already exists
+9a7b79b6e5fe: Layer already exists
+28bf756b6f8e: Layer already exists
+f1b5933fe4b5: Layer already exists
+update-http-infra: digest: sha256:a6d08d94cd7bcce44b19ccb3c8fc30156fc680635086c22c6d8aaa2d86502f23 size: 1789
+Push gcr.io/codefresh-inc/codefresh/kube-integration:update-http-infra completed - Mon Oct  7 11:53:12 UTC 2019 !!!
+
+---------- Migrate r.cfcr.io/codefresh-inc/codefresh/kube-integration:1.6.2-update-http-infra to gcr.io/codefresh-inc/codefresh/kube-integration:1.6.2-update-http-infra
+1.6.2-update-http-infra: Pulling from codefresh-inc/codefresh/kube-integration
+Digest: sha256:a6d08d94cd7bcce44b19ccb3c8fc30156fc680635086c22c6d8aaa2d86502f23
+Status: Downloaded newer image for r.cfcr.io/codefresh-inc/codefresh/kube-integration:1.6.2-update-http-infra
+r.cfcr.io/codefresh-inc/codefresh/kube-integration:1.6.2-update-http-infra
+Pull r.cfcr.io/codefresh-inc/codefresh/kube-integration:1.6.2-update-http-infra completed - Mon Oct  7 11:53:13 UTC 2019 !!!
+
+Tag gcr.io/codefresh-inc/codefresh/kube-integration:1.6.2-update-http-infra completed - Mon Oct  7 11:53:13 UTC 2019 !!!
+
+The push refers to repository [gcr.io/codefresh-inc/codefresh/kube-integration]
+93fe08254c2c: Preparing
+af59589f4e8f: Preparing
+c7748b9c7b3b: Preparing
+9a7b79b6e5fe: Preparing
+28bf756b6f8e: Preparing
+4c299e1e70d5: Preparing
+f1b5933fe4b5: Preparing
+9a7b79b6e5fe: Waiting
+28bf756b6f8e: Waiting
+4c299e1e70d5: Waiting
+f1b5933fe4b5: Waiting
+af59589f4e8f: Layer already exists
+93fe08254c2c: Layer already exists
+c7748b9c7b3b: Layer already exists
+4c299e1e70d5: Layer already exists
+28bf756b6f8e: Layer already exists
+9a7b79b6e5fe: Layer already exists
+f1b5933fe4b5: Layer already exists
+1.6.2-update-http-infra: digest: sha256:a6d08d94cd7bcce44b19ccb3c8fc30156fc680635086c22c6d8aaa2d86502f23 size: 1789
+Push gcr.io/codefresh-inc/codefresh/kube-integration:1.6.2-update-http-infra completed - Mon Oct  7 11:53:14 UTC 2019 !!!
+
+---------- Migrate r.cfcr.io/codefresh-inc/codefresh/kube-integration:1.6.0-istio-poc to gcr.io/codefresh-inc/codefresh/kube-integration:1.6.0-istio-poc
+1.6.0-istio-poc: Pulling from codefresh-inc/codefresh/kube-integration
+e7c96db7181b: Already exists
+df9eac31dfef: Already exists
+0a20433d95a4: Already exists
+5e356cab42aa: Already exists
+eaf54911b04d: Pulling fs layer
+5fc7d7a73712: Pulling fs layer
+1afe3d7bd1ed: Pulling fs layer
+eaf54911b04d: Verifying Checksum
+eaf54911b04d: Download complete
+1afe3d7bd1ed: Verifying Checksum
+1afe3d7bd1ed: Download complete
+eaf54911b04d: Pull complete
+5fc7d7a73712: Verifying Checksum
+5fc7d7a73712: Download complete
+5fc7d7a73712: Pull complete
+1afe3d7bd1ed: Pull complete
+Digest: sha256:67b2bcff1f065d0ef74503fd1bc9f80007b082f8d848e05a003a2390c0e2274a
+Status: Downloaded newer image for r.cfcr.io/codefresh-inc/codefresh/kube-integration:1.6.0-istio-poc
+r.cfcr.io/codefresh-inc/codefresh/kube-integration:1.6.0-istio-poc
+Pull r.cfcr.io/codefresh-inc/codefresh/kube-integration:1.6.0-istio-poc completed - Mon Oct  7 11:53:33 UTC 2019 !!!
+
+Tag gcr.io/codefresh-inc/codefresh/kube-integration:1.6.0-istio-poc completed - Mon Oct  7 11:53:33 UTC 2019 !!!
+
+The push refers to repository [gcr.io/codefresh-inc/codefresh/kube-integration]
+9bb57582e03a: Preparing
+b6ea183a1d04: Preparing
+064877b27d3e: Preparing
+9a7b79b6e5fe: Preparing
+28bf756b6f8e: Preparing
+4c299e1e70d5: Preparing
+f1b5933fe4b5: Preparing
+9bb57582e03a: Waiting
+b6ea183a1d04: Waiting
+064877b27d3e: Waiting
+9a7b79b6e5fe: Waiting
+28bf756b6f8e: Waiting
+4c299e1e70d5: Waiting
+f1b5933fe4b5: Waiting
+9bb57582e03a: Pushed
+9a7b79b6e5fe: Layer already exists
+28bf756b6f8e: Layer already exists
+4c299e1e70d5: Layer already exists
+f1b5933fe4b5: Layer already exists
+064877b27d3e: Pushed
+b6ea183a1d04: Pushed
+1.6.0-istio-poc: digest: sha256:67b2bcff1f065d0ef74503fd1bc9f80007b082f8d848e05a003a2390c0e2274a size: 1789
+Push gcr.io/codefresh-inc/codefresh/kube-integration:1.6.0-istio-poc completed - Mon Oct  7 11:53:57 UTC 2019 !!!
+
+---------- Migrate r.cfcr.io/codefresh-inc/codefresh/kube-integration:1.6.1 to gcr.io/codefresh-inc/codefresh/kube-integration:1.6.1
+1.6.1: Pulling from codefresh-inc/codefresh/kube-integration
+e7c96db7181b: Already exists
+df9eac31dfef: Already exists
+0a20433d95a4: Already exists
+5e356cab42aa: Already exists
+ca5f611af8b7: Pulling fs layer
+f03b81bee2ec: Pulling fs layer
+67e144cfa22e: Pulling fs layer
+ca5f611af8b7: Verifying Checksum
+ca5f611af8b7: Download complete
+67e144cfa22e: Verifying Checksum
+67e144cfa22e: Download complete
+ca5f611af8b7: Pull complete
+f03b81bee2ec: Verifying Checksum
+f03b81bee2ec: Download complete
+f03b81bee2ec: Pull complete
+67e144cfa22e: Pull complete
+Digest: sha256:913677f0aabb607c4f80b761e4abe09ef8af5313cec3ebff995f31a1b0b045f8
+Status: Downloaded newer image for r.cfcr.io/codefresh-inc/codefresh/kube-integration:1.6.1
+r.cfcr.io/codefresh-inc/codefresh/kube-integration:1.6.1
+Pull r.cfcr.io/codefresh-inc/codefresh/kube-integration:1.6.1 completed - Mon Oct  7 11:54:14 UTC 2019 !!!
+
+Tag gcr.io/codefresh-inc/codefresh/kube-integration:1.6.1 completed - Mon Oct  7 11:54:14 UTC 2019 !!!
+
+The push refers to repository [gcr.io/codefresh-inc/codefresh/kube-integration]
+f2b346f9c88d: Preparing
+067080ed32b4: Preparing
+7a31d6a7ec14: Preparing
+9a7b79b6e5fe: Preparing
+28bf756b6f8e: Preparing
+4c299e1e70d5: Preparing
+f1b5933fe4b5: Preparing
+28bf756b6f8e: Waiting
+4c299e1e70d5: Waiting
+f1b5933fe4b5: Waiting
+9a7b79b6e5fe: Layer already exists
+28bf756b6f8e: Layer already exists
+4c299e1e70d5: Layer already exists
+f1b5933fe4b5: Layer already exists
+067080ed32b4: Retrying in 5 seconds
+067080ed32b4: Retrying in 4 seconds
+067080ed32b4: Retrying in 3 seconds
+067080ed32b4: Retrying in 2 seconds
+7a31d6a7ec14: Pushed
+f2b346f9c88d: Pushed
+067080ed32b4: Retrying in 1 second
+067080ed32b4: Pushed
+1.6.1: digest: sha256:913677f0aabb607c4f80b761e4abe09ef8af5313cec3ebff995f31a1b0b045f8 size: 1789
+Push gcr.io/codefresh-inc/codefresh/kube-integration:1.6.1 completed - Mon Oct  7 11:54:45 UTC 2019 !!!
+

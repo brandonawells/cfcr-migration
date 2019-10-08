@@ -1,0 +1,17 @@
+r.cfcr.io/codefresh-inc/codefresh/mailer:master gcr.io/codefresh-inc/codefresh/mailer:master
+r.cfcr.io/codefresh-inc/codefresh/mailer:1.7.1 gcr.io/codefresh-inc/codefresh/mailer:1.7.1
+r.cfcr.io/codefresh-inc/codefresh/mailer:preemptible-saas-3841 gcr.io/codefresh-inc/codefresh/mailer:preemptible-saas-3841
+r.cfcr.io/codefresh-inc/codefresh/mailer:preemptible-SAAS-3841 gcr.io/codefresh-inc/codefresh/mailer:preemptible-SAAS-3841
+r.cfcr.io/codefresh-inc/codefresh/mailer:1.7.1-preemptible-saas-3841 gcr.io/codefresh-inc/codefresh/mailer:1.7.1-preemptible-saas-3841
+r.cfcr.io/codefresh-inc/codefresh/mailer:1.7.0 gcr.io/codefresh-inc/codefresh/mailer:1.7.0
+r.cfcr.io/codefresh-inc/codefresh/mailer:test-role gcr.io/codefresh-inc/codefresh/mailer:test-role
+r.cfcr.io/codefresh-inc/codefresh/mailer:1.7.0-test-role gcr.io/codefresh-inc/codefresh/mailer:1.7.0-test-role
+r.cfcr.io/codefresh-inc/codefresh/mailer:1.6.0 gcr.io/codefresh-inc/codefresh/mailer:1.6.0
+r.cfcr.io/codefresh-inc/codefresh/mailer:1.6.0-test-role gcr.io/codefresh-inc/codefresh/mailer:1.6.0-test-role
+r.cfcr.io/codefresh-inc/codefresh/mailer:1.5.0 gcr.io/codefresh-inc/codefresh/mailer:1.5.0
+r.cfcr.io/codefresh-inc/codefresh/mailer:1.5.0-test-role gcr.io/codefresh-inc/codefresh/mailer:1.5.0-test-role
+r.cfcr.io/codefresh-inc/codefresh/mailer:1.4.1 gcr.io/codefresh-inc/codefresh/mailer:1.4.1
+r.cfcr.io/codefresh-inc/codefresh/mailer:rabbit_reconnect gcr.io/codefresh-inc/codefresh/mailer:rabbit_reconnect
+r.cfcr.io/codefresh-inc/codefresh/mailer:1.4.1-rabbit-reconnect gcr.io/codefresh-inc/codefresh/mailer:1.4.1-rabbit-reconnect
+r.cfcr.io/codefresh-inc/codefresh/mailer:oren-codefresh-patch-8 gcr.io/codefresh-inc/codefresh/mailer:oren-codefresh-patch-8
+r.cfcr.io/codefresh-inc/codefresh/mailer:1.4.0-oren-codefresh-patch-8 gcr.io/codefresh-inc/codefresh/mailer:1.4.0-oren-codefresh-patch-8

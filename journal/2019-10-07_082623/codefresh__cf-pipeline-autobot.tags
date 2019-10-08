@@ -1,0 +1,2 @@
+r.cfcr.io/codefresh-inc/codefresh/cf-pipeline-autobot:master gcr.io/codefresh-inc/codefresh/cf-pipeline-autobot:master
+r.cfcr.io/codefresh-inc/codefresh/cf-pipeline-autobot:new-onboarding-steps gcr.io/codefresh-inc/codefresh/cf-pipeline-autobot:new-onboarding-steps

@@ -1,0 +1,5 @@
+gcr.io/codefresh-inc/codefresh/cf-configurator:develop
+gcr.io/codefresh-inc/codefresh/cf-configurator:staging
+gcr.io/codefresh-inc/codefresh/cf-configurator:load
+gcr.io/codefresh-inc/codefresh/cf-configurator:consul_inventory
+gcr.io/codefresh-inc/codefresh/cf-configurator:falco

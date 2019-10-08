@@ -1,0 +1,1630 @@
+Entering ./migrate-from-cfcr.sh - Mon Oct  7 11:47:09 UTC 2019
+JOURNAL_DIR = ./journal/2019-10-07_114705
+DONE_DIR = ./done
+IMAGES_LIST=./journal/2019-10-07_114705/images-list
+
+Starting at Mon Oct  7 11:47:12 UTC 2019
+Processing ./journal/2019-10-07_114705/images-list
+NAME                        TAG                                            PULL - SKIP
+./journal/2019-10-07_114705/codefresh__cluster-providers.tags
+./journal/2019-10-07_114705/codefresh__cluster-providers.tags
+codefresh/cluster-providers 6ece59ab443691a058bc91398f9fc0a18538cebd       r.cfcr.io/codefresh-inc/codefresh/cluster-providers:6ece59ab443691a058bc91398f9fc0a18538cebd - SKIP
+./journal/2019-10-07_114705/codefresh__cluster-providers.tags
+./journal/2019-10-07_114705/codefresh__cluster-providers.tags
+codefresh/cluster-providers dd657aafdef0f77c3495faeedad4f71631286708       r.cfcr.io/codefresh-inc/codefresh/cluster-providers:dd657aafdef0f77c3495faeedad4f71631286708 - SKIP
+./journal/2019-10-07_114705/codefresh__cluster-providers.tags
+codefresh/cluster-providers df77f778ace7f3c0a84d44a14d99325558feb775       r.cfcr.io/codefresh-inc/codefresh/cluster-providers:df77f778ace7f3c0a84d44a14d99325558feb775 - SKIP
+./journal/2019-10-07_114705/codefresh__cluster-providers.tags
+codefresh/cluster-providers ac8247157f3fb0e3bb01835b1b417f2b27898c16       r.cfcr.io/codefresh-inc/codefresh/cluster-providers:ac8247157f3fb0e3bb01835b1b417f2b27898c16 - SKIP
+./journal/2019-10-07_114705/codefresh__cluster-providers.tags
+codefresh/cluster-providers 96d59500837fc9bcb830e8a7c74f22d94f1646b5       r.cfcr.io/codefresh-inc/codefresh/cluster-providers:96d59500837fc9bcb830e8a7c74f22d94f1646b5 - SKIP
+./journal/2019-10-07_114705/codefresh__cluster-providers.tags
+codefresh/cluster-providers 3db7be65ef94371a3abd33782061b4baa279eff9       r.cfcr.io/codefresh-inc/codefresh/cluster-providers:3db7be65ef94371a3abd33782061b4baa279eff9 - SKIP
+./journal/2019-10-07_114705/codefresh__cluster-providers.tags
+./journal/2019-10-07_114705/codefresh__cluster-providers.tags
+./journal/2019-10-07_114705/codefresh__cluster-providers.tags
+./journal/2019-10-07_114705/codefresh__cluster-providers.tags
+./journal/2019-10-07_114705/codefresh__cluster-providers.tags
+./journal/2019-10-07_114705/codefresh__cluster-providers.tags
+./journal/2019-10-07_114705/codefresh__cluster-providers.tags
+codefresh/cluster-providers 362ced52acce063f47a70f99bfa3a7b44d0ba7f9       r.cfcr.io/codefresh-inc/codefresh/cluster-providers:362ced52acce063f47a70f99bfa3a7b44d0ba7f9 - SKIP
+./journal/2019-10-07_114705/codefresh__cluster-providers.tags
+codefresh/cluster-providers 8fdb86369eb4d4a6abbb47ae3e07a567c34bf0a0       r.cfcr.io/codefresh-inc/codefresh/cluster-providers:8fdb86369eb4d4a6abbb47ae3e07a567c34bf0a0 - SKIP
+./journal/2019-10-07_114705/codefresh__cluster-providers.tags
+./journal/2019-10-07_114705/codefresh__cluster-providers.tags
+./journal/2019-10-07_114705/codefresh__cluster-providers.tags
+codefresh/cluster-providers 85f2ed89b0ce1dc7d22eb34a1bac71033d689052       r.cfcr.io/codefresh-inc/codefresh/cluster-providers:85f2ed89b0ce1dc7d22eb34a1bac71033d689052 - SKIP
+./journal/2019-10-07_114705/codefresh__cluster-providers.tags
+./journal/2019-10-07_114705/codefresh__cluster-providers.tags
+./journal/2019-10-07_114705/codefresh__cluster-providers.tags
+codefresh/cluster-providers 8d13bfe74d7072ccd5bb1c8a2ae55fde8e8283ca       r.cfcr.io/codefresh-inc/codefresh/cluster-providers:8d13bfe74d7072ccd5bb1c8a2ae55fde8e8283ca - SKIP
+./journal/2019-10-07_114705/codefresh__cluster-providers.tags
+codefresh/cluster-providers bb146e7e9a36be2c691fbed56fc5de21e580afc1       r.cfcr.io/codefresh-inc/codefresh/cluster-providers:bb146e7e9a36be2c691fbed56fc5de21e580afc1 - SKIP
+./journal/2019-10-07_114705/codefresh__cluster-providers.tags
+./journal/2019-10-07_114705/codefresh__cluster-providers.tags
+codefresh/cluster-providers 4c896e64de2c75b1b452cc033bdba20a1017b405       r.cfcr.io/codefresh-inc/codefresh/cluster-providers:4c896e64de2c75b1b452cc033bdba20a1017b405 - SKIP
+./journal/2019-10-07_114705/codefresh__cluster-providers.tags
+codefresh/cluster-providers 6f456b46a2d6e3d1f36d3dacb009f7bf99ec3e20       r.cfcr.io/codefresh-inc/codefresh/cluster-providers:6f456b46a2d6e3d1f36d3dacb009f7bf99ec3e20 - SKIP
+./journal/2019-10-07_114705/codefresh__cluster-providers.tags
+codefresh/cluster-providers c85f123e1dd8fe8c73d89c399b4d01c8870ee8be       r.cfcr.io/codefresh-inc/codefresh/cluster-providers:c85f123e1dd8fe8c73d89c399b4d01c8870ee8be - SKIP
+codefresh/cluster-providers 87d6f70cf5bafc3b1bf696bd6e81702914972935       r.cfcr.io/codefresh-inc/codefresh/cluster-providers:87d6f70cf5bafc3b1bf696bd6e81702914972935 - SKIP
+./journal/2019-10-07_114705/codefresh__cluster-providers.tags
+./journal/2019-10-07_114705/codefresh__cluster-providers.tags
+codefresh/cluster-providers 8ea0d82649310a162b3e79f0059d5fa79649403e       r.cfcr.io/codefresh-inc/codefresh/cluster-providers:8ea0d82649310a162b3e79f0059d5fa79649403e - SKIP
+./journal/2019-10-07_114705/codefresh__cluster-providers.tags
+./journal/2019-10-07_114705/codefresh__cluster-providers.tags
+./journal/2019-10-07_114705/codefresh__cluster-providers.tags
+./journal/2019-10-07_114705/codefresh__cluster-providers.tags
+codefresh/cluster-providers f81d5382c12ab9a2978bdf4c253621b86f203fea       r.cfcr.io/codefresh-inc/codefresh/cluster-providers:f81d5382c12ab9a2978bdf4c253621b86f203fea - SKIP
+./journal/2019-10-07_114705/codefresh__cluster-providers.tags
+codefresh/cluster-providers e12feb5757440f2ab33e9145fcdd4bc1125965f1       r.cfcr.io/codefresh-inc/codefresh/cluster-providers:e12feb5757440f2ab33e9145fcdd4bc1125965f1 - SKIP
+codefresh/cluster-providers 1941b7a813e4f820e483e21fedbea5e890cd2f63       r.cfcr.io/codefresh-inc/codefresh/cluster-providers:1941b7a813e4f820e483e21fedbea5e890cd2f63 - SKIP
+./journal/2019-10-07_114705/codefresh__cluster-providers.tags
+codefresh/cluster-providers 5b8f555b561a8fc94a859a37400102e4115b13ed       r.cfcr.io/codefresh-inc/codefresh/cluster-providers:5b8f555b561a8fc94a859a37400102e4115b13ed - SKIP
+
+--- Mon Oct  7 11:47:12 UTC 2019
+Processing tag files
+
+  ****************
+  Mon Oct  7 11:47:12 UTC 2019 - ./journal/2019-10-07_114705/codefresh__cluster-providers.tags
+grep: ./done/codefresh__cluster-providers.tags: No such file or directory
+---------- Migrate r.cfcr.io/codefresh-inc/codefresh/cluster-providers:master to gcr.io/codefresh-inc/codefresh/cluster-providers:master
+master: Pulling from codefresh-inc/codefresh/cluster-providers
+e7c96db7181b: Already exists
+df9eac31dfef: Already exists
+0a20433d95a4: Already exists
+24c1eec961f2: Pulling fs layer
+ed170bd0f498: Pulling fs layer
+703d1dd9f5f5: Pulling fs layer
+68da4f784d92: Pulling fs layer
+1bec2f092509: Pulling fs layer
+68da4f784d92: Waiting
+1bec2f092509: Waiting
+ed170bd0f498: Verifying Checksum
+ed170bd0f498: Download complete
+703d1dd9f5f5: Verifying Checksum
+703d1dd9f5f5: Download complete
+24c1eec961f2: Verifying Checksum
+24c1eec961f2: Download complete
+1bec2f092509: Verifying Checksum
+1bec2f092509: Download complete
+24c1eec961f2: Pull complete
+ed170bd0f498: Pull complete
+703d1dd9f5f5: Pull complete
+68da4f784d92: Verifying Checksum
+68da4f784d92: Download complete
+68da4f784d92: Pull complete
+1bec2f092509: Pull complete
+Digest: sha256:99e44018ed4b365f8090d1dfba9c94523d6157e816953b62ef2056d0894621a9
+Status: Downloaded newer image for r.cfcr.io/codefresh-inc/codefresh/cluster-providers:master
+r.cfcr.io/codefresh-inc/codefresh/cluster-providers:master
+Pull r.cfcr.io/codefresh-inc/codefresh/cluster-providers:master completed - Mon Oct  7 11:47:32 UTC 2019 !!!
+
+Tag gcr.io/codefresh-inc/codefresh/cluster-providers:master completed - Mon Oct  7 11:47:32 UTC 2019 !!!
+
+The push refers to repository [gcr.io/codefresh-inc/codefresh/cluster-providers]
+789a02d4d5b6: Preparing
+fc64772fbc3d: Preparing
+db133c443d42: Preparing
+e188b0b1a8ac: Preparing
+9df2cdf2b802: Preparing
+28bf756b6f8e: Preparing
+4c299e1e70d5: Preparing
+f1b5933fe4b5: Preparing
+9df2cdf2b802: Waiting
+28bf756b6f8e: Waiting
+4c299e1e70d5: Waiting
+f1b5933fe4b5: Waiting
+db133c443d42: Retrying in 5 seconds
+789a02d4d5b6: Retrying in 5 seconds
+fc64772fbc3d: Retrying in 5 seconds
+789a02d4d5b6: Retrying in 4 seconds
+db133c443d42: Retrying in 4 seconds
+fc64772fbc3d: Retrying in 4 seconds
+e188b0b1a8ac: Pushed
+789a02d4d5b6: Retrying in 3 seconds
+db133c443d42: Retrying in 3 seconds
+fc64772fbc3d: Retrying in 3 seconds
+db133c443d42: Retrying in 2 seconds
+789a02d4d5b6: Retrying in 2 seconds
+fc64772fbc3d: Retrying in 2 seconds
+9df2cdf2b802: Pushed
+28bf756b6f8e: Layer already exists
+4c299e1e70d5: Layer already exists
+f1b5933fe4b5: Layer already exists
+789a02d4d5b6: Retrying in 1 second
+db133c443d42: Retrying in 1 second
+fc64772fbc3d: Retrying in 1 second
+fc64772fbc3d: Retrying in 10 seconds
+789a02d4d5b6: Pushed
+fc64772fbc3d: Retrying in 9 seconds
+db133c443d42: Pushed
+fc64772fbc3d: Retrying in 8 seconds
+fc64772fbc3d: Retrying in 7 seconds
+fc64772fbc3d: Retrying in 6 seconds
+fc64772fbc3d: Retrying in 5 seconds
+fc64772fbc3d: Retrying in 4 seconds
+fc64772fbc3d: Retrying in 3 seconds
+fc64772fbc3d: Retrying in 2 seconds
+fc64772fbc3d: Retrying in 1 second
+fc64772fbc3d: Pushed
+master: digest: sha256:1b3a3233ad0183a36ef921993b9dee14886b4fea30a857868180bc416dab554c size: 1996
+Push gcr.io/codefresh-inc/codefresh/cluster-providers:master completed - Mon Oct  7 11:48:08 UTC 2019 !!!
+
+---------- Migrate r.cfcr.io/codefresh-inc/codefresh/cluster-providers:1.1.3 to gcr.io/codefresh-inc/codefresh/cluster-providers:1.1.3
+1.1.3: Pulling from codefresh-inc/codefresh/cluster-providers
+Digest: sha256:1b3a3233ad0183a36ef921993b9dee14886b4fea30a857868180bc416dab554c
+Status: Downloaded newer image for r.cfcr.io/codefresh-inc/codefresh/cluster-providers:1.1.3
+r.cfcr.io/codefresh-inc/codefresh/cluster-providers:1.1.3
+Pull r.cfcr.io/codefresh-inc/codefresh/cluster-providers:1.1.3 completed - Mon Oct  7 11:48:09 UTC 2019 !!!
+
+Tag gcr.io/codefresh-inc/codefresh/cluster-providers:1.1.3 completed - Mon Oct  7 11:48:09 UTC 2019 !!!
+
+The push refers to repository [gcr.io/codefresh-inc/codefresh/cluster-providers]
+789a02d4d5b6: Preparing
+fc64772fbc3d: Preparing
+db133c443d42: Preparing
+e188b0b1a8ac: Preparing
+9df2cdf2b802: Preparing
+28bf756b6f8e: Preparing
+4c299e1e70d5: Preparing
+f1b5933fe4b5: Preparing
+db133c443d42: Waiting
+e188b0b1a8ac: Waiting
+9df2cdf2b802: Waiting
+28bf756b6f8e: Waiting
+4c299e1e70d5: Waiting
+f1b5933fe4b5: Waiting
+789a02d4d5b6: Layer already exists
+fc64772fbc3d: Layer already exists
+db133c443d42: Layer already exists
+e188b0b1a8ac: Layer already exists
+28bf756b6f8e: Layer already exists
+9df2cdf2b802: Layer already exists
+4c299e1e70d5: Layer already exists
+f1b5933fe4b5: Layer already exists
+1.1.3: digest: sha256:1b3a3233ad0183a36ef921993b9dee14886b4fea30a857868180bc416dab554c size: 1996
+Push gcr.io/codefresh-inc/codefresh/cluster-providers:1.1.3 completed - Mon Oct  7 11:48:10 UTC 2019 !!!
+
+---------- Migrate r.cfcr.io/codefresh-inc/codefresh/cluster-providers:preemptible-saas-3841 to gcr.io/codefresh-inc/codefresh/cluster-providers:preemptible-saas-3841
+preemptible-saas-3841: Pulling from codefresh-inc/codefresh/cluster-providers
+e7c96db7181b: Already exists
+df9eac31dfef: Already exists
+0a20433d95a4: Already exists
+24c1eec961f2: Already exists
+ed170bd0f498: Already exists
+703d1dd9f5f5: Already exists
+68da4f784d92: Already exists
+1bec2f092509: Already exists
+Digest: sha256:058515e3badcb8186a39b6f0a7232b426c53921390b5169266d91f8eb141f4fa
+Status: Downloaded newer image for r.cfcr.io/codefresh-inc/codefresh/cluster-providers:preemptible-saas-3841
+r.cfcr.io/codefresh-inc/codefresh/cluster-providers:preemptible-saas-3841
+Pull r.cfcr.io/codefresh-inc/codefresh/cluster-providers:preemptible-saas-3841 completed - Mon Oct  7 11:48:12 UTC 2019 !!!
+
+Tag gcr.io/codefresh-inc/codefresh/cluster-providers:preemptible-saas-3841 completed - Mon Oct  7 11:48:12 UTC 2019 !!!
+
+The push refers to repository [gcr.io/codefresh-inc/codefresh/cluster-providers]
+789a02d4d5b6: Preparing
+fc64772fbc3d: Preparing
+db133c443d42: Preparing
+e188b0b1a8ac: Preparing
+9df2cdf2b802: Preparing
+28bf756b6f8e: Preparing
+4c299e1e70d5: Preparing
+f1b5933fe4b5: Preparing
+db133c443d42: Waiting
+e188b0b1a8ac: Waiting
+9df2cdf2b802: Waiting
+28bf756b6f8e: Waiting
+4c299e1e70d5: Waiting
+f1b5933fe4b5: Waiting
+fc64772fbc3d: Layer already exists
+789a02d4d5b6: Layer already exists
+db133c443d42: Layer already exists
+e188b0b1a8ac: Layer already exists
+9df2cdf2b802: Layer already exists
+28bf756b6f8e: Layer already exists
+f1b5933fe4b5: Layer already exists
+4c299e1e70d5: Layer already exists
+preemptible-saas-3841: digest: sha256:96d67f5e362edee319d7ddb3ff0c3edec0d07e0c32dd470e157ee97630b83a43 size: 1996
+Push gcr.io/codefresh-inc/codefresh/cluster-providers:preemptible-saas-3841 completed - Mon Oct  7 11:48:15 UTC 2019 !!!
+
+---------- Migrate r.cfcr.io/codefresh-inc/codefresh/cluster-providers:preemptible-SAAS-3841 to gcr.io/codefresh-inc/codefresh/cluster-providers:preemptible-SAAS-3841
+preemptible-SAAS-3841: Pulling from codefresh-inc/codefresh/cluster-providers
+Digest: sha256:96d67f5e362edee319d7ddb3ff0c3edec0d07e0c32dd470e157ee97630b83a43
+Status: Downloaded newer image for r.cfcr.io/codefresh-inc/codefresh/cluster-providers:preemptible-SAAS-3841
+r.cfcr.io/codefresh-inc/codefresh/cluster-providers:preemptible-SAAS-3841
+Pull r.cfcr.io/codefresh-inc/codefresh/cluster-providers:preemptible-SAAS-3841 completed - Mon Oct  7 11:48:16 UTC 2019 !!!
+
+Tag gcr.io/codefresh-inc/codefresh/cluster-providers:preemptible-SAAS-3841 completed - Mon Oct  7 11:48:16 UTC 2019 !!!
+
+The push refers to repository [gcr.io/codefresh-inc/codefresh/cluster-providers]
+789a02d4d5b6: Preparing
+fc64772fbc3d: Preparing
+db133c443d42: Preparing
+e188b0b1a8ac: Preparing
+9df2cdf2b802: Preparing
+28bf756b6f8e: Preparing
+4c299e1e70d5: Preparing
+f1b5933fe4b5: Preparing
+db133c443d42: Waiting
+e188b0b1a8ac: Waiting
+9df2cdf2b802: Waiting
+28bf756b6f8e: Waiting
+4c299e1e70d5: Waiting
+f1b5933fe4b5: Waiting
+fc64772fbc3d: Layer already exists
+789a02d4d5b6: Layer already exists
+e188b0b1a8ac: Layer already exists
+db133c443d42: Layer already exists
+9df2cdf2b802: Layer already exists
+28bf756b6f8e: Layer already exists
+f1b5933fe4b5: Layer already exists
+4c299e1e70d5: Layer already exists
+preemptible-SAAS-3841: digest: sha256:96d67f5e362edee319d7ddb3ff0c3edec0d07e0c32dd470e157ee97630b83a43 size: 1996
+Push gcr.io/codefresh-inc/codefresh/cluster-providers:preemptible-SAAS-3841 completed - Mon Oct  7 11:48:18 UTC 2019 !!!
+
+---------- Migrate r.cfcr.io/codefresh-inc/codefresh/cluster-providers:1.1.3-preemptible-saas-3841 to gcr.io/codefresh-inc/codefresh/cluster-providers:1.1.3-preemptible-saas-3841
+1.1.3-preemptible-saas-3841: Pulling from codefresh-inc/codefresh/cluster-providers
+Digest: sha256:96d67f5e362edee319d7ddb3ff0c3edec0d07e0c32dd470e157ee97630b83a43
+Status: Downloaded newer image for r.cfcr.io/codefresh-inc/codefresh/cluster-providers:1.1.3-preemptible-saas-3841
+r.cfcr.io/codefresh-inc/codefresh/cluster-providers:1.1.3-preemptible-saas-3841
+Pull r.cfcr.io/codefresh-inc/codefresh/cluster-providers:1.1.3-preemptible-saas-3841 completed - Mon Oct  7 11:48:19 UTC 2019 !!!
+
+Tag gcr.io/codefresh-inc/codefresh/cluster-providers:1.1.3-preemptible-saas-3841 completed - Mon Oct  7 11:48:19 UTC 2019 !!!
+
+The push refers to repository [gcr.io/codefresh-inc/codefresh/cluster-providers]
+789a02d4d5b6: Preparing
+fc64772fbc3d: Preparing
+db133c443d42: Preparing
+e188b0b1a8ac: Preparing
+9df2cdf2b802: Preparing
+28bf756b6f8e: Preparing
+4c299e1e70d5: Preparing
+f1b5933fe4b5: Preparing
+789a02d4d5b6: Waiting
+fc64772fbc3d: Waiting
+db133c443d42: Waiting
+e188b0b1a8ac: Waiting
+9df2cdf2b802: Waiting
+28bf756b6f8e: Waiting
+4c299e1e70d5: Waiting
+f1b5933fe4b5: Waiting
+789a02d4d5b6: Layer already exists
+fc64772fbc3d: Layer already exists
+db133c443d42: Layer already exists
+e188b0b1a8ac: Layer already exists
+9df2cdf2b802: Layer already exists
+28bf756b6f8e: Layer already exists
+4c299e1e70d5: Layer already exists
+f1b5933fe4b5: Layer already exists
+1.1.3-preemptible-saas-3841: digest: sha256:96d67f5e362edee319d7ddb3ff0c3edec0d07e0c32dd470e157ee97630b83a43 size: 1996
+Push gcr.io/codefresh-inc/codefresh/cluster-providers:1.1.3-preemptible-saas-3841 completed - Mon Oct  7 11:48:26 UTC 2019 !!!
+
+---------- Migrate r.cfcr.io/codefresh-inc/codefresh/cluster-providers:encode-user-header to gcr.io/codefresh-inc/codefresh/cluster-providers:encode-user-header
+encode-user-header: Pulling from codefresh-inc/codefresh/cluster-providers
+e7c96db7181b: Already exists
+df9eac31dfef: Already exists
+0a20433d95a4: Already exists
+24c1eec961f2: Already exists
+ed170bd0f498: Already exists
+703d1dd9f5f5: Already exists
+68da4f784d92: Already exists
+7c19e14376cf: Pulling fs layer
+7c19e14376cf: Verifying Checksum
+7c19e14376cf: Download complete
+7c19e14376cf: Pull complete
+Digest: sha256:60cc6745251103555d22f1e9bf9718ba4757e9c86ee477ae845d41b219fb8663
+Status: Downloaded newer image for r.cfcr.io/codefresh-inc/codefresh/cluster-providers:encode-user-header
+r.cfcr.io/codefresh-inc/codefresh/cluster-providers:encode-user-header
+Pull r.cfcr.io/codefresh-inc/codefresh/cluster-providers:encode-user-header completed - Mon Oct  7 11:48:29 UTC 2019 !!!
+
+Tag gcr.io/codefresh-inc/codefresh/cluster-providers:encode-user-header completed - Mon Oct  7 11:48:29 UTC 2019 !!!
+
+The push refers to repository [gcr.io/codefresh-inc/codefresh/cluster-providers]
+7e0857ba2638: Preparing
+fc64772fbc3d: Preparing
+db133c443d42: Preparing
+e188b0b1a8ac: Preparing
+9df2cdf2b802: Preparing
+28bf756b6f8e: Preparing
+4c299e1e70d5: Preparing
+f1b5933fe4b5: Preparing
+fc64772fbc3d: Waiting
+db133c443d42: Waiting
+e188b0b1a8ac: Waiting
+9df2cdf2b802: Waiting
+28bf756b6f8e: Waiting
+4c299e1e70d5: Waiting
+f1b5933fe4b5: Waiting
+7e0857ba2638: Pushed
+fc64772fbc3d: Layer already exists
+db133c443d42: Layer already exists
+e188b0b1a8ac: Layer already exists
+9df2cdf2b802: Layer already exists
+28bf756b6f8e: Layer already exists
+4c299e1e70d5: Layer already exists
+f1b5933fe4b5: Layer already exists
+encode-user-header: digest: sha256:60cc6745251103555d22f1e9bf9718ba4757e9c86ee477ae845d41b219fb8663 size: 1996
+Push gcr.io/codefresh-inc/codefresh/cluster-providers:encode-user-header completed - Mon Oct  7 11:48:35 UTC 2019 !!!
+
+---------- Migrate r.cfcr.io/codefresh-inc/codefresh/cluster-providers:1.1.3-encode-user-header to gcr.io/codefresh-inc/codefresh/cluster-providers:1.1.3-encode-user-header
+1.1.3-encode-user-header: Pulling from codefresh-inc/codefresh/cluster-providers
+Digest: sha256:60cc6745251103555d22f1e9bf9718ba4757e9c86ee477ae845d41b219fb8663
+Status: Downloaded newer image for r.cfcr.io/codefresh-inc/codefresh/cluster-providers:1.1.3-encode-user-header
+r.cfcr.io/codefresh-inc/codefresh/cluster-providers:1.1.3-encode-user-header
+Pull r.cfcr.io/codefresh-inc/codefresh/cluster-providers:1.1.3-encode-user-header completed - Mon Oct  7 11:48:35 UTC 2019 !!!
+
+Tag gcr.io/codefresh-inc/codefresh/cluster-providers:1.1.3-encode-user-header completed - Mon Oct  7 11:48:36 UTC 2019 !!!
+
+The push refers to repository [gcr.io/codefresh-inc/codefresh/cluster-providers]
+7e0857ba2638: Preparing
+fc64772fbc3d: Preparing
+db133c443d42: Preparing
+e188b0b1a8ac: Preparing
+9df2cdf2b802: Preparing
+28bf756b6f8e: Preparing
+4c299e1e70d5: Preparing
+f1b5933fe4b5: Preparing
+e188b0b1a8ac: Waiting
+9df2cdf2b802: Waiting
+28bf756b6f8e: Waiting
+4c299e1e70d5: Waiting
+f1b5933fe4b5: Waiting
+fc64772fbc3d: Layer already exists
+7e0857ba2638: Layer already exists
+db133c443d42: Layer already exists
+e188b0b1a8ac: Layer already exists
+9df2cdf2b802: Layer already exists
+28bf756b6f8e: Layer already exists
+4c299e1e70d5: Layer already exists
+f1b5933fe4b5: Layer already exists
+1.1.3-encode-user-header: digest: sha256:60cc6745251103555d22f1e9bf9718ba4757e9c86ee477ae845d41b219fb8663 size: 1996
+Push gcr.io/codefresh-inc/codefresh/cluster-providers:1.1.3-encode-user-header completed - Mon Oct  7 11:48:37 UTC 2019 !!!
+
+---------- Migrate r.cfcr.io/codefresh-inc/codefresh/cluster-providers:cf-onprem-v1.0.82 to gcr.io/codefresh-inc/codefresh/cluster-providers:cf-onprem-v1.0.82
+cf-onprem-v1.0.82: Pulling from codefresh-inc/codefresh/cluster-providers
+e7c96db7181b: Already exists
+df9eac31dfef: Already exists
+0a20433d95a4: Already exists
+24c1eec961f2: Already exists
+ed170bd0f498: Already exists
+703d1dd9f5f5: Already exists
+68da4f784d92: Already exists
+5cbb43f80872: Pulling fs layer
+5cbb43f80872: Verifying Checksum
+5cbb43f80872: Download complete
+5cbb43f80872: Pull complete
+Digest: sha256:fe2516fac54fbc68cf4ffb0d003ce272df75fb15b59f395bf30aba1530927934
+Status: Downloaded newer image for r.cfcr.io/codefresh-inc/codefresh/cluster-providers:cf-onprem-v1.0.82
+r.cfcr.io/codefresh-inc/codefresh/cluster-providers:cf-onprem-v1.0.82
+Pull r.cfcr.io/codefresh-inc/codefresh/cluster-providers:cf-onprem-v1.0.82 completed - Mon Oct  7 11:48:38 UTC 2019 !!!
+
+Tag gcr.io/codefresh-inc/codefresh/cluster-providers:cf-onprem-v1.0.82 completed - Mon Oct  7 11:48:38 UTC 2019 !!!
+
+The push refers to repository [gcr.io/codefresh-inc/codefresh/cluster-providers]
+f6d4779504e2: Preparing
+fc64772fbc3d: Preparing
+db133c443d42: Preparing
+e188b0b1a8ac: Preparing
+9df2cdf2b802: Preparing
+28bf756b6f8e: Preparing
+4c299e1e70d5: Preparing
+f1b5933fe4b5: Preparing
+f6d4779504e2: Waiting
+fc64772fbc3d: Waiting
+db133c443d42: Waiting
+e188b0b1a8ac: Waiting
+9df2cdf2b802: Waiting
+4c299e1e70d5: Waiting
+f1b5933fe4b5: Waiting
+28bf756b6f8e: Waiting
+fc64772fbc3d: Layer already exists
+db133c443d42: Layer already exists
+e188b0b1a8ac: Layer already exists
+9df2cdf2b802: Layer already exists
+28bf756b6f8e: Layer already exists
+4c299e1e70d5: Layer already exists
+f1b5933fe4b5: Layer already exists
+f6d4779504e2: Pushed
+cf-onprem-v1.0.82: digest: sha256:fe2516fac54fbc68cf4ffb0d003ce272df75fb15b59f395bf30aba1530927934 size: 1996
+Push gcr.io/codefresh-inc/codefresh/cluster-providers:cf-onprem-v1.0.82 completed - Mon Oct  7 11:48:42 UTC 2019 !!!
+
+---------- Migrate r.cfcr.io/codefresh-inc/codefresh/cluster-providers:1.1.2-cf-onprem-v1.0.82 to gcr.io/codefresh-inc/codefresh/cluster-providers:1.1.2-cf-onprem-v1.0.82
+1.1.2-cf-onprem-v1.0.82: Pulling from codefresh-inc/codefresh/cluster-providers
+Digest: sha256:fe2516fac54fbc68cf4ffb0d003ce272df75fb15b59f395bf30aba1530927934
+Status: Downloaded newer image for r.cfcr.io/codefresh-inc/codefresh/cluster-providers:1.1.2-cf-onprem-v1.0.82
+r.cfcr.io/codefresh-inc/codefresh/cluster-providers:1.1.2-cf-onprem-v1.0.82
+Pull r.cfcr.io/codefresh-inc/codefresh/cluster-providers:1.1.2-cf-onprem-v1.0.82 completed - Mon Oct  7 11:48:43 UTC 2019 !!!
+
+Tag gcr.io/codefresh-inc/codefresh/cluster-providers:1.1.2-cf-onprem-v1.0.82 completed - Mon Oct  7 11:48:43 UTC 2019 !!!
+
+The push refers to repository [gcr.io/codefresh-inc/codefresh/cluster-providers]
+f6d4779504e2: Preparing
+fc64772fbc3d: Preparing
+db133c443d42: Preparing
+e188b0b1a8ac: Preparing
+9df2cdf2b802: Preparing
+28bf756b6f8e: Preparing
+4c299e1e70d5: Preparing
+f1b5933fe4b5: Preparing
+f6d4779504e2: Waiting
+fc64772fbc3d: Waiting
+e188b0b1a8ac: Waiting
+9df2cdf2b802: Waiting
+28bf756b6f8e: Waiting
+4c299e1e70d5: Waiting
+f1b5933fe4b5: Waiting
+db133c443d42: Waiting
+f6d4779504e2: Layer already exists
+fc64772fbc3d: Layer already exists
+db133c443d42: Layer already exists
+e188b0b1a8ac: Layer already exists
+9df2cdf2b802: Layer already exists
+28bf756b6f8e: Layer already exists
+4c299e1e70d5: Layer already exists
+f1b5933fe4b5: Layer already exists
+1.1.2-cf-onprem-v1.0.82: digest: sha256:fe2516fac54fbc68cf4ffb0d003ce272df75fb15b59f395bf30aba1530927934 size: 1996
+Push gcr.io/codefresh-inc/codefresh/cluster-providers:1.1.2-cf-onprem-v1.0.82 completed - Mon Oct  7 11:48:47 UTC 2019 !!!
+
+---------- Migrate r.cfcr.io/codefresh-inc/codefresh/cluster-providers:cf-onprem-v1.0.81 to gcr.io/codefresh-inc/codefresh/cluster-providers:cf-onprem-v1.0.81
+cf-onprem-v1.0.81: Pulling from codefresh-inc/codefresh/cluster-providers
+e7c96db7181b: Already exists
+df9eac31dfef: Already exists
+0a20433d95a4: Already exists
+24c1eec961f2: Already exists
+ed170bd0f498: Already exists
+703d1dd9f5f5: Already exists
+68da4f784d92: Already exists
+5cbb43f80872: Already exists
+Digest: sha256:cfa6f1fe0a6bfc3a346cabf3a1437cb1abf2c8f9046137e3e2423285b2e9ff9a
+Status: Downloaded newer image for r.cfcr.io/codefresh-inc/codefresh/cluster-providers:cf-onprem-v1.0.81
+r.cfcr.io/codefresh-inc/codefresh/cluster-providers:cf-onprem-v1.0.81
+Pull r.cfcr.io/codefresh-inc/codefresh/cluster-providers:cf-onprem-v1.0.81 completed - Mon Oct  7 11:48:48 UTC 2019 !!!
+
+Tag gcr.io/codefresh-inc/codefresh/cluster-providers:cf-onprem-v1.0.81 completed - Mon Oct  7 11:48:48 UTC 2019 !!!
+
+The push refers to repository [gcr.io/codefresh-inc/codefresh/cluster-providers]
+f6d4779504e2: Preparing
+fc64772fbc3d: Preparing
+db133c443d42: Preparing
+e188b0b1a8ac: Preparing
+9df2cdf2b802: Preparing
+28bf756b6f8e: Preparing
+4c299e1e70d5: Preparing
+f1b5933fe4b5: Preparing
+f6d4779504e2: Waiting
+fc64772fbc3d: Waiting
+db133c443d42: Waiting
+e188b0b1a8ac: Waiting
+9df2cdf2b802: Waiting
+28bf756b6f8e: Waiting
+4c299e1e70d5: Waiting
+f1b5933fe4b5: Waiting
+f6d4779504e2: Layer already exists
+fc64772fbc3d: Layer already exists
+db133c443d42: Layer already exists
+e188b0b1a8ac: Layer already exists
+9df2cdf2b802: Layer already exists
+28bf756b6f8e: Layer already exists
+4c299e1e70d5: Layer already exists
+f1b5933fe4b5: Layer already exists
+cf-onprem-v1.0.81: digest: sha256:cfa6f1fe0a6bfc3a346cabf3a1437cb1abf2c8f9046137e3e2423285b2e9ff9a size: 1996
+Push gcr.io/codefresh-inc/codefresh/cluster-providers:cf-onprem-v1.0.81 completed - Mon Oct  7 11:48:53 UTC 2019 !!!
+
+---------- Migrate r.cfcr.io/codefresh-inc/codefresh/cluster-providers:1.1.2-cf-onprem-v1.0.81 to gcr.io/codefresh-inc/codefresh/cluster-providers:1.1.2-cf-onprem-v1.0.81
+1.1.2-cf-onprem-v1.0.81: Pulling from codefresh-inc/codefresh/cluster-providers
+Digest: sha256:cfa6f1fe0a6bfc3a346cabf3a1437cb1abf2c8f9046137e3e2423285b2e9ff9a
+Status: Downloaded newer image for r.cfcr.io/codefresh-inc/codefresh/cluster-providers:1.1.2-cf-onprem-v1.0.81
+r.cfcr.io/codefresh-inc/codefresh/cluster-providers:1.1.2-cf-onprem-v1.0.81
+Pull r.cfcr.io/codefresh-inc/codefresh/cluster-providers:1.1.2-cf-onprem-v1.0.81 completed - Mon Oct  7 11:48:54 UTC 2019 !!!
+
+Tag gcr.io/codefresh-inc/codefresh/cluster-providers:1.1.2-cf-onprem-v1.0.81 completed - Mon Oct  7 11:48:55 UTC 2019 !!!
+
+The push refers to repository [gcr.io/codefresh-inc/codefresh/cluster-providers]
+f6d4779504e2: Preparing
+fc64772fbc3d: Preparing
+db133c443d42: Preparing
+e188b0b1a8ac: Preparing
+9df2cdf2b802: Preparing
+28bf756b6f8e: Preparing
+4c299e1e70d5: Preparing
+f1b5933fe4b5: Preparing
+f6d4779504e2: Waiting
+fc64772fbc3d: Waiting
+db133c443d42: Waiting
+e188b0b1a8ac: Waiting
+9df2cdf2b802: Waiting
+28bf756b6f8e: Waiting
+4c299e1e70d5: Waiting
+f1b5933fe4b5: Waiting
+f6d4779504e2: Layer already exists
+fc64772fbc3d: Layer already exists
+db133c443d42: Layer already exists
+e188b0b1a8ac: Layer already exists
+9df2cdf2b802: Layer already exists
+28bf756b6f8e: Layer already exists
+4c299e1e70d5: Layer already exists
+f1b5933fe4b5: Layer already exists
+1.1.2-cf-onprem-v1.0.81: digest: sha256:cfa6f1fe0a6bfc3a346cabf3a1437cb1abf2c8f9046137e3e2423285b2e9ff9a size: 1996
+Push gcr.io/codefresh-inc/codefresh/cluster-providers:1.1.2-cf-onprem-v1.0.81 completed - Mon Oct  7 11:48:58 UTC 2019 !!!
+
+---------- Migrate r.cfcr.io/codefresh-inc/codefresh/cluster-providers:cf-onprem-v1.0.80 to gcr.io/codefresh-inc/codefresh/cluster-providers:cf-onprem-v1.0.80
+cf-onprem-v1.0.80: Pulling from codefresh-inc/codefresh/cluster-providers
+e7c96db7181b: Already exists
+df9eac31dfef: Already exists
+0a20433d95a4: Already exists
+24c1eec961f2: Already exists
+ed170bd0f498: Already exists
+703d1dd9f5f5: Already exists
+68da4f784d92: Already exists
+5cbb43f80872: Already exists
+Digest: sha256:cde65f2d381ffd4f8b7d3c728b87d6fdf88a023e6f151ddef7be6fe9e32bf23b
+Status: Downloaded newer image for r.cfcr.io/codefresh-inc/codefresh/cluster-providers:cf-onprem-v1.0.80
+r.cfcr.io/codefresh-inc/codefresh/cluster-providers:cf-onprem-v1.0.80
+Pull r.cfcr.io/codefresh-inc/codefresh/cluster-providers:cf-onprem-v1.0.80 completed - Mon Oct  7 11:49:00 UTC 2019 !!!
+
+Tag gcr.io/codefresh-inc/codefresh/cluster-providers:cf-onprem-v1.0.80 completed - Mon Oct  7 11:49:00 UTC 2019 !!!
+
+The push refers to repository [gcr.io/codefresh-inc/codefresh/cluster-providers]
+f6d4779504e2: Preparing
+fc64772fbc3d: Preparing
+db133c443d42: Preparing
+e188b0b1a8ac: Preparing
+9df2cdf2b802: Preparing
+28bf756b6f8e: Preparing
+4c299e1e70d5: Preparing
+f1b5933fe4b5: Preparing
+e188b0b1a8ac: Waiting
+9df2cdf2b802: Waiting
+28bf756b6f8e: Waiting
+4c299e1e70d5: Waiting
+f1b5933fe4b5: Waiting
+db133c443d42: Layer already exists
+f6d4779504e2: Layer already exists
+fc64772fbc3d: Layer already exists
+e188b0b1a8ac: Layer already exists
+28bf756b6f8e: Layer already exists
+9df2cdf2b802: Layer already exists
+4c299e1e70d5: Layer already exists
+f1b5933fe4b5: Layer already exists
+cf-onprem-v1.0.80: digest: sha256:cde65f2d381ffd4f8b7d3c728b87d6fdf88a023e6f151ddef7be6fe9e32bf23b size: 1996
+Push gcr.io/codefresh-inc/codefresh/cluster-providers:cf-onprem-v1.0.80 completed - Mon Oct  7 11:49:03 UTC 2019 !!!
+
+---------- Migrate r.cfcr.io/codefresh-inc/codefresh/cluster-providers:1.1.2-cf-onprem-v1.0.80 to gcr.io/codefresh-inc/codefresh/cluster-providers:1.1.2-cf-onprem-v1.0.80
+1.1.2-cf-onprem-v1.0.80: Pulling from codefresh-inc/codefresh/cluster-providers
+Digest: sha256:cde65f2d381ffd4f8b7d3c728b87d6fdf88a023e6f151ddef7be6fe9e32bf23b
+Status: Downloaded newer image for r.cfcr.io/codefresh-inc/codefresh/cluster-providers:1.1.2-cf-onprem-v1.0.80
+r.cfcr.io/codefresh-inc/codefresh/cluster-providers:1.1.2-cf-onprem-v1.0.80
+Pull r.cfcr.io/codefresh-inc/codefresh/cluster-providers:1.1.2-cf-onprem-v1.0.80 completed - Mon Oct  7 11:49:04 UTC 2019 !!!
+
+Tag gcr.io/codefresh-inc/codefresh/cluster-providers:1.1.2-cf-onprem-v1.0.80 completed - Mon Oct  7 11:49:04 UTC 2019 !!!
+
+The push refers to repository [gcr.io/codefresh-inc/codefresh/cluster-providers]
+f6d4779504e2: Preparing
+fc64772fbc3d: Preparing
+db133c443d42: Preparing
+e188b0b1a8ac: Preparing
+9df2cdf2b802: Preparing
+28bf756b6f8e: Preparing
+4c299e1e70d5: Preparing
+f1b5933fe4b5: Preparing
+e188b0b1a8ac: Waiting
+9df2cdf2b802: Waiting
+28bf756b6f8e: Waiting
+4c299e1e70d5: Waiting
+f1b5933fe4b5: Waiting
+db133c443d42: Layer already exists
+f6d4779504e2: Layer already exists
+fc64772fbc3d: Layer already exists
+e188b0b1a8ac: Layer already exists
+28bf756b6f8e: Layer already exists
+9df2cdf2b802: Layer already exists
+4c299e1e70d5: Layer already exists
+f1b5933fe4b5: Layer already exists
+1.1.2-cf-onprem-v1.0.80: digest: sha256:cde65f2d381ffd4f8b7d3c728b87d6fdf88a023e6f151ddef7be6fe9e32bf23b size: 1996
+Push gcr.io/codefresh-inc/codefresh/cluster-providers:1.1.2-cf-onprem-v1.0.80 completed - Mon Oct  7 11:49:06 UTC 2019 !!!
+
+---------- Migrate r.cfcr.io/codefresh-inc/codefresh/cluster-providers:1.1.2 to gcr.io/codefresh-inc/codefresh/cluster-providers:1.1.2
+1.1.2: Pulling from codefresh-inc/codefresh/cluster-providers
+e7c96db7181b: Already exists
+df9eac31dfef: Already exists
+0a20433d95a4: Already exists
+24c1eec961f2: Already exists
+0ec66618c504: Pulling fs layer
+b62d2e360262: Pulling fs layer
+7ab5bf58f49a: Pulling fs layer
+b686aefe42f8: Pulling fs layer
+b686aefe42f8: Waiting
+0ec66618c504: Verifying Checksum
+0ec66618c504: Download complete
+b62d2e360262: Verifying Checksum
+b62d2e360262: Download complete
+0ec66618c504: Pull complete
+b686aefe42f8: Verifying Checksum
+b686aefe42f8: Download complete
+7ab5bf58f49a: Verifying Checksum
+7ab5bf58f49a: Download complete
+b62d2e360262: Pull complete
+7ab5bf58f49a: Pull complete
+b686aefe42f8: Pull complete
+Digest: sha256:515152f2b75d32764bd91448f528b452f9bf9ca9fb44a980b9fb47e0d923a33f
+Status: Downloaded newer image for r.cfcr.io/codefresh-inc/codefresh/cluster-providers:1.1.2
+r.cfcr.io/codefresh-inc/codefresh/cluster-providers:1.1.2
+Pull r.cfcr.io/codefresh-inc/codefresh/cluster-providers:1.1.2 completed - Mon Oct  7 11:49:28 UTC 2019 !!!
+
+Tag gcr.io/codefresh-inc/codefresh/cluster-providers:1.1.2 completed - Mon Oct  7 11:49:28 UTC 2019 !!!
+
+The push refers to repository [gcr.io/codefresh-inc/codefresh/cluster-providers]
+cb287d3473df: Preparing
+1d39b967b158: Preparing
+a8ea46e3db2f: Preparing
+636b51dff9d4: Preparing
+9df2cdf2b802: Preparing
+28bf756b6f8e: Preparing
+4c299e1e70d5: Preparing
+f1b5933fe4b5: Preparing
+636b51dff9d4: Waiting
+9df2cdf2b802: Waiting
+28bf756b6f8e: Waiting
+4c299e1e70d5: Waiting
+f1b5933fe4b5: Waiting
+636b51dff9d4: Pushed
+a8ea46e3db2f: Pushed
+9df2cdf2b802: Layer already exists
+cb287d3473df: Pushed
+28bf756b6f8e: Layer already exists
+4c299e1e70d5: Layer already exists
+f1b5933fe4b5: Layer already exists
+1d39b967b158: Pushed
+1.1.2: digest: sha256:515152f2b75d32764bd91448f528b452f9bf9ca9fb44a980b9fb47e0d923a33f size: 1996
+Push gcr.io/codefresh-inc/codefresh/cluster-providers:1.1.2 completed - Mon Oct  7 11:49:45 UTC 2019 !!!
+
+---------- Migrate r.cfcr.io/codefresh-inc/codefresh/cluster-providers:rabbit_autoreconnect to gcr.io/codefresh-inc/codefresh/cluster-providers:rabbit_autoreconnect
+rabbit_autoreconnect: Pulling from codefresh-inc/codefresh/cluster-providers
+e7c96db7181b: Already exists
+df9eac31dfef: Already exists
+0a20433d95a4: Already exists
+24c1eec961f2: Already exists
+0ec66618c504: Already exists
+b62d2e360262: Already exists
+7ab5bf58f49a: Already exists
+b686aefe42f8: Already exists
+Digest: sha256:e278d4e36c2e69decf683f639c2f86ed9f3705bafabaedbb77fa1fc3dacf867b
+Status: Downloaded newer image for r.cfcr.io/codefresh-inc/codefresh/cluster-providers:rabbit_autoreconnect
+r.cfcr.io/codefresh-inc/codefresh/cluster-providers:rabbit_autoreconnect
+Pull r.cfcr.io/codefresh-inc/codefresh/cluster-providers:rabbit_autoreconnect completed - Mon Oct  7 11:49:46 UTC 2019 !!!
+
+Tag gcr.io/codefresh-inc/codefresh/cluster-providers:rabbit_autoreconnect completed - Mon Oct  7 11:49:46 UTC 2019 !!!
+
+The push refers to repository [gcr.io/codefresh-inc/codefresh/cluster-providers]
+cb287d3473df: Preparing
+1d39b967b158: Preparing
+a8ea46e3db2f: Preparing
+636b51dff9d4: Preparing
+9df2cdf2b802: Preparing
+28bf756b6f8e: Preparing
+4c299e1e70d5: Preparing
+f1b5933fe4b5: Preparing
+636b51dff9d4: Waiting
+9df2cdf2b802: Waiting
+28bf756b6f8e: Waiting
+4c299e1e70d5: Waiting
+f1b5933fe4b5: Waiting
+636b51dff9d4: Layer already exists
+a8ea46e3db2f: Layer already exists
+cb287d3473df: Layer already exists
+9df2cdf2b802: Layer already exists
+1d39b967b158: Layer already exists
+4c299e1e70d5: Layer already exists
+28bf756b6f8e: Layer already exists
+f1b5933fe4b5: Layer already exists
+rabbit_autoreconnect: digest: sha256:e278d4e36c2e69decf683f639c2f86ed9f3705bafabaedbb77fa1fc3dacf867b size: 1996
+Push gcr.io/codefresh-inc/codefresh/cluster-providers:rabbit_autoreconnect completed - Mon Oct  7 11:49:48 UTC 2019 !!!
+
+---------- Migrate r.cfcr.io/codefresh-inc/codefresh/cluster-providers:1.1.2-rabbit-autoreconnect to gcr.io/codefresh-inc/codefresh/cluster-providers:1.1.2-rabbit-autoreconnect
+1.1.2-rabbit-autoreconnect: Pulling from codefresh-inc/codefresh/cluster-providers
+Digest: sha256:e278d4e36c2e69decf683f639c2f86ed9f3705bafabaedbb77fa1fc3dacf867b
+Status: Downloaded newer image for r.cfcr.io/codefresh-inc/codefresh/cluster-providers:1.1.2-rabbit-autoreconnect
+r.cfcr.io/codefresh-inc/codefresh/cluster-providers:1.1.2-rabbit-autoreconnect
+Pull r.cfcr.io/codefresh-inc/codefresh/cluster-providers:1.1.2-rabbit-autoreconnect completed - Mon Oct  7 11:49:49 UTC 2019 !!!
+
+Tag gcr.io/codefresh-inc/codefresh/cluster-providers:1.1.2-rabbit-autoreconnect completed - Mon Oct  7 11:49:50 UTC 2019 !!!
+
+The push refers to repository [gcr.io/codefresh-inc/codefresh/cluster-providers]
+cb287d3473df: Preparing
+1d39b967b158: Preparing
+a8ea46e3db2f: Preparing
+636b51dff9d4: Preparing
+9df2cdf2b802: Preparing
+28bf756b6f8e: Preparing
+4c299e1e70d5: Preparing
+f1b5933fe4b5: Preparing
+9df2cdf2b802: Waiting
+28bf756b6f8e: Waiting
+4c299e1e70d5: Waiting
+f1b5933fe4b5: Waiting
+cb287d3473df: Layer already exists
+1d39b967b158: Layer already exists
+a8ea46e3db2f: Layer already exists
+28bf756b6f8e: Layer already exists
+9df2cdf2b802: Layer already exists
+4c299e1e70d5: Layer already exists
+636b51dff9d4: Layer already exists
+f1b5933fe4b5: Layer already exists
+1.1.2-rabbit-autoreconnect: digest: sha256:e278d4e36c2e69decf683f639c2f86ed9f3705bafabaedbb77fa1fc3dacf867b size: 1996
+Push gcr.io/codefresh-inc/codefresh/cluster-providers:1.1.2-rabbit-autoreconnect completed - Mon Oct  7 11:49:51 UTC 2019 !!!
+
+---------- Migrate r.cfcr.io/codefresh-inc/codefresh/cluster-providers:1.1.1-cf-onprem-v1.0.80 to gcr.io/codefresh-inc/codefresh/cluster-providers:1.1.1-cf-onprem-v1.0.80
+1.1.1-cf-onprem-v1.0.80: Pulling from codefresh-inc/codefresh/cluster-providers
+e7c96db7181b: Already exists
+df9eac31dfef: Already exists
+0a20433d95a4: Already exists
+24c1eec961f2: Already exists
+51b32c6b7745: Pulling fs layer
+69bf03cae406: Pulling fs layer
+1f2804594665: Pulling fs layer
+fc073c443a76: Pulling fs layer
+fc073c443a76: Waiting
+51b32c6b7745: Verifying Checksum
+51b32c6b7745: Download complete
+69bf03cae406: Verifying Checksum
+69bf03cae406: Download complete
+51b32c6b7745: Pull complete
+fc073c443a76: Verifying Checksum
+fc073c443a76: Download complete
+69bf03cae406: Pull complete
+1f2804594665: Verifying Checksum
+1f2804594665: Download complete
+1f2804594665: Pull complete
+fc073c443a76: Pull complete
+Digest: sha256:b2303f706a7d12a4384afbcdac76230dbb682208865d35457b231138c1b11537
+Status: Downloaded newer image for r.cfcr.io/codefresh-inc/codefresh/cluster-providers:1.1.1-cf-onprem-v1.0.80
+r.cfcr.io/codefresh-inc/codefresh/cluster-providers:1.1.1-cf-onprem-v1.0.80
+Pull r.cfcr.io/codefresh-inc/codefresh/cluster-providers:1.1.1-cf-onprem-v1.0.80 completed - Mon Oct  7 11:50:05 UTC 2019 !!!
+
+Tag gcr.io/codefresh-inc/codefresh/cluster-providers:1.1.1-cf-onprem-v1.0.80 completed - Mon Oct  7 11:50:05 UTC 2019 !!!
+
+The push refers to repository [gcr.io/codefresh-inc/codefresh/cluster-providers]
+9f2ce8554952: Preparing
+86cf2421c713: Preparing
+a211eb384b0d: Preparing
+bad63a9f1d14: Preparing
+9df2cdf2b802: Preparing
+28bf756b6f8e: Preparing
+4c299e1e70d5: Preparing
+f1b5933fe4b5: Preparing
+9f2ce8554952: Waiting
+86cf2421c713: Waiting
+a211eb384b0d: Waiting
+bad63a9f1d14: Waiting
+9df2cdf2b802: Waiting
+28bf756b6f8e: Waiting
+4c299e1e70d5: Waiting
+f1b5933fe4b5: Waiting
+9f2ce8554952: Pushed
+a211eb384b0d: Pushed
+bad63a9f1d14: Pushed
+9df2cdf2b802: Layer already exists
+28bf756b6f8e: Layer already exists
+4c299e1e70d5: Layer already exists
+f1b5933fe4b5: Layer already exists
+86cf2421c713: Pushed
+1.1.1-cf-onprem-v1.0.80: digest: sha256:b2303f706a7d12a4384afbcdac76230dbb682208865d35457b231138c1b11537 size: 1996
+Push gcr.io/codefresh-inc/codefresh/cluster-providers:1.1.1-cf-onprem-v1.0.80 completed - Mon Oct  7 11:50:19 UTC 2019 !!!
+
+---------- Migrate r.cfcr.io/codefresh-inc/codefresh/cluster-providers:saas-3414-source-ip to gcr.io/codefresh-inc/codefresh/cluster-providers:saas-3414-source-ip
+saas-3414-source-ip: Pulling from codefresh-inc/codefresh/cluster-providers
+e7c96db7181b: Already exists
+df9eac31dfef: Already exists
+0a20433d95a4: Already exists
+24c1eec961f2: Already exists
+a4d50426e6ea: Pulling fs layer
+d4df9dd849ab: Pulling fs layer
+ce7c1a8c7e53: Pulling fs layer
+f98f57a7e8ba: Pulling fs layer
+f98f57a7e8ba: Waiting
+a4d50426e6ea: Verifying Checksum
+a4d50426e6ea: Download complete
+d4df9dd849ab: Verifying Checksum
+d4df9dd849ab: Download complete
+a4d50426e6ea: Pull complete
+f98f57a7e8ba: Verifying Checksum
+f98f57a7e8ba: Download complete
+d4df9dd849ab: Pull complete
+ce7c1a8c7e53: Verifying Checksum
+ce7c1a8c7e53: Download complete
+ce7c1a8c7e53: Pull complete
+f98f57a7e8ba: Pull complete
+Digest: sha256:c16d1c8c0a9cbe18377b37fe45739d21e6251418d8214feb676abcde3c6f6752
+Status: Downloaded newer image for r.cfcr.io/codefresh-inc/codefresh/cluster-providers:saas-3414-source-ip
+r.cfcr.io/codefresh-inc/codefresh/cluster-providers:saas-3414-source-ip
+Pull r.cfcr.io/codefresh-inc/codefresh/cluster-providers:saas-3414-source-ip completed - Mon Oct  7 11:50:33 UTC 2019 !!!
+
+Tag gcr.io/codefresh-inc/codefresh/cluster-providers:saas-3414-source-ip completed - Mon Oct  7 11:50:34 UTC 2019 !!!
+
+The push refers to repository [gcr.io/codefresh-inc/codefresh/cluster-providers]
+a8f8e3a04859: Preparing
+c9973d5c207f: Preparing
+a60d19d56081: Preparing
+332b0ad497ec: Preparing
+9df2cdf2b802: Preparing
+28bf756b6f8e: Preparing
+4c299e1e70d5: Preparing
+f1b5933fe4b5: Preparing
+9df2cdf2b802: Waiting
+28bf756b6f8e: Waiting
+4c299e1e70d5: Waiting
+f1b5933fe4b5: Waiting
+c9973d5c207f: Retrying in 5 seconds
+a60d19d56081: Retrying in 5 seconds
+c9973d5c207f: Retrying in 4 seconds
+a60d19d56081: Retrying in 4 seconds
+c9973d5c207f: Retrying in 3 seconds
+a60d19d56081: Retrying in 3 seconds
+a8f8e3a04859: Pushed
+332b0ad497ec: Pushed
+9df2cdf2b802: Layer already exists
+28bf756b6f8e: Layer already exists
+4c299e1e70d5: Layer already exists
+f1b5933fe4b5: Layer already exists
+c9973d5c207f: Retrying in 2 seconds
+a60d19d56081: Retrying in 2 seconds
+c9973d5c207f: Retrying in 1 second
+a60d19d56081: Retrying in 1 second
+a60d19d56081: Pushed
+c9973d5c207f: Pushed
+saas-3414-source-ip: digest: sha256:40158768db709f438da2402d95fd2c097ba73d0ad978b556ea6ddea2405d9875 size: 1996
+Push gcr.io/codefresh-inc/codefresh/cluster-providers:saas-3414-source-ip completed - Mon Oct  7 11:51:06 UTC 2019 !!!
+
+---------- Migrate r.cfcr.io/codefresh-inc/codefresh/cluster-providers:SAAS-3414-source-ip to gcr.io/codefresh-inc/codefresh/cluster-providers:SAAS-3414-source-ip
+SAAS-3414-source-ip: Pulling from codefresh-inc/codefresh/cluster-providers
+Digest: sha256:40158768db709f438da2402d95fd2c097ba73d0ad978b556ea6ddea2405d9875
+Status: Downloaded newer image for r.cfcr.io/codefresh-inc/codefresh/cluster-providers:SAAS-3414-source-ip
+r.cfcr.io/codefresh-inc/codefresh/cluster-providers:SAAS-3414-source-ip
+Pull r.cfcr.io/codefresh-inc/codefresh/cluster-providers:SAAS-3414-source-ip completed - Mon Oct  7 11:51:07 UTC 2019 !!!
+
+Tag gcr.io/codefresh-inc/codefresh/cluster-providers:SAAS-3414-source-ip completed - Mon Oct  7 11:51:07 UTC 2019 !!!
+
+The push refers to repository [gcr.io/codefresh-inc/codefresh/cluster-providers]
+a8f8e3a04859: Preparing
+c9973d5c207f: Preparing
+a60d19d56081: Preparing
+332b0ad497ec: Preparing
+9df2cdf2b802: Preparing
+28bf756b6f8e: Preparing
+4c299e1e70d5: Preparing
+f1b5933fe4b5: Preparing
+332b0ad497ec: Waiting
+9df2cdf2b802: Waiting
+28bf756b6f8e: Waiting
+4c299e1e70d5: Waiting
+f1b5933fe4b5: Waiting
+a60d19d56081: Layer already exists
+a8f8e3a04859: Layer already exists
+c9973d5c207f: Layer already exists
+9df2cdf2b802: Layer already exists
+28bf756b6f8e: Layer already exists
+332b0ad497ec: Layer already exists
+4c299e1e70d5: Layer already exists
+f1b5933fe4b5: Layer already exists
+SAAS-3414-source-ip: digest: sha256:40158768db709f438da2402d95fd2c097ba73d0ad978b556ea6ddea2405d9875 size: 1996
+Push gcr.io/codefresh-inc/codefresh/cluster-providers:SAAS-3414-source-ip completed - Mon Oct  7 11:51:08 UTC 2019 !!!
+
+---------- Migrate r.cfcr.io/codefresh-inc/codefresh/cluster-providers:1.1.2-saas-3414-source-ip to gcr.io/codefresh-inc/codefresh/cluster-providers:1.1.2-saas-3414-source-ip
+1.1.2-saas-3414-source-ip: Pulling from codefresh-inc/codefresh/cluster-providers
+Digest: sha256:40158768db709f438da2402d95fd2c097ba73d0ad978b556ea6ddea2405d9875
+Status: Downloaded newer image for r.cfcr.io/codefresh-inc/codefresh/cluster-providers:1.1.2-saas-3414-source-ip
+r.cfcr.io/codefresh-inc/codefresh/cluster-providers:1.1.2-saas-3414-source-ip
+Pull r.cfcr.io/codefresh-inc/codefresh/cluster-providers:1.1.2-saas-3414-source-ip completed - Mon Oct  7 11:51:09 UTC 2019 !!!
+
+Tag gcr.io/codefresh-inc/codefresh/cluster-providers:1.1.2-saas-3414-source-ip completed - Mon Oct  7 11:51:09 UTC 2019 !!!
+
+The push refers to repository [gcr.io/codefresh-inc/codefresh/cluster-providers]
+a8f8e3a04859: Preparing
+c9973d5c207f: Preparing
+a60d19d56081: Preparing
+332b0ad497ec: Preparing
+9df2cdf2b802: Preparing
+28bf756b6f8e: Preparing
+4c299e1e70d5: Preparing
+f1b5933fe4b5: Preparing
+c9973d5c207f: Waiting
+a60d19d56081: Waiting
+332b0ad497ec: Waiting
+9df2cdf2b802: Waiting
+28bf756b6f8e: Waiting
+4c299e1e70d5: Waiting
+f1b5933fe4b5: Waiting
+a8f8e3a04859: Layer already exists
+c9973d5c207f: Layer already exists
+a60d19d56081: Layer already exists
+332b0ad497ec: Layer already exists
+9df2cdf2b802: Layer already exists
+28bf756b6f8e: Layer already exists
+4c299e1e70d5: Layer already exists
+f1b5933fe4b5: Layer already exists
+1.1.2-saas-3414-source-ip: digest: sha256:40158768db709f438da2402d95fd2c097ba73d0ad978b556ea6ddea2405d9875 size: 1996
+Push gcr.io/codefresh-inc/codefresh/cluster-providers:1.1.2-saas-3414-source-ip completed - Mon Oct  7 11:51:10 UTC 2019 !!!
+
+---------- Migrate r.cfcr.io/codefresh-inc/codefresh/cluster-providers:1.1.1 to gcr.io/codefresh-inc/codefresh/cluster-providers:1.1.1
+1.1.1: Pulling from codefresh-inc/codefresh/cluster-providers
+e7c96db7181b: Already exists
+df9eac31dfef: Already exists
+0a20433d95a4: Already exists
+24c1eec961f2: Already exists
+960c0060dcf8: Pulling fs layer
+215b7203e868: Pulling fs layer
+daed0ccaafe8: Pulling fs layer
+63316941e362: Pulling fs layer
+63316941e362: Waiting
+960c0060dcf8: Verifying Checksum
+960c0060dcf8: Download complete
+215b7203e868: Verifying Checksum
+215b7203e868: Download complete
+63316941e362: Verifying Checksum
+63316941e362: Download complete
+960c0060dcf8: Pull complete
+215b7203e868: Pull complete
+daed0ccaafe8: Verifying Checksum
+daed0ccaafe8: Download complete
+daed0ccaafe8: Pull complete
+63316941e362: Pull complete
+Digest: sha256:d226d03bc3b46f807b9a86f272babccd9004bf2c95c3b1ce4461aa791be3f749
+Status: Downloaded newer image for r.cfcr.io/codefresh-inc/codefresh/cluster-providers:1.1.1
+r.cfcr.io/codefresh-inc/codefresh/cluster-providers:1.1.1
+Pull r.cfcr.io/codefresh-inc/codefresh/cluster-providers:1.1.1 completed - Mon Oct  7 11:51:26 UTC 2019 !!!
+
+Tag gcr.io/codefresh-inc/codefresh/cluster-providers:1.1.1 completed - Mon Oct  7 11:51:26 UTC 2019 !!!
+
+The push refers to repository [gcr.io/codefresh-inc/codefresh/cluster-providers]
+7b6a1745404b: Preparing
+e77d64c05b0d: Preparing
+33fbe3551292: Preparing
+a8ecd81b5d54: Preparing
+9df2cdf2b802: Preparing
+28bf756b6f8e: Preparing
+4c299e1e70d5: Preparing
+f1b5933fe4b5: Preparing
+33fbe3551292: Waiting
+a8ecd81b5d54: Waiting
+9df2cdf2b802: Waiting
+28bf756b6f8e: Waiting
+4c299e1e70d5: Waiting
+f1b5933fe4b5: Waiting
+7b6a1745404b: Retrying in 5 seconds
+7b6a1745404b: Retrying in 4 seconds
+33fbe3551292: Pushed
+7b6a1745404b: Retrying in 3 seconds
+7b6a1745404b: Retrying in 2 seconds
+a8ecd81b5d54: Pushed
+7b6a1745404b: Retrying in 1 second
+9df2cdf2b802: Layer already exists
+28bf756b6f8e: Layer already exists
+4c299e1e70d5: Layer already exists
+f1b5933fe4b5: Layer already exists
+7b6a1745404b: Retrying in 10 seconds
+7b6a1745404b: Retrying in 9 seconds
+7b6a1745404b: Retrying in 8 seconds
+7b6a1745404b: Retrying in 7 seconds
+7b6a1745404b: Retrying in 6 seconds
+7b6a1745404b: Retrying in 5 seconds
+7b6a1745404b: Retrying in 4 seconds
+7b6a1745404b: Retrying in 3 seconds
+7b6a1745404b: Retrying in 2 seconds
+7b6a1745404b: Retrying in 1 second
+e77d64c05b0d: Pushed
+7b6a1745404b: Pushed
+1.1.1: digest: sha256:d226d03bc3b46f807b9a86f272babccd9004bf2c95c3b1ce4461aa791be3f749 size: 1996
+Push gcr.io/codefresh-inc/codefresh/cluster-providers:1.1.1 completed - Mon Oct  7 11:51:45 UTC 2019 !!!
+
+---------- Migrate r.cfcr.io/codefresh-inc/codefresh/cluster-providers:hosts-identation to gcr.io/codefresh-inc/codefresh/cluster-providers:hosts-identation
+hosts-identation: Pulling from codefresh-inc/codefresh/cluster-providers
+e7c96db7181b: Already exists
+df9eac31dfef: Already exists
+0a20433d95a4: Already exists
+24c1eec961f2: Already exists
+960c0060dcf8: Already exists
+215b7203e868: Already exists
+daed0ccaafe8: Already exists
+63316941e362: Already exists
+Digest: sha256:6c0211cf308c7ddb79cbb4181f58a09d7b50a5ec6f5c3c6054977e0d6c6e078e
+Status: Downloaded newer image for r.cfcr.io/codefresh-inc/codefresh/cluster-providers:hosts-identation
+r.cfcr.io/codefresh-inc/codefresh/cluster-providers:hosts-identation
+Pull r.cfcr.io/codefresh-inc/codefresh/cluster-providers:hosts-identation completed - Mon Oct  7 11:51:46 UTC 2019 !!!
+
+Tag gcr.io/codefresh-inc/codefresh/cluster-providers:hosts-identation completed - Mon Oct  7 11:51:47 UTC 2019 !!!
+
+The push refers to repository [gcr.io/codefresh-inc/codefresh/cluster-providers]
+7b6a1745404b: Preparing
+e77d64c05b0d: Preparing
+33fbe3551292: Preparing
+a8ecd81b5d54: Preparing
+9df2cdf2b802: Preparing
+28bf756b6f8e: Preparing
+7b6a1745404b: Waiting
+e77d64c05b0d: Waiting
+33fbe3551292: Waiting
+a8ecd81b5d54: Waiting
+9df2cdf2b802: Waiting
+4c299e1e70d5: Preparing
+f1b5933fe4b5: Preparing
+28bf756b6f8e: Waiting
+4c299e1e70d5: Waiting
+f1b5933fe4b5: Waiting
+7b6a1745404b: Layer already exists
+e77d64c05b0d: Layer already exists
+33fbe3551292: Layer already exists
+a8ecd81b5d54: Layer already exists
+9df2cdf2b802: Layer already exists
+28bf756b6f8e: Layer already exists
+4c299e1e70d5: Layer already exists
+f1b5933fe4b5: Layer already exists
+hosts-identation: digest: sha256:6c0211cf308c7ddb79cbb4181f58a09d7b50a5ec6f5c3c6054977e0d6c6e078e size: 1996
+Push gcr.io/codefresh-inc/codefresh/cluster-providers:hosts-identation completed - Mon Oct  7 11:51:49 UTC 2019 !!!
+
+---------- Migrate r.cfcr.io/codefresh-inc/codefresh/cluster-providers:1.1.1-hosts-identation to gcr.io/codefresh-inc/codefresh/cluster-providers:1.1.1-hosts-identation
+1.1.1-hosts-identation: Pulling from codefresh-inc/codefresh/cluster-providers
+Digest: sha256:6c0211cf308c7ddb79cbb4181f58a09d7b50a5ec6f5c3c6054977e0d6c6e078e
+Status: Downloaded newer image for r.cfcr.io/codefresh-inc/codefresh/cluster-providers:1.1.1-hosts-identation
+r.cfcr.io/codefresh-inc/codefresh/cluster-providers:1.1.1-hosts-identation
+Pull r.cfcr.io/codefresh-inc/codefresh/cluster-providers:1.1.1-hosts-identation completed - Mon Oct  7 11:51:50 UTC 2019 !!!
+
+Tag gcr.io/codefresh-inc/codefresh/cluster-providers:1.1.1-hosts-identation completed - Mon Oct  7 11:51:50 UTC 2019 !!!
+
+The push refers to repository [gcr.io/codefresh-inc/codefresh/cluster-providers]
+7b6a1745404b: Preparing
+e77d64c05b0d: Preparing
+33fbe3551292: Preparing
+a8ecd81b5d54: Preparing
+9df2cdf2b802: Preparing
+28bf756b6f8e: Preparing
+4c299e1e70d5: Preparing
+f1b5933fe4b5: Preparing
+33fbe3551292: Waiting
+a8ecd81b5d54: Waiting
+9df2cdf2b802: Waiting
+28bf756b6f8e: Waiting
+4c299e1e70d5: Waiting
+f1b5933fe4b5: Waiting
+e77d64c05b0d: Layer already exists
+7b6a1745404b: Layer already exists
+33fbe3551292: Layer already exists
+a8ecd81b5d54: Layer already exists
+9df2cdf2b802: Layer already exists
+28bf756b6f8e: Layer already exists
+f1b5933fe4b5: Layer already exists
+4c299e1e70d5: Layer already exists
+1.1.1-hosts-identation: digest: sha256:6c0211cf308c7ddb79cbb4181f58a09d7b50a5ec6f5c3c6054977e0d6c6e078e size: 1996
+Push gcr.io/codefresh-inc/codefresh/cluster-providers:1.1.1-hosts-identation completed - Mon Oct  7 11:51:51 UTC 2019 !!!
+
+---------- Migrate r.cfcr.io/codefresh-inc/codefresh/cluster-providers:1.1.0-hosts-identation to gcr.io/codefresh-inc/codefresh/cluster-providers:1.1.0-hosts-identation
+1.1.0-hosts-identation: Pulling from codefresh-inc/codefresh/cluster-providers
+e7c96db7181b: Already exists
+df9eac31dfef: Already exists
+0a20433d95a4: Already exists
+24c1eec961f2: Already exists
+960c0060dcf8: Already exists
+215b7203e868: Already exists
+daed0ccaafe8: Already exists
+94f5eb392836: Pulling fs layer
+94f5eb392836: Verifying Checksum
+94f5eb392836: Download complete
+94f5eb392836: Pull complete
+Digest: sha256:a1f655954dd64cd7fad3f4f93f03932dfa1e97ec7b8b0c61f1904244224113b2
+Status: Downloaded newer image for r.cfcr.io/codefresh-inc/codefresh/cluster-providers:1.1.0-hosts-identation
+r.cfcr.io/codefresh-inc/codefresh/cluster-providers:1.1.0-hosts-identation
+Pull r.cfcr.io/codefresh-inc/codefresh/cluster-providers:1.1.0-hosts-identation completed - Mon Oct  7 11:51:53 UTC 2019 !!!
+
+Tag gcr.io/codefresh-inc/codefresh/cluster-providers:1.1.0-hosts-identation completed - Mon Oct  7 11:51:53 UTC 2019 !!!
+
+The push refers to repository [gcr.io/codefresh-inc/codefresh/cluster-providers]
+8bc35afcad76: Preparing
+e77d64c05b0d: Preparing
+33fbe3551292: Preparing
+a8ecd81b5d54: Preparing
+9df2cdf2b802: Preparing
+28bf756b6f8e: Preparing
+4c299e1e70d5: Preparing
+f1b5933fe4b5: Preparing
+a8ecd81b5d54: Waiting
+9df2cdf2b802: Waiting
+28bf756b6f8e: Waiting
+4c299e1e70d5: Waiting
+f1b5933fe4b5: Waiting
+e77d64c05b0d: Layer already exists
+33fbe3551292: Layer already exists
+a8ecd81b5d54: Layer already exists
+9df2cdf2b802: Layer already exists
+28bf756b6f8e: Layer already exists
+4c299e1e70d5: Layer already exists
+f1b5933fe4b5: Layer already exists
+8bc35afcad76: Pushed
+1.1.0-hosts-identation: digest: sha256:a1f655954dd64cd7fad3f4f93f03932dfa1e97ec7b8b0c61f1904244224113b2 size: 1996
+Push gcr.io/codefresh-inc/codefresh/cluster-providers:1.1.0-hosts-identation completed - Mon Oct  7 11:51:57 UTC 2019 !!!
+
+---------- Migrate r.cfcr.io/codefresh-inc/codefresh/cluster-providers:1.1.0 to gcr.io/codefresh-inc/codefresh/cluster-providers:1.1.0
+1.1.0: Pulling from codefresh-inc/codefresh/cluster-providers
+e7c96db7181b: Already exists
+df9eac31dfef: Already exists
+0a20433d95a4: Already exists
+24c1eec961f2: Already exists
+960c0060dcf8: Already exists
+215b7203e868: Already exists
+daed0ccaafe8: Already exists
+92504579c4ca: Pulling fs layer
+92504579c4ca: Verifying Checksum
+92504579c4ca: Download complete
+92504579c4ca: Pull complete
+Digest: sha256:edf8cf6673a6923ce7fe4e241fcb4da19453f698baf92201526d6fc82fdc5f57
+Status: Downloaded newer image for r.cfcr.io/codefresh-inc/codefresh/cluster-providers:1.1.0
+r.cfcr.io/codefresh-inc/codefresh/cluster-providers:1.1.0
+Pull r.cfcr.io/codefresh-inc/codefresh/cluster-providers:1.1.0 completed - Mon Oct  7 11:51:58 UTC 2019 !!!
+
+Tag gcr.io/codefresh-inc/codefresh/cluster-providers:1.1.0 completed - Mon Oct  7 11:51:58 UTC 2019 !!!
+
+The push refers to repository [gcr.io/codefresh-inc/codefresh/cluster-providers]
+f0ab1d343bef: Preparing
+e77d64c05b0d: Preparing
+33fbe3551292: Preparing
+a8ecd81b5d54: Preparing
+9df2cdf2b802: Preparing
+28bf756b6f8e: Preparing
+4c299e1e70d5: Preparing
+f1b5933fe4b5: Preparing
+a8ecd81b5d54: Waiting
+9df2cdf2b802: Waiting
+28bf756b6f8e: Waiting
+4c299e1e70d5: Waiting
+f1b5933fe4b5: Waiting
+e77d64c05b0d: Layer already exists
+33fbe3551292: Layer already exists
+a8ecd81b5d54: Layer already exists
+9df2cdf2b802: Layer already exists
+28bf756b6f8e: Layer already exists
+4c299e1e70d5: Layer already exists
+f1b5933fe4b5: Layer already exists
+f0ab1d343bef: Pushed
+1.1.0: digest: sha256:edf8cf6673a6923ce7fe4e241fcb4da19453f698baf92201526d6fc82fdc5f57 size: 1996
+Push gcr.io/codefresh-inc/codefresh/cluster-providers:1.1.0 completed - Mon Oct  7 11:52:02 UTC 2019 !!!
+
+---------- Migrate r.cfcr.io/codefresh-inc/codefresh/cluster-providers:istio-poc to gcr.io/codefresh-inc/codefresh/cluster-providers:istio-poc
+istio-poc: Pulling from codefresh-inc/codefresh/cluster-providers
+e7c96db7181b: Already exists
+df9eac31dfef: Already exists
+0a20433d95a4: Already exists
+24c1eec961f2: Already exists
+960c0060dcf8: Already exists
+215b7203e868: Already exists
+daed0ccaafe8: Already exists
+92504579c4ca: Already exists
+Digest: sha256:679dc070511d93a90c1f7609493bab3b015166c9ac68b05e01228fac86a83403
+Status: Downloaded newer image for r.cfcr.io/codefresh-inc/codefresh/cluster-providers:istio-poc
+r.cfcr.io/codefresh-inc/codefresh/cluster-providers:istio-poc
+Pull r.cfcr.io/codefresh-inc/codefresh/cluster-providers:istio-poc completed - Mon Oct  7 11:52:05 UTC 2019 !!!
+
+Tag gcr.io/codefresh-inc/codefresh/cluster-providers:istio-poc completed - Mon Oct  7 11:52:05 UTC 2019 !!!
+
+The push refers to repository [gcr.io/codefresh-inc/codefresh/cluster-providers]
+f0ab1d343bef: Preparing
+e77d64c05b0d: Preparing
+33fbe3551292: Preparing
+a8ecd81b5d54: Preparing
+9df2cdf2b802: Preparing
+28bf756b6f8e: Preparing
+4c299e1e70d5: Preparing
+f1b5933fe4b5: Preparing
+33fbe3551292: Waiting
+a8ecd81b5d54: Waiting
+9df2cdf2b802: Waiting
+28bf756b6f8e: Waiting
+4c299e1e70d5: Waiting
+f1b5933fe4b5: Waiting
+f0ab1d343bef: Layer already exists
+e77d64c05b0d: Layer already exists
+33fbe3551292: Layer already exists
+a8ecd81b5d54: Layer already exists
+9df2cdf2b802: Layer already exists
+28bf756b6f8e: Layer already exists
+4c299e1e70d5: Layer already exists
+f1b5933fe4b5: Layer already exists
+istio-poc: digest: sha256:679dc070511d93a90c1f7609493bab3b015166c9ac68b05e01228fac86a83403 size: 1996
+Push gcr.io/codefresh-inc/codefresh/cluster-providers:istio-poc completed - Mon Oct  7 11:52:08 UTC 2019 !!!
+
+---------- Migrate r.cfcr.io/codefresh-inc/codefresh/cluster-providers:1.1.0-istio-poc to gcr.io/codefresh-inc/codefresh/cluster-providers:1.1.0-istio-poc
+1.1.0-istio-poc: Pulling from codefresh-inc/codefresh/cluster-providers
+Digest: sha256:679dc070511d93a90c1f7609493bab3b015166c9ac68b05e01228fac86a83403
+Status: Downloaded newer image for r.cfcr.io/codefresh-inc/codefresh/cluster-providers:1.1.0-istio-poc
+r.cfcr.io/codefresh-inc/codefresh/cluster-providers:1.1.0-istio-poc
+Pull r.cfcr.io/codefresh-inc/codefresh/cluster-providers:1.1.0-istio-poc completed - Mon Oct  7 11:52:09 UTC 2019 !!!
+
+Tag gcr.io/codefresh-inc/codefresh/cluster-providers:1.1.0-istio-poc completed - Mon Oct  7 11:52:09 UTC 2019 !!!
+
+The push refers to repository [gcr.io/codefresh-inc/codefresh/cluster-providers]
+f0ab1d343bef: Preparing
+e77d64c05b0d: Preparing
+33fbe3551292: Preparing
+a8ecd81b5d54: Preparing
+9df2cdf2b802: Preparing
+28bf756b6f8e: Preparing
+4c299e1e70d5: Preparing
+f1b5933fe4b5: Preparing
+a8ecd81b5d54: Waiting
+9df2cdf2b802: Waiting
+28bf756b6f8e: Waiting
+4c299e1e70d5: Waiting
+f1b5933fe4b5: Waiting
+f0ab1d343bef: Layer already exists
+e77d64c05b0d: Layer already exists
+33fbe3551292: Layer already exists
+a8ecd81b5d54: Layer already exists
+9df2cdf2b802: Layer already exists
+28bf756b6f8e: Layer already exists
+f1b5933fe4b5: Layer already exists
+4c299e1e70d5: Layer already exists
+1.1.0-istio-poc: digest: sha256:679dc070511d93a90c1f7609493bab3b015166c9ac68b05e01228fac86a83403 size: 1996
+Push gcr.io/codefresh-inc/codefresh/cluster-providers:1.1.0-istio-poc completed - Mon Oct  7 11:52:11 UTC 2019 !!!
+
+---------- Migrate r.cfcr.io/codefresh-inc/codefresh/cluster-providers:1.0.6-istio-poc to gcr.io/codefresh-inc/codefresh/cluster-providers:1.0.6-istio-poc
+1.0.6-istio-poc: Pulling from codefresh-inc/codefresh/cluster-providers
+e7c96db7181b: Already exists
+df9eac31dfef: Already exists
+0a20433d95a4: Already exists
+24c1eec961f2: Already exists
+960c0060dcf8: Already exists
+215b7203e868: Already exists
+daed0ccaafe8: Already exists
+02935ab3a286: Pulling fs layer
+02935ab3a286: Verifying Checksum
+02935ab3a286: Download complete
+02935ab3a286: Pull complete
+Digest: sha256:62a1f5d65ec9919c731dee0a5c714d0fe8dfdf4111c348a38b63ecd68572eca4
+Status: Downloaded newer image for r.cfcr.io/codefresh-inc/codefresh/cluster-providers:1.0.6-istio-poc
+r.cfcr.io/codefresh-inc/codefresh/cluster-providers:1.0.6-istio-poc
+Pull r.cfcr.io/codefresh-inc/codefresh/cluster-providers:1.0.6-istio-poc completed - Mon Oct  7 11:52:12 UTC 2019 !!!
+
+Tag gcr.io/codefresh-inc/codefresh/cluster-providers:1.0.6-istio-poc completed - Mon Oct  7 11:52:13 UTC 2019 !!!
+
+The push refers to repository [gcr.io/codefresh-inc/codefresh/cluster-providers]
+10f21ebdf500: Preparing
+e77d64c05b0d: Preparing
+33fbe3551292: Preparing
+a8ecd81b5d54: Preparing
+9df2cdf2b802: Preparing
+28bf756b6f8e: Preparing
+4c299e1e70d5: Preparing
+f1b5933fe4b5: Preparing
+10f21ebdf500: Waiting
+e77d64c05b0d: Waiting
+33fbe3551292: Waiting
+a8ecd81b5d54: Waiting
+9df2cdf2b802: Waiting
+28bf756b6f8e: Waiting
+4c299e1e70d5: Waiting
+f1b5933fe4b5: Waiting
+e77d64c05b0d: Layer already exists
+33fbe3551292: Layer already exists
+a8ecd81b5d54: Layer already exists
+9df2cdf2b802: Layer already exists
+28bf756b6f8e: Layer already exists
+4c299e1e70d5: Layer already exists
+f1b5933fe4b5: Layer already exists
+10f21ebdf500: Pushed
+1.0.6-istio-poc: digest: sha256:62a1f5d65ec9919c731dee0a5c714d0fe8dfdf4111c348a38b63ecd68572eca4 size: 1996
+Push gcr.io/codefresh-inc/codefresh/cluster-providers:1.0.6-istio-poc completed - Mon Oct  7 11:52:20 UTC 2019 !!!
+
+---------- Migrate r.cfcr.io/codefresh-inc/codefresh/cluster-providers:cf-onprem-v1.0.79 to gcr.io/codefresh-inc/codefresh/cluster-providers:cf-onprem-v1.0.79
+cf-onprem-v1.0.79: Pulling from codefresh-inc/codefresh/cluster-providers
+e7c96db7181b: Already exists
+df9eac31dfef: Already exists
+0a20433d95a4: Already exists
+24c1eec961f2: Already exists
+4133942f9b70: Pulling fs layer
+4417a21c0b30: Pulling fs layer
+df286e0fcc7d: Pulling fs layer
+344db398b3cb: Pulling fs layer
+344db398b3cb: Waiting
+4417a21c0b30: Verifying Checksum
+4417a21c0b30: Download complete
+4133942f9b70: Verifying Checksum
+4133942f9b70: Download complete
+4133942f9b70: Pull complete
+4417a21c0b30: Pull complete
+344db398b3cb: Verifying Checksum
+344db398b3cb: Download complete
+df286e0fcc7d: Verifying Checksum
+df286e0fcc7d: Download complete
+df286e0fcc7d: Pull complete
+344db398b3cb: Pull complete
+Digest: sha256:5a9c3903e7104cb45c707e747907691ddd2e0644d7bc6de41df08382abe4c27d
+Status: Downloaded newer image for r.cfcr.io/codefresh-inc/codefresh/cluster-providers:cf-onprem-v1.0.79
+r.cfcr.io/codefresh-inc/codefresh/cluster-providers:cf-onprem-v1.0.79
+Pull r.cfcr.io/codefresh-inc/codefresh/cluster-providers:cf-onprem-v1.0.79 completed - Mon Oct  7 11:52:46 UTC 2019 !!!
+
+Tag gcr.io/codefresh-inc/codefresh/cluster-providers:cf-onprem-v1.0.79 completed - Mon Oct  7 11:52:46 UTC 2019 !!!
+
+The push refers to repository [gcr.io/codefresh-inc/codefresh/cluster-providers]
+2d8143fd79c7: Preparing
+3f1f42d5f16d: Preparing
+8f8e5b149e98: Preparing
+bb086ebb0e75: Preparing
+9df2cdf2b802: Preparing
+28bf756b6f8e: Preparing
+4c299e1e70d5: Preparing
+f1b5933fe4b5: Preparing
+2d8143fd79c7: Waiting
+3f1f42d5f16d: Waiting
+8f8e5b149e98: Waiting
+bb086ebb0e75: Waiting
+9df2cdf2b802: Waiting
+28bf756b6f8e: Waiting
+4c299e1e70d5: Waiting
+f1b5933fe4b5: Waiting
+2d8143fd79c7: Pushed
+8f8e5b149e98: Pushed
+bb086ebb0e75: Pushed
+9df2cdf2b802: Layer already exists
+28bf756b6f8e: Layer already exists
+4c299e1e70d5: Layer already exists
+f1b5933fe4b5: Layer already exists
+3f1f42d5f16d: Pushed
+cf-onprem-v1.0.79: digest: sha256:5a9c3903e7104cb45c707e747907691ddd2e0644d7bc6de41df08382abe4c27d size: 1996
+Push gcr.io/codefresh-inc/codefresh/cluster-providers:cf-onprem-v1.0.79 completed - Mon Oct  7 11:53:02 UTC 2019 !!!
+
+---------- Migrate r.cfcr.io/codefresh-inc/codefresh/cluster-providers:1.0.6-cf-onprem-v1.0.79 to gcr.io/codefresh-inc/codefresh/cluster-providers:1.0.6-cf-onprem-v1.0.79
+1.0.6-cf-onprem-v1.0.79: Pulling from codefresh-inc/codefresh/cluster-providers
+Digest: sha256:5a9c3903e7104cb45c707e747907691ddd2e0644d7bc6de41df08382abe4c27d
+Status: Downloaded newer image for r.cfcr.io/codefresh-inc/codefresh/cluster-providers:1.0.6-cf-onprem-v1.0.79
+r.cfcr.io/codefresh-inc/codefresh/cluster-providers:1.0.6-cf-onprem-v1.0.79
+Pull r.cfcr.io/codefresh-inc/codefresh/cluster-providers:1.0.6-cf-onprem-v1.0.79 completed - Mon Oct  7 11:53:03 UTC 2019 !!!
+
+Tag gcr.io/codefresh-inc/codefresh/cluster-providers:1.0.6-cf-onprem-v1.0.79 completed - Mon Oct  7 11:53:03 UTC 2019 !!!
+
+The push refers to repository [gcr.io/codefresh-inc/codefresh/cluster-providers]
+2d8143fd79c7: Preparing
+3f1f42d5f16d: Preparing
+8f8e5b149e98: Preparing
+bb086ebb0e75: Preparing
+9df2cdf2b802: Preparing
+2d8143fd79c7: Waiting
+3f1f42d5f16d: Waiting
+8f8e5b149e98: Waiting
+bb086ebb0e75: Waiting
+28bf756b6f8e: Preparing
+4c299e1e70d5: Preparing
+f1b5933fe4b5: Preparing
+9df2cdf2b802: Waiting
+28bf756b6f8e: Waiting
+4c299e1e70d5: Waiting
+f1b5933fe4b5: Waiting
+2d8143fd79c7: Layer already exists
+3f1f42d5f16d: Layer already exists
+8f8e5b149e98: Layer already exists
+bb086ebb0e75: Layer already exists
+9df2cdf2b802: Layer already exists
+28bf756b6f8e: Layer already exists
+4c299e1e70d5: Layer already exists
+f1b5933fe4b5: Layer already exists
+1.0.6-cf-onprem-v1.0.79: digest: sha256:5a9c3903e7104cb45c707e747907691ddd2e0644d7bc6de41df08382abe4c27d size: 1996
+Push gcr.io/codefresh-inc/codefresh/cluster-providers:1.0.6-cf-onprem-v1.0.79 completed - Mon Oct  7 11:53:06 UTC 2019 !!!
+
+---------- Migrate r.cfcr.io/codefresh-inc/codefresh/cluster-providers:1.0.6 to gcr.io/codefresh-inc/codefresh/cluster-providers:1.0.6
+1.0.6: Pulling from codefresh-inc/codefresh/cluster-providers
+e7c96db7181b: Already exists
+df9eac31dfef: Already exists
+0a20433d95a4: Already exists
+24c1eec961f2: Already exists
+4133942f9b70: Already exists
+4417a21c0b30: Already exists
+df286e0fcc7d: Already exists
+88ef8743a19d: Pulling fs layer
+88ef8743a19d: Verifying Checksum
+88ef8743a19d: Download complete
+88ef8743a19d: Pull complete
+Digest: sha256:1bf46cebaadc3b15a10e85dc2ad30ab2cb4f67c22ac6c77dfb6db1496780d98a
+Status: Downloaded newer image for r.cfcr.io/codefresh-inc/codefresh/cluster-providers:1.0.6
+r.cfcr.io/codefresh-inc/codefresh/cluster-providers:1.0.6
+Pull r.cfcr.io/codefresh-inc/codefresh/cluster-providers:1.0.6 completed - Mon Oct  7 11:53:08 UTC 2019 !!!
+
+Tag gcr.io/codefresh-inc/codefresh/cluster-providers:1.0.6 completed - Mon Oct  7 11:53:08 UTC 2019 !!!
+
+The push refers to repository [gcr.io/codefresh-inc/codefresh/cluster-providers]
+415a28d439ec: Preparing
+3f1f42d5f16d: Preparing
+8f8e5b149e98: Preparing
+bb086ebb0e75: Preparing
+9df2cdf2b802: Preparing
+28bf756b6f8e: Preparing
+4c299e1e70d5: Preparing
+f1b5933fe4b5: Preparing
+8f8e5b149e98: Waiting
+bb086ebb0e75: Waiting
+9df2cdf2b802: Waiting
+28bf756b6f8e: Waiting
+4c299e1e70d5: Waiting
+f1b5933fe4b5: Waiting
+3f1f42d5f16d: Layer already exists
+8f8e5b149e98: Layer already exists
+bb086ebb0e75: Layer already exists
+9df2cdf2b802: Layer already exists
+28bf756b6f8e: Layer already exists
+4c299e1e70d5: Layer already exists
+f1b5933fe4b5: Layer already exists
+415a28d439ec: Pushed
+1.0.6: digest: sha256:1bf46cebaadc3b15a10e85dc2ad30ab2cb4f67c22ac6c77dfb6db1496780d98a size: 1996
+Push gcr.io/codefresh-inc/codefresh/cluster-providers:1.0.6 completed - Mon Oct  7 11:53:11 UTC 2019 !!!
+
+---------- Migrate r.cfcr.io/codefresh-inc/codefresh/cluster-providers:saas-3189_digital-ocean-cluster-provider to gcr.io/codefresh-inc/codefresh/cluster-providers:saas-3189_digital-ocean-cluster-provider
+saas-3189_digital-ocean-cluster-provider: Pulling from codefresh-inc/codefresh/cluster-providers
+e7c96db7181b: Already exists
+df9eac31dfef: Already exists
+0a20433d95a4: Already exists
+24c1eec961f2: Already exists
+4133942f9b70: Already exists
+4417a21c0b30: Already exists
+df286e0fcc7d: Already exists
+88ef8743a19d: Already exists
+Digest: sha256:21702a739933267725b1eda7d5100b6070f8210af1c4193044c65b5aea405dbd
+Status: Downloaded newer image for r.cfcr.io/codefresh-inc/codefresh/cluster-providers:saas-3189_digital-ocean-cluster-provider
+r.cfcr.io/codefresh-inc/codefresh/cluster-providers:saas-3189_digital-ocean-cluster-provider
+Pull r.cfcr.io/codefresh-inc/codefresh/cluster-providers:saas-3189_digital-ocean-cluster-provider completed - Mon Oct  7 11:53:12 UTC 2019 !!!
+
+Tag gcr.io/codefresh-inc/codefresh/cluster-providers:saas-3189_digital-ocean-cluster-provider completed - Mon Oct  7 11:53:12 UTC 2019 !!!
+
+The push refers to repository [gcr.io/codefresh-inc/codefresh/cluster-providers]
+415a28d439ec: Preparing
+3f1f42d5f16d: Preparing
+8f8e5b149e98: Preparing
+bb086ebb0e75: Preparing
+9df2cdf2b802: Preparing
+28bf756b6f8e: Preparing
+4c299e1e70d5: Preparing
+f1b5933fe4b5: Preparing
+bb086ebb0e75: Waiting
+9df2cdf2b802: Waiting
+28bf756b6f8e: Waiting
+4c299e1e70d5: Waiting
+f1b5933fe4b5: Waiting
+3f1f42d5f16d: Layer already exists
+8f8e5b149e98: Layer already exists
+415a28d439ec: Layer already exists
+bb086ebb0e75: Layer already exists
+28bf756b6f8e: Layer already exists
+9df2cdf2b802: Layer already exists
+4c299e1e70d5: Layer already exists
+f1b5933fe4b5: Layer already exists
+saas-3189_digital-ocean-cluster-provider: digest: sha256:7ddeee337106a95ce185bbb70cd04be07110f4420bb0cbba29f5bef1ce85ebec size: 1996
+Push gcr.io/codefresh-inc/codefresh/cluster-providers:saas-3189_digital-ocean-cluster-provider completed - Mon Oct  7 11:53:14 UTC 2019 !!!
+
+---------- Migrate r.cfcr.io/codefresh-inc/codefresh/cluster-providers:SAAS-3189_digital-ocean-cluster-provider to gcr.io/codefresh-inc/codefresh/cluster-providers:SAAS-3189_digital-ocean-cluster-provider
+SAAS-3189_digital-ocean-cluster-provider: Pulling from codefresh-inc/codefresh/cluster-providers
+Digest: sha256:7ddeee337106a95ce185bbb70cd04be07110f4420bb0cbba29f5bef1ce85ebec
+Status: Downloaded newer image for r.cfcr.io/codefresh-inc/codefresh/cluster-providers:SAAS-3189_digital-ocean-cluster-provider
+r.cfcr.io/codefresh-inc/codefresh/cluster-providers:SAAS-3189_digital-ocean-cluster-provider
+Pull r.cfcr.io/codefresh-inc/codefresh/cluster-providers:SAAS-3189_digital-ocean-cluster-provider completed - Mon Oct  7 11:53:14 UTC 2019 !!!
+
+Tag gcr.io/codefresh-inc/codefresh/cluster-providers:SAAS-3189_digital-ocean-cluster-provider completed - Mon Oct  7 11:53:14 UTC 2019 !!!
+
+The push refers to repository [gcr.io/codefresh-inc/codefresh/cluster-providers]
+415a28d439ec: Preparing
+3f1f42d5f16d: Preparing
+8f8e5b149e98: Preparing
+bb086ebb0e75: Preparing
+9df2cdf2b802: Preparing
+28bf756b6f8e: Preparing
+4c299e1e70d5: Preparing
+f1b5933fe4b5: Preparing
+bb086ebb0e75: Waiting
+9df2cdf2b802: Waiting
+28bf756b6f8e: Waiting
+4c299e1e70d5: Waiting
+f1b5933fe4b5: Waiting
+8f8e5b149e98: Layer already exists
+3f1f42d5f16d: Layer already exists
+415a28d439ec: Layer already exists
+9df2cdf2b802: Layer already exists
+28bf756b6f8e: Layer already exists
+bb086ebb0e75: Layer already exists
+4c299e1e70d5: Layer already exists
+f1b5933fe4b5: Layer already exists
+SAAS-3189_digital-ocean-cluster-provider: digest: sha256:7ddeee337106a95ce185bbb70cd04be07110f4420bb0cbba29f5bef1ce85ebec size: 1996
+Push gcr.io/codefresh-inc/codefresh/cluster-providers:SAAS-3189_digital-ocean-cluster-provider completed - Mon Oct  7 11:53:15 UTC 2019 !!!
+
+---------- Migrate r.cfcr.io/codefresh-inc/codefresh/cluster-providers:1.0.6-saas-3189-digital-ocean-cluster-provider to gcr.io/codefresh-inc/codefresh/cluster-providers:1.0.6-saas-3189-digital-ocean-cluster-provider
+1.0.6-saas-3189-digital-ocean-cluster-provider: Pulling from codefresh-inc/codefresh/cluster-providers
+Digest: sha256:7ddeee337106a95ce185bbb70cd04be07110f4420bb0cbba29f5bef1ce85ebec
+Status: Downloaded newer image for r.cfcr.io/codefresh-inc/codefresh/cluster-providers:1.0.6-saas-3189-digital-ocean-cluster-provider
+r.cfcr.io/codefresh-inc/codefresh/cluster-providers:1.0.6-saas-3189-digital-ocean-cluster-provider
+Pull r.cfcr.io/codefresh-inc/codefresh/cluster-providers:1.0.6-saas-3189-digital-ocean-cluster-provider completed - Mon Oct  7 11:53:16 UTC 2019 !!!
+
+Tag gcr.io/codefresh-inc/codefresh/cluster-providers:1.0.6-saas-3189-digital-ocean-cluster-provider completed - Mon Oct  7 11:53:16 UTC 2019 !!!
+
+The push refers to repository [gcr.io/codefresh-inc/codefresh/cluster-providers]
+415a28d439ec: Preparing
+3f1f42d5f16d: Preparing
+8f8e5b149e98: Preparing
+bb086ebb0e75: Preparing
+9df2cdf2b802: Preparing
+28bf756b6f8e: Preparing
+4c299e1e70d5: Preparing
+f1b5933fe4b5: Preparing
+bb086ebb0e75: Waiting
+9df2cdf2b802: Waiting
+28bf756b6f8e: Waiting
+4c299e1e70d5: Waiting
+f1b5933fe4b5: Waiting
+415a28d439ec: Layer already exists
+3f1f42d5f16d: Layer already exists
+8f8e5b149e98: Layer already exists
+bb086ebb0e75: Layer already exists
+9df2cdf2b802: Layer already exists
+28bf756b6f8e: Layer already exists
+4c299e1e70d5: Layer already exists
+f1b5933fe4b5: Layer already exists
+1.0.6-saas-3189-digital-ocean-cluster-provider: digest: sha256:7ddeee337106a95ce185bbb70cd04be07110f4420bb0cbba29f5bef1ce85ebec size: 1996
+Push gcr.io/codefresh-inc/codefresh/cluster-providers:1.0.6-saas-3189-digital-ocean-cluster-provider completed - Mon Oct  7 11:53:17 UTC 2019 !!!
+
+---------- Migrate r.cfcr.io/codefresh-inc/codefresh/cluster-providers:1.0.5-istio-poc to gcr.io/codefresh-inc/codefresh/cluster-providers:1.0.5-istio-poc
+1.0.5-istio-poc: Pulling from codefresh-inc/codefresh/cluster-providers
+e7c96db7181b: Already exists
+df9eac31dfef: Already exists
+0a20433d95a4: Already exists
+24c1eec961f2: Already exists
+0855169fd1ec: Pulling fs layer
+127a90e8303f: Pulling fs layer
+6b495ef8caf1: Pulling fs layer
+2f91d7a5936b: Pulling fs layer
+2f91d7a5936b: Waiting
+127a90e8303f: Verifying Checksum
+127a90e8303f: Download complete
+0855169fd1ec: Verifying Checksum
+0855169fd1ec: Download complete
+0855169fd1ec: Pull complete
+2f91d7a5936b: Verifying Checksum
+2f91d7a5936b: Download complete
+127a90e8303f: Pull complete
+6b495ef8caf1: Verifying Checksum
+6b495ef8caf1: Download complete
+6b495ef8caf1: Pull complete
+2f91d7a5936b: Pull complete
+Digest: sha256:4ee9b1edf8365b2c18cdc4d6ded05f1c6546d5d177a2190a08bce00f5751c072
+Status: Downloaded newer image for r.cfcr.io/codefresh-inc/codefresh/cluster-providers:1.0.5-istio-poc
+r.cfcr.io/codefresh-inc/codefresh/cluster-providers:1.0.5-istio-poc
+Pull r.cfcr.io/codefresh-inc/codefresh/cluster-providers:1.0.5-istio-poc completed - Mon Oct  7 11:53:33 UTC 2019 !!!
+
+Tag gcr.io/codefresh-inc/codefresh/cluster-providers:1.0.5-istio-poc completed - Mon Oct  7 11:53:33 UTC 2019 !!!
+
+The push refers to repository [gcr.io/codefresh-inc/codefresh/cluster-providers]
+82d350e34070: Preparing
+7f0842f65e69: Preparing
+b00317addd46: Preparing
+bca105dd1543: Preparing
+9df2cdf2b802: Preparing
+28bf756b6f8e: Preparing
+4c299e1e70d5: Preparing
+f1b5933fe4b5: Preparing
+9df2cdf2b802: Waiting
+28bf756b6f8e: Waiting
+4c299e1e70d5: Waiting
+f1b5933fe4b5: Waiting
+9df2cdf2b802: Layer already exists
+28bf756b6f8e: Layer already exists
+7f0842f65e69: Retrying in 5 seconds
+82d350e34070: Retrying in 5 seconds
+4c299e1e70d5: Layer already exists
+f1b5933fe4b5: Layer already exists
+7f0842f65e69: Retrying in 4 seconds
+82d350e34070: Retrying in 4 seconds
+bca105dd1543: Pushed
+b00317addd46: Pushed
+82d350e34070: Retrying in 3 seconds
+7f0842f65e69: Retrying in 3 seconds
+82d350e34070: Retrying in 2 seconds
+7f0842f65e69: Retrying in 2 seconds
+82d350e34070: Retrying in 1 second
+7f0842f65e69: Retrying in 1 second
+82d350e34070: Pushed
+7f0842f65e69: Pushed
+1.0.5-istio-poc: digest: sha256:4ee9b1edf8365b2c18cdc4d6ded05f1c6546d5d177a2190a08bce00f5751c072 size: 1996
+Push gcr.io/codefresh-inc/codefresh/cluster-providers:1.0.5-istio-poc completed - Mon Oct  7 11:53:58 UTC 2019 !!!
+

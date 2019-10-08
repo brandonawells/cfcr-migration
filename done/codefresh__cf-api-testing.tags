@@ -1,0 +1,11 @@
+gcr.io/codefresh-inc/codefresh/cf-api-testing:master
+gcr.io/codefresh-inc/codefresh/cf-api-testing:saas-3661_move_tests_to_api
+gcr.io/codefresh-inc/codefresh/cf-api-testing:set-timeouts-for-problematic-tests
+gcr.io/codefresh-inc/codefresh/cf-api-testing:allure-report-dir
+gcr.io/codefresh-inc/codefresh/cf-api-testing:allure-reporter-specify-dir
+gcr.io/codefresh-inc/codefresh/cf-api-testing:saas-3486_accounts
+gcr.io/codefresh-inc/codefresh/cf-api-testing:add-fail-fast-to-test
+gcr.io/codefresh-inc/codefresh/cf-api-testing:test-branch
+gcr.io/codefresh-inc/codefresh/cf-api-testing:fix-existing-tests
+gcr.io/codefresh-inc/codefresh/cf-api-testing:dont-allow-run-on-codefresh-inc
+gcr.io/codefresh-inc/codefresh/cf-api-testing:fix-exit-code

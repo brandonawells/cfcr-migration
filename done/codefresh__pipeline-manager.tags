@@ -1,0 +1,7 @@
+gcr.io/codefresh-inc/codefresh/pipeline-manager:master
+gcr.io/codefresh-inc/codefresh/pipeline-manager:3.46.5
+gcr.io/codefresh-inc/codefresh/pipeline-manager:env_model
+gcr.io/codefresh-inc/codefresh/pipeline-manager:3.46.3-env-model
+gcr.io/codefresh-inc/codefresh/pipeline-manager:saas-3119
+gcr.io/codefresh-inc/codefresh/pipeline-manager:SAAS-3119
+gcr.io/codefresh-inc/codefresh/pipeline-manager:3.46.5-saas-3119

@@ -1,0 +1,7 @@
+r.cfcr.io/codefresh-inc/codefresh/onboarding-status:master gcr.io/codefresh-inc/codefresh/onboarding-status:master
+r.cfcr.io/codefresh-inc/codefresh/onboarding-status:1.1.1 gcr.io/codefresh-inc/codefresh/onboarding-status:1.1.1
+r.cfcr.io/codefresh-inc/codefresh/onboarding-status:preemptible-saas-3841 gcr.io/codefresh-inc/codefresh/onboarding-status:preemptible-saas-3841
+r.cfcr.io/codefresh-inc/codefresh/onboarding-status:preemptible-SAAS-3841 gcr.io/codefresh-inc/codefresh/onboarding-status:preemptible-SAAS-3841
+r.cfcr.io/codefresh-inc/codefresh/onboarding-status:1.1.1-preemptible-saas-3841 gcr.io/codefresh-inc/codefresh/onboarding-status:1.1.1-preemptible-saas-3841
+r.cfcr.io/codefresh-inc/codefresh/onboarding-status:1.1.0-preemptible-saas-3841 gcr.io/codefresh-inc/codefresh/onboarding-status:1.1.0-preemptible-saas-3841
+r.cfcr.io/codefresh-inc/codefresh/onboarding-status:1.1.0 gcr.io/codefresh-inc/codefresh/onboarding-status:1.1.0

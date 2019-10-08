@@ -1,0 +1,6 @@
+gcr.io/codefresh-inc/codefresh-io/accounts-referrals:encode-user-header
+gcr.io/codefresh-inc/codefresh-io/accounts-referrals:master
+gcr.io/codefresh-inc/codefresh-io/accounts-referrals:preemptible-saas-3841
+gcr.io/codefresh-inc/codefresh-io/accounts-referrals:preemptible-SAAS-3841
+gcr.io/codefresh-inc/codefresh-io/accounts-referrals:affinity-identation
+gcr.io/codefresh-inc/codefresh-io/accounts-referrals:istio-poc

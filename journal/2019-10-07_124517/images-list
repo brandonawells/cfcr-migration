@@ -1,0 +1,26 @@
+NAME                      TAG              PULL                                                              
+codefresh/cf-configurator develop          r.cfcr.io/codefresh-inc/codefresh/cf-configurator:develop         
+codefresh/cf-configurator <none>                                                                             
+codefresh/cf-configurator <none>                                                                             
+codefresh/cf-configurator <none>                                                                             
+codefresh/cf-configurator <none>                                                                             
+codefresh/cf-configurator staging          r.cfcr.io/codefresh-inc/codefresh/cf-configurator:staging         
+codefresh/cf-configurator load             r.cfcr.io/codefresh-inc/codefresh/cf-configurator:load            
+codefresh/cf-configurator <none>                                                                             
+codefresh/cf-configurator <none>                                                                             
+codefresh/cf-configurator <none>                                                                             
+codefresh/cf-configurator <none>                                                                             
+codefresh/cf-configurator <none>                                                                             
+codefresh/cf-configurator <none>                                                                             
+codefresh/cf-configurator <none>                                                                             
+codefresh/cf-configurator <none>                                                                             
+codefresh/cf-configurator <none>                                                                             
+codefresh/cf-configurator <none>                                                                             
+codefresh/cf-configurator <none>                                                                             
+codefresh/cf-configurator <none>                                                                             
+codefresh/cf-configurator consul_inventory r.cfcr.io/codefresh-inc/codefresh/cf-configurator:consul_inventory
+codefresh/cf-configurator <none>                                                                             
+codefresh/cf-configurator <none>                                                                             
+codefresh/cf-configurator <none>                                                                             
+codefresh/cf-configurator <none>                                                                             
+codefresh/cf-configurator falco            r.cfcr.io/codefresh-inc/codefresh/cf-configurator:falco           

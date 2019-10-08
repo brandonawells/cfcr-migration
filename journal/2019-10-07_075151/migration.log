@@ -1,0 +1,381 @@
+Entering ./migrate-from-cfcr.sh - Mon Oct  7 07:51:54 UTC 2019
+JOURNAL_DIR = ./journal/2019-10-07_075151
+DONE_DIR = ./done
+IMAGES_LIST=./journal/2019-10-07_075151/images-list
+
+Starting at Mon Oct  7 07:51:56 UTC 2019
+Processing ./journal/2019-10-07_075151/images-list
+NAME                       TAG                                      PULL - SKIP
+./journal/2019-10-07_075151/codefresh__kubeup.tags
+./journal/2019-10-07_075151/codefresh__cf-api.tags
+./journal/2019-10-07_075151/codefresh__cf-api.tags
+codefresh/cf-api           cd84af7e2828e727a60840498c9bffcd0cf42037 r.cfcr.io/codefresh-inc/codefresh/cf-api:cd84af7e2828e727a60840498c9bffcd0cf42037 - SKIP
+./journal/2019-10-07_075151/codefresh__cf-api.tags
+./journal/2019-10-07_075151/codefresh__cf-api.tags
+codefresh/cf-api           451f25bff045e987c79b04a1bd40c55982149955 r.cfcr.io/codefresh-inc/codefresh/cf-api:451f25bff045e987c79b04a1bd40c55982149955 - SKIP
+./journal/2019-10-07_075151/codefresh__cf-api.tags
+./journal/2019-10-07_075151/codefresh__engine.tags
+codefresh/engine           <none> - SKIP
+codefresh/cf-api           935f64553cb8ac6d35ccd62c7f69f7f715024e5e r.cfcr.io/codefresh-inc/codefresh/cf-api:935f64553cb8ac6d35ccd62c7f69f7f715024e5e - SKIP
+./journal/2019-10-07_075151/codefresh__cf-api.tags
+codefresh/cf-api           04a404e3e7900180a6e291b69019dff730959d44 r.cfcr.io/codefresh-inc/codefresh/cf-api:04a404e3e7900180a6e291b69019dff730959d44 - SKIP
+./journal/2019-10-07_075151/codefresh__cf-api.tags
+./journal/2019-10-07_075151/codefresh__pipeline-manager.tags
+./journal/2019-10-07_075151/codefresh__pipeline-manager.tags
+codefresh/pipeline-manager c89b9a2ec78fd07b9886e1ffa6b08e99a0cb20d5 r.cfcr.io/codefresh-inc/codefresh/pipeline-manager:c89b9a2ec78fd07b9886e1ffa6b08e99a0cb20d5 - SKIP
+./journal/2019-10-07_075151/codefresh__pipeline-manager.tags
+codefresh/pipeline-manager 55a512450edb0f064026b84443b889fdceac173b r.cfcr.io/codefresh-inc/codefresh/pipeline-manager:55a512450edb0f064026b84443b889fdceac173b - SKIP
+./journal/2019-10-07_075151/codefresh__pipeline-manager.tags
+./journal/2019-10-07_075151/codefresh__cf-ui.tags
+./journal/2019-10-07_075151/codefresh__cf-ui.tags
+codefresh/cf-ui            49641e8d6e400b1999a784a5b685d01af775f37a r.cfcr.io/codefresh-inc/codefresh/cf-ui:49641e8d6e400b1999a784a5b685d01af775f37a - SKIP
+./journal/2019-10-07_075151/codefresh__cf-ui.tags
+./journal/2019-10-07_075151/codefresh__cf-ui.tags
+codefresh/cf-ui            1fd081c944abc8c20715b20e11d415e8b3a7543b r.cfcr.io/codefresh-inc/codefresh/cf-ui:1fd081c944abc8c20715b20e11d415e8b3a7543b - SKIP
+./journal/2019-10-07_075151/codefresh__cf-ui.tags
+./journal/2019-10-07_075151/codefresh__cf-tls-sign.tags
+./journal/2019-10-07_075151/codefresh__cf-ui.tags
+codefresh/cf-ui            e994c1d198bc6f25964da9f5eeb7ccc86eb44f02 r.cfcr.io/codefresh-inc/codefresh/cf-ui:e994c1d198bc6f25964da9f5eeb7ccc86eb44f02 - SKIP
+codefresh/cf-ui            5be5418fc3a588c6f33702d56b104fb185b0261f r.cfcr.io/codefresh-inc/codefresh/cf-ui:5be5418fc3a588c6f33702d56b104fb185b0261f - SKIP
+./journal/2019-10-07_075151/codefresh__cf-ui.tags
+./journal/2019-10-07_075151/codefresh__cf-ui.tags
+./journal/2019-10-07_075151/codefresh__cf-ui.tags
+codefresh/cf-ui            b9a55308e0c292bc15068684441229118e5ba8cc r.cfcr.io/codefresh-inc/codefresh/cf-ui:b9a55308e0c292bc15068684441229118e5ba8cc - SKIP
+./journal/2019-10-07_075151/codefresh__cf-ui.tags
+./journal/2019-10-07_075151/codefresh__build-test.tags
+codefresh/engine           <none> - SKIP
+codefresh/engine           <none> - SKIP
+./journal/2019-10-07_075151/codefresh__cf-api.tags
+codefresh/cf-api           942414e736fd47b60930fe6f0400646b29ce8f87 r.cfcr.io/codefresh-inc/codefresh/cf-api:942414e736fd47b60930fe6f0400646b29ce8f87 - SKIP
+codefresh/cf-ui            12f63a81deea36aca542bfedf530b5853adc6d41 r.cfcr.io/codefresh-inc/codefresh/cf-ui:12f63a81deea36aca542bfedf530b5853adc6d41 - SKIP
+./journal/2019-10-07_075151/codefresh__cf-ui.tags
+./journal/2019-10-07_075151/codefresh__cf-api.tags
+./journal/2019-10-07_075151/codefresh__cf-api.tags
+codefresh/cf-api           be2ab153ba40b7e0e208b49a85e9af6e24c00762 r.cfcr.io/codefresh-inc/codefresh/cf-api:be2ab153ba40b7e0e208b49a85e9af6e24c00762 - SKIP
+./journal/2019-10-07_075151/codefresh__cf-api.tags
+./journal/2019-10-07_075151/codefresh__pipeline-manager.tags
+./journal/2019-10-07_075151/codefresh__pipeline-manager.tags
+codefresh/pipeline-manager 80ef6a247f50aaf7a1d86d52669126e8e7e50ad1 r.cfcr.io/codefresh-inc/codefresh/pipeline-manager:80ef6a247f50aaf7a1d86d52669126e8e7e50ad1 - SKIP
+./journal/2019-10-07_075151/codefresh__pipeline-manager.tags
+./journal/2019-10-07_075151/codefresh__cf-api.tags
+./journal/2019-10-07_075151/codefresh__cf-api.tags
+codefresh/cf-api           bf7f941580d47c8e1f2db9e8005f2e62e0f74a23 r.cfcr.io/codefresh-inc/codefresh/cf-api:bf7f941580d47c8e1f2db9e8005f2e62e0f74a23 - SKIP
+./journal/2019-10-07_075151/codefresh__cf-api.tags
+codefresh/engine           <none> - SKIP
+codefresh/engine           <none> - SKIP
+
+--- Mon Oct  7 07:51:56 UTC 2019
+Processing tag files
+
+  ****************
+  Mon Oct  7 07:51:56 UTC 2019 - ./journal/2019-10-07_075151/codefresh__build-test.tags
+Skipping Image gcr.io/codefresh-inc/codefresh/build-test:master - it is already done
+
+  ****************
+  Mon Oct  7 07:51:56 UTC 2019 - ./journal/2019-10-07_075151/codefresh__cf-api.tags
+Skipping Image gcr.io/codefresh-inc/codefresh/cf-api:master - it is already done
+Skipping Image gcr.io/codefresh-inc/codefresh/cf-api:6.189.0 - it is already done
+Skipping Image gcr.io/codefresh-inc/codefresh/cf-api:saas-3119 - it is already done
+Skipping Image gcr.io/codefresh-inc/codefresh/cf-api:SAAS-3119 - it is already done
+Skipping Image gcr.io/codefresh-inc/codefresh/cf-api:6.189.0-saas-3119 - it is already done
+Skipping Image gcr.io/codefresh-inc/codefresh/cf-api:6.188.4-saas-3119 - it is already done
+Skipping Image gcr.io/codefresh-inc/codefresh/cf-api:6.188.3-saas-3119 - it is already done
+Skipping Image gcr.io/codefresh-inc/codefresh/cf-api:6.188.3 - it is already done
+Skipping Image gcr.io/codefresh-inc/codefresh/cf-api:saas-data-retention-fix - it is already done
+Skipping Image gcr.io/codefresh-inc/codefresh/cf-api:SAAS-Data-Retention-Fix - it is already done
+Skipping Image gcr.io/codefresh-inc/codefresh/cf-api:6.188.3-saas-data-retention-fix - it is already done
+Skipping Image gcr.io/codefresh-inc/codefresh/cf-api:saas-data-retention-migration1 - it is already done
+Skipping Image gcr.io/codefresh-inc/codefresh/cf-api:SAAS-Data-Retention-Migration1 - it is already done
+Skipping Image gcr.io/codefresh-inc/codefresh/cf-api:6.188.3-saas-data-retention-migration1 - it is already done
+
+  ****************
+  Mon Oct  7 07:51:56 UTC 2019 - ./journal/2019-10-07_075151/codefresh__cf-tls-sign.tags
+Skipping Image gcr.io/codefresh-inc/codefresh/cf-tls-sign:master - it is already done
+
+  ****************
+  Mon Oct  7 07:51:56 UTC 2019 - ./journal/2019-10-07_075151/codefresh__cf-ui.tags
+Skipping Image gcr.io/codefresh-inc/codefresh/cf-ui:master - it is already done
+Skipping Image gcr.io/codefresh-inc/codefresh/cf-ui:4.178.0 - it is already done
+Skipping Image gcr.io/codefresh-inc/codefresh/cf-ui:saas-work - it is already done
+Skipping Image gcr.io/codefresh-inc/codefresh/cf-ui:SAAS-Work - it is already done
+Skipping Image gcr.io/codefresh-inc/codefresh/cf-ui:4.178.0-saas-work - it is already done
+---------- Migrate r.cfcr.io/codefresh-inc/codefresh/cf-ui:4.177.0 to gcr.io/codefresh-inc/codefresh/cf-ui:4.177.0
+4.177.0: Pulling from codefresh-inc/codefresh/cf-ui
+Digest: sha256:f8482849f6003ef3ed36b12ff34eeb137f2c45ee1c2f578b8178e129e2bd372f
+Status: Image is up to date for r.cfcr.io/codefresh-inc/codefresh/cf-ui:4.177.0
+r.cfcr.io/codefresh-inc/codefresh/cf-ui:4.177.0
+Pull r.cfcr.io/codefresh-inc/codefresh/cf-ui:4.177.0 completed - Mon Oct  7 07:51:57 UTC 2019 !!!
+
+Tag gcr.io/codefresh-inc/codefresh/cf-ui:4.177.0 completed - Mon Oct  7 07:51:57 UTC 2019 !!!
+
+The push refers to repository [gcr.io/codefresh-inc/codefresh/cf-ui]
+d7eaf8d188a9: Preparing
+bfb703dfc774: Preparing
+d81c814e2217: Preparing
+cb12a70eba68: Preparing
+69691c95e04e: Preparing
+0cc05a10f2e9: Preparing
+8055ea9c96c6: Preparing
+30a02cb282ad: Preparing
+9f6283bda2c4: Preparing
+dc29a0d03d74: Preparing
+b46a8f138a9e: Preparing
+109c4a769edd: Preparing
+04db5bd8a39f: Preparing
+eaa2fd82d1ac: Preparing
+f1b5933fe4b5: Preparing
+0cc05a10f2e9: Waiting
+8055ea9c96c6: Waiting
+30a02cb282ad: Waiting
+9f6283bda2c4: Waiting
+dc29a0d03d74: Waiting
+b46a8f138a9e: Waiting
+109c4a769edd: Waiting
+04db5bd8a39f: Waiting
+eaa2fd82d1ac: Waiting
+f1b5933fe4b5: Waiting
+d81c814e2217: Layer already exists
+cb12a70eba68: Layer already exists
+d7eaf8d188a9: Layer already exists
+bfb703dfc774: Layer already exists
+69691c95e04e: Layer already exists
+0cc05a10f2e9: Layer already exists
+8055ea9c96c6: Layer already exists
+dc29a0d03d74: Layer already exists
+30a02cb282ad: Layer already exists
+109c4a769edd: Layer already exists
+b46a8f138a9e: Layer already exists
+9f6283bda2c4: Layer already exists
+04db5bd8a39f: Layer already exists
+eaa2fd82d1ac: Layer already exists
+f1b5933fe4b5: Layer already exists
+4.177.0: digest: sha256:f8482849f6003ef3ed36b12ff34eeb137f2c45ee1c2f578b8178e129e2bd372f size: 3464
+Push gcr.io/codefresh-inc/codefresh/cf-ui:4.177.0 completed - Mon Oct  7 07:51:59 UTC 2019 !!!
+
+Skipping Image gcr.io/codefresh-inc/codefresh/cf-ui:4.177.0-saas-work - it is already done
+Skipping Image gcr.io/codefresh-inc/codefresh/cf-ui:saas-data-retention-limits-fix - it is already done
+Skipping Image gcr.io/codefresh-inc/codefresh/cf-ui:SAAS-data-retention-limits-FIX - it is already done
+Skipping Image gcr.io/codefresh-inc/codefresh/cf-ui:4.177.0-saas-data-retention-limits-fix - it is already done
+---------- Migrate r.cfcr.io/codefresh-inc/codefresh/cf-ui:4.173.0-saas-data-retention-limits-fix to gcr.io/codefresh-inc/codefresh/cf-ui:4.173.0-saas-data-retention-limits-fix
+4.173.0-saas-data-retention-limits-fix: Pulling from codefresh-inc/codefresh/cf-ui
+Digest: sha256:d2059a28506ae2fd1b32201a241da8abc3faf6b801ac97952819977229c25536
+Status: Image is up to date for r.cfcr.io/codefresh-inc/codefresh/cf-ui:4.173.0-saas-data-retention-limits-fix
+r.cfcr.io/codefresh-inc/codefresh/cf-ui:4.173.0-saas-data-retention-limits-fix
+Pull r.cfcr.io/codefresh-inc/codefresh/cf-ui:4.173.0-saas-data-retention-limits-fix completed - Mon Oct  7 07:52:00 UTC 2019 !!!
+
+Tag gcr.io/codefresh-inc/codefresh/cf-ui:4.173.0-saas-data-retention-limits-fix completed - Mon Oct  7 07:52:00 UTC 2019 !!!
+
+The push refers to repository [gcr.io/codefresh-inc/codefresh/cf-ui]
+6101089728c7: Preparing
+5d7d8d9b4f54: Preparing
+d8024c1302f2: Preparing
+1e9849de163a: Preparing
+ffd51b3ef301: Preparing
+f01bf3b3e9e3: Preparing
+7056da121b8f: Preparing
+78b2232e312d: Preparing
+25ec69030ff7: Preparing
+dc29a0d03d74: Preparing
+b46a8f138a9e: Preparing
+109c4a769edd: Preparing
+04db5bd8a39f: Preparing
+eaa2fd82d1ac: Preparing
+f1b5933fe4b5: Preparing
+f01bf3b3e9e3: Waiting
+7056da121b8f: Waiting
+78b2232e312d: Waiting
+25ec69030ff7: Waiting
+dc29a0d03d74: Waiting
+b46a8f138a9e: Waiting
+109c4a769edd: Waiting
+04db5bd8a39f: Waiting
+eaa2fd82d1ac: Waiting
+f1b5933fe4b5: Waiting
+ffd51b3ef301: Layer already exists
+1e9849de163a: Layer already exists
+d8024c1302f2: Layer already exists
+78b2232e312d: Layer already exists
+7056da121b8f: Layer already exists
+25ec69030ff7: Layer already exists
+dc29a0d03d74: Layer already exists
+109c4a769edd: Layer already exists
+b46a8f138a9e: Layer already exists
+04db5bd8a39f: Layer already exists
+eaa2fd82d1ac: Layer already exists
+f1b5933fe4b5: Layer already exists
+5d7d8d9b4f54: Pushed
+6101089728c7: Pushed
+f01bf3b3e9e3: Pushed
+4.173.0-saas-data-retention-limits-fix: digest: sha256:d2059a28506ae2fd1b32201a241da8abc3faf6b801ac97952819977229c25536 size: 3464
+Push gcr.io/codefresh-inc/codefresh/cf-ui:4.173.0-saas-data-retention-limits-fix completed - Mon Oct  7 07:53:41 UTC 2019 !!!
+
+
+  ****************
+  Mon Oct  7 07:53:41 UTC 2019 - ./journal/2019-10-07_075151/codefresh__engine.tags
+Skipping Image gcr.io/codefresh-inc/codefresh/engine:saas-3119 - it is already done
+
+  ****************
+  Mon Oct  7 07:53:41 UTC 2019 - ./journal/2019-10-07_075151/codefresh__kubeup.tags
+grep: ./done/codefresh__kubeup.tags: No such file or directory
+---------- Migrate r.cfcr.io/codefresh-inc/codefresh/kubeup:master to gcr.io/codefresh-inc/codefresh/kubeup:master
+master: Pulling from codefresh-inc/codefresh/kubeup
+e7c96db7181b: Already exists
+22b5739dde3f: Pulling fs layer
+d29705f34fd2: Pulling fs layer
+bca405f829ef: Pulling fs layer
+4d0ce2eb3dd8: Pulling fs layer
+b248c84ca360: Pulling fs layer
+80feb78a5002: Pulling fs layer
+3a5b7599590d: Pulling fs layer
+9710a5be1529: Pulling fs layer
+7a4650c62a03: Pulling fs layer
+18b1c2aea333: Pulling fs layer
+3a5b7599590d: Waiting
+9710a5be1529: Waiting
+4d0ce2eb3dd8: Waiting
+b248c84ca360: Waiting
+80feb78a5002: Waiting
+7a4650c62a03: Waiting
+18b1c2aea333: Waiting
+bca405f829ef: Verifying Checksum
+bca405f829ef: Download complete
+d29705f34fd2: Verifying Checksum
+d29705f34fd2: Download complete
+22b5739dde3f: Verifying Checksum
+22b5739dde3f: Download complete
+80feb78a5002: Verifying Checksum
+80feb78a5002: Download complete
+b248c84ca360: Verifying Checksum
+b248c84ca360: Download complete
+3a5b7599590d: Verifying Checksum
+3a5b7599590d: Download complete
+4d0ce2eb3dd8: Verifying Checksum
+4d0ce2eb3dd8: Download complete
+7a4650c62a03: Verifying Checksum
+7a4650c62a03: Download complete
+18b1c2aea333: Verifying Checksum
+18b1c2aea333: Download complete
+9710a5be1529: Verifying Checksum
+9710a5be1529: Download complete
+22b5739dde3f: Pull complete
+d29705f34fd2: Pull complete
+bca405f829ef: Pull complete
+4d0ce2eb3dd8: Pull complete
+b248c84ca360: Pull complete
+80feb78a5002: Pull complete
+3a5b7599590d: Pull complete
+9710a5be1529: Pull complete
+7a4650c62a03: Pull complete
+18b1c2aea333: Pull complete
+Digest: sha256:e70e79f152eaef36f2ed849bfbab5a47e45ebed3f5d9ceab3d0846acb9e05ff5
+Status: Downloaded newer image for r.cfcr.io/codefresh-inc/codefresh/kubeup:master
+r.cfcr.io/codefresh-inc/codefresh/kubeup:master
+Pull r.cfcr.io/codefresh-inc/codefresh/kubeup:master completed - Mon Oct  7 07:53:52 UTC 2019 !!!
+
+Tag gcr.io/codefresh-inc/codefresh/kubeup:master completed - Mon Oct  7 07:53:52 UTC 2019 !!!
+
+The push refers to repository [gcr.io/codefresh-inc/codefresh/kubeup]
+a51ddc77c443: Preparing
+32a6ca0414f1: Preparing
+7e64a2d1f8b9: Preparing
+31430112f413: Preparing
+e2b97651a7ae: Preparing
+17648edbb6d4: Preparing
+1a086ccf33bd: Preparing
+53f336e26fc2: Preparing
+d4d983b137b8: Preparing
+355cf0758929: Preparing
+f1b5933fe4b5: Preparing
+17648edbb6d4: Waiting
+1a086ccf33bd: Waiting
+53f336e26fc2: Waiting
+d4d983b137b8: Waiting
+355cf0758929: Waiting
+f1b5933fe4b5: Waiting
+a51ddc77c443: Pushing
+a51ddc77c443: Retrying in 5 seconds
+7e64a2d1f8b9: Retrying in 5 seconds
+a51ddc77c443: Retrying in 4 seconds
+7e64a2d1f8b9: Retrying in 4 seconds
+a51ddc77c443: Retrying in 3 seconds
+7e64a2d1f8b9: Retrying in 3 seconds
+a51ddc77c443: Retrying in 2 seconds
+32a6ca0414f1: Pushed
+31430112f413: Pushed
+e2b97651a7ae: Pushed
+7e64a2d1f8b9: Retrying in 2 seconds
+a51ddc77c443: Retrying in 1 second
+7e64a2d1f8b9: Retrying in 1 second
+a51ddc77c443: Pushing
+a51ddc77c443: Retrying in 10 seconds
+7e64a2d1f8b9: Retrying in 10 seconds
+a51ddc77c443: Retrying in 9 seconds
+7e64a2d1f8b9: Retrying in 9 seconds
+a51ddc77c443: Retrying in 8 seconds
+7e64a2d1f8b9: Retrying in 8 seconds
+a51ddc77c443: Retrying in 7 seconds
+7e64a2d1f8b9: Retrying in 7 seconds
+17648edbb6d4: Pushed
+a51ddc77c443: Retrying in 6 seconds
+7e64a2d1f8b9: Retrying in 6 seconds
+a51ddc77c443: Retrying in 5 seconds
+7e64a2d1f8b9: Retrying in 5 seconds
+a51ddc77c443: Retrying in 4 seconds
+53f336e26fc2: Pushed
+7e64a2d1f8b9: Retrying in 4 seconds
+a51ddc77c443: Retrying in 3 seconds
+7e64a2d1f8b9: Retrying in 3 seconds
+a51ddc77c443: Retrying in 2 seconds
+1a086ccf33bd: Pushed
+7e64a2d1f8b9: Retrying in 2 seconds
+f1b5933fe4b5: Layer already exists
+a51ddc77c443: Retrying in 1 second
+7e64a2d1f8b9: Retrying in 1 second
+a51ddc77c443: Pushing
+a51ddc77c443: Retrying in 15 seconds
+7e64a2d1f8b9: Retrying in 15 seconds
+d4d983b137b8: Pushed
+a51ddc77c443: Retrying in 14 seconds
+7e64a2d1f8b9: Retrying in 14 seconds
+a51ddc77c443: Retrying in 13 seconds
+7e64a2d1f8b9: Retrying in 13 seconds
+a51ddc77c443: Retrying in 12 seconds
+7e64a2d1f8b9: Retrying in 12 seconds
+a51ddc77c443: Retrying in 11 seconds
+7e64a2d1f8b9: Retrying in 11 seconds
+a51ddc77c443: Retrying in 10 seconds
+7e64a2d1f8b9: Retrying in 10 seconds
+355cf0758929: Pushed
+a51ddc77c443: Retrying in 9 seconds
+7e64a2d1f8b9: Retrying in 9 seconds
+a51ddc77c443: Retrying in 8 seconds
+7e64a2d1f8b9: Retrying in 8 seconds
+a51ddc77c443: Retrying in 7 seconds
+7e64a2d1f8b9: Retrying in 7 seconds
+a51ddc77c443: Retrying in 6 seconds
+7e64a2d1f8b9: Retrying in 6 seconds
+a51ddc77c443: Retrying in 5 seconds
+7e64a2d1f8b9: Retrying in 5 seconds
+a51ddc77c443: Retrying in 4 seconds
+7e64a2d1f8b9: Retrying in 4 seconds
+a51ddc77c443: Retrying in 3 seconds
+7e64a2d1f8b9: Retrying in 3 seconds
+a51ddc77c443: Retrying in 2 seconds
+7e64a2d1f8b9: Retrying in 2 seconds
+a51ddc77c443: Retrying in 1 second
+7e64a2d1f8b9: Retrying in 1 second
+a51ddc77c443: Pushed
+7e64a2d1f8b9: Pushed
+master: digest: sha256:03fe0c9664900a2dde2ad73a748dd93a4a781b6b269eef50ce61477c9bc669a4 size: 2635
+Push gcr.io/codefresh-inc/codefresh/kubeup:master completed - Mon Oct  7 07:54:32 UTC 2019 !!!
+
+
+  ****************
+  Mon Oct  7 07:54:32 UTC 2019 - ./journal/2019-10-07_075151/codefresh__pipeline-manager.tags
+Skipping Image gcr.io/codefresh-inc/codefresh/pipeline-manager:master - it is already done
+Skipping Image gcr.io/codefresh-inc/codefresh/pipeline-manager:3.46.5 - it is already done
+Skipping Image gcr.io/codefresh-inc/codefresh/pipeline-manager:env_model - it is already done
+Skipping Image gcr.io/codefresh-inc/codefresh/pipeline-manager:3.46.3-env-model - it is already done
+Skipping Image gcr.io/codefresh-inc/codefresh/pipeline-manager:saas-3119 - it is already done
+Skipping Image gcr.io/codefresh-inc/codefresh/pipeline-manager:SAAS-3119 - it is already done
+Skipping Image gcr.io/codefresh-inc/codefresh/pipeline-manager:3.46.5-saas-3119 - it is already done

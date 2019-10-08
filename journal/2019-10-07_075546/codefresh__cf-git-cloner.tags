@@ -1,0 +1,10 @@
+r.cfcr.io/codefresh-inc/codefresh/cf-git-cloner:cf-onprem-v1.0.82 gcr.io/codefresh-inc/codefresh/cf-git-cloner:cf-onprem-v1.0.82
+r.cfcr.io/codefresh-inc/codefresh/cf-git-cloner:master gcr.io/codefresh-inc/codefresh/cf-git-cloner:master
+r.cfcr.io/codefresh-inc/codefresh/cf-git-cloner:v9 gcr.io/codefresh-inc/codefresh/cf-git-cloner:v9
+r.cfcr.io/codefresh-inc/codefresh/cf-git-cloner:fix_spare_clone gcr.io/codefresh-inc/codefresh/cf-git-cloner:fix_spare_clone
+r.cfcr.io/codefresh-inc/codefresh/cf-git-cloner:fix_spare_clone_2 gcr.io/codefresh-inc/codefresh/cf-git-cloner:fix_spare_clone_2
+r.cfcr.io/codefresh-inc/codefresh/cf-git-cloner:fix_spare_clone_1 gcr.io/codefresh-inc/codefresh/cf-git-cloner:fix_spare_clone_1
+r.cfcr.io/codefresh-inc/codefresh/cf-git-cloner:cf-onprem-v1.0.81 gcr.io/codefresh-inc/codefresh/cf-git-cloner:cf-onprem-v1.0.81
+r.cfcr.io/codefresh-inc/codefresh/cf-git-cloner:cf-onprem-v1.0.80 gcr.io/codefresh-inc/codefresh/cf-git-cloner:cf-onprem-v1.0.80
+r.cfcr.io/codefresh-inc/codefresh/cf-git-cloner:v8 gcr.io/codefresh-inc/codefresh/cf-git-cloner:v8
+r.cfcr.io/codefresh-inc/codefresh/cf-git-cloner:saas-3397 gcr.io/codefresh-inc/codefresh/cf-git-cloner:saas-3397
