@@ -1,0 +1,4 @@
+r.cfcr.io/codefresh-inc/codefresh/cf-k8s-agent:master gcr.io/codefresh-inc/codefresh/cf-k8s-agent:master
+r.cfcr.io/codefresh-inc/codefresh/cf-k8s-agent:perfomance-improvements gcr.io/codefresh-inc/codefresh/cf-k8s-agent:perfomance-improvements
+r.cfcr.io/codefresh-inc/codefresh/cf-k8s-agent:events-storing-issue gcr.io/codefresh-inc/codefresh/cf-k8s-agent:events-storing-issue
+r.cfcr.io/codefresh-inc/codefresh/cf-k8s-agent:stable gcr.io/codefresh-inc/codefresh/cf-k8s-agent:stable

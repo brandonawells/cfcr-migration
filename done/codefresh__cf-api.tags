@@ -1160,3 +1160,16 @@ gcr.io/codefresh-inc/codefresh/cf-api:6.46.10-saas-2962
 gcr.io/codefresh-inc/codefresh/cf-api:6.47.0-saas-3247-refactor-retry
 gcr.io/codefresh-inc/codefresh/cf-api:test111
 gcr.io/codefresh-inc/codefresh/cf-api:6.46.3-test111
+gcr.io/codefresh-inc/codefresh/cf-api:6.189.2
+gcr.io/codefresh-inc/codefresh/cf-api:6.189.2-debugger-awaiting
+gcr.io/codefresh-inc/codefresh/cf-api:6.189.1
+gcr.io/codefresh-inc/codefresh/cf-api:saas-dr-weeks-fix
+gcr.io/codefresh-inc/codefresh/cf-api:SAAS-dr-weeks-fix
+gcr.io/codefresh-inc/codefresh/cf-api:6.189.1-saas-dr-weeks-fix
+gcr.io/codefresh-inc/codefresh/cf-api:6.189.0-saas-dr-weeks-fix
+gcr.io/codefresh-inc/codefresh/cf-api:6.131.0-saas-remove-environment-terminator-from-endpoint
+gcr.io/codefresh-inc/codefresh/cf-api:6.130.0
+gcr.io/codefresh-inc/codefresh/cf-api:6.114.0
+gcr.io/codefresh-inc/codefresh/cf-api:6.80.2-fix-azure-sync-paging
+gcr.io/codefresh-inc/codefresh/cf-api:6.79.0-saas-4317-ldap-without-email
+gcr.io/codefresh-inc/codefresh/cf-api:6.46.11-saas-3171-rename-account

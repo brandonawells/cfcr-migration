@@ -1,0 +1,4 @@
+r.cfcr.io/codefresh-inc/codefresh/google-drive-plugin:master gcr.io/codefresh-inc/codefresh/google-drive-plugin:master
+r.cfcr.io/codefresh-inc/codefresh/google-drive-plugin:dependabotnpm_and_yarnjs-yaml-3.13.1 gcr.io/codefresh-inc/codefresh/google-drive-plugin:dependabotnpm_and_yarnjs-yaml-3.13.1
+r.cfcr.io/codefresh-inc/codefresh/google-drive-plugin:dependabotnpm_and_yarnlodash-4.17.13 gcr.io/codefresh-inc/codefresh/google-drive-plugin:dependabotnpm_and_yarnlodash-4.17.13
+r.cfcr.io/codefresh-inc/codefresh/google-drive-plugin:update-image-url gcr.io/codefresh-inc/codefresh/google-drive-plugin:update-image-url

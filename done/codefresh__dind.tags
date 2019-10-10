@@ -1,0 +1,2 @@
+gcr.io/codefresh-inc/codefresh/dind:master
+gcr.io/codefresh-inc/codefresh/dind:dockerd_restart

@@ -1,0 +1,293 @@
+Entering ./migrate-from-cfcr.sh - Tue Oct  8 08:23:39 UTC 2019
+JOURNAL_DIR = ./journal/2019-10-08_082335
+DONE_DIR = ./done
+IMAGES_LIST=./journal/2019-10-08_082335/images-list
+
+Starting at Tue Oct  8 08:23:42 UTC 2019
+Processing ./journal/2019-10-08_082335/images-list
+NAME                                       TAG    PULL - SKIP
+./journal/2019-10-08_082335/codefreshio__disposable-environment-cleaner.tags
+./journal/2019-10-08_082335/codefreshio__disposable-environment-cleaner.tags
+./journal/2019-10-08_082335/codefreshio__disposable-environment-cleaner.tags
+./journal/2019-10-08_082335/codefreshio__disposable-environment-cleaner.tags
+./journal/2019-10-08_082335/codefreshio__disposable-environment-cleaner.tags
+
+--- Tue Oct  8 08:23:42 UTC 2019
+Processing tag files
+
+  ****************
+  Tue Oct  8 08:23:42 UTC 2019 - ./journal/2019-10-08_082335/codefreshio__disposable-environment-cleaner.tags
+grep: ./done/codefreshio__disposable-environment-cleaner.tags: No such file or directory
+---------- Migrate r.cfcr.io/codefresh-inc/codefreshio/disposable-environment-cleaner:master to gcr.io/codefresh-inc/codefreshio/disposable-environment-cleaner:master
+master: Pulling from codefresh-inc/codefreshio/disposable-environment-cleaner
+1160f4abea84: Pulling fs layer
+2775e334e8ac: Pulling fs layer
+8db027ce743c: Pulling fs layer
+1e22a656aed2: Pulling fs layer
+bc0fdeba4628: Pulling fs layer
+809f6471ef0a: Pulling fs layer
+5a37ff59898a: Pulling fs layer
+cd62de18cf02: Pulling fs layer
+56d4970b2d83: Pulling fs layer
+2c0757e07e79: Pulling fs layer
+f64f2a2ed30f: Pulling fs layer
+2d52e57de9eb: Pulling fs layer
+1e22a656aed2: Waiting
+bc0fdeba4628: Waiting
+809f6471ef0a: Waiting
+5a37ff59898a: Waiting
+cd62de18cf02: Waiting
+56d4970b2d83: Waiting
+2c0757e07e79: Waiting
+f64f2a2ed30f: Waiting
+2d52e57de9eb: Waiting
+1160f4abea84: Download complete
+8db027ce743c: Verifying Checksum
+8db027ce743c: Download complete
+bc0fdeba4628: Verifying Checksum
+bc0fdeba4628: Download complete
+809f6471ef0a: Verifying Checksum
+809f6471ef0a: Download complete
+2775e334e8ac: Verifying Checksum
+2775e334e8ac: Download complete
+1e22a656aed2: Verifying Checksum
+1e22a656aed2: Download complete
+1160f4abea84: Pull complete
+56d4970b2d83: Verifying Checksum
+56d4970b2d83: Download complete
+cd62de18cf02: Verifying Checksum
+cd62de18cf02: Download complete
+2c0757e07e79: Verifying Checksum
+2c0757e07e79: Download complete
+f64f2a2ed30f: Verifying Checksum
+f64f2a2ed30f: Download complete
+5a37ff59898a: Verifying Checksum
+5a37ff59898a: Download complete
+2d52e57de9eb: Verifying Checksum
+2d52e57de9eb: Download complete
+2775e334e8ac: Pull complete
+8db027ce743c: Pull complete
+1e22a656aed2: Pull complete
+bc0fdeba4628: Pull complete
+809f6471ef0a: Pull complete
+5a37ff59898a: Pull complete
+cd62de18cf02: Pull complete
+56d4970b2d83: Pull complete
+2c0757e07e79: Pull complete
+f64f2a2ed30f: Pull complete
+2d52e57de9eb: Pull complete
+Digest: sha256:5cee7efbeee8fc4d2464fd50dadf371f1e966429dbbe85ac261a0e693b4f3dcc
+Status: Downloaded newer image for r.cfcr.io/codefresh-inc/codefreshio/disposable-environment-cleaner:master
+r.cfcr.io/codefresh-inc/codefreshio/disposable-environment-cleaner:master
+Pull r.cfcr.io/codefresh-inc/codefreshio/disposable-environment-cleaner:master completed - Tue Oct  8 08:24:19 UTC 2019 !!!
+
+Tag gcr.io/codefresh-inc/codefreshio/disposable-environment-cleaner:master completed - Tue Oct  8 08:24:19 UTC 2019 !!!
+
+The push refers to repository [gcr.io/codefresh-inc/codefreshio/disposable-environment-cleaner]
+65fbba16f9c8: Preparing
+ba5e1705bf78: Preparing
+a99a46cba765: Preparing
+470157e36043: Preparing
+88c25641bc11: Preparing
+d8b672e20011: Preparing
+9104d56e5d90: Preparing
+49a7394f17fe: Preparing
+248e4c803a08: Preparing
+60f41a2b77ff: Preparing
+18ebebbb9019: Preparing
+6dfaec39e726: Preparing
+470157e36043: Waiting
+88c25641bc11: Waiting
+d8b672e20011: Waiting
+9104d56e5d90: Waiting
+49a7394f17fe: Waiting
+248e4c803a08: Waiting
+60f41a2b77ff: Waiting
+18ebebbb9019: Waiting
+6dfaec39e726: Waiting
+65fbba16f9c8: Pushed
+470157e36043: Pushed
+ba5e1705bf78: Pushed
+a99a46cba765: Pushed
+88c25641bc11: Pushed
+9104d56e5d90: Pushed
+60f41a2b77ff: Layer already exists
+49a7394f17fe: Pushed
+6dfaec39e726: Layer already exists
+18ebebbb9019: Layer already exists
+248e4c803a08: Pushed
+d8b672e20011: Pushed
+master: digest: sha256:3b6c8d3f924cd23962e9b7ea05de7ff80ca19e5c5712303064adf354c8cb65cd size: 2841
+Push gcr.io/codefresh-inc/codefreshio/disposable-environment-cleaner:master completed - Tue Oct  8 08:24:48 UTC 2019 !!!
+
+Skipping Image gcr.io/codefresh-inc/codefreshio/disposable-environment-cleaner:master - it is already done
+---------- Migrate r.cfcr.io/codefresh-inc/codefreshio/disposable-environment-cleaner:1.0.7 to gcr.io/codefresh-inc/codefreshio/disposable-environment-cleaner:1.0.7
+1.0.7: Pulling from codefresh-inc/codefreshio/disposable-environment-cleaner
+Digest: sha256:3b6c8d3f924cd23962e9b7ea05de7ff80ca19e5c5712303064adf354c8cb65cd
+Status: Downloaded newer image for r.cfcr.io/codefresh-inc/codefreshio/disposable-environment-cleaner:1.0.7
+r.cfcr.io/codefresh-inc/codefreshio/disposable-environment-cleaner:1.0.7
+Pull r.cfcr.io/codefresh-inc/codefreshio/disposable-environment-cleaner:1.0.7 completed - Tue Oct  8 08:24:49 UTC 2019 !!!
+
+Tag gcr.io/codefresh-inc/codefreshio/disposable-environment-cleaner:1.0.7 completed - Tue Oct  8 08:24:49 UTC 2019 !!!
+
+The push refers to repository [gcr.io/codefresh-inc/codefreshio/disposable-environment-cleaner]
+65fbba16f9c8: Preparing
+ba5e1705bf78: Preparing
+a99a46cba765: Preparing
+470157e36043: Preparing
+88c25641bc11: Preparing
+d8b672e20011: Preparing
+9104d56e5d90: Preparing
+49a7394f17fe: Preparing
+248e4c803a08: Preparing
+60f41a2b77ff: Preparing
+18ebebbb9019: Preparing
+6dfaec39e726: Preparing
+88c25641bc11: Waiting
+d8b672e20011: Waiting
+9104d56e5d90: Waiting
+49a7394f17fe: Waiting
+248e4c803a08: Waiting
+60f41a2b77ff: Waiting
+18ebebbb9019: Waiting
+6dfaec39e726: Waiting
+ba5e1705bf78: Layer already exists
+65fbba16f9c8: Layer already exists
+a99a46cba765: Layer already exists
+470157e36043: Layer already exists
+9104d56e5d90: Layer already exists
+d8b672e20011: Layer already exists
+49a7394f17fe: Layer already exists
+88c25641bc11: Layer already exists
+6dfaec39e726: Layer already exists
+18ebebbb9019: Layer already exists
+60f41a2b77ff: Layer already exists
+248e4c803a08: Layer already exists
+1.0.7: digest: sha256:3b6c8d3f924cd23962e9b7ea05de7ff80ca19e5c5712303064adf354c8cb65cd size: 2841
+Push gcr.io/codefresh-inc/codefreshio/disposable-environment-cleaner:1.0.7 completed - Tue Oct  8 08:24:50 UTC 2019 !!!
+
+---------- Migrate r.cfcr.io/codefresh-inc/codefreshio/disposable-environment-cleaner:1.0.6 to gcr.io/codefresh-inc/codefreshio/disposable-environment-cleaner:1.0.6
+1.0.6: Pulling from codefresh-inc/codefreshio/disposable-environment-cleaner
+1160f4abea84: Already exists
+2775e334e8ac: Already exists
+8db027ce743c: Already exists
+1e22a656aed2: Already exists
+bc0fdeba4628: Already exists
+809f6471ef0a: Already exists
+5a37ff59898a: Already exists
+cd62de18cf02: Already exists
+56d4970b2d83: Already exists
+2c0757e07e79: Already exists
+f64f2a2ed30f: Already exists
+dd779e1612e8: Pulling fs layer
+dd779e1612e8: Verifying Checksum
+dd779e1612e8: Download complete
+dd779e1612e8: Pull complete
+Digest: sha256:0682771b29118e358df99534ebebc11dec20cd4fe2505c599b385c0ce18bb163
+Status: Downloaded newer image for r.cfcr.io/codefresh-inc/codefreshio/disposable-environment-cleaner:1.0.6
+r.cfcr.io/codefresh-inc/codefreshio/disposable-environment-cleaner:1.0.6
+Pull r.cfcr.io/codefresh-inc/codefreshio/disposable-environment-cleaner:1.0.6 completed - Tue Oct  8 08:24:51 UTC 2019 !!!
+
+Tag gcr.io/codefresh-inc/codefreshio/disposable-environment-cleaner:1.0.6 completed - Tue Oct  8 08:24:51 UTC 2019 !!!
+
+The push refers to repository [gcr.io/codefresh-inc/codefreshio/disposable-environment-cleaner]
+50837a0a346f: Preparing
+ba5e1705bf78: Preparing
+a99a46cba765: Preparing
+470157e36043: Preparing
+88c25641bc11: Preparing
+d8b672e20011: Preparing
+9104d56e5d90: Preparing
+49a7394f17fe: Preparing
+248e4c803a08: Preparing
+60f41a2b77ff: Preparing
+18ebebbb9019: Preparing
+6dfaec39e726: Preparing
+50837a0a346f: Waiting
+ba5e1705bf78: Waiting
+a99a46cba765: Waiting
+470157e36043: Waiting
+88c25641bc11: Waiting
+d8b672e20011: Waiting
+9104d56e5d90: Waiting
+49a7394f17fe: Waiting
+248e4c803a08: Waiting
+60f41a2b77ff: Waiting
+18ebebbb9019: Waiting
+6dfaec39e726: Waiting
+a99a46cba765: Layer already exists
+ba5e1705bf78: Layer already exists
+470157e36043: Layer already exists
+88c25641bc11: Layer already exists
+d8b672e20011: Layer already exists
+9104d56e5d90: Layer already exists
+49a7394f17fe: Layer already exists
+248e4c803a08: Layer already exists
+60f41a2b77ff: Layer already exists
+18ebebbb9019: Layer already exists
+6dfaec39e726: Layer already exists
+50837a0a346f: Pushed
+1.0.6: digest: sha256:0682771b29118e358df99534ebebc11dec20cd4fe2505c599b385c0ce18bb163 size: 2841
+Push gcr.io/codefresh-inc/codefreshio/disposable-environment-cleaner:1.0.6 completed - Tue Oct  8 08:24:58 UTC 2019 !!!
+
+---------- Migrate r.cfcr.io/codefresh-inc/codefreshio/disposable-environment-cleaner:1.0.5 to gcr.io/codefresh-inc/codefreshio/disposable-environment-cleaner:1.0.5
+1.0.5: Pulling from codefresh-inc/codefreshio/disposable-environment-cleaner
+1160f4abea84: Already exists
+2775e334e8ac: Already exists
+8db027ce743c: Already exists
+1e22a656aed2: Already exists
+bc0fdeba4628: Already exists
+809f6471ef0a: Already exists
+5a37ff59898a: Already exists
+cd62de18cf02: Already exists
+56d4970b2d83: Already exists
+2c0757e07e79: Already exists
+f64f2a2ed30f: Already exists
+4b8946d82bcf: Pulling fs layer
+4b8946d82bcf: Verifying Checksum
+4b8946d82bcf: Download complete
+4b8946d82bcf: Pull complete
+Digest: sha256:dd2578268920cb82aae30ee87bd65451401d5d6a14416f819c7a6330bb70d8fc
+Status: Downloaded newer image for r.cfcr.io/codefresh-inc/codefreshio/disposable-environment-cleaner:1.0.5
+r.cfcr.io/codefresh-inc/codefreshio/disposable-environment-cleaner:1.0.5
+Pull r.cfcr.io/codefresh-inc/codefreshio/disposable-environment-cleaner:1.0.5 completed - Tue Oct  8 08:25:00 UTC 2019 !!!
+
+Tag gcr.io/codefresh-inc/codefreshio/disposable-environment-cleaner:1.0.5 completed - Tue Oct  8 08:25:00 UTC 2019 !!!
+
+The push refers to repository [gcr.io/codefresh-inc/codefreshio/disposable-environment-cleaner]
+9a43922e2499: Preparing
+ba5e1705bf78: Preparing
+a99a46cba765: Preparing
+470157e36043: Preparing
+88c25641bc11: Preparing
+d8b672e20011: Preparing
+9104d56e5d90: Preparing
+49a7394f17fe: Preparing
+248e4c803a08: Preparing
+60f41a2b77ff: Preparing
+18ebebbb9019: Preparing
+6dfaec39e726: Preparing
+470157e36043: Waiting
+88c25641bc11: Waiting
+d8b672e20011: Waiting
+9104d56e5d90: Waiting
+49a7394f17fe: Waiting
+248e4c803a08: Waiting
+60f41a2b77ff: Waiting
+18ebebbb9019: Waiting
+6dfaec39e726: Waiting
+a99a46cba765: Layer already exists
+ba5e1705bf78: Layer already exists
+470157e36043: Layer already exists
+88c25641bc11: Layer already exists
+9104d56e5d90: Layer already exists
+d8b672e20011: Layer already exists
+49a7394f17fe: Layer already exists
+248e4c803a08: Layer already exists
+60f41a2b77ff: Layer already exists
+18ebebbb9019: Layer already exists
+6dfaec39e726: Layer already exists
+9a43922e2499: Pushed
+1.0.5: digest: sha256:dd2578268920cb82aae30ee87bd65451401d5d6a14416f819c7a6330bb70d8fc size: 2841
+Push gcr.io/codefresh-inc/codefreshio/disposable-environment-cleaner:1.0.5 completed - Tue Oct  8 08:25:05 UTC 2019 !!!
+
