@@ -53,6 +53,7 @@ echo "Processing $IMAGES_LIST"
 DONE_FILE=${DONE_DIR}/done_list
 cat ${IMAGES_LIST} | while read line
 do
+  IMAGE_DATE=$(echo "$line" | awk '{print $1}' )
   IMAGE=$(echo "$line" | awk '{print $2}' )
   NEW_IMAGE=$(echo "$IMAGE" |  sed "s%${FROM_REPO}%${TO_REPO}%g")
 
@@ -61,7 +62,8 @@ do
     continue
   fi
   COPY_COMMAND="$CRANE copy $IMAGE $NEW_IMAGE"
-  echo "---------- Copy $PULL to $PUSH"
+  echo "---------- Copy $IMAGE to $IMAGE"
+  echo "the image from $IMAGE_DATE"
     eval $COPY_COMMAND && echo -e "copy $IMAGE completed - $(date) !!!\n"
 
     if [[ $? == 0 ]]; then
