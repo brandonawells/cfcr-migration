@@ -17,5 +17,5 @@ MIGRATE_PID=$!
 echo "Migrate script is running with PID $MIGRATE_PID 
 see the log output in $JOURNAL_DIR 
 "
-
+sleep 3
 tail -f $JOURNAL_DIR/migration.log
