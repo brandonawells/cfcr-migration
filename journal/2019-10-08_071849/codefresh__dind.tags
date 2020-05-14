@@ -1,2 +1,0 @@
-r.cfcr.io/codefresh-inc/codefresh/dind:master gcr.io/codefresh-inc/codefresh/dind:master
-r.cfcr.io/codefresh-inc/codefresh/dind:dockerd_restart gcr.io/codefresh-inc/codefresh/dind:dockerd_restart

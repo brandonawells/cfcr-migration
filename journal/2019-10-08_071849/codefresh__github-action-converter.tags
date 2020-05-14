@@ -1,3 +1,0 @@
-r.cfcr.io/codefresh-inc/codefresh/github-action-converter:master gcr.io/codefresh-inc/codefresh/github-action-converter:master
-r.cfcr.io/codefresh-inc/codefresh/github-action-converter:featureyaml-extactor gcr.io/codefresh-inc/codefresh/github-action-converter:featureyaml-extactor
-r.cfcr.io/codefresh-inc/codefresh/github-action-converter:featureexample-extractor gcr.io/codefresh-inc/codefresh/github-action-converter:featureexample-extractor

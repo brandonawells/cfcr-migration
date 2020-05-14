@@ -1,7 +1,0 @@
-r.cfcr.io/codefresh-inc/codefresh/cf-k8s-monitor:master gcr.io/codefresh-inc/codefresh/cf-k8s-monitor:master
-r.cfcr.io/codefresh-inc/codefresh/cf-k8s-monitor:4.1.1 gcr.io/codefresh-inc/codefresh/cf-k8s-monitor:4.1.1
-r.cfcr.io/codefresh-inc/codefresh/cf-k8s-monitor:saas-fullname-missing gcr.io/codefresh-inc/codefresh/cf-k8s-monitor:saas-fullname-missing
-r.cfcr.io/codefresh-inc/codefresh/cf-k8s-monitor:SAAS-fullname-missing gcr.io/codefresh-inc/codefresh/cf-k8s-monitor:SAAS-fullname-missing
-r.cfcr.io/codefresh-inc/codefresh/cf-k8s-monitor:4.1.1-saas-fullname-missing gcr.io/codefresh-inc/codefresh/cf-k8s-monitor:4.1.1-saas-fullname-missing
-r.cfcr.io/codefresh-inc/codefresh/cf-k8s-monitor:4.1.0-saas-fullname-missing gcr.io/codefresh-inc/codefresh/cf-k8s-monitor:4.1.0-saas-fullname-missing
-r.cfcr.io/codefresh-inc/codefresh/cf-k8s-monitor:4.1.0 gcr.io/codefresh-inc/codefresh/cf-k8s-monitor:4.1.0

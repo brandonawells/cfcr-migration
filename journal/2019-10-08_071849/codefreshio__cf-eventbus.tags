@@ -1,4 +1,0 @@
-r.cfcr.io/codefresh-inc/codefreshio/cf-eventbus:master gcr.io/codefresh-inc/codefreshio/cf-eventbus:master
-r.cfcr.io/codefresh-inc/codefreshio/cf-eventbus:multisubscribe gcr.io/codefresh-inc/codefreshio/cf-eventbus:multisubscribe
-r.cfcr.io/codefresh-inc/codefreshio/cf-eventbus:multisubsribe gcr.io/codefresh-inc/codefreshio/cf-eventbus:multisubsribe
-r.cfcr.io/codefresh-inc/codefreshio/cf-eventbus:saas-3283_restart-evenbus-if-rabbit-restarted gcr.io/codefresh-inc/codefreshio/cf-eventbus:saas-3283_restart-evenbus-if-rabbit-restarted

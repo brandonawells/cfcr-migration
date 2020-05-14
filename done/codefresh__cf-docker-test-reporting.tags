@@ -1,3 +1,0 @@
-gcr.io/codefresh-inc/codefresh/cf-docker-test-reporting:master
-gcr.io/codefresh-inc/codefresh/cf-docker-test-reporting:github-action
-gcr.io/codefresh-inc/codefresh/cf-docker-test-reporting:cf-onprem-v1.0.80
